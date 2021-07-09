@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+	<objects>
+		<object name="grainSiloRailroad01" locationType="storage" position="189 0 109" />
+		<object name="grainSiloRailroad02" locationType="storage" position="329 0 -576" />
+	</objects>
+	<l10n>
+		<text name="grainSiloRailroad01">
+			<cz>Železniční silo sever</cz>
+			<en>railroadSilo01</en>
+		</text>
+		<text name="grainSiloRailroad02">
+			<cz>Železniční silo střed</cz>
+			<en>railroadSilo02</en>
+		</text>
+	</l10n>
+</mapconfig>

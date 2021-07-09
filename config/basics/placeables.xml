@@ -41,13 +41,7 @@
 			<cz>Velký prasečák</cz>
 			<en>Pig husbandry</en>
 			<de>Schweinestall</de>
-		</text>
-		<text name="husbandryPigLarge">
-			<cz>Velký prasečák</cz>
-			<en>Big pig husbandry</en>
-			<de>Großer Schweinestall</de>
-		</text>
-		<text name="husbandrySheep">
+		</text>sa		<text name="husbandrySheep">
 			<cz>Ovčírna</cz>
 			<en>Sheep husbandry</en>
 			<de>Schafweide</de>
@@ -124,6 +118,11 @@
 			<cz>Velká dvojitá silážní jáma</cz>
 			<en>Big bunker silo (double)</en>
 			<de>Großes Doppelfahrsilo</de>
+		</text>
+		<text name="limeSiloSmall">
+			<cz>Silo s vápnem</cz>
+			<en>Lime silo</en>
+			<de>Lime silo</de>
 		</text>
 		<!-- Dekorationen ************************************************ -->
 		<text name="sandCastle">

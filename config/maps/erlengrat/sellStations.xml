@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+  <objects>
+    <object name="sellingStationMill01" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationTrain" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationMilk" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationWoodTrain" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationWood" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationBales" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationWoodChips" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationMilk2" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationTownStore" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="" locationType="TipTrigger" isSellingPoint="true"/>
+    sellingStationTownStore
+  </objects>
+  <l10n>
+    <text name="sellingStationMill01">
+      <cz>Obilný mlýn</cz>
+      <en>Restaurant</en>
+      <de>Restaurant</de>
+    </text>
+    <text name="sellingStationTrain">
+      <cz>Mlýn ve Felsbrunnu</cz>
+      <en>Felsbrunn mill</en>
+    </text>
+    <text name="sellingStationMilk">
+      <cz>Prodejna mléka</cz>
+      <en>Milk</en>
+    </text>
+    <text name="sellingStationWoodTrain">
+      <cz>sellingStationWoodTrain</cz>
+      <en>sellingStationWoodTrain</en>
+    </text>
+    <text name="sellingStationWood">
+      <cz>sellingStationWood</cz>
+      <en>sellingStationWood</en>
+    </text>
+    <text name="sellingStationBales">
+      <cz>Seník</cz>
+      <en>Bales station</en>
+    </text>
+    <text name="sellingStationWoodChips">
+      <cz>Pila</cz>
+      <en>WoodChips station</en>
+    </text>
+    <text name="sellingStationMilk2">
+      <cz>sellingStationMilk2</cz>
+      <en>sellingStationMilk2</en>
+    </text>
+    <text name="sellingStationTownStore">
+      <cz>sellingStationTownStore</cz>
+      <en>sellingStationTownStore</en>
+    </text>
+    <text name="">
+      <cz></cz>
+      <en></en>
+    </text>
+    <text name="">
+      <cz></cz>
+      <en></en>
+    </text>
+  </l10n>
+</mapconfig>

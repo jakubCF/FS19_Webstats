@@ -126,7 +126,7 @@
 			{if $options.hideFooter}
 			var c = 230; // Sum of the heights of navbar, footer, headings, etc.
 			{else}
-			var c = 325; // Sum of the heights of navbar, footer, headings, etc.
+			var c = 265; // Sum of the heights of navbar, footer, headings, etc.
 			{/if} 
 			var th = parseInt((h-c)/h*100) + 'vh'; // Height for table 
 			var rw = parseInt((h - c) / 30); // Rows when paging is activated
