@@ -37,13 +37,13 @@
       <fr>LIME</fr>
     </text>
     <text name="LIQUIDFERTILIZER">
-      <cz>Kapalné hnojivo</cz>
+      <cz>Tekuté hnojivo</cz>
       <en>Liquid Fertilizer</en>
       <de>Flüssigdünger</de>
       <fr>LIQUIDFERTILIZER</fr>
     </text>
     <text name="HERBICIDE">
-      <cz>Postřik</cz>
+      <cz>Herbicid</cz>
       <en>Herbicide</en>
       <de>Pflanzenschutzmittel</de>
       <fr>HERBICIDE</fr>
