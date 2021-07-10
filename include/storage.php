@@ -41,14 +41,15 @@ foreach ( $commodities as $name => $commodity ) {
 		unset ( $commodities [$name] );
 		continue;
 	}
+	if ($commodity ['isAnimal']) {
+		unset ( $commodities [$name] );
+		continue;
+	}
 	foreach ( $commodity ['locations'] as $location => $locationData ) {
 		if ($options ['storage'] ['onlyPallets'] && ($location != 'Palettenlager' && ! isset ( $locationData ['FillablePallet'] ))) {
 			$commodities [$name] ['overall'] -= $locationData ['fillLevel'];
 			unset ( $commodities [$name] ['locations'] [$location] );
 		} elseif (! $options ['storage'] ['showVehicles'] && isset ( $locationData ['isVehicle'] )) {
-			$commodities [$name] ['overall'] -= $locationData ['fillLevel'];
-			unset ( $commodities [$name] ['locations'] [$location] );
-		} elseif ($options ['storage'] ['hideAnimalsInStorage'] && isset ( $locationData ['animal'] )) {
 			$commodities [$name] ['overall'] -= $locationData ['fillLevel'];
 			unset ( $commodities [$name] ['locations'] [$location] );
 		}
@@ -64,6 +65,32 @@ foreach ( $commodities as $name => $commodity ) {
 	}
 }
 
+$animals = Commodity::getAllCommodities ();
+foreach ( $animals as $name => $animal ) {
+	if (!$animal ['isAnimal']) {
+		unset ( $animals [$name]);
+		continue;
+	}
+	foreach ( $animal ['locations'] as $location => $locationData ) {
+		if (! $options ['storage'] ['showVehicles'] && isset ( $locationData ['isVehicle'] )) {
+			$animals [$name] ['overall'] -= $locationData ['fillLevel'];
+			unset ( $animals [$name] ['locations'] [$location] );
+		} elseif ($options ['storage'] ['hideAnimalsInStorage'] && isset ( $locationData ['animal'] )) {
+			$animals [$name] ['overall'] -= $locationData ['fillLevel'];
+			unset ( $animals [$name] ['locations'] [$location] );
+		}
+		if (!$options ['storage'] ['showZero'] && $locationData ['fillLevel'] == 0) {
+			unset ( $animals [$name] ['locations'] [$location] );
+		}
+	}
+	if (!$options ['storage'] ['showZero'] && $animals [$name] ['overall'] == 0) {
+		unset ( $animals [$name] );
+	}
+	if (isset ( $animals [$name] ) && sizeof ( $animals [$name] ['locations'] ) == 0) {
+		unset ( $animals [$name] );
+	}
+}
+
 ksort ( $commodities, SORT_LOCALE_STRING );
 
 if (! $options ['storage'] ['sortByName']) {
@@ -75,5 +102,6 @@ if (! $options ['storage'] ['sortByName']) {
 }
 $smarty->assign ( 'commodities', $commodities );
 $smarty->assign ( 'plants', array ()/*$plants*/ );
+$smarty->assign ( 'animals', $animals ); 
 $smarty->assign ( 'outOfMap', Commodity::getAllOutOfMap () );
 $smarty->assign ( 'options', $options ['storage'] );
