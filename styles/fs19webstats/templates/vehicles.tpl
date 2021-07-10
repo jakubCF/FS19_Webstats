@@ -26,10 +26,10 @@
 					<td class="text-right pr-3">{$vehicle.age}</td>
 					<td class="text-right pr-3">{$vehicle.wear|number_format:0} %</td>
 					<td data-order="{$vehicle.operatingTime|number_format:0:" ,":"."}" class="text-right pr-3">{$vehicle.operatingTimeString}</td>
-					<td data-order="{if $vehicle.propertyState==1}{$vehicle.resale}{else}0{/if}" class="text-right pr-3">{if $vehicle.propertyState==1}{$vehicle.resale|number_format:0:",":"."}{elseif $vehicle.propertyState==3}Mission{/if}</td>
-					<td class="text-right pr-3">{if $vehicle.propertyState==2}{$vehicle.dayLeasingCost|number_format:0:",":"."}{/if}</td>
-					<td class="text-right pr-3">{if $vehicle.propertyState==2}{$vehicle.leasingCostPerHour|number_format:0:",":"."}{/if}</td>
-					<td class="text-right pr-3">{if $vehicle.propertyState==2}{$vehicle.leasingCost|number_format:0:",":"."}{/if}</td>
+					<td data-order="{if $vehicle.propertyState==1}{$vehicle.resale}{else}0{/if}" class="text-right pr-3">{if $vehicle.propertyState==1}{number_format_locale($vehicle.resale,0)}{elseif $vehicle.propertyState==3}Mission{/if}</td>
+					<td class="text-right pr-3">{if $vehicle.propertyState==2}{number_format_locale($vehicle.dayLeasingCost,0)}{/if}</td>
+					<td class="text-right pr-3">{if $vehicle.propertyState==2}{number_format_locale($vehicle.leasingCostPerHour,0)}{/if}</td>
+					<td class="text-right pr-3">{if $vehicle.propertyState==2}{number_format_locale($vehicle.leasingCost,0)}{/if}</td>
 				</tr>
 				{/foreach}
 			</tbody>
@@ -43,7 +43,7 @@
 		    var table = $('#vehicles').DataTable( {
 		    	//"pageLength": rw,
 		    	scrollY:        th,
-			scrollX:        true, 				
+				scrollX:        true, 				
         		scrollCollapse: true,
        			paging:         false,
 		    	stateSave:		true,

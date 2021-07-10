@@ -1,5 +1,6 @@
 <h3 class="my-3">##PRICES1000##</h3>
-{$mode = GetParam('subPage','G','bestPrices')} {if $mode == 'allPrices'}
+{$mode = GetParam('subPage','G','bestPrices')}
+{if $mode == 'allPrices'}
 <!-- Alternative ingame like price overview. Looks not good. -->
 <div class="row">
 	<div class="col-sm-12">
@@ -75,7 +76,7 @@
 		    	"autoWidth": true,
 		    	"info": false,
 		    	"scrollX": true,
-		    	"scrollY":th,
+		    	scrollY: th,
 		        "scrollCollapse": true,
 		        "language": {
 		    		"url": "./language/{$smarty.session.language}/dataTables.lang"
@@ -107,14 +108,15 @@
 				<tr>
 					<td>{$fillType}</td>
 					<td>{$fillTypeData.bestLocation}</td>
-					<td class="text-right col-1 pr-3">{$fillTypeData.minPrice|number_format:0:",":"."}</td>
-					<td class="text-right col-1 pr-3">{$fillTypeData.maxPrice|number_format:0:",":"."}</td>
-					<td class="text-right col-1 pr-3 {if $fillTypeData.greatDemand}text-info{elseif $percent>=60}text-success{elseif $percent<=40}text-danger{/if}">{$fillTypeData.bestPrice|floor|number_format:0:",":"."} {if $fillTypeData.priceTrend == 1} <i class="fas fa-caret-up text-success"></i> {elseif
+					<td class="text-right col-1 pr-3">{number_format_locale($fillTypeData.minPrice,0)}</td>
+					<td class="text-right col-1 pr-3">{number_format_locale($fillTypeData.maxPrice,0)}</td>
+					<td class="text-right col-1 pr-3 {if $fillTypeData.greatDemand}text-info{elseif $percent>=60}text-success{elseif $percent<=40}text-danger{/if}">{number_format_locale($fillTypeData.bestPrice,0)} {if $fillTypeData.priceTrend == 1} <i class="fas fa-caret-up text-success"></i> {elseif
 						$fillTypeData.priceTrend == -1} <i class="fas fa-caret-down text-danger"></i> {else} <i class="fas fa-caret-down" style="visibility: hidden"></i> {/if}
 					</td>
 					<td class="text-center text-nowrap">{$percent|number_format:0:",":"."} %</td> {if $options['farmId']>0}{if isset($commodities.$fillType) && $commodities.$fillType.overall > 0}
-					<td class="text-right col-1 pr-3">{$commodities.$fillType.overall|number_format:0:",":"."}</td> {math equation="overall * bestPrice / 1000" overall=$commodities.$fillType.overall bestPrice=$fillTypeData.bestPrice assign="proceeds"}
-					<td class="text-right col-1 pr-3">{$proceeds|number_format:0:",":"."}</td> {else}
+					<td class="text-right col-1 pr-3">{number_format_locale($commodities.$fillType.overall,0)}</td>
+					{math equation="overall * bestPrice / 1000" overall=$commodities.$fillType.overall bestPrice=$fillTypeData.bestPrice assign="proceeds"}
+					<td class="text-right col-1 pr-3">{number_format_locale($proceeds,0)}</td> {else}
 					<td></td>
 					<td></td> {/if}{/if}
 				</tr>
