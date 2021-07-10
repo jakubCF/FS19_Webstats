@@ -3,35 +3,43 @@
 	<l10n>
 		<!-- Some items sharing their names -->
 		<text name="$l10n_shopItem_frontloaderLogFork">
-			<en>$l10n_shopItem_frontloaderLogFork</en>
+			<en>Log fork</en>
+			<cz>Vidlice na klády</cz>
 			<de>Poltergabel</de>
 		</text>
 		<text name="$l10n_shopItem_skidSteerHighDumpBucket">
-			<en>$l10n_shopItem_skidSteerHighDumpBucketk</en>
+			<cz>Lžíce velká</cz>
+			<en>Bucket high dump</en>
 			<de>Hochkippschaufel</de>
 		</text>
 		<text name="$l10n_shopItem_frontloaderPalletFork">
-			<en>$l10n_shopItem_frontloaderPalletFork</en>
+			<cz>Vidlice na palety</cz>
+			<en>Pallet fork</en>
 			<de>Palettengabel</de>
 		</text>
 		<text name="$l10n_shopItem_wheelLoaderSilageFork">
-			<en>$l10n_shopItem_wheelLoaderSilageFork</en>
+			<cz>Lžíce na siláž</cz>
+			<en>Silage fork</en>
 			<de>Silagegabel</de>
 		</text>
 		<text name="$l10n_shopItem_frontloaderBaleFork">
-			<en>$l10n_shopItem_frontloaderBaleFork</en>
+			<cz>Vidlice na balíky</cz>
+			<en>Bale fork</en>
 			<de>Ballengabel</de>
 		</text>
 		<text name="$l10n_shopItem_frontloaderShovel">
-			<en>$l10n_shopItem_frontloaderShovel</en>
+			<en>Lžíce</en>
+			<en>Bucket</en>
 			<de>Universalschaufel</de>
 		</text>
 		<text name="$l10n_shopItem_frontloaderBaleGrab">
-			<en>$l10n_shopItem_frontloaderBaleGrab</en>
+			<cz>Naběrák balíků</cz>
+			<en>Bale grab</en>
 			<de>Ballenzange</de>
 		</text>
 		<text name="$l10n_shopItem_frontloaderManureFork">
-			<en>$l10n_shopItem_frontloaderManureFork</en>
+			<cz>Lžíce na hnůj</cz>
+			<en>Manure Fork</en>
 			<de>Mistgabel</de>
 		</text>
 		<!-- Vehicles categories -->
