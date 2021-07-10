@@ -148,7 +148,7 @@ class Commodity {
 				case 'SiloPlaceable' :
 				case 'SiloExtensionPlaceable' :
 					foreach ( $item as $storage ) {
-						if ($item ['farmId'] == $_SESSION ['farmId']) {
+						if ($storage ['farmId'] == $_SESSION ['farmId']) {
 							foreach ( $storage as $node ) {
 								$fillType = strval ( $node ['fillType'] );
 								$fillLevel = intval ( $node ['fillLevel'] );
@@ -157,6 +157,7 @@ class Commodity {
 						}
 					}
 					break;
+					
 			}
 		}
 	}
