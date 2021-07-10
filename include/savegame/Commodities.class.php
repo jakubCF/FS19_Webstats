@@ -231,6 +231,9 @@ class Commodity {
 			$commodity->overall = $fillLevel;
 			$commodity->i3dName = $fillType;
 			$commodity->isCombine = $isCombine;
+			if ($className == "animal"){
+				$commodity->isAnimal = True;
+			} 
 			$commodity->locations = array ();
 		} else {
 			$commodity = self::$commodities [$l_fillType];
