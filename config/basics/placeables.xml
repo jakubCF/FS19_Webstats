@@ -59,6 +59,8 @@
 		</text>
 		<!-- Diverses **************************************************** -->
 		<text name="kaercherHDS918-4M">
+			<en>HDS 9/18-4 M</en>
+			<cz>HDS 9/18-4 M</cz>
 			<de>HDS 9/18-4 M</de>
 		</text>
 		<text name="workshop">
@@ -67,6 +69,8 @@
 			<de>Werkstatt</de>
 		</text>
 		<text name="jenzHE700">
+			<cz>HE 700 StA</cz>
+			<en>HE 700 StA</en>
 			<de>HE 700 StA</de>
 		</text>
 		<text name="waterTank">
