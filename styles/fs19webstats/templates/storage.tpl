@@ -1,7 +1,20 @@
 <h3 class="my-3">##STOCKS##</h3>
 <div class="row">
-	{if $options.3column} {$class="col-sm-4"} {$end=2} {$colmax[0] = -1} {$colmax[1] = ($commodities|@count/3)|ceil} {$colmax[2] = $colmax[1] *2} {$colmax[3] = $commodities|@count} {else} {$class="col-sm-3"} {$end=3} {$colmax[0] = -1} {$colmax[1] = ($commodities|@count/4)|ceil} {$colmax[2] = $colmax[1]
-	*2} {$colmax[3] = $colmax[1] *3} {$colmax[4] = $commodities|@count} {/if} {for $i=0 to $end}
+	{if $options.3column}
+		{$class="col-sm-4"}
+		{$end=1} 
+		{$colmax[0] = -1} 
+		{$colmax[1] = ($commodities|@count/2)|ceil} 
+		{$colmax[2] = $commodities|@count} 
+	{else} 
+		{$class="col-sm-3"}
+		{$end=2} 
+		{$colmax[0] = -1} 
+		{$colmax[1] = ($commodities|@count/3)|ceil} 
+		{$colmax[2] = $colmax[1]*2}
+		{$colmax[3] = $commodities|@count} 
+	{/if} 
+	{for $i=0 to $end}
 	<div class="{$class}">
 		<table class="table table-hover table-striped">
 			<thead>
@@ -11,8 +24,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				{foreach $commodities as $fillType => $commodity} {if $commodity@iteration > $colmax[$i] && $commodity@iteration <= $colmax[$i+1] }
-				<tr data-toggle="collapse" href="#collapse{$commodity.i3dName}" {if isset($commodity.outOfMap)}class="danger"{/if}>
+				{foreach $commodities as $fillType => $commodity}
+				{if $commodity@iteration > $colmax[$i] && $commodity@iteration <= $colmax[$i+1] }
+				<tr data-toggle="collapse" href="#collapse{$commodity.i3dName}" 
+				{if isset($commodity.outOfMap)}class="danger"{/if}>
 					<td>{$fillType}</td>
 					<td class="text-right">{$commodity.overall|number_format:0:",":"."}</td>
 				</tr>
@@ -45,6 +60,50 @@
 		</table>
 	</div>
 	{/for}
+	{* Animals*}
+	<div class="{$class}">
+		<table class="table table-hover table-striped">
+			<thead>
+				<tr>
+					<th>##ANIMALS##</th>
+					<th class="text-right">##STOCK##</th>
+				</tr>
+			</thead>
+			<tbody>
+				{foreach $animals as $fillType => $animal}
+				<tr data-toggle="collapse" href="#collapse{$animal.i3dName}" 
+				{if isset($animal.outOfMap)}class="danger"{/if}>
+					<td>{$fillType}</td>
+					<td class="text-right">{$animal.overall|number_format:0:",":"."}</td>
+				</tr>
+				{if $animal.overall>-1}
+				<tr class="collapse" id="collapse{$animal.i3dName}">
+					<td colspan="3">
+						<table class="table" style="margin-bottom: 0px;">
+							<thead>
+								<tr>
+									<th>##PLACE##</th>
+									<th class="text-right">##QUANTITY##</th>
+								</tr>
+							</thead>
+							<tbody>
+								{foreach $animal.locations as $locationName => $location} {$addInfo=false} {if isset($location.FillablePallet)} {if $location.FillablePallet==1} {$addInfo="1 ##PALLET##"} {else} {$addInfo="{$location.FillablePallet} ##PALETTES##"} {/if} {/if} {if isset($location.Bale)} {if
+								$location.Bale==1} {$addInfo="1 ##BALE##"} {else} {$addInfo="{$location.Bale} ##BALES##"} {/if} {/if}
+								<tr>
+									<td>{if isset($plants.$locationName)}<a href="index.php?page=factories&object={$plants.$locationName.i3dName}">{$locationName}</a>{else}{$locationName}{/if}{if $addInfo} ({$addInfo}){/if}
+									</td>
+									<td class="text-right">{$location.fillLevel|number_format:0:",":"."}</td>
+								</tr>
+								{/foreach}
+							</tbody>
+						</table>
+					</td>
+				</tr>
+				<tr></tr>
+				{/if} {/foreach}
+			</tbody>
+		</table>
+	</div>
 </div>
 <div class="modal fade" id="optionsDialog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	<div class="modal-dialog" role="document">
