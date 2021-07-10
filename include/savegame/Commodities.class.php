@@ -233,7 +233,8 @@ class Commodity {
 			$commodity->isCombine = $isCombine;
 			if ($className == "animal"){
 				$commodity->isAnimal = True;
-			} 
+			}
+			else $commodity->isAnimal = False;
 			$commodity->locations = array ();
 		} else {
 			$commodity = self::$commodities [$l_fillType];
