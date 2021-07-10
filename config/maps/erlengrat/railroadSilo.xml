@@ -6,12 +6,12 @@
 	</objects>
 	<l10n>
 		<text name="grainSiloRailroad01">
-			<cz>Železniční silo sever</cz>
-			<en>railroadSilo01</en>
+			<cz>Železniční silo východ</cz>
+			<en>Railroad Silo East</en>
 		</text>
 		<text name="grainSiloRailroad02">
-			<cz>Železniční silo střed</cz>
-			<en>railroadSilo02</en>
+			<cz>Železniční silo západ</cz>
+			<en>Railroad Silo West</en>
 		</text>
 	</l10n>
 </mapconfig>

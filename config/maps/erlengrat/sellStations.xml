@@ -4,8 +4,8 @@
     <object name="sellingStationMill01" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationTrain" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationMilk" locationType="TipTrigger" isSellingPoint="true"/>
-    <object name="sellingStationWoodTrain" locationType="TipTrigger" isSellingPoint="true"/>
-    <object name="sellingStationWood" locationType="TipTrigger" isSellingPoint="true"/>
+    <!--<object name="sellingStationWoodTrain" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="sellingStationWood" locationType="TipTrigger" isSellingPoint="true"/>-->
     <object name="sellingStationBales" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationWoodChips" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationMilk2" locationType="TipTrigger" isSellingPoint="true"/>
@@ -34,19 +34,19 @@
     </text>
     <text name="sellingStationTrain">
       <cz>Mlýn ve Felsbrunnu</cz>
-      <en>Felsbrunn mill</en>
+      <en>Felsbrunn's mill</en>
     </text>
     <text name="sellingStationMilk">
-      <cz>Prodejna mléka</cz>
-      <en>Milk</en>
+      <cz>Leichti Chocolatier</cz>
+      <en>Leichti Chocolatier</en>
     </text>
     <text name="sellingStationWoodTrain">
-      <cz>sellingStationWoodTrain</cz>
-      <en>sellingStationWoodTrain</en>
+      <cz>Pila ve Felsbrunnu</cz>
+      <en>Felsbrunn's lumberyard</en>
     </text>
     <text name="sellingStationWood">
-      <cz>sellingStationWood</cz>
-      <en>sellingStationWood</en>
+      <cz>Pila</cz>
+      <en>Lumberyard</en>
     </text>
     <text name="sellingStationBales">
       <cz>Seník</cz>
@@ -57,20 +57,20 @@
       <en>WoodChips station</en>
     </text>
     <text name="sellingStationMilk2">
-      <cz>sellingStationMilk2</cz>
-      <en>sellingStationMilk2</en>
+      <cz>Kaserei Erlengrat</cz>
+      <en>Kaserei Erlengrat</en>
     </text>
     <text name="sellingStationTownStore">
-      <cz>sellingStationTownStore</cz>
-      <en>sellingStationTownStore</en>
+      <cz>Supermarket</cz>
+      <en>Supermarket</en>
     </text>
     <text name="wholesalers">
-      <cz>wholesalers</cz>
-      <en>wholesalers</en>
+      <cz>Wholesalers</cz>
+      <en>Wholesalers</en>
     </text>
     <text name="digestate">
-      <cz>digestate</cz>
-      <en>digestate</en>
+      <cz>Digestate</cz>
+      <en>Digestate</en>
     </text>
   </l10n>
 </mapconfig>
