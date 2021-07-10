@@ -70,14 +70,15 @@
 		<text name="10m">
 			<cz>10m plot</cz>
 			<en></en>
-			<de></de>
 		</text>
 		<text name="gates">
 			<cz>Brána</cz>
 			<en>Gate</en>
-
 		</text>
-
+		<text name="moerao">
+			<cz>Dřevěný kůl</cz>
+			<en>Wood stake</en>
+		</text>
 		<!-- FS19_obstaclesHorses **************************************************** -->
 		<text name="cornerObstalacle">
 			<cz>Překážka roh</cz>
