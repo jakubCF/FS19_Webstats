@@ -67,7 +67,7 @@ foreach ( $commodities as $name => $commodity ) {
 
 $animals = Commodity::getAllCommodities ();
 foreach ( $animals as $name => $animal ) {
-	if (!$animal ['isAnimal']) {
+	if (!($animal ['isAnimal'])) {
 		unset ( $animals [$name]);
 		continue;
 	}
