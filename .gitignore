@@ -2,3 +2,4 @@
 /config/onlineUser.conf
 /config/webStatsConfig.xml
 /templates_c
+*.log

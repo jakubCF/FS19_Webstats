@@ -10,9 +10,21 @@
     <object name="sellingStationWoodChips" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationMilk2" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationTownStore" locationType="TipTrigger" isSellingPoint="true"/>
-    <object name="" locationType="TipTrigger" isSellingPoint="true"/>
-    <object name="" locationType="TipTrigger" isSellingPoint="true"/>
-    sellingStationTownStore
+
+    <!-- FS19_PlaceableSellPoints-->
+    <object name="wholesalers" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="digestate" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="barn" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="cowshed" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="dairy" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="dockyard" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="granary" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="hayloft" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="lumberyard" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="market" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="stables" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="windmill" locationType="TipTrigger" isSellingPoint="true"/>
+
   </objects>
   <l10n>
     <text name="sellingStationMill01">
@@ -52,13 +64,13 @@
       <cz>sellingStationTownStore</cz>
       <en>sellingStationTownStore</en>
     </text>
-    <text name="">
-      <cz></cz>
-      <en></en>
+    <text name="wholesalers">
+      <cz>wholesalers</cz>
+      <en>wholesalers</en>
     </text>
-    <text name="">
-      <cz></cz>
-      <en></en>
+    <text name="digestate">
+      <cz>digestate</cz>
+      <en>digestate</en>
     </text>
   </l10n>
 </mapconfig>

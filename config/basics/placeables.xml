@@ -53,6 +53,8 @@
 		</text>
 		<!-- Diverses **************************************************** -->
 		<text name="kaercherHDS918-4M">
+			<cz>HDS 9/18-4 M</cz>
+			<en>HDS 9/18-4 M</en>
 			<de>HDS 9/18-4 M</de>
 		</text>
 		<text name="workshop">
@@ -61,6 +63,8 @@
 			<de>Werkstatt</de>
 		</text>
 		<text name="jenzHE700">
+			<cz>HE 700 StA</cz>
+			<en>HE 700 StA</en>
 			<de>HE 700 StA</de>
 		</text>
 		<text name="waterTank">
@@ -187,6 +191,50 @@
 			<cz>Statek</cz>
 			<en>Farm house</en>
 			<de>Farmhaus</de>
+		</text>
+
+		<!-- FS19_South_American_Pack fences **************************************************** -->
+		<text name="10m">
+			<cz>10m plot</cz>
+			<en></en>
+			<de></de>
+		</text>
+		<text name="gates">
+			<cz>Brána</cz>
+			<en>Gate</en>
+
+		</text>
+
+		<!-- FS19_obstaclesHorses **************************************************** -->
+		<text name="cornerObstalacle">
+			<cz>Překážka roh</cz>
+			<en>cornerObstalacle</en>
+		</text>
+		<text name="fenceObstacle">
+			<cz>Překážka plot</cz>
+			<en>fenceObstacle</en>
+		</text>
+		<text name="oxerObstacle">
+			<cz>Překážka oxer</cz>
+			<en>oxerObstacle</en>
+		</text>
+		<text name="wallObstacle">
+			<cz>Překážka zeď</cz>
+			<en>wallObstacle</en>
+		</text>
+
+		<!-- FS19_bunkerSiloSet**************************************************** -->
+		<text name="bunkerSiloSingle02">
+			<cz>Silážní jáma průjezdná</cz>
+			<en>bunkerSiloSingle02</en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
 		</text>
 	</l10n>
 </mapconfig>
