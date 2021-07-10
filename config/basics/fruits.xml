@@ -61,11 +61,5 @@
 			<de>Zuckerrohr</de>
 			<fr>Canne à sucre</fr>
 		</text>
-		<text name="RHUM">
-			<cz>Rum</cz>
-			<en>Rum</en>
-			<de>Rum</de>
-			<fr>Rum</fr>
-		</text>
 	</l10n>
 </mapconfig>

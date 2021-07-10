@@ -632,10 +632,5 @@
 		<vehicle basename="zieglerCornChampion5R.xml" type="cutter" name="Corn Champion 5R" brand="ZIEGLER" lifetime="600" category="cornHeaders" wearable="480" />
 		<vehicle basename="zunidisc.xml" type="fertilizingCultivator" name="ZuniDisc" brand="ZUNHAMMER" lifetime="600" category="slurryTanks" wearable="480" />
 		<vehicle basename="zx560GD.xml" type="forageWagon" name="ZX 560 GD" brand="KRONE" lifetime="600" category="loaderWagons" wearable="480" />
-
-		<!-- added -->	
-		<vehicle basename="kuhnDeltis1302p.xml" type="sprayer" name="DELTIS 1302 MTA3 PROFI" brand="KUHN" lifetime="600" category="sprayers" wearable="480" />
-			
-		<vehicle basename="movimentatoreBigBag.xml" type="logGrab" name="BigBag grabber" brand="STOLL" lifetime="600" category="frontLoaders" wearable="480" />
 	</vehicles>
 </mapconfig>

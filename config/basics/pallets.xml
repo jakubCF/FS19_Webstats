@@ -9,17 +9,13 @@
     <pallet>bigBagContainerSeeds</pallet>
     <pallet>eggBox</pallet>
     <pallet>fertilizerTank</pallet>
-    <pallet>fertilizerPallet</pallet>
     <pallet>fillablePallet</pallet>
     <pallet>herbicideTank</pallet>
-    <pallet>liquidTanksPallet</pallet>
     <pallet>palletPoplar</pallet>
     <pallet>palletSugarCane</pallet>
     <pallet>pioneerPallet</pallet>
     <pallet>treeSaplingPallet</pallet>
     <pallet>woolPallet</pallet>
-    <pallet>rhumpalett</pallet>
-    <pallet>seedsPallet</pallet>
   </pallets>
   <l10n>
     <text name="FERTILIZER">
@@ -69,10 +65,6 @@
       <en>Pig food</en>
       <de>Schweinefutter</de>
       <fr>Aliment pour les cochons</fr>
-    </text>
-    <text name="RHUMPALETT">
-      <cz>Paleta rumu</cz>
-      <en>RHUM PALLET</en>
     </text>
   </l10n>
 </mapconfig>
