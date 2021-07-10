@@ -21,6 +21,11 @@ li.nostyle {
 .card-columns {
 	column-count: 2;
 }
+
+.navbar-fixed-bottom {
+	position: fixed;
+    bottom: 0;
+}
 /*
 .custom-select {
 	color: #fff;
