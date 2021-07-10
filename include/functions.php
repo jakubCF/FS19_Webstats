@@ -648,3 +648,22 @@ function writeConfig2XML($configFile, $config) {
 	$dom->loadXML ( $webStatsConfig->asXML () );
 	$dom->save ( $configFile );
 }
+
+function number_format_locale($number, $decimals) {
+    $language = $_SESSION ['language'];
+    switch($language) {
+        case 'en':
+            $locale = 'en-US';
+            break;
+		case 'de':
+		case 'cz':
+            $locale = 'cs-CZ';
+            break;
+        default:
+			$locale = 'en-US';
+    }
+	$number = number_format( $number, $decimals, '.', '');
+	$formatStyle=NumberFormatter::DECIMAL;
+	$formatter= new NumberFormatter($locale, $formatStyle);
+    return $formatter->format($number);
+}
