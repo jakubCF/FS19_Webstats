@@ -29,7 +29,7 @@
 				<tr data-toggle="collapse" href="#collapse{$commodity.i3dName}" 
 				{if isset($commodity.outOfMap)}class="danger"{/if}>
 					<td>{$fillType}</td>
-					<td class="text-right">{$commodity.overall|number_format:0:",":"."}</td>
+					<td class="text-right">{number_format_locale($commodity.overall,0)}</td>
 				</tr>
 				{if $commodity.overall>-1}
 				<tr class="collapse" id="collapse{$commodity.i3dName}">
@@ -47,7 +47,7 @@
 								<tr>
 									<td>{if isset($plants.$locationName)}<a href="index.php?page=factories&object={$plants.$locationName.i3dName}">{$locationName}</a>{else}{$locationName}{/if}{if $addInfo} ({$addInfo}){/if}
 									</td>
-									<td class="text-right">{$location.fillLevel|number_format:0:",":"."}</td>
+									<td class="text-right">{number_format_locale($location.fillLevel, 0)}</td>
 								</tr>
 								{/foreach}
 							</tbody>
@@ -74,7 +74,7 @@
 				<tr data-toggle="collapse" href="#collapse{$animal.i3dName}" 
 				{if isset($animal.outOfMap)}class="danger"{/if}>
 					<td>{$fillType}</td>
-					<td class="text-right">{$animal.overall|number_format:0:",":"."}</td>
+					<td class="text-right">{number_format_locale($animal.overall,0)}</td>
 				</tr>
 				{if $animal.overall>-1}
 				<tr class="collapse" id="collapse{$animal.i3dName}">
@@ -92,7 +92,7 @@
 								<tr>
 									<td>{if isset($plants.$locationName)}<a href="index.php?page=factories&object={$plants.$locationName.i3dName}">{$locationName}</a>{else}{$locationName}{/if}{if $addInfo} ({$addInfo}){/if}
 									</td>
-									<td class="text-right">{$location.fillLevel|number_format:0:",":"."}</td>
+									<td class="text-right">{number_format_locale($location.fillLevel, 0)}</td>
 								</tr>
 								{/foreach}
 							</tbody>
