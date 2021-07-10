@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+    <vehicles>
+        <vehicle basename="MBTrac.xml" type="tractor" name="MB trac" brand="MERCEDES" lifetime="600" category="tractorsM" wearable="480">
+			<motor id="1" name="1400" />
+			<motor id="2" name="1500" />
+			<motor id="3" name="1600" />
+			<motor id="4" name="1800" />
+			<motor id="5" name="2400" />
+			<motor id="6" name="1800 BB" />
+		</vehicle>
+		<vehicle basename="flieglFlatbedSquare.xml" type="trailer" name="Flatbed" brand="FLIEGL" lifetime="600" category="baling" wearable="480" />
+	</vehicles>
+
+    <pallets>
+		<pallet name="eggPallet" />
+		<pallet name="eggPalletSellable" />
+        <pallet>rhumpalett</pallet>
+        <pallet>seedsPallet</pallet>
+        <pallet>fertilizerPallet</pallet>
+        <pallet>liquidTanksPallet</pallet>
+	</pallets>
+
+
+	<l10n>
+		<text name="waterShaft">
+			<en>waterShaft</en>
+			<de>Wasser-Schacht</de>
+		</text>
+		<text name="waterTank_fertilizer">
+			<en>waterTank_fertilizer</en>
+			<de>Dünger Station</de>
+		</text>
+		<text name="waterTank_lime">
+			<en>waterTank_lime</en>
+			<de>Kalk Station</de>
+		</text>
+		<text name="waterTank_seeds">
+			<en>waterTank_seeds</en>
+			<de>Saat Station</de>
+		</text>
+        <text name="normalDisplay">
+            <cz>Display k silu</cz>
+			<en></en>
+		</text>
+        <text name="ToolTrolley">
+            <cz>Toolbox</cz>
+			<en>Toolbox</en>
+		</text>
+        <!-- products-->
+        <text name="RHUM">
+			<cz>Rum</cz>
+			<en>Rum</en>
+			<de>Rum</de>
+			<fr>Rum</fr>
+		</text>
+		<text name="OP_Fertilizer">
+			<cz>Pevné hnojivo</cz>
+			<en>Fertilizer</en>
+		</text>
+		<text name="OP_LiquidFertilizer">
+			<cz>Tekuté hnojivo</cz>
+			<en>Liquid Fertilizer</en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+        <!-- FS19_South_American_Pack fences **************************************************** -->
+		<text name="10m">
+			<cz>10m plot</cz>
+			<en></en>
+			<de></de>
+		</text>
+		<text name="gates">
+			<cz>Brána</cz>
+			<en>Gate</en>
+
+		</text>
+
+		<!-- FS19_obstaclesHorses **************************************************** -->
+		<text name="cornerObstalacle">
+			<cz>Překážka roh</cz>
+			<en>cornerObstalacle</en>
+		</text>
+		<text name="fenceObstacle">
+			<cz>Překážka plot</cz>
+			<en>fenceObstacle</en>
+		</text>
+		<text name="oxerObstacle">
+			<cz>Překážka oxer</cz>
+			<en>oxerObstacle</en>
+		</text>
+		<text name="wallObstacle">
+			<cz>Překážka zeď</cz>
+			<en>wallObstacle</en>
+		</text>
+
+		<!-- FS19_bunkerSiloSet**************************************************** -->
+		<text name="bunkerSiloSingle02">
+			<cz>Silážní jáma průjezdná</cz>
+			<en>bunkerSiloSingle02</en>
+		</text>
+		<text name="fertilizerProduction">
+			<cz>Výroba hnojiva</cz>
+			<en></en>
+		</text>
+
+		<!-- FS19_Lagersilo_Small2 -->
+		<text name="fertilizerSiloSmall">
+			<cz>Silo s hnojivem</cz>
+			<en>Fertilizer Silo</en>
+		</text>
+		<text name="lizardChemTank40ft">
+			<cz>Tank s tekutým hnojivem</cz>
+			<en>Liquid Chemical Tank</en>
+		</text>
+		<text name="limeSiloSmall">
+			<cz>Silo s vápnem</cz>
+			<en>Lime silo</en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		<!-- Global company -->
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+	</l10n>
+</mapconfig>
