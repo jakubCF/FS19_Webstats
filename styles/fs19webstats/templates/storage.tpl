@@ -66,7 +66,7 @@
 			<thead>
 				<tr>
 					<th>##ANIMALS##</th>
-					<th class="text-right">##STOCK##</th>
+					<th class="text-right">##AMOUNT##</th>
 				</tr>
 			</thead>
 			<tbody>
