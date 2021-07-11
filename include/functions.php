@@ -653,17 +653,13 @@ function number_format_locale($number, $decimals) {
     $language = $_SESSION ['language'];
     switch($language) {
         case 'en':
-            $locale = 'en-US';
+            return number_format( $number, $decimals, '.', ',');
             break;
 		case 'de':
 		case 'cz':
-            $locale = 'cs-CZ';
+			return number_format( $number, $decimals, ',', '&thinsp;');
             break;
         default:
-			$locale = 'en-US';
+			return number_format( $number, $decimals, '.', ',');
     }
-	$number = number_format( $number, $decimals, '.', '');
-	$formatStyle=NumberFormatter::DECIMAL;
-	$formatter= new NumberFormatter($locale, $formatStyle);
-    return $formatter->format($number);
 }
