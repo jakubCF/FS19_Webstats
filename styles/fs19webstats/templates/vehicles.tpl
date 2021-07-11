@@ -47,6 +47,11 @@
         		scrollCollapse: true,
        			paging:         false,
 		    	stateSave:		true,
+				"columnDefs": [ {
+						"targets": [3,4,5,6,7,8],
+						"type": "num-fmt",
+						} ],
+				order: [[3, "asc"]],
 		    	"dom":	"<'row'<'col-sm-12'tr>>", // cut from beginn: <'row'<'col-sm-6'><'col-sm-6'f>> cut from end: <'row'<'col-sm-5'i><'col-sm-7'p>>		
 		    	"language": {
 		    		"decimal": ",",
@@ -94,6 +99,11 @@
         		scrollCollapse: true,
        			paging:         false,
 		    	stateSave:		true,
+				"columnDefs": [ {
+						"targets": [1,2,3],
+						"type": "num-fmt",
+						} ],
+				order: [[1, "desc"]],
 		    	"dom":	"<'row'<'col-sm-12'tr>>", // cut from beginn: <'row'<'col-sm-6'><'col-sm-6'f>> cut from end: <'row'<'col-sm-5'i><'col-sm-7'p>>		
 		    	"language": {
 		    		"decimal": ",",

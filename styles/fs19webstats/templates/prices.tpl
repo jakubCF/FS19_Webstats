@@ -139,12 +139,15 @@
 					scrollX: "98%",					
 					scrollCollapse: true, 
 					paging:	false, 
-					stateSave: true, 
+					stateSave: true,
+					"columnDefs": [ {
+						"targets": [5,6],
+						"type": "num-fmt",
+						} ],
+					order: [[6, "desc"]], 
 					"dom": "<'row'<'col-sm-12'tr>>", 
-					"language": { 
-						"decimal": ",", 
-						"thousands": ".", 
-						"url": "./language/{$smarty.session.language}/dataTables.lang" 
+					"language": {  
+						"url": "./language/{$smarty.session.language}/dataTables.lang"
 					}
 				} ); 
 			} );
