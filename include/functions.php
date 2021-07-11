@@ -657,7 +657,7 @@ function number_format_locale($number, $decimals) {
             break;
 		case 'de':
 		case 'cz':
-			return number_format( $number, $decimals, ',', '&thinsp;');
+			return number_format( $number, $decimals, ',', '&#8239;');
             break;
         default:
 			return number_format( $number, $decimals, '.', ',');
