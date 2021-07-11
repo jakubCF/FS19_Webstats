@@ -4,18 +4,17 @@
 	<div class="col-sm-12">
 		<table class="table table-sm table-hover display table-bordered table-striped" id="vehicles">
 			<thead>
-				<tr>
 					<!-- <th class="text-center">##VEH_BRAND##</th> -->
 					<th class="text-center">##VEH_NAME##</th>
 					<th class="text-center">##VEH_CATEGORY##</th>
 					<th class="text-center">##VEH_AGE##</th>
 					<th class="text-center">##VEH_WEAR##</th>
 					<th class="text-center">##VEH_OTIME##</th>
+					<th class="text-center">##VEH_PRICE##</th>
 					<th class="text-center">##VEH_RESALE##</th>
 					<th class="text-center">##VEH_LPDAY##</th>
 					<th class="text-center">##VEH_LPHOUR##</th>
 					<th class="text-center">##VEH_LCOST##</th>
-				</tr>
 			</thead>
 			<tbody>
 				{foreach $vehicles as $vehicleId => $vehicle}
@@ -24,8 +23,9 @@
 					<td>{$vehicle.brand} {$vehicle.name}</td>
 					<td>{$vehicle.category}</td>
 					<td class="text-right pr-3">{$vehicle.age}</td>
-					<td class="text-right pr-3">{$vehicle.wear|number_format:0} %</td>
+					<td class="text-right pr-3">{$vehicle.wear|number_format:0}&#8239;%</td>
 					<td data-order="{$vehicle.operatingTime|number_format:0:" ,":"."}" class="text-right pr-3">{$vehicle.operatingTimeString}</td>
+					<td class="text-right pr-3">{$vehicle.price|number_format_locale:0}</td>
 					<td data-order="{if $vehicle.propertyState==1}{$vehicle.resale}{else}0{/if}" class="text-right pr-3">{if $vehicle.propertyState==1}{number_format_locale($vehicle.resale,0)}{elseif $vehicle.propertyState==3}Mission{/if}</td>
 					<td class="text-right pr-3">{if $vehicle.propertyState==2}{number_format_locale($vehicle.dayLeasingCost,0)}{/if}</td>
 					<td class="text-right pr-3">{if $vehicle.propertyState==2}{number_format_locale($vehicle.leasingCostPerHour,0)}{/if}</td>
@@ -48,7 +48,7 @@
        			paging:         false,
 		    	stateSave:		true,
 				"columnDefs": [ {
-						"targets": [3,4,5,6,7,8],
+						"targets": [3,4,5,6,7,8,9],
 						"type": "num-fmt",
 						} ],
 				order: [[3, "asc"]],
