@@ -1,5 +1,5 @@
 {config_load file='../style.cfg'}
-<html lang="de">
+<html lang="{$smarty.session.language}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -41,7 +41,7 @@
 		<div class="container">
 			<p class="navbar-text text-center">{$onlineUser} ##USER_ONLINE##</p>
 			<p class="navbar-text pull-right">
-				&copy; 2018-2020 FS19 Web Stats by John Hawk
+				&copy; 2018-2020 FS19 Web Stats by John Hawk, Modified by Jakub Vlček
 			</p>
 		</div>
 	</div>
@@ -74,5 +74,4 @@
 	}, 1000);
 	{/if}
 	</script>
-</body>
 </html>
