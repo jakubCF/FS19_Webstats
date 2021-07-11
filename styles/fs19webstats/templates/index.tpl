@@ -41,7 +41,7 @@
 		<div class="container">
 			<p class="navbar-text text-center">{$onlineUser} ##USER_ONLINE##</p>
 			<p class="navbar-text pull-right">
-				&copy; 2018-2020 FS19 Web Stats by John Hawk, Modified by Jakub Vlček
+				&copy; 2018-2020 FS19 Web Stats by John Hawk - Modified by Jakub Vlček
 			</p>
 		</div>
 	</div>
