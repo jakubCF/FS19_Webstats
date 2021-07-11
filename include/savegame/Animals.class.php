@@ -192,7 +192,7 @@ class Animals {
 								$fillLevel = $trough ['fillLevel'];
 								self::$stables [$id] ['food'] [$fillType] = array (
 										'name' => translate ( $fillType ),
-										'value' => floor ( $fillLevel ),
+										'value' => floor ( floatval($fillLevel) ),
 										'unit' => 'l',
 										'factor' => 100 
 								);
