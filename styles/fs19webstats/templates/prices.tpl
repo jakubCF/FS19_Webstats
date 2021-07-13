@@ -92,7 +92,6 @@
 	<div class="col-sm-12">
 		<table class="table table-sm table-hover table-bordered table-striped" id="bestPrices">
 			<thead>
-				<tr>
 					<th class="text-center">##STOCK##</th>
 					<th class="text-center">##SELLTRIGGER##</th>
 					<th class="text-center">##MIN_PRICE##</th>
@@ -101,7 +100,6 @@
 					<th class="text-center">##PERCENT##</th> {if $options['farmId']>0}
 					<th class="text-center">##STOCKS##</th>
 					<th class="text-center">##PROCEEDS##</th> {/if}
-				</tr>
 			</thead>
 			<tbody>
 				{foreach $prices as $fillType => $fillTypeData} {math equation="round(100 / max * current)" max=$fillTypeData.maxPrice-$fillTypeData.minPrice+0.0001 current=$fillTypeData.bestPrice-$fillTypeData.minPrice+0.0001 assign="percent"}
@@ -141,8 +139,8 @@
 					paging:	false, 
 					stateSave: true,
 					"columnDefs": [ {
-						"targets": [5,6],
-						"type": "num-fmt",
+						"targets": [5,6,7],
+						"type": "html-num-fmt",
 						} ],
 					order: [[6, "desc"]], 
 					"dom": "<'row'<'col-sm-12'tr>>", 
