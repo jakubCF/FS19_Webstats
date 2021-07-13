@@ -35,6 +35,22 @@ li.nostyle {
 	column-count: 2;
 }
 
+.hover-img{
+	display: none;
+}
+.hover-title:hover + .hover-img {
+	position: fixed;
+    right: 200px;
+	top: 200px;
+	display: block;
+	background: rgba(255, 255, 255, 0);
+	width: 250px;
+	height: auto;
+}
+
+.hover-img img {
+	width: inherit;
+}
 /*
 .custom-select {
 	color: #fff;
