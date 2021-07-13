@@ -62,9 +62,10 @@ class Vehicle {
 						$name = translate ( $name );
 					}
 					$vehicle->name = $name;
+					$vehicle->img = strval( $storeData ['img']);
 					$vehicle->brand = strval ( $storeData ['brand'] );
 					$vehicle->lifetime = intval ( $storeData ['lifetime'] );
-					$vehicle->category = translate ( $storeData ['category'] );
+					$vehicle->category = strval ( $storeData ['category'] );
 					break;
 				}
 			}
