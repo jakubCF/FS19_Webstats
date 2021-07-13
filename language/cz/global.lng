@@ -282,6 +282,7 @@ ADMIN_AREA=Správa serveru
 ADMIN_DESCRIPTION=Pozor po zadání hesla dojde ke smazání nastavení serveru.
 ENTER_PASSWORD=Zadejte prosím heslo
 PASSWORD_ERROR=Zadané heslo je nesprávné.
+CURRENCY=Měna
 
 //animals.tpl
 ANIMALS=Zvířata
@@ -443,7 +444,7 @@ VEH_BRAND=Značka
 VEH_NAME=Vozidlo
 VEH_CATEGORY=Kategorie
 VEH_AGE=Stáří
-VEH_OTIME=Motohodin
+VEH_OTIME=Hodin
 VEH_PRICE=Kupní cena
 VEH_WEAR=Stav
 VEH_LPDAY=Pronájem/<br>Den
@@ -484,3 +485,25 @@ BREEDSHEEPCOUNT=Vychováno ovcí
 BREEDPIGSCOUNT=Vychováno prasat
 BREEDCHICKENCOUNT=Vychováno slepic
 BREEDHORSESCOUNT=Vychováno koní
+
+//vehicle categories
+leveler=Urovnávače
+belts=Pásový systém
+loaderWagons=Sběrací vozy
+weeders=Plečky
+sprayers=Ochrana plodin
+trailers=Vlečky
+weights=Závaží
+frontLoaders=Čelní nakladače
+cutters=Řezačky
+cornHeaders=Řezačky na kukuřici
+baling=Balíkovací technologie
+harvesters=Kombajny
+trucks=Tahače
+tractorsS=Malé traktory
+tractorsM=Střední traktory
+tractorsL=Velké traktory
+animals=Péče o zvířata
+seeders=Secí stroje
+planters=Sázecí stroje
+fertilizerSpreaders=Hnojící technologie

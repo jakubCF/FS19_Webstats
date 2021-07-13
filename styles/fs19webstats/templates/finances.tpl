@@ -40,25 +40,25 @@
 			<div class="col-3">
 				<ul class="list-unstyled">
 					<li><span class="h5">&nbsp;</span></li>
-					<li class="text-right pr-3">{$assets.A1|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$assets.A2|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$assets.A3|number_format_locale:0}</li>
-					<li class="text-right pr-3 border-top">{$assets.A1+$assets.A2+$assets.A3|number_format_locale:0}</li>
+					<li class="text-right pr-3">{$assets.A1|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$assets.A2|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$assets.A3|number_format:0:",":"."}</li>
+					<li class="text-right pr-3 border-top">{$assets.A1+$assets.A2+$assets.A3|number_format:0:",":"."}</li>
 					<li><span class="h5">&nbsp;</span></li>
-					<li class="text-right pr-3">{$assets.B1|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$assets.B2|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$assets.B3|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$assets.B4|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$assets.B5|number_format_locale:0}</li>
-					<li class="text-right pr-3 border-top">{$assets.B1+$assets.B2+$assets.B3+$assets.B4+$assets.B5|number_format_locale:0}</li>
+					<li class="text-right pr-3">{$assets.B1|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$assets.B2|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$assets.B3|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$assets.B4|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$assets.B5|number_format:0:",":"."}</li>
+					<li class="text-right pr-3 border-top">{$assets.B1+$assets.B2+$assets.B3+$assets.B4+$assets.B5|number_format:0:",":"."}</li>
 					<li><span class="h5">&nbsp;</span></li>
 					<li>&nbsp;</li>
-					<li class="text-right pr-3">{$assets.CI1|number_format_locale:0}</li>
-					<!-- <li class="text-right pr-3">{if isset($assets.CI2)}{$assets.CI2|number_format_locale:0}{/if}</li> -->
-					<li class="text-right pr-3">{$assets.CI3|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$assets.CII|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$assets.CIII|number_format_locale:0}</li>
-					<li class="text-right pr-3 border-top">{$assets.CI1+$assets.CI3+$assets.CII+$assets.CIII|number_format_locale:0}</li>
+					<li class="text-right pr-3">{$assets.CI1|number_format:0:",":"."}</li>
+					<!-- <li class="text-right pr-3">{if isset($assets.CI2)}{$assets.CI2|number_format:0:",":"."}{/if}</li> -->
+					<li class="text-right pr-3">{$assets.CI3|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$assets.CII|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$assets.CIII|number_format:0:",":"."}</li>
+					<li class="text-right pr-3 border-top">{$assets.CI1+$assets.CI3+$assets.CII+$assets.CIII|number_format:0:",":"."}</li>
 				</ul>
 			</div>
 		</div>
@@ -85,13 +85,13 @@
 			<div class="col-3">
 				<ul class="list-unstyled">
 					<li><span class="h5">&nbsp;</span></li>
-					<li class="text-right pr-3">{$liabilities.A1|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$liabilities.A2|number_format_locale:0}</li>
-					<li class="text-right pr-3 border-top">{$liabilities.A1+$liabilities.A2|number_format_locale:0}</li>
+					<li class="text-right pr-3">{$liabilities.A1|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$liabilities.A2|number_format:0:",":"."}</li>
+					<li class="text-right pr-3 border-top">{$liabilities.A1+$liabilities.A2|number_format:0:",":"."}</li>
 					<li><span class="h5">&nbsp;</span></li>
-					<li class="text-right pr-3">{$liabilities.B1|number_format_locale:0}</li>
-					<li class="text-right pr-3">{$liabilities.B2|number_format_locale:0}</li>
-					<li class="text-right pr-3 border-top">{$liabilities.B1+$liabilities.B2|number_format_locale:0}</li>
+					<li class="text-right pr-3">{$liabilities.B1|number_format:0:",":"."}</li>
+					<li class="text-right pr-3">{$liabilities.B2|number_format:0:",":"."}</li>
+					<li class="text-right pr-3 border-top">{$liabilities.B1+$liabilities.B2|number_format:0:",":"."}</li>
 				</ul>
 			</div>
 		</div>
@@ -103,7 +103,7 @@
 				<p class="h5 pt-1">##BS_TOTAL_LEFT##</p>
 			</div>
 			<div class="col-3">
-				<p class="h5 text-right pr-3 pt-1">{$balanceSheetSum|number_format_locale:0}</p>
+				<p class="h5 text-right pr-3 pt-1">{$balanceSheetSum|number_format:0:",":"."}</p>
 			</div>
 		</div>
 	</div>
@@ -113,7 +113,7 @@
 				<p class="h5 pt-1">##BS_TOTAL_RIGHT##</p>
 			</div>
 			<div class="col-3">
-				<p class="h5 text-right pr-3 pt-1">{$balanceSheetSum|number_format_locale:0}</p>
+				<p class="h5 text-right pr-3 pt-1">{$balanceSheetSum|number_format:0:",":"."}</p>
 			</div>
 		</div>
 	</div>
@@ -125,7 +125,7 @@
 		<h5>
 			##BWL_ADG##
 			<a href="#BWLADG" data-toggle="collapse" class="small">Details</a>
-			<span class="float-right">{$ratios.adg|number_format_locale:0} %</span>
+			<span class="float-right">{$ratios.adg|number_format:0:",":"."} %</span>
 		</h5>
 		<div class="collapse" id="BWLADG">
 			<p class="text-justify">##BWL_ADG_P1##</p>
@@ -143,7 +143,7 @@
 		<h5>
 			##BWL_EKQ##
 			<a href="#BWLEKQ" data-toggle="collapse" class="small">Details</a>
-			<span class="float-right">{$ratios.ekq|number_format_locale:0} %</span>
+			<span class="float-right">{$ratios.ekq|number_format:0:",":"."} %</span>
 		</h5>
 		<div class="collapse" id="BWLEKQ">
 			<p class="text-justify">##BWL_EKQ_P1##</p>
@@ -161,7 +161,7 @@
 		<h5>
 			##BWL_EKR##
 			<a href="#BWLEKR" data-toggle="collapse" class="small">Details</a>
-			<span class="float-right">{$ratios.ekr|number_format_locale:0} %</span>
+			<span class="float-right">{$ratios.ekr|number_format:0:",":"."} %</span>
 		</h5>
 		<div class="collapse" id="BWLEKR">
 			<p class="text-justify">##BWL_EKR_P1##</p>
@@ -179,7 +179,7 @@
 		<h5>
 			##BWL_FKQ##
 			<a href="#BWLFKQ" data-toggle="collapse" class="small">Details</a>
-			<span class="float-right">{$ratios.fkq|number_format_locale:0} %</span>
+			<span class="float-right">{$ratios.fkq|number_format:0:",":"."} %</span>
 		</h5>
 		<div class="collapse" id="BWLFKQ">
 			<p class="text-justify">##BWL_FKQ_P1##</p>
@@ -197,7 +197,7 @@
 		<h5>
 			##BWL_FKD##
 			<a href="#BWLFK" data-toggle="collapse" class="small">Details</a>
-			<span class="float-right">{$ratios.fkd|number_format_locale:0} %</span>
+			<span class="float-right">{$ratios.fkd|number_format:0:",":"."} %</span>
 		</h5>
 		<div class="collapse" id="BWLFK">
 			<p class="text-justify">##BWL_FKD_P1##</p>
@@ -219,7 +219,7 @@
 		<h5>
 			##BWL_L##
 			<a href="#BWLL" data-toggle="collapse" class="small">Details</a>
-			<span class="float-right">{$ratios.l3g|number_format_locale:0} %</span>
+			<span class="float-right">{$ratios.l3g|number_format:0:",":"."} %</span>
 		</h5>
 		<div class="collapse" id="BWLl">
 			<p class="text-justify">##BWL_L_P1##</p>
@@ -237,7 +237,7 @@
 		<h5>
 			##BWL_GKR##
 			<a href="#BWLGKR" data-toggle="collapse" class="small">Details</a>
-			<span class="float-right">{$ratios.gkr|number_format_locale:0} %</span>
+			<span class="float-right">{$ratios.gkr|number_format:0:",":"."} %</span>
 		</h5>
 		<div class="collapse" id="BWLGKR">
 			<p class="text-justify">##BWL_GKR_P1##</p>
@@ -280,7 +280,7 @@
 				{foreach $financeElements as $element => $category}
 				<tr>
 					<td>##{$element|strtoupper}##</td> {for $day = 4 to 0 step -1}
-					<td class="text-right" style="width: 13%">{if isset($financeHistory.$day)}{$financeHistory.$day.$element|number_format_locale:0}{/if}</td>
+					<td class="text-right" style="width: 13%">{if isset($financeHistory.$day)}{$financeHistory.$day.$element|number_format:0:",":"."}{/if}</td>
 					{/for}
 				</tr>
 				{/foreach}
@@ -288,16 +288,16 @@
 			<tfoot>
 				<tr>
 					<th>##TOTAL##</th> {for $day = 4 to 0 step -1}
-					<th class="text-right" style="width: 13%">{if isset($financeHistory.$day)}{$financeHistory.$day.total|number_format_locale:0}{/if}</th> {/for}
+					<th class="text-right" style="width: 13%">{if isset($financeHistory.$day)}{$financeHistory.$day.total|number_format:0:",":"."}{/if}</th> {/for}
 				</tr>
 				<tr>
 					<td colspan="4"><strong>##BALANCE1##</strong></td>
-					<td class="text-right" colspan="2"><strong>{$money|number_format_locale:0}</strong></td>
+					<td class="text-right" colspan="2"><strong>{$money|number_format:0:",":"."}</strong></td>
 				</tr>
 				<tr>
 					<td colspan="4"><strong>##BALANCE2##</strong></td>
-					<td class="text-right {if $money-$loan < 0}text-danger{else}text-success{/if}" colspan="2"><strong>(##LOAN##: {{$loan|number_format_locale:0}})
-							{($money-$loan)|number_format_locale:0}</strong></td>
+					<td class="text-right {if $money-$loan < 0}text-danger{else}text-success{/if}" colspan="2"><strong>(##LOAN##: {{$loan|number_format:0:",":"."}})
+							{($money-$loan)|number_format:0:",":"."}</strong></td>
 				</tr>
 			</tfoot>
 		</table>

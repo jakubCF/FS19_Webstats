@@ -9,7 +9,7 @@
 					<strong>{$stable.name}</strong><span class="badge badge-secondary badge-pill">{$stable.numberOfAnimals}</span>
 				</button>
 				<div id="collapse{$stableI3dName}" class="collapse {if $currentStable == $stableI3dName}show{/if}" data-parent="#accordion">
-					{foreach $stable.animals as $animalI3dName => $animal} <a href="index.php?page={$page}&stable={$stableI3dName}&animal={$animalI3dName}" class="list-group-item list-group-item-action"> {$animal.name}{if $animal.isHorse}<br> <small>##RIDETIME##<span class="float-right">{$animal.ridingTimer|number_format:0:",":"."}
+					{foreach $stable.animals as $animalI3dName => $animal} <a href="index.php?page={$page}&stable={$stableI3dName}&animal={$animalI3dName}" class="list-group-item list-group-item-action"> {$animal.name}{if $animal.isHorse}<br> <small>Tägliches Reiten<span class="float-right">{$animal.ridingTimer|number_format:0:",":"."}
 								%</span></small>{else}<span class="float-right">{$animal.count}</span><br> <small>##PRODUCTIVITY##<span class="float-right">{$stable.productivity|number_format:0:",":"."} %</span></small>{/if}
 					</a> {foreachelse} <a href="#" class="list-group-item list-group-item-action"> ##NO_ANIMALS_IN_STABLE##<br>&nbsp;
 					</a>{/foreach}

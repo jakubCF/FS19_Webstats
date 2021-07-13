@@ -34,6 +34,7 @@ if ($_SERVER ['REQUEST_METHOD'] == 'POST') {
 			$options ['general'] ['reload'] = filter_var ( GetParam ( 'g_reload', 'P', 1 ), FILTER_VALIDATE_BOOLEAN );
 			$options ['general'] ['language'] = GetParam ( 'g_language', 'P', 'de' );
 			$options ['general'] ['style'] = GetParam ( 'g_style', 'P', 'fs17' );
+			$options ['general'] ['currency'] = GetParam ( 'g_currency', 'P', 'USD');
 			$options ['general'] ['hideFooter'] = filter_var ( GetParam ( 'g_hideFooter', 'P', 1 ), FILTER_VALIDATE_BOOLEAN );
 			$options ['storage'] ['sortByName'] = filter_var ( GetParam ( 's_sortByName', 'P', 1 ), FILTER_VALIDATE_BOOLEAN );
 			$options ['storage'] ['showVehicles'] = filter_var ( GetParam ( 's_showVehicles', 'P', 1 ), FILTER_VALIDATE_BOOLEAN );

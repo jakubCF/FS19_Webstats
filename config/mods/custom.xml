@@ -81,7 +81,7 @@
 		</text>
 		<!-- FS19_obstaclesHorses **************************************************** -->
 		<text name="cornerObstalacle">
-			<cz>Překážka roh</cz>
+			<cz>Překážka rohová</cz>
 			<en>cornerObstalacle</en>
 		</text>
 		<text name="fenceObstacle">
@@ -89,7 +89,7 @@
 			<en>fenceObstacle</en>
 		</text>
 		<text name="oxerObstacle">
-			<cz>Překážka oxer</cz>
+			<cz>Překážka příkop</cz>
 			<en>oxerObstacle</en>
 		</text>
 		<text name="wallObstacle">

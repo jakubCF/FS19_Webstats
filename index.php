@@ -55,6 +55,17 @@ $savegame = new Savegame ( $webStatsConfig, $_SESSION ['farmId'] );
 $smarty->assign ( 'currentDay', $savegame->currentDay );
 $smarty->assign ( 'dayTime', $savegame->dayTime );
 $smarty->assign ( 'money', $savegame->getFarmMoney ( $_SESSION ['farmId'] ) );
+switch ($options['general']['currency']){
+	case "CZK":
+		$smarty->assign ( 'currency', "Kč");
+		break;
+	case "USD":
+		$smarty->assign ( 'currency', "$");
+		break;
+	case "EUR":
+		$smarty->assign ( 'currency', "€");
+		break;
+	}
 
 // Existing pages and nav items
 $showInNav = ($_SESSION ['farmId'] > 0) ? true : false;
