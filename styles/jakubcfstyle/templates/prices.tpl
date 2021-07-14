@@ -8,7 +8,7 @@
 			<thead>
 				<tr>
 					<th class="">##SELLTRIGGER##</th> {foreach $prices as $fillType => $fillTypeData}
-					<th class="text-center">{$fillType|truncate:4:""}</th> {/foreach}
+					<th class="text-center"><img src="{#IMAGES#}/icons/{$fillTypeData.i3dName|strtolower}.png"><span style="font-size:80%">{$fillType}</span></th> {/foreach}
 				</tr>
 			</thead>
 			<tbody>
@@ -114,7 +114,7 @@
 					<td class="text-center text-nowrap">{$percent|number_format:0:",":"."} %</td> {if $options['farmId']>0}{if isset($commodities.$fillType) && $commodities.$fillType.overall > 0}
 					<td class="text-right col-1 pr-3">{number_format_locale($commodities.$fillType.overall,0)}</td>
 					{math equation="overall * bestPrice / 1000" overall=$commodities.$fillType.overall bestPrice=$fillTypeData.bestPrice assign="proceeds"}
-					<td class="text-right col-1 pr-3">{number_format_locale($proceeds,0)}</td> {else}
+					<td class="text-right col-1 pr-3">{number_format_locale($proceeds,0)} {$currency}</td> {else}
 					<td></td>
 					<td></td> {/if}{/if}
 				</tr>
