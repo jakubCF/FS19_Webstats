@@ -140,8 +140,22 @@ class Commodity {
 							$state = intval ( $bunkerSilo ['state'] );
 							$fillLevel = intval ( $bunkerSilo ['fillLevel'] );
 							$compactedFillLevel = intval ( $bunkerSilo ['compactedFillLevel'] );
-							self::addCommodity ( 'CHAFF', ($state < 2) ? $compactedFillLevel : 0, $location );
+							switch ($state) {
+								case 0 :
+									self::addCommodity ( 'CHAFF', $fillLevel, $location );
+									break;
+								case 1 :
+									self::addCommodity ( 'CHAFF', $compactedFillLevel, $location );
+									break;
+								case 2 :
+								case 3 :
+									self::addCommodity ( 'SILAGE', $fillLevel, $location );
+									break;
+							}
+							/*
+							self::addCommodity ( 'CHAFF', ($state < 2) ? $fillLevel : 0, $location );
 							self::addCommodity ( 'SILAGE', ($state < 2) ? 0 : $fillLevel, $location );
+							*/
 						}
 					}
 					break;
