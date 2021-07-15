@@ -66,7 +66,7 @@ class Animals {
 											'fitnessScale' => floor ( $fitnessScale * 100 ),
 											'healthScale' => floor ( $healthScale * 100 ),
 											'dirtScale' => floor ( (1 - $dirtScale) * 100 ),
-											'ridingTimer' => floor ( floatval ( $animal ['ridingTimer'] / 300000 ) * 100 ),
+											'ridingTimer' => self::getRideTime(floatval ( $animal ['ridingTimer'] )),
 											'value' => 49500 * $fitnessScale * $healthScale + 500 * (1 - $dirtScale),
 											'isHorse' => true,
 											'image' => $animalType 
@@ -354,5 +354,14 @@ class Animals {
 	private static function getTimeString($time) {
 		$hours = (gmdate ( "d", $time ) - 1) * 24 + gmdate ( "H", $time );
 		return $hours . ':' . gmdate ( "i", $time );
+	}
+	private static function getRideTime($rideTime){
+		
+		if ($rideTime > 300000) {
+			return 100;
+		}
+		else{
+			return floor (( $rideTime / 300000 ) * 100 );
+		}
 	}
 }
