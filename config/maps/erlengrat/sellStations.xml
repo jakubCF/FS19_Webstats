@@ -10,7 +10,7 @@
     <object name="sellingStationWoodChips" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationMilk2" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationTownStore" locationType="TipTrigger" isSellingPoint="true"/>
-
+    <object name="sellingStationWool" locationType="TipTrigger" isSellingPoint="true"/>
     <!-- FS19_PlaceableSellPoints-->
     <object name="wholesalers" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="digestate" locationType="TipTrigger" isSellingPoint="true"/>
@@ -71,6 +71,11 @@
     <text name="digestate">
       <cz>Digestate</cz>
       <en>Digestate</en>
+    </text>
+    <text name="sellingStationWool">
+      <cz>Přádelna</cz>
+      <en>Wool station</en>
+      <de>Spinnerei</de>
     </text>
   </l10n>
 </mapconfig>
