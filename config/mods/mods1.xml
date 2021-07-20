@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+   <vehicles>
+      <vehicle basename="120ft.xml" type="manureBarrel" name="120-foot boom" brand="JOHNDEERE" img="store_120ft" lifetime="600" category="sprayers" wearable="480" />
+      <vehicle basename="180.xml" type="manureBarrel" name="Cubex 180" brand="VALZELLI" img="store_180" lifetime="600" category="slurryTanks" wearable="500" />
+      <vehicle basename="200A.xml" type="200A_rimorchio" name="200A" brand="ADURANTE" img="store_200A" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="300.xml" type="manureBarrel" name="Cubex 300" brand="VALZELLI" img="store_300" lifetime="600" category="slurryTanks" wearable="500" />
+      <vehicle basename="4940.xml" type="JD4940" name="4940 Self-Propelled Sprayer" brand="JOHNDEERE" img="store_4940" lifetime="600" category="sprayerVehicles" wearable="480">
+         <motor id="1" name="4940 Self-Propelled Sprayer" />
+      </vehicle>
+      <vehicle basename="4X.xml" type="manureBarrel" name="Cubex 4X" brand="VALZELLI" img="store_4X" lifetime="600" category="slurryTanks" wearable="500" />
+      <vehicle basename="6180.xml" type="6180" name="Spudnik 6180" brand="LIZARD" img="store_6180" lifetime="500" category="potatoHarvesting" wearable="480" />
+      <vehicle basename="643R.xml" type="attachableFrontloader3" name="643R" brand="JOHNDEERE" img="store_643R" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="8312.xml" type="fertilizingSowingMachine" name="8312" brand="Spudnik" img="store_8312" lifetime="600" category="potatoHarvesting" wearable="480" />
+      <vehicle basename="BeeBox.xml" type="gcProductionItem" name="beeBox" brand="GCPRODUCTIONS" img="store_BeeBox" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="BitremFrontalLong.xml" type="trailer" name="RandonBitremFrontal" brand="RANDON" img="store_BitremFrontalLong" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="BitremTraseiro.xml" type="trailer" name="RandonBitremTraseiro" brand="RANDON" img="store_BitremTraseiro" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="BuL_B50AR03.xml" type="strawHarvestBaleGrab" name="B50 AR-03" brand="BRESSELUNDLADE" img="store_BuL_B50AR03" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="BuL_B50AR05.xml" type="strawHarvestBaleGrab" name="B50 AR-05" brand="BRESSELUNDLADE" img="store_BuL_B50AR05" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="Bucket.xml" type="gcProductionItem" name="bucket" brand="GCPRODUCTIONS" img="store_Bucket" lifetime="" category="gcProduction" wearable="" />
+      <vehicle basename="BucketLarge.xml" type="gcProductionItem" name="bucket" brand="GCPRODUCTIONS" img="store_BucketLarge" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="CsD754.xml" type="tractor" name="D-754" brand="LIZARD" img="store_CsD754" lifetime="600" category="trucks" wearable="480">
+         <motor id="1" name="D754" />
+      </vehicle>
+      <vehicle basename="CsHts.xml" type="manureBarrel" name="HTS-80 PF" brand="LIZARD" img="store_CsHts" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="CsPlatform.xml" type="trailer" name="BP-9" brand="LIZARD" img="store_CsPlatform" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="CyberquadTresla.xml" type="carFillable" name="Tresla Cyberquad" brand="LIZARD" img="store_CyberquadTresla" lifetime="600" category="cars" wearable="480">
+         <motor id="1" name="Tersla" />
+      </vehicle>
+      <vehicle basename="Dolly.xml" type="dolly" name="Bogeyman" brand="LIZARD" img="store_Dolly" lifetime="600" category="dollys" wearable="480" />
+      <vehicle basename="EP22.xml" type="trailer" name="EP22 End Dump" brand="WEST" img="store_EP22" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="EP40.xml" type="trailer" name="EP40 End Dump" brand="WEST" img="store_EP40" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="EP48.xml" type="trailer" name="EP48 End Dump" brand="WEST" img="store_EP48" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="FMSZ.xml" type="waterTrailer" name="FMSZ-2KT PF" brand="LIZARD" img="store_FMSZ" lifetime="600" category="animals" wearable="480" />
+      <vehicle basename="Flatbed1.xml" type="trailer" name="Flat Bed Version 1" brand="LIZARD" img="store_Flatbed1" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="Flatbed2.xml" type="trailer" name="Flat Bed Version 2" brand="LIZARD" img="store_Flatbed2" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="ForkFL.xml" type="implementDynamicMountAttacher" name="KerfabFork" brand="LIZARD" img="store_ForkFL" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="Fraese.xml" type="pickupConveyor" name="Milling Machine" brand="LIZARD" img="store_Fraese" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="Hesston.xml" type="baler" name="Big Balers" brand="MASSEYFERGUSON" img="store_Hesston" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="HoneyBox.xml" type="gcProductionItem" name="honeyBox" brand="GCPRODUCTIONS" img="store_HoneyBox" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="HoneyBoxFull.xml" type="gcProductionItem" name="honeyBoxFull" brand="GCPRODUCTIONS" img="store_HoneyBoxFull" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="HoneyComb.xml" type="gcProductionItem" name="honeyComb" brand="GCPRODUCTIONS" img="store_HoneyComb" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="HoneyCombFull.xml" type="gcProductionItem" name="honeyCombFull" brand="GCPRODUCTIONS" img="store_HoneyCombFull" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="HoneyExtractor.xml" type="gcProductionFactoryVehicle" name="honeyExtractor" brand="GCPRODUCTIONS" img="store_HoneyExtractor" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="HoneyFillStation.xml" type="gcProductionFactoryVehicle" name="honeyFillStation" brand="GCPRODUCTIONS" img="store_HoneyFillStation" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="JohnstonBrothers.xml" type="dynamicMountAttacherTrailer" name="Flat bed" brand="JOHNSTONBROTHERS" img="store_JohnstonBrothers" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="Krukowiak_Z437.xml" type="z437" name="5640" brand="Lizard" img="store_Krukowiak_Z437" lifetime="500" category="potatoHarvesting" wearable="960" />
+      <vehicle basename="L3030G4.xml" type="sprayer" name="L3030G4 Drybox" brand="JOHNDEERE" img="store_L3030G4" lifetime="600" category="fertilizerSpreaders" wearable="480" />
+      <vehicle basename="Liborto.xml" type="plow" name="Subsoiler 6M" brand="LIZARD" img="store_Liborto" lifetime="650" category="plows" wearable="480" />
+      <vehicle basename="LiveStockModule.xml" type="livestockTrailer" name="Livestock Module" brand="JOHNSTONBROTHERS" img="store_LiveStockModule" lifetime="600" category="animalTransport" wearable="480" />
+      <vehicle basename="LizardF350.xml" type="carFillable" name="F350 Super Duty" brand="LIZARD" img="store_LizardF350" lifetime="600" category="cars" wearable="480">
+         <motor id="1" name="F350 Super Duty" />
+      </vehicle>
+      <vehicle basename="LizardMethanol.xml" type="pallet" name="methanolTank" brand="LIZARD" img="store_LizardMethanol" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="MC18.xml" type="teleHandler2" name="MC 18-4" brand="MANITOU" img="store_MC18" lifetime="600" category="miscVehicles" wearable="480">
+         <motor id="1" name="MC 18-4" />
+      </vehicle>
+      <vehicle basename="MF9407S.xml" type="teleHandler2" name="9407 S" brand="MASSEYFERGUSON" img="store_MF9407S" lifetime="600" category="teleLoaderVehicles" wearable="480">
+         <motor id="1" name="9407 S" />
+      </vehicle>
+      <vehicle basename="Mex6.xml" type="attachableCombine" name="MEX 6" brand="POETTINGER" img="store_Mex6" lifetime="600" category="forageHarvesterCutters" wearable="480" />
+      <vehicle basename="Onion_SE260.xml" type="attachableCombineCutterFruitPreparer" name="SE 260 Onion" brand="GRIMME" img="store_Onion_SE260" lifetime="600" category="potatoHarvesting" wearable="480" />
+      <vehicle basename="P2200.xml" type="strawBlower" name="P2200" brand="ROBERT" img="store_P2200" lifetime="600" category="animals" wearable="480" />
+      <vehicle basename="PUT.xml" type="fuelTrailer" name="PUT-7" brand="LIZARD" img="store_PUT" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="PalletFork_new.xml" type="implementDynamicMountAttacher3" name="Pallet fork (adjustable)" brand="STOLL" img="store_PalletFork_new" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="Parkland.xml" type="baleLoader" name="Parkland" brand="PARKLAND" img="store_Parkland" lifetime="600" category="baling" wearable="380" />
+      <vehicle basename="Pop6X.xml" type="cutter" name="Pop6x" brand="ARTMECHANIC" img="store_Pop6X" lifetime="1200" category="forageHarvesterCutters" wearable="480" />
+      <vehicle basename="Prancha.xml" type="trailer" name="Prancha Agricola" brand="LIZARD" img="store_Prancha" lifetime="600" category="lowloaders" wearable="480" />
+      <vehicle basename="SB1000.xml" type="implement2" name="SB 1000" brand="SUER" img="store_SB1000" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="SB1600.xml" type="implement2" name="SB 1600" brand="SUER" img="store_SB1600" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="SB2400.xml" type="implement2" name="SM 2400" brand="SUER" img="store_SB2400" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="SB700.xml" type="implement2" name="SB 700" brand="SUER" img="store_SB700" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="SE260.xml" type="attachableCombineCutterFruitPreparer" name="SE 260 Carrot" brand="GRIMME" img="store_SE260" lifetime="600" category="potatoHarvesting" wearable="480" />
+      <vehicle basename="SX210ITR.xml" type="SXITR" name="SX 210 ITR" brand="LIZARD" img="store_SX210ITR" lifetime="1600" category="trucks" wearable="480">
+         <motor id="1" name="Detroit D60" />
+         <motor id="2" name="Cummins M11" />
+         <motor id="3" name="Paccar MX-13" />
+         <motor id="4" name="Caterpillar C15" />
+         <motor id="5" name="Paccar MX-13" />
+      </vehicle>
+      <vehicle basename="ServiceBody.xml" type="servico" name="Service Body" brand="LIZARD" img="store_ServiceBody" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="StandardBody.xml" type="trailer" name="Standard Body" brand="LIZARD" img="store_StandardBody" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="T088CS.xml" type="manureSpreader" name="T 088CS" brand="LIZARD" img="store_T088CS" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="TASI22000.xml" type="shovel" name="TASI 22T" brand="LIZARD" img="store_TASI22000" lifetime="600" category="sugarCaneHarvesting" wearable="480" />
+      <vehicle basename="TTS.xml" type="transportTrailer" name="TTS" brand="LIZARD" img="store_TTS" lifetime="600" category="wood" wearable="480" />
+      <vehicle basename="TaTraITR.xml" type="TaTraITR" name="Phoenix ITRunner Edition" brand="TATRA" img="store_TaTraITR" lifetime="600" category="trucks" wearable="960">
+         <motor id="1" name="Tatra ITR 460HP" />
+         <motor id="2" name="Tatra ITR 640HP" />
+      </vehicle>
+      <vehicle basename="TankerT.xml" type="MercedesTanker" name="Mercedes Tanker Trailer" brand="MERCEDESBENZ" img="store_TankerT" lifetime="600" category="edwardsmodding" wearable="480" />
+      <vehicle basename="Tatra148.xml" type="carFillable" name="TATRA 148" brand="TATRA" img="store_Tatra148" lifetime="600" category="trucks" wearable="480">
+         <motor id="1" name="TATRA 138" />
+         <motor id="2" name="TATRA 148" />
+      </vehicle>
+      <vehicle basename="Trinity.xml" type="trailer" name="Trinity Eagle" brand="TRINITY" img="store_Trinity" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="adattatore.xml" type="CSZpackImplement" name="adattatoreT" brand="CSZ" img="store_adattatore" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="adattatoreFrontLoaders.xml" type="CSZpackImplement" name="adattatoreTF" brand="CSZ" img="store_adattatoreFrontLoaders" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="adattatoreSkidSteers.xml" type="CSZpackImplement" name="adattatoreFS" brand="CSZ" img="store_adattatoreSkidSteers" lifetime="600" category="frontloaders" wearable="480" />
+      <vehicle basename="adattatoreTeleLoaders.xml" type="CSZpackImplement" name="adattatoreW" brand="CSZ" img="store_adattatoreTeleLoaders" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="adattatoreWheelLoaders.xml" type="CSZpackImplement" name="adattatoreTW" brand="CSZ" img="store_adattatoreWheelLoaders" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="baleCollect.xml" type="kroneBaleCollect" name="BaleCollect 1230" brand="KRONE" img="store_baleCollect" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="baleHugger.xml" type="baleGrab3" name="Bale handler" brand="PALADIN" img="store_baleHugger" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="baleModule.xml" type="baleModule" name="Bale Module" brand="JOHNSTONBROTHERS" img="store_baleModule" lifetime="600" category="baling" wearable="" />
+      <vehicle basename="baleShredder.xml" type="kronePremosBaleShredder" name="baleShredder" brand="KRONE" img="store_baleShredder" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="baleSpear.xml" type="implementDynamicMountAttacher3" name="Bale spear" brand="PALADIN" img="store_baleSpear" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="barPallet.xml" type="pallet" name="palletName1" brand="AgraZ" img="store_barPallet" lifetime="" category="agraZPallet" wearable="" />
+      <vehicle basename="bennaDesilatrice.xml" type="CSZpackShovelMixerWagon" name="bennaDesilatriceW" brand="CSZ" img="store_bennaDesilatrice" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaGrigliaOrrizontale.xml" type="CSZpackShovel" name="bennaGrigliaOrrizontaleW" brand="CSZ" img="store_bennaGrigliaOrrizontale" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaGrigliaOrrizontaleTrattenitore.xml" type="CSZpackShovel" name="bennaGrigliaOrrizontaleTrattenitoreW" brand="CSZ" img="store_bennaGrigliaOrrizontaleTrattenitore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaGrigliaVerticale.xml" type="CSZpackShovel" name="bennaGrigliaVerticaleW" brand="CSZ" img="store_bennaGrigliaVerticale" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaGrigliaVerticaleTrattenitore.xml" type="CSZpackShovel" name="bennaGrigliaVerticaleTrattenitoreW" brand="CSZ" img="store_bennaGrigliaVerticaleTrattenitore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaMultiuso.xml" type="CSZpackShovel" name="bennaMultiusoW" brand="CSZ" img="store_bennaMultiuso" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaMultiusoPlus.xml" type="CSZpackShovel" name="bennaMultiusoWP" brand="CSZ" img="store_bennaMultiusoPlus" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaMultiusoTrattenitore.xml" type="CSZpackShovel" name="bennaMultiusoTrattenitoreW" brand="CSZ" img="store_bennaMultiusoTrattenitore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaRaptor.xml" type="CSZpackShovel" name="bennaRaptorW" brand="CSZ" img="store_bennaRaptor" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaScaricoCentrale.xml" type="CSZpackShovel" name="bennaScaricoCentraleW" brand="CSZ" img="store_bennaScaricoCentrale" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bennaTramoggia.xml" type="CSZpackShovel" name="bennaTramoggiaW" brand="CSZ" img="store_bennaTramoggia" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="besen.xml" type="broom" name="Animal Broom" brand="LIZARD" img="store_besen" lifetime="600" category="misc" wearable="" />
+      <vehicle basename="besenCleaner.xml" type="broom" name="Cleaning Broom" brand="LIZARD" img="store_besenCleaner" lifetime="600" category="misc" wearable="" />
+      <vehicle basename="bigBagContainerChickenFood.xml" type="pallet" name="ChickenFood Bigbag" brand="PIONEER" img="store_bigBagContainerChickenFood" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerFertilizer.xml" type="pallet" name="Fertilizer Bigbag" brand="PIONEER" img="store_bigBagContainerFertilizer" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerForage.xml" type="pallet" name="Forage Bigbag" brand="PIONEER" img="store_bigBagContainerForage" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerHorseFood.xml" type="pallet" name="HorseFood Bigbag" brand="PIONEER" img="store_bigBagContainerHorseFood" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerLime.xml" type="pallet" name="Lime Bigbag" brand="PIONEER" img="store_bigBagContainerLime" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerPigFood.xml" type="pallet" name="PigFood Bigbag" brand="PIONEER" img="store_bigBagContainerPigFood" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerSalt.xml" type="pallet" name="bigBagSalt" brand="LIZARD" img="store_bigBagContainerSalt" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerSeeds.xml" type="pallet" name="Seeds Bigbag" brand="PIONEER" img="store_bigBagContainerSeeds" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerSilage.xml" type="pallet" name="Silage Bigbag" brand="PIONEER" img="store_bigBagContainerSilage" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigBagContainerWoodchips.xml" type="pallet" name="Woodchips Bigbag" brand="PIONEER" img="store_bigBagContainerWoodchips" lifetime="" category="bigbags" wearable="" />
+      <vehicle basename="bigForca.xml" type="CSZpackShovel" name="bigForcaW" brand="CSZ" img="store_bigForca" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="bigM450.xml" type="selfPropelledMower" name="BiG M 450" brand="KRONE" img="store_bigM450" lifetime="600" category="mowerVehicles" wearable="480">
+         <motor id="1" name="BiG M 450" />
+      </vehicle>
+      <vehicle basename="bigPack1290HDPII.xml" type="kroneBigPack1290HDPII" name="BigPack 1290 HDP II XC" brand="KRONE" img="store_bigPack1290HDPII" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="bilancinoSollevamento.xml" type="CSZpackTrailer" name="bilancinoSollevamento" brand="CSZ" img="store_bilancinoSollevamento" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="bracettoSollevamento.xml" type="CSZpackImplement" name="bracettoSollevamentoW" brand="CSZ" img="store_bracettoSollevamento" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="canisterPallet.xml" type="pallet" name="molassesPallet" brand="WEIDEGUT" img="store_canisterPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="cestello.xml" type="CSZpackImplement" name="cestelloW" brand="CSZ" img="store_cestello" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="cfb16.xml" type="treeSaw3" name="CFB-16" brand="DFM" img="store_cfb16" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="chickenFoodPallet.xml" type="pallet" name="chickenFoodPallet" brand="LIZARD" img="store_chickenFoodPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="chickenPallet.xml" type="pallet" name="chickenfood" brand="LIZARD" img="store_chickenPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="comprimaV180XC.xml" type="kroneComprimaV180XC" name="Comprima V 180 XC" brand="KRONE" img="store_comprimaV180XC" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="containerAnimalTrailer.xml" type="itrhookLiftContainerLivestockTrailer" name="Livestock Trailer" brand="JOSKIN" img="store_containerAnimalTrailer" lifetime="600" category="animalTransport" wearable="480" />
+      <vehicle basename="containerBales.xml" type="hookLiftContainerTrailer" name="Bale container" brand="ITRUNNER" img="store_containerBales" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="containerBalesBig.xml" type="hookLiftContainerTrailer" name="Combi container M" brand="ITRUNNER" img="store_containerBalesBig" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerBalesXXL.xml" type="hookLiftContainerTrailer" name="Combi container L" brand="ITRUNNER" img="store_containerBalesXXL" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerChaff.xml" type="hookLiftContainerTrailer" name="HT 50" brand="BERGMANN" img="store_containerChaff" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerDumper.xml" type="hookLiftContainerTrailer" name="Skip" brand="ITRUNNER" img="store_containerDumper" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerLiquids.xml" type="hookLiftContainerTrailer" name="Multi Liquid Tank" brand="RYC_ONE" img="store_containerLiquids" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="containerManureSpreader.xml" type="hookLiftContainerTrailerSpreader" name="Fortis 2000" brand="FARMTECH" img="store_containerManureSpreader" lifetime="600" category="manureSpreaders" wearable="480" />
+      <vehicle basename="containerManureTank.xml" type="itrmanureTrailerHookLift" name="Slurry field container" brand="ITRUNNER" img="store_containerManureTank" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="containerMilk.xml" type="waterTrailerHookLift" name="Milk Tank" brand="ITRUNNER" img="store_containerMilk" lifetime="600" category="animals" wearable="480" />
+      <vehicle basename="containerPronar.xml" type="hookLiftContainerTrailer" name="bulk cargo containers" brand="ITRUNNER" img="store_containerPronar" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerRolloff.xml" type="hookLiftContainerTrailer" name="rolloff container 30m³" brand="ITRUNNER" img="store_containerRolloff" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerSilage.xml" type="hookLiftContainerTrailer" name="Grain container" brand="ITRUNNER" img="store_containerSilage" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerSilageSmall.xml" type="hookLiftContainerTrailer" name="Grain container 30m³" brand="ITRUNNER" img="store_containerSilageSmall" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerSlurry.xml" type="hookLiftContainerTrailerBarrel" name="Slurry container" brand="ITRUNNER" img="store_containerSlurry" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="containerTCM.xml" type="hookLiftContainerTrailer" name="Grain and transport tipper" brand="TCM" img="store_containerTCM" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerTCM2623.xml" type="hookLiftContainerTrailer" name="Grain and transport tipper 26.23" brand="TCM" img="store_containerTCM2623" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="containerVehicles.xml" type="dynamicMountAttacherTrailerHookLift" name="Vehicle platform" brand="ITRUNNER" img="store_containerVehicles" lifetime="600" category="lowloaders" wearable="480" />
+      <vehicle basename="containerWood.xml" type="hookLiftContainerTrailer" name="Wood container" brand="ITRUNNER" img="store_containerWood" lifetime="600" category="wood" wearable="480" />
+      <vehicle basename="cowPallet.xml" type="pallet" name="cowfood" brand="LIZARD" img="store_cowPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="crane.xml" type="itrwoodCraneAttachable" name="crane" brand="PALFINGER" img="store_crane" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="easyCutB1000CVCollect.xml" type="mowerMovingSheets" name="EasyCut B1000CV Collect" brand="KRONE" img="store_easyCutB1000CVCollect" lifetime="600" category="mowers" wearable="480" />
+      <vehicle basename="easyCutF360CV.xml" type="mowerMovingSheets" name="EasyCut F360CV" brand="KRONE" img="store_easyCutF360CV" lifetime="600" category="mowers" wearable="480" />
+      <vehicle basename="emptyPallet.xml" type="gcProductionItemNone" name="emptyPallet" brand="GCPRODUCTIONS" img="store_emptyPallet" lifetime="" category="gcProduction" wearable="" />
+      <vehicle basename="emptyPallet2.xml" type="gcProductionItem" name="emptyPallet2" brand="GCPRODUCTIONS" img="store_emptyPallet2" lifetime="" category="gcProduction" wearable="" />
+      <vehicle basename="extraelevazione.xml" type="CSZpackImplement" name="extraelevazioneW" brand="CSZ" img="store_extraelevazione" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="fertilizerHose.xml" type="flexibleHose" name="fertilizerHose" brand="LIZARD" img="store_fertilizerHose" lifetime="600" category="sprayers" wearable="480" />
+      <vehicle basename="fertilizerPallet.xml" type="pallet" name="fertilizerPallet" brand="LIZARD" img="store_fertilizerPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="flieglDPW180.xml" type="trailer" name="DPW 180" brand="FLIEGL" img="store_flieglDPW180" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="flieglFlatbedCottonRound.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Roundbales Cotton" brand="FLIEGL" img="store_flieglFlatbedCottonRound" lifetime="600" category="cottonHarvesting" wearable="480" />
+      <vehicle basename="flieglFlatbedCottonSquare.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Squarebales Cotton" brand="FLIEGL" img="store_flieglFlatbedCottonSquare" lifetime="600" category="cottonHarvesting" wearable="480" />
+      <vehicle basename="flieglFlatbedRound.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Roundbales" brand="FLIEGL" img="store_flieglFlatbedRound" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="flieglFlatbedSquare.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Squarebales" brand="FLIEGL" img="store_flieglFlatbedSquare" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="flieglFlatbedSquareBig.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Squarebales Big" brand="FLIEGL" img="store_flieglFlatbedSquareBig" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="forcaBalle.xml" type="CSZpackBaleLoader" name="forcaBalleW" brand="CSZ" img="store_forcaBalle" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="forcaBallePunteReclinabili.xml" type="CSZpackBaleLoader" name="forcaBallePunteReclinabiliW" brand="CSZ" img="store_forcaBallePunteReclinabili" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="forcaBalleTrattenitore.xml" type="CSZpackBaleLoader" name="forcaBalleTrattenitoreW" brand="CSZ" img="store_forcaBalleTrattenitore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="forcaLetame.xml" type="CSZpackShovel" name="forcaLetameW" brand="CSZ" img="store_forcaLetame" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="forcaPolivalente.xml" type="CSZpackShovel" name="forcaPolivalenteW" brand="CSZ" img="store_forcaPolivalente" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="forcaXBalle.xml" type="CSZpackAutoCaricamentoBalle" name="forcaBalleW" brand="CSZ" img="store_forcaXBalle" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="forcaXBallePunteReclinabili.xml" type="CSZpackAutoCaricamentoBalle" name="forcaBallePunteReclinabiliW" brand="CSZ" img="store_forcaXBallePunteReclinabili" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="forcaXBalleTrattenitore.xml" type="CSZpackAutoCaricamentoBalle" name="forcaBalleTrattenitoreW" brand="CSZ" img="store_forcaXBalleTrattenitore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="forestryModule.xml" type="forestryModule" name="Forestry Module" brand="JOHNSTONBROTHERS" img="store_forestryModule" lifetime="600" category="wood" wearable="" />
+      <vehicle basename="gancioSollevamento.xml" type="CSZpackImplement" name="gancioSollevamentoW" brand="CSZ" img="store_gancioSollevamento" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="grimmeKS75.xml" type="fruitPreparer" name="KS 75-4 Carrot" brand="GRIMME" img="store_grimmeKS75" lifetime="600" category="potatoHarvesting" wearable="480" />
+      <vehicle basename="grimmeKS75_onion.xml" type="fruitPreparer" name="KS 75-4 Onion" brand="GRIMME" img="store_grimmeKS75_onion" lifetime="600" category="potatoHarvesting" wearable="480" />
+      <vehicle basename="grimmeRH2460.xml" type="receivingHopper" name="RH 24-60 Edit" brand="GRIMME" img="store_grimmeRH2460" lifetime="600" category="belts" wearable="480" />
+      <vehicle basename="hallCrane.xml" type="hallCrane" name="Crane" brand="HALLSYS" img="store_hallCrane" lifetime="0" category="misc" wearable="" />
+      <vehicle basename="highDumpBucket.xml" type="shovel3" name="High-dump bucket" brand="PALADIN" img="store_highDumpBucket" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="horseFoodPallet.xml" type="pallet" name="horseFoodPallet" brand="LIZARD" img="store_horseFoodPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="horsePallet.xml" type="pallet" name="horsefood" brand="LIZARD" img="store_horsePallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="hs8.xml" type="hs105hoses" name="HS 10.5 S/SP Profi" brand="LIZARD" img="store_hs8" lifetime="600" category="sprayers" wearable="480" />
+      <vehicle basename="hs8d.xml" type="hs105hoses" name="HS 10.5 D Profi" brand="LIZARD" img="store_hs8d" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="hs8de.xml" type="hs105" name="HS 10.5 D" brand="LIZARD" img="store_hs8de" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="hs8ds.xml" type="hs105" name="HS 10.5 DS" brand="LIZARD" img="store_hs8ds" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="hs8dsp.xml" type="hs105hoses" name="HS 10.5 DS Profi" brand="LIZARD" img="store_hs8dsp" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="hs8e.xml" type="hs105" name="HS 10.5 S/SP" brand="LIZARD" img="store_hs8e" lifetime="600" category="sprayers" wearable="480" />
+      <vehicle basename="hs8m.xml" type="hs105hoses" name="HS 10.5 M Profi" brand="LIZARD" img="store_hs8m" lifetime="600" category="animals" wearable="480" />
+      <vehicle basename="hs8me.xml" type="hs105" name="HS 10.5 M" brand="LIZARD" img="store_hs8me" lifetime="600" category="animals" wearable="480" />
+      <vehicle basename="hs8w.xml" type="hs105hoses" name="HS 10.5 W Profi" brand="LIZARD" img="store_hs8w" lifetime="600" category="animals" wearable="480" />
+      <vehicle basename="hs8we.xml" type="hs105" name="HS 10.5 W" brand="LIZARD" img="store_hs8we" lifetime="600" category="animals" wearable="480" />
+      <vehicle basename="hydraulic_10ton.xml" type="82sTrailer" name="82's Hydraulic Tipper (10 Ton)" brand="82SMCHN" img="store_hydraulic_10ton" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="it47AugerWagon.xml" type="hookLiftContainerTrailerAugerWagon" name="IT 47" brand="METALTECH" img="store_it47AugerWagon" lifetime="600" category="augerWagons" wearable="480" />
+      <vehicle basename="itRunner2623HD.xml" type="hookLiftTrailer" name="itRunner" brand="ITRUNNER" img="store_itRunner2623HD" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="itRunner2633HD.xml" type="hookLiftTrailer" name="ITR 26.33 HD" brand="ITRUNNER" img="store_itRunner2633HD" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="iveco190.xml" type="truck190" name="190-38" brand="IVECO" img="store_iveco190" lifetime="600" category="trucks" wearable="480">
+         <motor id="1" name="IVECO 190-38" />
+      </vehicle>
+      <vehicle basename="ivecoITRunner190.xml" type="truckITR190" name="190-38 ITRunner" brand="IVECO" img="store_ivecoITRunner190" lifetime="600" category="trucks" wearable="480">
+         <motor id="1" name="IVECO 190-38" />
+      </vehicle>
+      <vehicle basename="joskinAquaTrans7300.xml" type="waterTrailer" name="AquaTrans 7300" brand="AgraZ" img="store_joskinAquaTrans7300" lifetime="600" category="agraZTrailer" wearable="480" />
+      <vehicle basename="k105Cs.xml" type="spreader" name="k105 PF" brand="BREDAL" img="store_k105Cs" lifetime="600" category="fertilizerSpreaders" wearable="480" />
+      <vehicle basename="k105winter.xml" type="interactiveSpreaderWinter" name="K105 Winter Service" brand="BREDAL" img="store_k105winter" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="k165winter.xml" type="interactiveSpreaderWinter" name="K165 Winter Service" brand="BREDAL" img="store_k165winter" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="kongskildeGXF.xml" type="mower" name="GXF 3205" brand="KONGSKILDE" img="store_kongskildeGXF" lifetime="600" category="mowers" wearable="480" />
+      <vehicle basename="kongskildeGXT13005.xml" type="mower" name="GXF 13005" brand="KONGSKILDE" img="store_kongskildeGXT13005" lifetime="600" category="mowers" wearable="480" />
+      <vehicle basename="kroneBiGX580.xml" type="combineDrivable" name="BiG X 580" brand="KRONE" img="store_kroneBiGX580" lifetime="600" category="forageHarvesters" wearable="480">
+         <motor id="1" name="BigX 580" />
+      </vehicle>
+      <vehicle basename="kroneEasyCollect600.xml" type="cutter" name="EasyCollect 600-2" brand="KRONE" img="store_kroneEasyCollect600" lifetime="600" category="forageHarvesterCutters" wearable="480" />
+      <vehicle basename="kuhnAxis402winter.xml" type="interactiveSpreaderWinter" name="AXIS 40.2 M-EMC-W Winter Service" brand="KUHN" img="store_kuhnAxis402winter" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="kuhnFBP3135.xml" type="balerWrapper" name="FBP 3135 Clover and Alfalfa" brand="KUHN" img="store_kuhnFBP3135" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="kuhnRA142CS.xml" type="mixerWagon" name="Knight RA 142 PF" brand="KUHN" img="store_kuhnRA142CS" lifetime="600" category="animals" wearable="480" />
+      <vehicle basename="kuhnSW4014.xml" type="baleWrapper" name="SW 4014 Clover and Alfalfa" brand="KUHN" img="store_kuhnSW4014" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="kuhnSW4014hesston.xml" type="baleWrapper" name="SW 4014 HESSTON BIG BALES" brand="KUHN" img="store_kuhnSW4014" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="lamaDozer.xml" type="CSZpackLeveler" name="lamaDozerW" brand="CSZ" img="store_lamaDozer" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="leerPallet.xml" type="pallet" name="palletName" brand="AgraZ" img="store_leerPallet" lifetime="" category="agraZPallet" wearable="" />
+      <vehicle basename="limePallet.xml" type="pallet" name="limePallet" brand="LIZARD" img="store_limePallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="liquidTanksPallet.xml" type="pallet" name="liquidtanks" brand="LIZARD" img="store_liquidTanksPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="lizardAugerMaster.xml" type="augerWagon" name="Auger Master" brand="LIZARD" img="store_lizardAugerMaster" lifetime="600" category="augerWagons" wearable="480" />
+      <vehicle basename="lizardSTB03P.xml" type="balerWrapper" name="STB 03P" brand="LIZARD" img="store_lizardSTB03P" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="lizardSTB03Pbelt.xml" type="pickupConveyorBelt" name="STB 1B" brand="LIZARD" img="store_lizardSTB03Pbelt" lifetime="600" category="belts" wearable="480">
+         <motor id="1" name="S-710" />
+      </vehicle>
+      <vehicle basename="lizardSilageFork.xml" type="dynamicMountAttacherShovel3" name="Silage fork" brand="LIZARD" img="store_lizardSilageFork" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="manubal_v7000.xml" type="implementDynamicMountAttacher" name="Manubal V7000" brand="MX" img="store_manubal_v7000" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="manureFork.xml" type="dynamicMountAttacherShovel3" name="Manure fork" brand="PALADIN" img="store_manureFork" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="manurePallet.xml" type="pallet" name="manurePallet" brand="LIZARD" img="store_manurePallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="miscelatore.xml" type="CSZpackShovelMixerWagon" name="miscelatoreW" brand="CSZ" img="store_miscelatore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="modulartrailer.xml" type="82strailer" name="Versatile Transport Trailer" brand="82SL" img="store_modulartrailer" lifetime="600" category="lowloaders" wearable="480" />
+      <vehicle basename="movimentatoreBigBag.xml" type="CSZpackTrailer" name="movimentatoreBigBagW" brand="CSZ" img="store_movimentatoreBigBag" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="newHollandDiscbine313.xml" type="mower" name="Discbine 313" brand="NEWHOLLAND" img="store_newHollandDiscbine313" lifetime="600" category="mowers" wearable="480" />
+      <vehicle basename="nmc3point.xml" type="nmc_d11_3point" name="3 Point" brand="NMC" img="store_nmc3point" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="nmc640.xml" type="nmc620_640_PC" name="LM 640" brand="BMVOLVO" img="store_nmc640" lifetime="600" category="wheelLoaderVehicles" wearable="480">
+         <motor id="1" name="LM 620/640" />
+      </vehicle>
+      <vehicle basename="nmcBlade.xml" type="nmc_d11_blade" name="Blade Leveler" brand="NMC" img="store_nmcBlade" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="nmcBladePlow.xml" type="nmc_d11_bladePlow" name="Blade Plow" brand="NMC" img="store_nmcBladePlow" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="nmcD11.xml" type="nmc_d11" name="D-11 Bulldozer" brand="NMC" img="store_nmcD11" lifetime="600" category="miscVehicles" wearable="480">
+         <motor id="1" name="D-11 Bulldozer" />
+         <motor id="2" name="D-11 Super Power" />
+      </vehicle>
+      <vehicle basename="nmcRipper.xml" type="nmc_d11_ripper" name="Ripper" brand="NMC" img="store_nmcRipper" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="palaTronchi.xml" type="CSZpackTrailer" name="palaTronchiW" brand="CSZ" img="store_palaTronchi" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="palletFork.xml" type="implementDynamicMountAttacher3" name="Pallet fork" brand="PALADIN" img="store_palletFork" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="palletHoneyBoxes.xml" type="gcProductionItem" name="Pallet with empty honey jars" brand="GCPRODUCTIONS" img="store_palletHoneyBoxes" lifetime="" category="gcProductionHoney" wearable="" />
+      <vehicle basename="palletforks.xml" type="implementDynamicMountAttacher" name="wheelLoaderFork" brand="BMVOLVO" img="store_palletforks" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="piastraPortaforcheDoppia.xml" type="CSZpackImplement" name="piastraPortaforcheDoppiaW" brand="CSZ" img="store_piastraPortaforcheDoppia" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="piastraPortaforcheDoppiaTronchi.xml" type="CSZpackLogGrab" name="piastraPortaforcheDoppiaTronchiW" brand="CSZ" img="store_piastraPortaforcheDoppiaTronchi" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="piastraPortaforcheLibera.xml" type="CSZpackImplement" name="piastraPortaforcheLiberaW" brand="CSZ" img="store_piastraPortaforcheLibera" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="piastraPortaforcheSingola.xml" type="CSZpackImplement" name="piastraPortaforcheSingolaW" brand="CSZ" img="store_piastraPortaforcheSingola" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="piastraPortaforcheSingolaTrattenitore.xml" type="CSZpackImplement" name="piastraPortaforcheSingolaTrattenitoreW" brand="CSZ" img="store_piastraPortaforcheSingolaTrattenitore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="pickUp1150.xml" type="implement2" name="PickUp 1150" brand="JOHNDEERE" img="store_pickUp1150" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="pickUp1800.xml" type="implement2" name="PickUp 1800" brand="JOHNDEERE" img="store_pickUp1800" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="pickUp900.xml" type="implement2" name="PickUp 900" brand="JOHNDEERE" img="store_pickUp900" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="pigFoodPallet.xml" type="pallet" name="pigFoodPallet" brand="LIZARD" img="store_pigFoodPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="pigPallet.xml" type="pallet" name="pigfood" brand="LIZARD" img="store_pigPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="pinzaFasciati.xml" type="CSZpackBaleGrab" name="pinzaFasciatiW" brand="CSZ" img="store_pinzaFasciati" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="pinzaMordente.xml" type="CSZpackBaleLoaderPinza" name="pinzaMordenteW" brand="CSZ" img="store_pinzaMordente" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="pinzaMordenteDentiLunghi.xml" type="CSZpackBaleLoaderPinza" name="pinzaMordenteDentiLunghiW" brand="CSZ" img="store_pinzaMordenteDentiLunghi" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="poettingerNovaCat301.xml" type="mower" name="NOVACAT 301 ED" brand="POETTINGER" img="store_poettingerNovaCat301" lifetime="600" category="mowers" wearable="480" />
+      <vehicle basename="poettingerNovaCatX8.xml" type="mower" name="NOVACAT X8 ED" brand="POETTINGER" img="store_poettingerNovaCatX8" lifetime="600" category="mowers" wearable="480" />
+      <vehicle basename="premos5000.xml" type="kronePremos5000" name="Premos 5000" brand="KRONE" img="store_premos5000" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="prolungaPesante.xml" type="CSZpackImplement" name="prolungaPesanteW" brand="CSZ" img="store_prolungaPesante" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="prolungaSollevamento.xml" type="CSZpackImplement" name="prolungaSollevamentoW" brand="CSZ" img="store_prolungaSollevamento" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="przyczepka.xml" type="trailer" name="M20" brand="LIZARD" img="store_przyczepka" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="rambo6KD.xml" type="rambo6KD" name="Rambo 6KD" brand="MEIJERHOLLAND" img="store_rambo6KD" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="raschiatore.xml" type="CSZpackLeveler" name="raschiatoreW" brand="CSZ" img="store_raschiatore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="rebokeTank.xml" type="manureTrailer" name="Tank 40" brand="LIZARD" img="store_rebokeTank" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="rebokeTank_dolly.xml" type="manureTrailer" name="Tank 40 dolly" brand="LIZARD" img="store_rebokeTank_dolly" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="refillableBulkPallet.xml" type="refillablePallet" name="reuseablebulkpallet" brand="LIZARD" img="store_refillableBulkPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="refillableBulkTank.xml" type="refillableTankPallet" name="reuseablebulktank" brand="LIZARD" img="store_refillableBulkTank" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="refillableEggPallet.xml" type="pallet" name="reuseableeggpallet" brand="LIZARD" img="store_refillableEggPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="refillableStandardPallet.xml" type="refillablePallet" name="reuseablestandardpallet" brand="LIZARD" img="store_refillableStandardPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="refillableStandardTank.xml" type="refillableTankPallet" name="reuseablestandardtank" brand="LIZARD" img="store_refillableStandardTank" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="refillableWoolPallet.xml" type="pallet" name="reuseablewoolpallet" brand="LIZARD" img="store_refillableWoolPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="rollBelt150.xml" type="baler2" name="Roll-Belt 150" brand="NEWHOLLAND" img="store_rollBelt150" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="rt3000.xml" type="treeSaw3" name="RT3000" brand="DFM" img="store_rt3000" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="rumPallet.xml" type="pallet" name="FS19_Distillery_name4" brand="AgraZ" img="store_rumPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="scania.xml" type="scania_xt" name="Scania_XT370" brand="SCANIA" img="store_scania" lifetime="600" category="trucks" wearable="">
+         <motor id="1" name="XT430" />
+      </vehicle>
+      <vehicle basename="scarok2500.xml" type="carFillable" name="Scarok 2500" brand="NMC" img="store_scarok2500" lifetime="600" category="cars" wearable="480">
+         <motor id="1" name="Scarok 2500 6.6L V8" />
+         <motor id="2" name="Scarok 2500 6.7L C" />
+         <motor id="3" name="Scarok 2500 6.7L V8" />
+         <motor id="4" name="Built 5.9L 12V" />
+      </vehicle>
+      <vehicle basename="scarok3500.xml" type="carFillable" name="Scarok 3500" brand="NMC" img="store_scarok3500" lifetime="600" category="cars" wearable="480">
+         <motor id="1" name="Scarok 3500 6.6L V8" />
+         <motor id="2" name="Scarok 3500 6.7L C" />
+         <motor id="3" name="Scarok 3500 6.7L V8" />
+         <motor id="4" name="Built 5.9L 12V" />
+      </vehicle>
+      <vehicle basename="scarokBackbedModule.xml" type="scarokBackbedModuleFill" name="Scarok Backbed Module" brand="NMC" img="store_scarokBackbedModule" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="sectionsPallet.xml" type="pallet" name="FS19_littleSawmill_palletName3" brand="AgraZ" img="store_sectionsPallet" lifetime="" category="agraZPallet" wearable="" />
+      <vehicle basename="seedTender.xml" type="augerWagon_smartAttach" name="Seed Tender 10 T PF" brand="HORSCH" img="store_seedTender" lifetime="600" category="augerWagons" wearable="480" />
+      <vehicle basename="seedsPallet.xml" type="pallet" name="seeds" brand="LIZARD" img="store_seedsPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="semidolly.xml" type="dolly" name=" West Semi Trailer Dolly " brand="WEST" img="store_semidolly" lifetime="600" category="dollys" wearable="480" />
+      <vehicle basename="sheepPallet.xml" type="pallet" name="sheepfood" brand="LIZARD" img="store_sheepPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="shuttle8000.xml" type="manureTrailer_smartAttach" name="Shuttle 8.000 PF" brand="HORSCH" img="store_shuttle8000" lifetime="600" category="augerWagons" wearable="480" />
+      <vehicle basename="singleBags.xml" type="pallet" name="singlebags" brand="LIZARD" img="store_singleBags" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="slurryHose.xml" type="flexibleHose" name="slurryHose" brand="LIZARD" img="store_slurryHose" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="slurryHose5m.xml" type="flexibleHose" name="slurryHose" brand="LIZARD" img="store_slurryHose5m" lifetime="600" category="slurryTanks" wearable="480" />
+      <vehicle basename="sp4000.xml" type="sprayer" name="SP 4000" brand="LIZARD" img="store_sp4000" lifetime="600" category="sprayers" wearable="480" />
+      <vehicle basename="spintoreAlleggerito.xml" type="CSZpackLeveler" name="spintoreAlleggeritoT" brand="CSZ" img="store_spintoreAlleggerito" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="spintorePesante.xml" type="CSZpackLeveler" name="spintorePesanteW" brand="CSZ" img="store_spintorePesante" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="spiritsPallet.xml" type="pallet" name="FS19_Distillery_name5" brand="AgraZ" img="store_spiritsPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="squareBalePallets.xml" type="pallet" name="balepallets" brand="LIZARD" img="store_squareBalePallets" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="standardBucket.xml" type="shovel" name="standardBucket" brand="BMVOLVO" img="store_standardBucket" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="stollFrontLoaderFZ.xml" type="attachableFrontloader3" name="FZ 30" brand="STOLL" img="store_stollFrontLoaderFZ" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollFrontLoaderFZ60.xml" type="attachableFrontloader3" name="FZ 60" brand="STOLL" img="store_stollFrontLoaderFZ60" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolBaleFork.xml" type="implementDynamicMountAttacher3" name="Bale spike" brand="STOLL" img="store_stollToolBaleFork" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolBaleGrab.xml" type="baleGrab3" name="Bale handler" brand="STOLL" img="store_stollToolBaleGrab" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolLogFork.xml" type="logGrab3" name="Log fork" brand="STOLL" img="store_stollToolLogFork" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolManureFork.xml" type="dynamicMountAttacherShovel3" name="Manure fork" brand="STOLL" img="store_stollToolManureFork" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolManureGrabFork.xml" type="dynamicMountAttacherShovel3" name="Fork with grapple" brand="STOLL" img="store_stollToolManureGrabFork" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolPalletFork.xml" type="implementDynamicMountAttacher3" name="Pallet fork" brand="STOLL" img="store_stollToolPalletFork" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolRoundBaleFork.xml" type="implementDynamicMountAttacher3" name="Roll-type bale fork" brand="STOLL" img="store_stollToolRoundBaleFork" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolShovel.xml" type="shovel3" name="Universal bucket" brand="STOLL" img="store_stollToolShovel" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolShovel2.xml" type="shovel3" name="John Deere bucket" brand="JOHNDEERE" img="store_stollToolShovel2" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stollToolSilageCutter.xml" type="dynamicMountAttacherShovel3" name="Silage cutter" brand="STOLL" img="store_stollToolSilageCutter" lifetime="600" category="frontLoaders" wearable="480" />
+      <vehicle basename="stumpGrinder.xml" type="stumpCutter3" name="Stump grinder" brand="PALADIN" img="store_stumpGrinder" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="sugarcanePallet.xml" type="pallet" name="sugarcane" brand="LIZARD" img="store_sugarcanePallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="tasma.xml" type="pickupConveyorBelt" name="T 202/0-8" brand="LIZARD" img="store_tasma" lifetime="600" category="belts" wearable="480">
+         <motor id="1" name="T202/0-8" />
+      </vehicle>
+      <vehicle basename="tcmTransporter.xml" type="hookLiftContainerTrailer" name="Transporter" brand="TCM" img="store_tcmTransporter" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tcmTransporter2623.xml" type="hookLiftContainerTrailer" name="Transporter 26.23" brand="TCM" img="store_tcmTransporter2623" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="telehandlerBaleFork.xml" type="implementDynamicMountAttacher3" name="Bale fork" brand="MAGSI" img="store_telehandlerBaleFork" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="telehandlerBaleGrab.xml" type="baleGrab3" name="Wrapped bale handler" brand="MAGSI" img="store_telehandlerBaleGrab" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="telehandlerFork.xml" type="implementDynamicMountAttacher3" name="Pallet fork" brand="MAGSI" img="store_telehandlerFork" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="telehandlerLogFork.xml" type="logGrab3" name="Log fork" brand="MAGSI" img="store_telehandlerLogFork" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="telehandlerManureFork.xml" type="dynamicMountAttacherShovel3" name="Manure fork" brand="MAGSI" img="store_telehandlerManureFork" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="telehandlerShovel.xml" type="shovel3" name="Shovel" brand="MAGSI" img="store_telehandlerShovel" lifetime="600" category="teleLoaders" wearable="480" />
+      <vehicle basename="tge.xml" type="carFillable" name="TGE" brand="MAN" img="store_tge" lifetime="600" category="cars" wearable="480">
+         <motor id="1" name="TGE 3.100" />
+         <motor id="2" name="TGE 3.140" />
+         <motor id="3" name="TGE 3.180" />
+      </vehicle>
+      <vehicle basename="tlx2020.xml" type="tlx2020vehicle" name="TLX 2020 Singlecab" brand="82S" img="store_tlx2020" lifetime="600" category="cars" wearable="480">
+         <motor id="1" name="configuration_engine1" />
+         <motor id="2" name="configuration_engine2" />
+      </vehicle>
+      <vehicle basename="tlx2020_67.xml" type="tlx2020vehicle" name="TLX 2020 Singlecab 6.7L" brand="82S" img="store_tlx2020_67" lifetime="600" category="cars" wearable="480">
+         <motor id="1" name="configuration_engine3" />
+         <motor id="2" name="configuration_engine4" />
+      </vehicle>
+      <vehicle basename="tlx2020_baleit.xml" type="tlx2020baleit" name="TLX 2020 Bale-IT" brand="82SAT" img="store_tlx2020_baleit" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tlx2020_flatbed.xml" type="tlx2020trailer" name="TLX 2020 Flatbed" brand="82SAT" img="store_tlx2020_flatbed" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tlx2020_lawncare.xml" type="tlx2020trailer" name="TLX 2020 Yard-IT" brand="82SAT" img="store_tlx2020_lawncare" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tlx2020_lawncare2.xml" type="tlx2020trailer" name="TLX 2020 Yard-IT Trailer" brand="82SL" img="store_tlx2020_lawncare2" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="tlx2020_liqit.xml" type="liqittanker" name="TLX 2020 Liq-IT" brand="82SAT" img="store_tlx2020_liqit" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tlx2020_liqit2.xml" type="liqittanker" name="TLX 2020 Liq-IT Trailer" brand="82SL" img="store_tlx2020_liqit2" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="tlx2020_logit.xml" type="tlx2020trailer" name="TLX 2020 Log-IT" brand="82SAT" img="store_tlx2020_logit" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tlx2020_logit2.xml" type="tlx2020trailer" name="TLX 2020 Log-IT Trailer" brand="82SL" img="store_tlx2020_logit2" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="tlx2020_tipit.xml" type="tlx2020trailer" name="TLX 2020 Tip-IT" brand="82SAT" img="store_tlx2020_tipit" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tlx2020_tipit2.xml" type="tlx2020trailer" name="TLX 2020 Tip-IT Trailer" brand="82SL" img="store_tlx2020_tipit2" lifetime="600" category="trailers" wearable="480" />
+      <vehicle basename="tlx2020_tipit3.xml" type="tlx2020trailer" name="TLX 2020 Tip-IT Open Bed" brand="82SAT" img="store_tlx2020_tipit3" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tlx2020_trailboss.xml" type="tlx2020trailer" name="TLX 2020 Trailboss" brand="82S" img="store_tlx2020_trailboss" lifetime="600" category="misc" wearable="480" />
+      <vehicle basename="tlx48ft_livestock_trailer.xml" type="82sLiveStock" name="TLX 48ft Livestock Trailer" brand="82SL" img="store_tlx48ft_livestock_trailer" lifetime="600" category="animalTransport" wearable="480" />
+      <vehicle basename="tmrPallet.xml" type="pallet" name="tmrPallet" brand="LIZARD" img="store_tmrPallet" lifetime="" category="pallets" wearable="" />
+      <vehicle basename="trailer25M.xml" type="dynamicMountAttacherTrailer" name="Trailer 25M" brand="RANDON" img="store_trailer25M" lifetime="600" category="lowloaders" wearable="480" />
+      <vehicle basename="transportPallet.xml" type="gcProductionItemNone" name="transportPallet" brand="GCPRODUCTIONS" img="store_transportPallet" lifetime="600" category="gcProduction" wearable="" />
+      <vehicle basename="traslatore.xml" type="CSZpackImplement" name="traslatoreW" brand="CSZ" img="store_traslatore" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="ursusT127.xml" type="baleLoader" name="T-127" brand="LIZARD" img="store_ursusT127" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="utilityGrapple.xml" type="logGrab3" name="Log fork" brand="PALADIN" img="store_utilityGrapple" lifetime="600" category="skidSteers" wearable="480" />
+      <vehicle basename="vGrab.xml" type="strawHarvestBaleGrab" name="vGrab" brand="LIZARD" img="store_vGrab" lifetime="600" category="baling" wearable="480" />
+      <vehicle basename="weight1100.xml" type="implement2" name="1100" brand="AGCO" img="store_weight1100" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="weight1500.xml" type="implement2" name="1500" brand="AGCO" img="store_weight1500" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="weight2300.xml" type="implement2" name="2300" brand="AGCO" img="store_weight2300" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="weight3300.xml" type="implement2" name="3300" brand="FENDT" img="store_weight3300" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="weight650.xml" type="implement2" name="650" brand="AGCO" img="store_weight650" lifetime="600" category="weights" wearable="480" />
+      <vehicle basename="wheelLoaderFork.xml" type="implementDynamicMountAttacher3" name="Pallet fork" brand="MAGSI" img="store_wheelLoaderFork" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="wheelLoaderLogFork.xml" type="logGrab3" name="Log fork" brand="MAGSI" img="store_wheelLoaderLogFork" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="wheelLoaderShovel.xml" type="shovel3" name="High-dump bucket" brand="MAGSI" img="store_wheelLoaderShovel" lifetime="600" category="wheelLoaders" wearable="480" />
+      <vehicle basename="z586.xml" type="baleWrapper" name="Z-586" brand="LIZARD" img="store_z586" lifetime="600" category="baling" wearable="480" />
+   </vehicles>
+</mapconfig>
