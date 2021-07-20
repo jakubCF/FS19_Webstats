@@ -207,7 +207,7 @@ class Commodity {
 			if (isset ( $vehicle->livestockTrailer )) {
 				foreach ( $vehicle->livestockTrailer->animal as $animal ) {
 					$fillType = strval ( $animal ['fillType'] );
-					self::addCommodity ( $fillType, 1, $location );
+					self::addCommodity ( $fillType, 1, $location, 'animal' );
 				}
 			}
 			if (isset ( $vehicle->fillUnit )) {
