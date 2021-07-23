@@ -8,6 +8,21 @@
     <object name="grainSiloPort" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationBales" locationType="TipTrigger" isSellingPoint="true"/>
     <object name="sellingStationWoodChips" locationType="TipTrigger" isSellingPoint="true"/>
+
+    <!-- FS19_PlaceableSellPoints-->
+    <object name="wholesalers" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="digestate" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="barn" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="cowshed" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="dairy" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="dockyard" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="granary" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="hayloft" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="lumberyard" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="market" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="stables" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="windmill" locationType="TipTrigger" isSellingPoint="true"/>
+
   </objects>
   <l10n>
     <text name="sellingStationRestaurant">
@@ -44,6 +59,22 @@
       <cz>Pila</cz>
       <en>WoodChips station</en>
       <de>Sägewerg</de>
+    </text>
+    <text name="wholesalers">
+      <cz>Wholesalers</cz>
+      <en>Wholesalers</en>
+    </text>
+    <text name="digestate">
+      <cz>Digestate</cz>
+      <en>Digestate</en>
+    </text>
+    <text name="cowshed">
+      <cz>Kravín</cz>
+      <en>Cowshed</en>
+    </text>
+    <text name="dockyard">
+      <cz>Přístav</cz>
+      <en>Dockyard</en>
     </text>
   </l10n>
 </mapconfig>
