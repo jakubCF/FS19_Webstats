@@ -1,206 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mapconfig>
-	<l10n>
-		<!-- Tierhaltung ************************************************* -->
-		<text name="doghouse">
-			<cz>Psí bouda</cz>
-			<en>Dog house</en>
-			<de>Hundehütte</de>
-		</text>
-		<text name="husbandryChicken">
-			<cz>Slepičárna</cz>
-			<en>husbandryChicken</en>
-			<de>Hühnerstall</de>
-		</text>
-		<text name="husbandryChickenLarge">
-			<cz>Velká slepičárna</cz>
-			<en>husbandryChickenLarge</en>
-			<de>Großer Hühnerstall</de>
-		</text>
-		<text name="husbandryCow">
-			<cz>Velký kravín</cz>
-			<en>Cow husbandry</en>
-			<de>Kuhweide</de>
-		</text>
-		<text name="husbandryCowLarge">
-			<cz>Velký kravín</cz>
-			<en>Big cow husbandry</en>
-			<de>Große Kuhweide</de>
-		</text>
-		<text name="husbandryHorse">
-			<cz>Konírna</cz>
-			<en>Horse husbandry</en>
-			<de>Pferdestall</de>
-		</text>
-		<text name="husbandryHorseLarge">
-			<cz>Velká konírna</cz>
-			<en>Large horse husbandry</en>
-			<de>Großer Pferdestall</de>
-		</text>
-		<text name="husbandryPig">
-			<cz>Prasečák</cz>
-			<en>Pig husbandry</en>
-			<de>Schweinestall</de>
-		</text>
-		<text name="husbandryPigLarge">
-			<cz>Velký prasečák</cz>
-			<en>Big pig husbandry</en>
-			<de>Großer Schweinestall</de>
-		</text>
-		<text name="husbandrySheep">
-			<cz>Ovčírna</cz>
-			<en>Sheep husbandry</en>
-			<de>Schafweide</de>
-		</text>
-		<text name="husbandrySheepLarge">
-			<cz>Velká ovčírna</cz>
-			<en>Big sheep husbandry</en>
-			<de>Große Schafweide</de>
-		</text>
-		<!-- Diverses **************************************************** -->
-		<text name="kaercherHDS918-4M">
-			<en>HDS 9/18-4 M</en>
-			<cz>HDS 9/18-4 M</cz>
-			<de>HDS 9/18-4 M</de>
-		</text>
-		<text name="workshop">
-			<cz>Dílna</cz>
-			<en>Workshop</en>
-			<de>Werkstatt</de>
-		</text>
-		<text name="jenzHE700">
-			<cz>HE 700 StA</cz>
-			<en>HE 700 StA</en>
-			<de>HE 700 StA</de>
-		</text>
-		<text name="waterTank">
-			<cz>Vodní nádrž</cz>
-			<en>Water tank</en>
-			<de>Wassertank</de>
-		</text>
-		<!-- Silos ******************************************************* -->
-		<text name="farmSiloSmall">
-			<cz>Malé silo</cz>
-			<en>Small farm silo</en>
-			<de>Getreidesilo</de>
-		</text>
-		<text name="farmSiloLarge">
-			<cz>Velké silo</cz>
-			<en>Big farm silo</en>
-			<de>Großes Silo</de>
-		</text>
-		<text name="siloExtension">
-			<cz>Rozšíření sila</cz>
-			<en>Silo extension</en>
-			<de>Große Siloerweiterung</de>
-		</text>
-		<text name="hayLoft">
-			<cz>Seník</cz>
-			<en>hayLoft</en>
-			<de>Heulager</de>
-		</text>
-		<text name="bunkerSiloSmall">
-			<cz>Malá silážní jáma</cz>
-			<en>Small bunker silo</en>
-			<de>Kleines Fahrsilo</de>
-		</text>
-		<text name="bunkerSiloMedium">
-			<cz>Střední silážní jáma</cz>
-			<en>Medium bunker silo</en>
-			<de>Mittleres Fahrsilo</de>
-		</text>
-		<text name="bunkerSiloLarge">
-			<cz>Velká silážní jáma</cz>
-			<en>Big bunker silo</en>
-			<de>Großes Fahrsilo</de>
-		</text>
-		<text name="bunkerSiloSmallDouble">
-			<cz>Malá dvojitá silážní jáma</cz>
-			<en>Small bunker silo (double)</en>
-			<de>Kleines Doppelfahrsilo</de>
-		</text>
-		<text name="bunkerSiloMediumDouble">
-			<cz>Střední dvojitá silážní jáma</cz>
-			<en>Medium bunker silo (double)</en>
-			<de>Mittleres Doppelfahrsilo</de>
-		</text>
-		<text name="bunkerSiloLargeDouble">
-			<cz>Velká dvojitá silážní jáma</cz>
-			<en>Big bunker silo (double)</en>
-			<de>Großes Doppelfahrsilo</de>
-		</text>
-		<!-- Dekorationen ************************************************ -->
-		<text name="sandCastle">
-			<de>Sandburg</de>
-		</text>
-		<text name="farmBarn">
-			<de>Hof Scheune</de>
-		</text>
-		<text name="farmGarage">
-			<de>Hof Garage</de>
-		</text>
-		<text name="farmStorageBarn">
-			<de>Hof Unterstand</de>
-		</text>
-		<text name="farmStable">
-			<de>Hof Stall</de>
-		</text>
-		<text name="farmStorage">
-			<de>Hof Speicher</de>
-		</text>
-		<text name="farmHut">
-			<de>Hof Hüte</de>
-		</text>
-		<text name="farmShack">
-			<de>Hof Schuppen 1</de>
-		</text>
-		<text name="farmShed">
-			<de>Hof Schuppen 2</de>
-		</text>
-		<text name="farmStable">
-			<de>Hof Stall</de>
-		</text>
-		<text name="farmStorage">
-			<de>Hof Speicher</de>
-		</text>
-		<text name="farmTrailer">
-			<de>Hof Baracke</de>
-		</text>
-		<text name="farmOldBarn">
-			<cz>Stará stodola</cz>
-			<en>Farm old barn</en>
-			<de>Hof Scheune (alt)</de>
-		</text>
-		<!-- Hallen ****************************************************** -->
-		<text name="easyShed01">
-			<cz>Easy Shed 1</cz>
-			<en>Easy Shed 1</en>
-			<de>Easy Shed 1</de>
-		</text>
-		<text name="easyShed02">
-			<cz>Easy Shed 2</cz>
-			<en>Easy Shed 2</en>
-			<de>Easy Shed 2</de>
-		</text>
-		<text name="easyShed03">
-			<cz>Easy Shed 3</cz>
-			<en>Easy Shed 3</en>
-			<de>Easy Shed 3</de>
-		</text>
-		<!-- Farmhaus **************************************************** -->
-		<text name="farmHouse">
-			<cz>Statek</cz>
-			<en>Farm house</en>
-			<de>Farmhaus</de>
-		</text>
-	</l10n>
+  <placeables>
+    <placeable basename="bga.xml" name="$l10n_storageSilo" brand="LIZARD" img="store_empty" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="bunkerSiloLarge.xml" name="$l10n_bunkerSiloLarge" brand="LIZARD" img="store_bunkerSiloLarge" lifetime="1000" dailykeepup="80" category="silos"/>
+    <placeable basename="bunkerSiloLargeDouble.xml" name="$l10n_bunkerSiloLargeDouble" brand="LIZARD" img="store_bunkerSiloLargeDouble" lifetime="1000" dailykeepup="160" category="silos"/>
+    <placeable basename="bunkerSiloMedium.xml" name="$l10n_bunkerSiloMedium" brand="LIZARD" img="store_bunkerSiloMedium" lifetime="1000" dailykeepup="40" category="silos"/>
+    <placeable basename="bunkerSiloMediumDouble.xml" name="$l10n_bunkerSiloMediumDouble" brand="LIZARD" img="store_bunkerSiloMediumDouble" lifetime="1000" dailykeepup="80" category="silos"/>
+    <placeable basename="bunkerSiloSmall.xml" name="$l10n_bunkerSiloSmall" brand="LIZARD" img="store_bunkerSiloSmall" lifetime="1000" dailykeepup="20" category="silos"/>
+    <placeable basename="bunkerSiloSmallDouble.xml" name="$l10n_bunkerSiloSmallDouble" brand="LIZARD" img="store_bunkerSiloSmallDouble" lifetime="1000" dailykeepup="40" category="silos"/>
+    <placeable basename="crane.xml" name="$l10n_shopItem_railroadCrane" brand="LIZARD" img="store_crane" lifetime="0" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="doghouse.xml" name="$l10n_shopItem_doghouse" brand="Lizard" img="store_doghouse" lifetime="1000" dailykeepup="5" category="animalpens"/>
+    <placeable basename="easyShed01.xml" name="Easy Shed 1" brand="EASYSHEDS" img="store_easyShed01" lifetime="1000" dailykeepup="10" category="sheds"/>
+    <placeable basename="easyShed02.xml" name="Easy Shed 2" brand="EASYSHEDS" img="store_easyShed02" lifetime="1000" dailykeepup="20" category="sheds"/>
+    <placeable basename="easyShed03.xml" name="Easy Shed 3" brand="EASYSHEDS" img="store_easyShed03" lifetime="1000" dailykeepup="30" category="sheds"/>
+    <placeable basename="farmBarn.xml" name="$l10n_shopItem_farmBarn" brand="LIZARD" img="store_farmBarn" lifetime="1000" dailykeepup="150" category="decoration"/>
+    <placeable basename="farmGarage.xml" name="$l10n_shopItem_farmGarage" brand="LIZARD" img="store_farmGarage" lifetime="1000" dailykeepup="25" category="decoration"/>
+    <placeable basename="farmHouse.xml" name="$l10n_object_farmhouse" brand="LIZARD" img="store_farmHouse" lifetime="1000" dailykeepup="150" category="farmhouses"/>
+    <placeable basename="farmHousePreplaced.xml" name="$l10n_object_farmhouse" brand="LIZARD" img="store_farmHouse" lifetime="1000" dailykeepup="" category="farmhouses"/>
+    <placeable basename="farmSilo.xml" name="$l10n_shopItem_farmSiloLarge" brand="LIZARD" img="store_farmSilo" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="farmSiloLarge.xml" name="$l10n_shopItem_farmSiloLarge" brand="LIZARD" img="store_farmSiloLarge" lifetime="1000" dailykeepup="60" category="silos"/>
+    <placeable basename="farmSiloSmall.xml" name="$l10n_shopItem_farmSiloSmall" brand="LIZARD" img="store_farmSiloSmall" lifetime="1000" dailykeepup="45" category="silos"/>
+    <placeable basename="farmStorageBarn.xml" name="$l10n_shopItem_farmStorageBarn" brand="LIZARD" img="store_farmStorageBarn" lifetime="1000" dailykeepup="50" category="decoration"/>
+    <placeable basename="gasStation01.xml" name="$l10n_shopItem_gasStation" brand="LIZARD" img="store_gasStation" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="gasStation02.xml" name="$l10n_shopItem_gasStation" brand="LIZARD" img="store_gasStation" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="gasStation03.xml" name="$l10n_shopItem_gasStation" brand="LIZARD" img="store_gasStation" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="grainElevatorEast.xml" name="$l10n_shopItem_sellingStation" brand="LIZARD" img="store_grainElevatorEast" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="hayLoft.xml" name="$l10n_shopItem_hayLoft" brand="LIZARD" img="store_hayLoft" lifetime="1000" dailykeepup="40" category="silos"/>
+    <placeable basename="husbandryChicken.xml" name="$l10n_animalPen_chicken" brand="Lizard" img="store_husbandryChickenSmall" lifetime="1000" dailykeepup="20" category="animalpens"/>
+    <placeable basename="husbandryChickenLarge.xml" name="$l10n_animalPen_chicken2" brand="Lizard" img="store_husbandryChickenLarge" lifetime="1000" dailykeepup="40" category="animalpens"/>
+    <placeable basename="husbandryCow.xml" name="$l10n_animalPen_cow" brand="Lizard" img="store_husbandryCowSmall" lifetime="1000" dailykeepup="100" category="animalpens"/>
+    <placeable basename="husbandryCowLarge.xml" name="$l10n_animalPen_cow2" brand="Lizard" img="store_husbandryCowLarge" lifetime="1000" dailykeepup="300" category="animalpens"/>
+    <placeable basename="husbandryHorse.xml" name="$l10n_animalPen_horse" brand="Lizard" img="store_husbandryHorseSmall" lifetime="1000" dailykeepup="50" category="animalpens"/>
+    <placeable basename="husbandryHorseLarge.xml" name="$l10n_animalPen_horse2" brand="Lizard" img="store_husbandryHorseLarge" lifetime="1000" dailykeepup="95" category="animalpens"/>
+    <placeable basename="husbandryPig.xml" name="$l10n_animalPen_pig" brand="Lizard" img="store_husbandryPigSmall" lifetime="1000" dailykeepup="90" category="animalpens"/>
+    <placeable basename="husbandryPigLarge.xml" name="$l10n_animalPen_pig2" brand="Lizard" img="store_husbandryPigLarge" lifetime="1000" dailykeepup="250" category="animalpens"/>
+    <placeable basename="husbandrySheep.xml" name="$l10n_animalPen_sheep" brand="Lizard" img="store_husbandrySheepSmall" lifetime="1000" dailykeepup="65" category="animalpens"/>
+    <placeable basename="husbandrySheepLarge.xml" name="$l10n_animalPen_sheep2" brand="Lizard" img="store_husbandrySheepLarge" lifetime="1000" dailykeepup="180" category="animalpens"/>
+    <placeable basename="jenzHE700.xml" name="HE 700 StA" brand="JENZ" img="store_jenzHE700" lifetime="1000" dailykeepup="100" category="placeableMisc"/>
+    <placeable basename="kaercherHDS918-4M.xml" name="HDS 9/18-4 M" brand="KAERCHER" img="store_kaercherHDS918-4M" lifetime="1000" dailykeepup="5" category="placeableMisc"/>
+    <placeable basename="limeStation.xml" name="$l10n_shopItem_limeStation" brand="LIZARD" img="store_buyingStation" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="limeStation02.xml" name="$l10n_shopItem_limeStation" brand="LIZARD" img="store_buyingStation" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="limeStation03.xml" name="$l10n_shopItem_limeStation" brand="LIZARD" img="store_buyingStation" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="railroadCaller.xml" name="Railroad Caller" brand="LIZARD" img="store_railroadCaller" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="railroadCrossing.xml" name="Railroad crossing" brand="LIZARD" img="store_railroadCrossing" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="railroadSilo01.xml" name="$l10n_storageSilo" brand="LIZARD" img="store_railroadSilo01" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="railroadSilo02.xml" name="$l10n_storageSilo" brand="LIZARD" img="store_railroadSilo02" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sandCastle.xml" name="$l10n_shopItem_sandcastle" brand="LIZARD" img="store_sandCastle" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="sellStation.xml" name="$l10n_shopItem_sellStation" brand="LIZARD" img="store_farmSilo" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationBales.xml" name="$l10n_shopItem_sellingStationBales" brand="LIZARD" img="store_sellingStationBales" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationGeneric.xml" name="$l10n_shopItem_sellStation" brand="LIZARD" img="store_sellingStationGeneric" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationMill02.xml" name="$l10n_shopItem_sellStation" brand="LIZARD" img="store_sellingStationMill02" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationPort01.xml" name="$l10n_shopItem_sellStation" brand="LIZARD" img="store_sellingStationPort01" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationPort02.xml" name="$l10n_shopItem_sellStation" brand="LIZARD" img="store_sellingStationPort02" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationVehicles.xml" name="shopItem_sellingStationVehicles" brand="LIZARD" img="store_sellingStationVehicles" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationWood.xml" name="shopItem_sellingStationWood" brand="LIZARD" img="store_sellingStationWood" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationWoodChips.xml" name="$l10n_shopItem_sellingStation" brand="LIZARD" img="store_sellingStationWoodChips" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="sellingStationWool.xml" name="$l10n_station_spinnery" brand="LIZARD" img="store_sellingStationWool" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="siloExtension.xml" name="$l10n_shopItem_siloExtensionLarge" brand="LIZARD" img="store_siloExtension" lifetime="1000" dailykeepup="25" category="silos"/>
+    <placeable basename="testHusbandry.xml" name="Horse Husbandry" brand="Lizard" img="store_empty" lifetime="1000" dailykeepup="" category="animalpens"/>
+    <placeable basename="trainStationMill.xml" name="$l10n_shopItem_sellingStation" brand="LIZARD" img="store_trainStationMill" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="trainSystem.xml" name="TrainSystem" brand="LIZARD" img="store_trainSystem" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="waterFillTriggers.xml" name="$l10n_fillType_water" brand="LIZARD" img="store_waterFillTriggers" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="waterTank.xml" name="$l10n_shopItem_waterTower" brand="LIZARD" img="store_waterTank" lifetime="1000" dailykeepup="5" category="placeableMisc"/>
+    <placeable basename="woodSellStation.xml" name="WoodSellStation" brand="LIZARD" img="store_woodSellStation" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="workshop.xml" name="$l10n_shopItem_workshop" brand="LIZARD" img="store_workshop" lifetime="1000" dailykeepup="50" category="placeableMisc"/>
+  </placeables>
 </mapconfig>
-
-
-
-
-
-
-
-
-

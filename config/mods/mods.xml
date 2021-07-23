@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+  <vehicles>
+    <vehicle basename="120ft.xml" type="manureBarrel" name="120-foot boom" brand="JOHNDEERE" img="store_120ft" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="180.xml" type="manureBarrel" name="Cubex 180" brand="VALZELLI" img="store_180" lifetime="600" category="slurryTanks" wearable="500"/>
+    <vehicle basename="200A.xml" type="200A_rimorchio" name="200A" brand="ADURANTE" img="store_200A" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="300.xml" type="manureBarrel" name="Cubex 300" brand="VALZELLI" img="store_300" lifetime="600" category="slurryTanks" wearable="500"/>
+    <vehicle basename="4940.xml" type="JD4940" name="4940 Self-Propelled Sprayer" brand="JOHNDEERE" img="store_4940" lifetime="600" category="sprayerVehicles" wearable="480">
+      <motor id="1" name="4940 Self-Propelled Sprayer"/>
+    </vehicle>
+    <vehicle basename="4X.xml" type="manureBarrel" name="Cubex 4X" brand="VALZELLI" img="store_4X" lifetime="600" category="slurryTanks" wearable="500"/>
+    <vehicle basename="6180.xml" type="6180" name="Spudnik 6180" brand="LIZARD" img="store_6180" lifetime="500" category="potatoHarvesting" wearable="480"/>
+    <vehicle basename="643R.xml" type="attachableFrontloader3" name="643R" brand="JOHNDEERE" img="store_643R" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="8312.xml" type="fertilizingSowingMachine" name="8312" brand="Spudnik" img="store_8312" lifetime="600" category="potatoHarvesting" wearable="480"/>
+    <vehicle basename="BeeBox.xml" type="gcProductionItem" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_beeBox" brand="GCRODUCTIONS" img="store_BeeBox" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="BitremFrontalLong.xml" type="trailer" name="$l10n_name_RandonBitremFrontal" brand="RANDON" img="store_BitremFrontalLong" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="BitremTraseiro.xml" type="trailer" name="$l10n_name_RandonBitremTraseiro" brand="RANDON" img="store_BitremTraseiro" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="BuL_B50AR03.xml" type="strawHarvestBaleGrab" name="B50 AR-03" brand="BRESSELUNDLADE" img="store_BuL_B50AR03" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="BuL_B50AR05.xml" type="strawHarvestBaleGrab" name="B50 AR-05" brand="BRESSELUNDLADE" img="store_BuL_B50AR05" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="Bucket.xml" type="gcProductionItem" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_bucket" brand="GCRODUCTIONS" img="store_Bucket" lifetime="" category="gcProduction" wearable=""/>
+    <vehicle basename="BucketLarge.xml" type="gcProductionItem" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_bucket" brand="GCRODUCTIONS" img="store_BucketLarge" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="CsD754.xml" type="tractor" name="D-754" brand="LIZARD" img="store_CsD754" lifetime="600" category="trucks" wearable="480">
+      <motor id="1" name="D754"/>
+    </vehicle>
+    <vehicle basename="CsHts.xml" type="manureBarrel" name="HTS-80 PF" brand="LIZARD" img="store_CsHts" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="CsPlatform.xml" type="trailer" name="BP-9" brand="LIZARD" img="store_CsPlatform" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="CyberquadTresla.xml" type="carFillable" name="Tresla Cyberquad" brand="LIZARD" img="store_CyberquadTresla" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="Tersla"/>
+    </vehicle>
+    <vehicle basename="Dolly.xml" type="dolly" name="Bogeyman" brand="LIZARD" img="store_Dolly" lifetime="600" category="dollys" wearable="480"/>
+    <vehicle basename="EP22.xml" type="trailer" name="EP22 End Dump" brand="WEST" img="store_EP22" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="EP40.xml" type="trailer" name="EP40 End Dump" brand="WEST" img="store_EP40" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="EP48.xml" type="trailer" name="EP48 End Dump" brand="WEST" img="store_EP48" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="FMSZ.xml" type="waterTrailer" name="FMSZ-2KT PF" brand="LIZARD" img="store_FMSZ" lifetime="600" category="animals" wearable="480"/>
+    <vehicle basename="Flatbed1.xml" type="trailer" name="Flat Bed Version 1" brand="LIZARD" img="store_Flatbed1" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="Flatbed2.xml" type="trailer" name="Flat Bed Version 2" brand="LIZARD" img="store_Flatbed2" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="ForkFL.xml" type="implementDynamicMountAttacher" name="$l10n_shopItem_KerfabFork" brand="LIZARD" img="store_ForkFL" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="Fraese.xml" type="pickupConveyor" name="Milling Machine" brand="LIZARD" img="store_Fraese" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="Hesston.xml" type="baler" name="Big Balers" brand="MASSEYFERGUSON" img="store_Hesston" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="HoneyBox.xml" type="gcProductionItem" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBox" brand="GCRODUCTIONS" img="store_HoneyBox" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="HoneyBoxFull.xml" type="gcProductionItem" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBoxFull" brand="GCRODUCTIONS" img="store_HoneyBoxFull" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="HoneyComb.xml" type="gcProductionItem" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyComb" brand="GCRODUCTIONS" img="store_HoneyComb" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="HoneyCombFull.xml" type="gcProductionItem" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyCombFull" brand="GCRODUCTIONS" img="store_HoneyCombFull" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="HoneyExtractor.xml" type="gcProductionFactoryVehicle" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyExtractor" brand="GCRODUCTIONS" img="store_HoneyExtractor" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="HoneyFillStation.xml" type="gcProductionFactoryVehicle" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyFillStation" brand="GCRODUCTIONS" img="store_HoneyFillStation" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="JohnstonBrothers.xml" type="dynamicMountAttacherTrailer" name="Flat bed" brand="JOHNSTONBROTHERS" img="store_JohnstonBrothers" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="Krukowiak_Z437.xml" type="z437" name="5640" brand="Lizard" img="store_Krukowiak_Z437" lifetime="500" category="potatoHarvesting" wearable="960"/>
+    <vehicle basename="L3030G4.xml" type="sprayer" name="L3030G4 Drybox" brand="JOHNDEERE" img="store_L3030G4" lifetime="600" category="fertilizerSpreaders" wearable="480"/>
+    <vehicle basename="Liborto.xml" type="plow" name="Subsoiler 6M" brand="LIZARD" img="store_Liborto" lifetime="650" category="plows" wearable="480"/>
+    <vehicle basename="LiveStockModule.xml" type="livestockTrailer" name="Livestock Module" brand="JOHNSTONBROTHERS" img="store_LiveStockModule" lifetime="600" category="animalTransport" wearable="480"/>
+    <vehicle basename="LizardF350.xml" type="carFillable" name="F350 Super Duty" brand="LIZARD" img="store_LizardF350" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="F350 Super Duty"/>
+    </vehicle>
+    <vehicle basename="LizardMethanol.xml" type="pallet" name="$l10n_shopItem_methanolTank" brand="LIZARD" img="store_LizardMethanol" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="MC18.xml" type="teleHandler2" name="MC 18-4" brand="MANITOU" img="store_MC18" lifetime="600" category="miscVehicles" wearable="480">
+      <motor id="1" name="MC 18-4"/>
+    </vehicle>
+    <vehicle basename="MF9407S.xml" type="teleHandler2" name="9407 S" brand="MASSEYFERGUSON" img="store_MF9407S" lifetime="600" category="teleLoaderVehicles" wearable="480">
+      <motor id="1" name="9407 S"/>
+    </vehicle>
+    <vehicle basename="Mex6.xml" type="attachableCombine" name="MEX 6" brand="POETTINGER" img="store_Mex6" lifetime="600" category="forageHarvesterCutters" wearable="480"/>
+    <vehicle basename="Onion_SE260.xml" type="attachableCombineCutterFruitPreparer" name="SE 260 Onion" brand="GRIMME" img="store_Onion_SE260" lifetime="600" category="potatoHarvesting" wearable="480"/>
+    <vehicle basename="P2200.xml" type="strawBlower" name="P2200" brand="ROBERT" img="store_P2200" lifetime="600" category="animals" wearable="480"/>
+    <vehicle basename="PUT.xml" type="fuelTrailer" name="PUT-7" brand="LIZARD" img="store_PUT" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="PalletFork_new.xml" type="implementDynamicMountAttacher3" name="Pallet fork (adjustable)" brand="STOLL" img="store_PalletFork_new" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="Parkland.xml" type="baleLoader" name="Parkland" brand="PARKLAND" img="store_Parkland" lifetime="600" category="baling" wearable="380"/>
+    <vehicle basename="Pop6X.xml" type="cutter" name="Pop6x" brand="ARTMECHANIC" img="store_Pop6X" lifetime="1200" category="forageHarvesterCutters" wearable="480"/>
+    <vehicle basename="Prancha.xml" type="trailer" name="Prancha Agricola" brand="LIZARD" img="store_Prancha" lifetime="600" category="lowloaders" wearable="480"/>
+    <vehicle basename="SB1000.xml" type="implement2" name="SB 1000" brand="SUER" img="store_SB1000" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="SB1600.xml" type="implement2" name="SB 1600" brand="SUER" img="store_SB1600" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="SB2400.xml" type="implement2" name="SM 2400" brand="SUER" img="store_SB2400" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="SB700.xml" type="implement2" name="SB 700" brand="SUER" img="store_SB700" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="SE260.xml" type="attachableCombineCutterFruitPreparer" name="SE 260 Carrot" brand="GRIMME" img="store_SE260" lifetime="600" category="potatoHarvesting" wearable="480"/>
+    <vehicle basename="SX210ITR.xml" type="SXITR" name="SX 210 ITR" brand="LIZARD" img="store_SX210ITR" lifetime="1600" category="trucks" wearable="480">
+      <motor id="1" name="Detroit D60"/>
+      <motor id="2" name="Cummins M11"/>
+      <motor id="3" name="Paccar MX-13"/>
+      <motor id="4" name="Caterpillar C15"/>
+      <motor id="5" name="Paccar MX-13"/>
+    </vehicle>
+    <vehicle basename="ServiceBody.xml" type="servico" name="Service Body" brand="LIZARD" img="store_ServiceBody" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="StandardBody.xml" type="trailer" name="Standard Body" brand="LIZARD" img="store_StandardBody" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="T088CS.xml" type="manureSpreader" name="T 088CS" brand="LIZARD" img="store_T088CS" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="TASI22000.xml" type="shovel" name="TASI 22T" brand="LIZARD" img="store_TASI22000" lifetime="600" category="sugarCaneHarvesting" wearable="480"/>
+    <vehicle basename="TTS.xml" type="transportTrailer" name="TTS" brand="LIZARD" img="store_TTS" lifetime="600" category="wood" wearable="480"/>
+    <vehicle basename="TaTraITR.xml" type="TaTraITR" name="Phoenix ITRunner Edition" brand="TATRA" img="store_TaTraITR" lifetime="600" category="trucks" wearable="960">
+      <motor id="1" name="Tatra ITR 460HP"/>
+      <motor id="2" name="Tatra ITR 640HP"/>
+    </vehicle>
+    <vehicle basename="TankerT.xml" type="MercedesTanker" name="Mercedes Tanker Trailer" brand="MERCEDESBENZ" img="store_TankerT" lifetime="600" category="edwardsmodding" wearable="480"/>
+    <vehicle basename="Tatra148.xml" type="carFillable" name="TATRA 148" brand="TATRA" img="store_Tatra148" lifetime="600" category="trucks" wearable="480">
+      <motor id="1" name="TATRA 138"/>
+      <motor id="2" name="TATRA 148"/>
+    </vehicle>
+    <vehicle basename="Trinity.xml" type="trailer" name="Trinity Eagle" brand="TRINITY" img="store_Trinity" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="adattatore.xml" type="CSZpackImplement" name="$l10n_name_adattatoreT" brand="CSZ" img="store_adattatore" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="adattatoreFrontLoaders.xml" type="CSZpackImplement" name="$l10n_name_adattatoreTF" brand="CSZ" img="store_adattatoreFrontLoaders" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="adattatoreSkidSteers.xml" type="CSZpackImplement" name="$l10n_name_adattatoreFS" brand="CSZ" img="store_adattatoreSkidSteers" lifetime="600" category="frontloaders" wearable="480"/>
+    <vehicle basename="adattatoreTeleLoaders.xml" type="CSZpackImplement" name="$l10n_name_adattatoreW" brand="CSZ" img="store_adattatoreTeleLoaders" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="adattatoreWheelLoaders.xml" type="CSZpackImplement" name="$l10n_name_adattatoreTW" brand="CSZ" img="store_adattatoreWheelLoaders" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="baleCollect.xml" type="kroneBaleCollect" name="BaleCollect 1230" brand="KRONE" img="store_baleCollect" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="baleHugger.xml" type="baleGrab3" name="Bale handler" brand="PALADIN" img="store_baleHugger" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="baleModule.xml" type="baleModule" name="Bale Module" brand="JOHNSTONBROTHERS" img="store_baleModule" lifetime="600" category="baling" wearable=""/>
+    <vehicle basename="baleShredder.xml" type="kronePremosBaleShredder" name="$l10n_name_baleShredder" brand="KRONE" img="store_baleShredder" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="baleSpear.xml" type="implementDynamicMountAttacher3" name="Bale spear" brand="PALADIN" img="store_baleSpear" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="baleTwinePallet.xml" type="pallet" name="$l10n_baleTwinePallet" brand="KRONE" img="store_baleTwinePallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="barPallet.xml" type="pallet" name="$l10n_FS19_PalletProduction_palletName1" brand="AgraZ" img="store_barPallet" lifetime="" category="agraZPallet" wearable=""/>
+    <vehicle basename="barrelPallet.xml" type="pallet" name="$l10n_FS19_Distillery_name1" brand="AgraZ" img="store_barrelPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="bennaDesilatrice.xml" type="CSZpackShovelMixerWagon" name="$l10n_name_bennaDesilatriceW" brand="CSZ" img="store_bennaDesilatrice" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaGrigliaOrrizontale.xml" type="CSZpackShovel" name="$l10n_name_bennaGrigliaOrrizontaleW" brand="CSZ" img="store_bennaGrigliaOrrizontale" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaGrigliaOrrizontaleTrattenitore.xml" type="CSZpackShovel" name="$l10n_name_bennaGrigliaOrrizontaleTrattenitoreW" brand="CSZ" img="store_bennaGrigliaOrrizontaleTrattenitore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaGrigliaVerticale.xml" type="CSZpackShovel" name="$l10n_name_bennaGrigliaVerticaleW" brand="CSZ" img="store_bennaGrigliaVerticale" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaGrigliaVerticaleTrattenitore.xml" type="CSZpackShovel" name="$l10n_name_bennaGrigliaVerticaleTrattenitoreW" brand="CSZ" img="store_bennaGrigliaVerticaleTrattenitore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaMultiuso.xml" type="CSZpackShovel" name="$l10n_name_bennaMultiusoW" brand="CSZ" img="store_bennaMultiuso" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaMultiusoPlus.xml" type="CSZpackShovel" name="$l10n_name_bennaMultiusoWP" brand="CSZ" img="store_bennaMultiusoPlus" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaMultiusoTrattenitore.xml" type="CSZpackShovel" name="$l10n_name_bennaMultiusoTrattenitoreW" brand="CSZ" img="store_bennaMultiusoTrattenitore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaRaptor.xml" type="CSZpackShovel" name="$l10n_name_bennaRaptorW" brand="CSZ" img="store_bennaRaptor" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaScaricoCentrale.xml" type="CSZpackShovel" name="$l10n_name_bennaScaricoCentraleW" brand="CSZ" img="store_bennaScaricoCentrale" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bennaTramoggia.xml" type="CSZpackShovel" name="$l10n_name_bennaTramoggiaW" brand="CSZ" img="store_bennaTramoggia" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="besen.xml" type="broom" name="Animal Broom" brand="LIZARD" img="store_besen" lifetime="600" category="misc" wearable=""/>
+    <vehicle basename="besenCleaner.xml" type="broom" name="Cleaning Broom" brand="LIZARD" img="store_besenCleaner" lifetime="600" category="misc" wearable=""/>
+    <vehicle basename="bigBagContainerChickenFood.xml" type="pallet" name="ChickenFood Bigbag" brand="PIONEER" img="store_bigBagContainerChickenFood" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerFertilizer.xml" type="pallet" name="Fertilizer Bigbag" brand="PIONEER" img="store_bigBagContainerFertilizer" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerForage.xml" type="pallet" name="Forage Bigbag" brand="PIONEER" img="store_bigBagContainerForage" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerHorseFood.xml" type="pallet" name="HorseFood Bigbag" brand="PIONEER" img="store_bigBagContainerHorseFood" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerLime.xml" type="pallet" name="Lime Bigbag" brand="PIONEER" img="store_bigBagContainerLime" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerPigFood.xml" type="pallet" name="PigFood Bigbag" brand="PIONEER" img="store_bigBagContainerPigFood" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerSalt.xml" type="pallet" name="$l10n_seasons_shopItem_bigBagSalt" brand="LIZARD" img="store_bigBagContainerSalt" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerSeeds.xml" type="pallet" name="Seeds Bigbag" brand="PIONEER" img="store_bigBagContainerSeeds" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerSilage.xml" type="pallet" name="Silage Bigbag" brand="PIONEER" img="store_bigBagContainerSilage" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigBagContainerWoodchips.xml" type="pallet" name="Woodchips Bigbag" brand="PIONEER" img="store_bigBagContainerWoodchips" lifetime="" category="bigbags" wearable=""/>
+    <vehicle basename="bigForca.xml" type="CSZpackShovel" name="$l10n_name_bigForcaW" brand="CSZ" img="store_bigForca" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="bigM450.xml" type="selfPropelledMower" name="BiG M 450" brand="KRONE" img="store_bigM450" lifetime="600" category="mowerVehicles" wearable="480">
+      <motor id="1" name="BiG M 450"/>
+    </vehicle>
+    <vehicle basename="bigPack1290HDPII.xml" type="kroneBigPack1290HDPII" name="BigPack 1290 HDP II XC" brand="KRONE" img="store_bigPack1290HDPII" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="bilancinoSollevamento.xml" type="CSZpackTrailer" name="$l10n_name_bilancinoSollevamento" brand="CSZ" img="store_bilancinoSollevamento" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="boardPallet.xml" type="pallet" name="$l10n_FS19_littleSawmill_palletName2" brand="AgraZ" img="store_boardPallet" lifetime="" category="agraZPallet" wearable=""/>
+    <vehicle basename="bracettoSollevamento.xml" type="CSZpackImplement" name="$l10n_name_bracettoSollevamentoW" brand="CSZ" img="store_bracettoSollevamento" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="canisterPallet.xml" type="pallet" name="$l10n_molassesPallet" brand="WEIDEGUT" img="store_canisterPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="cestello.xml" type="CSZpackImplement" name="$l10n_name_cestelloW" brand="CSZ" img="store_cestello" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="cfb16.xml" type="treeSaw3" name="CFB-16" brand="DFM" img="store_cfb16" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="chickenFoodPallet.xml" type="pallet" name="$l10n_shopItem_chickenFoodPallet" brand="LIZARD" img="store_chickenFoodPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="chickenPallet.xml" type="pallet" name="$l10n_chickenfood" brand="LIZARD" img="store_chickenPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="comprimaV180XC.xml" type="kroneComprimaV180XC" name="Comprima V 180 XC" brand="KRONE" img="store_comprimaV180XC" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="containerAnimalTrailer.xml" type="itrhookLiftContainerLivestockTrailer" name="Livestock Trailer" brand="JOSKIN" img="store_containerAnimalTrailer" lifetime="600" category="animalTransport" wearable="480"/>
+    <vehicle basename="containerBales.xml" type="hookLiftContainerTrailer" name="Bale container" brand="ITRUNNER" img="store_containerBales" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="containerBalesBig.xml" type="hookLiftContainerTrailer" name="Combi container M" brand="ITRUNNER" img="store_containerBalesBig" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerBalesXXL.xml" type="hookLiftContainerTrailer" name="Combi container L" brand="ITRUNNER" img="store_containerBalesXXL" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerChaff.xml" type="hookLiftContainerTrailer" name="HT 50" brand="BERGMANN" img="store_containerChaff" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerDumper.xml" type="hookLiftContainerTrailer" name="Skip" brand="ITRUNNER" img="store_containerDumper" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerLiquids.xml" type="hookLiftContainerTrailer" name="Multi Liquid Tank" brand="RYC_ONE" img="store_containerLiquids" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="containerManureSpreader.xml" type="hookLiftContainerTrailerSpreader" name="Fortis 2000" brand="FARMTECH" img="store_containerManureSpreader" lifetime="600" category="manureSpreaders" wearable="480"/>
+    <vehicle basename="containerManureTank.xml" type="itrmanureTrailerHookLift" name="Slurry field container" brand="ITRUNNER" img="store_containerManureTank" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="containerMilk.xml" type="waterTrailerHookLift" name="Milk Tank" brand="ITRUNNER" img="store_containerMilk" lifetime="600" category="animals" wearable="480"/>
+    <vehicle basename="containerPronar.xml" type="hookLiftContainerTrailer" name="bulk cargo containers" brand="ITRUNNER" img="store_containerPronar" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerRolloff.xml" type="hookLiftContainerTrailer" name="rolloff container 30m³" brand="ITRUNNER" img="store_containerRolloff" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerSilage.xml" type="hookLiftContainerTrailer" name="Grain container" brand="ITRUNNER" img="store_containerSilage" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerSilageSmall.xml" type="hookLiftContainerTrailer" name="Grain container 30m³" brand="ITRUNNER" img="store_containerSilageSmall" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerSlurry.xml" type="hookLiftContainerTrailerBarrel" name="Slurry container" brand="ITRUNNER" img="store_containerSlurry" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="containerTCM.xml" type="hookLiftContainerTrailer" name="Grain and transport tipper" brand="TCM" img="store_containerTCM" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerTCM2623.xml" type="hookLiftContainerTrailer" name="Grain and transport tipper 26.23" brand="TCM" img="store_containerTCM2623" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="containerVehicles.xml" type="dynamicMountAttacherTrailerHookLift" name="Vehicle platform" brand="ITRUNNER" img="store_containerVehicles" lifetime="600" category="lowloaders" wearable="480"/>
+    <vehicle basename="containerWood.xml" type="hookLiftContainerTrailer" name="Wood container" brand="ITRUNNER" img="store_containerWood" lifetime="600" category="wood" wearable="480"/>
+    <vehicle basename="cowPallet.xml" type="pallet" name="$l10n_cowfood" brand="LIZARD" img="store_cowPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="crane.xml" type="itrwoodCraneAttachable" name="$l10n_typeDesc_crane" brand="PALFINGER" img="store_crane" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="easyCutB1000CVCollect.xml" type="mowerMovingSheets" name="EasyCut B1000CV Collect" brand="KRONE" img="store_easyCutB1000CVCollect" lifetime="600" category="mowers" wearable="480"/>
+    <vehicle basename="easyCutF360CV.xml" type="mowerMovingSheets" name="EasyCut F360CV" brand="KRONE" img="store_easyCutF360CV" lifetime="600" category="mowers" wearable="480"/>
+    <vehicle basename="emptyPallet.xml" type="gcProductionItemNone" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_emptyPallet" brand="GCRODUCTIONS" img="store_emptyPallet" lifetime="" category="gcProduction" wearable=""/>
+    <vehicle basename="emptyPallet2.xml" type="gcProductionItem" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_emptyPallet2" brand="GCRODUCTIONS" img="store_emptyPallet2" lifetime="" category="gcProduction" wearable=""/>
+    <vehicle basename="extraelevazione.xml" type="CSZpackImplement" name="$l10n_name_extraelevazioneW" brand="CSZ" img="store_extraelevazione" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="fertilizerHose.xml" type="flexibleHose" name="$l10n_shopItem_fertilizerHose" brand="LIZARD" img="store_fertilizerHose" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="fertilizerPallet.xml" type="pallet" name="$l10n_shopItem_fertilizerPallet" brand="LIZARD" img="store_fertilizerPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="flieglDPW180.xml" type="trailer" name="DPW 180" brand="FLIEGL" img="store_flieglDPW180" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="flieglFlatbedCottonRound.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Roundbales Cotton" brand="FLIEGL" img="store_flieglFlatbedCottonRound" lifetime="600" category="cottonHarvesting" wearable="480"/>
+    <vehicle basename="flieglFlatbedCottonSquare.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Squarebales Cotton" brand="FLIEGL" img="store_flieglFlatbedCottonSquare" lifetime="600" category="cottonHarvesting" wearable="480"/>
+    <vehicle basename="flieglFlatbedRound.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Roundbales" brand="FLIEGL" img="store_flieglFlatbedRound" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="flieglFlatbedSquare.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Squarebales" brand="FLIEGL" img="store_flieglFlatbedSquare" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="flieglFlatbedSquareBig.xml" type="flieglFlatbed" name="Flatbed Semi Trailer Squarebales Big" brand="FLIEGL" img="store_flieglFlatbedSquareBig" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="forcaBalle.xml" type="CSZpackBaleLoader" name="$l10n_name_forcaBalleW" brand="CSZ" img="store_forcaBalle" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="forcaBallePunteReclinabili.xml" type="CSZpackBaleLoader" name="$l10n_name_forcaBallePunteReclinabiliW" brand="CSZ" img="store_forcaBallePunteReclinabili" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="forcaBalleTrattenitore.xml" type="CSZpackBaleLoader" name="$l10n_name_forcaBalleTrattenitoreW" brand="CSZ" img="store_forcaBalleTrattenitore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="forcaLetame.xml" type="CSZpackShovel" name="$l10n_name_forcaLetameW" brand="CSZ" img="store_forcaLetame" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="forcaPolivalente.xml" type="CSZpackShovel" name="$l10n_name_forcaPolivalenteW" brand="CSZ" img="store_forcaPolivalente" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="forcaXBalle.xml" type="CSZpackAutoCaricamentoBalle" name="$l10n_name_forcaBalleW" brand="CSZ" img="store_forcaXBalle" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="forcaXBallePunteReclinabili.xml" type="CSZpackAutoCaricamentoBalle" name="$l10n_name_forcaBallePunteReclinabiliW" brand="CSZ" img="store_forcaXBallePunteReclinabili" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="forcaXBalleTrattenitore.xml" type="CSZpackAutoCaricamentoBalle" name="$l10n_name_forcaBalleTrattenitoreW" brand="CSZ" img="store_forcaXBalleTrattenitore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="forestryModule.xml" type="forestryModule" name="Forestry Module" brand="JOHNSTONBROTHERS" img="store_forestryModule" lifetime="600" category="wood" wearable=""/>
+    <vehicle basename="gancioSollevamento.xml" type="CSZpackImplement" name="$l10n_name_gancioSollevamentoW" brand="CSZ" img="store_gancioSollevamento" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="grimmeKS75.xml" type="fruitPreparer" name="KS 75-4 Carrot" brand="GRIMME" img="store_grimmeKS75" lifetime="600" category="potatoHarvesting" wearable="480"/>
+    <vehicle basename="grimmeKS75_onion.xml" type="fruitPreparer" name="KS 75-4 Onion" brand="GRIMME" img="store_grimmeKS75_onion" lifetime="600" category="potatoHarvesting" wearable="480"/>
+    <vehicle basename="grimmeRH2460.xml" type="receivingHopper" name="RH 24-60 Edit" brand="GRIMME" img="store_grimmeRH2460" lifetime="600" category="belts" wearable="480"/>
+    <vehicle basename="hallCrane.xml" type="hallCrane" name="Crane" brand="HALLSYS" img="store_hallCrane" lifetime="0" category="misc" wearable=""/>
+    <vehicle basename="highDumpBucket.xml" type="shovel3" name="High-dump bucket" brand="PALADIN" img="store_highDumpBucket" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="honeyPallet.xml" type="pallet" name="$l10n_FS19_Distillery_name2" brand="AgraZ" img="store_honeyPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="horseFoodPallet.xml" type="pallet" name="$l10n_shopItem_horseFoodPallet" brand="LIZARD" img="store_horseFoodPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="horsePallet.xml" type="pallet" name="$l10n_horsefood" brand="LIZARD" img="store_horsePallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="hs8.xml" type="hs105hoses" name="HS 10.5 S/SP Profi" brand="LIZARD" img="store_hs8" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="hs8d.xml" type="hs105hoses" name="HS 10.5 D Profi" brand="LIZARD" img="store_hs8d" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="hs8de.xml" type="hs105" name="HS 10.5 D" brand="LIZARD" img="store_hs8de" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="hs8ds.xml" type="hs105" name="HS 10.5 DS" brand="LIZARD" img="store_hs8ds" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="hs8dsp.xml" type="hs105hoses" name="HS 10.5 DS Profi" brand="LIZARD" img="store_hs8dsp" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="hs8e.xml" type="hs105" name="HS 10.5 S/SP" brand="LIZARD" img="store_hs8e" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="hs8m.xml" type="hs105hoses" name="HS 10.5 M Profi" brand="LIZARD" img="store_hs8m" lifetime="600" category="animals" wearable="480"/>
+    <vehicle basename="hs8me.xml" type="hs105" name="HS 10.5 M" brand="LIZARD" img="store_hs8me" lifetime="600" category="animals" wearable="480"/>
+    <vehicle basename="hs8w.xml" type="hs105hoses" name="HS 10.5 W Profi" brand="LIZARD" img="store_hs8w" lifetime="600" category="animals" wearable="480"/>
+    <vehicle basename="hs8we.xml" type="hs105" name="HS 10.5 W" brand="LIZARD" img="store_hs8we" lifetime="600" category="animals" wearable="480"/>
+    <vehicle basename="hydraulic_10ton.xml" type="82sTrailer" name="82's Hydraulic Tipper (10 Ton)" brand="82SMCHN" img="store_hydraulic_10ton" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="it47AugerWagon.xml" type="hookLiftContainerTrailerAugerWagon" name="IT 47" brand="METALTECH" img="store_it47AugerWagon" lifetime="600" category="augerWagons" wearable="480"/>
+    <vehicle basename="itRunner2623HD.xml" type="hookLiftTrailer" name="$l10n_typeDesc_itRunner" brand="ITRUNNER" img="store_itRunner2623HD" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="itRunner2633HD.xml" type="hookLiftTrailer" name="ITR 26.33 HD" brand="ITRUNNER" img="store_itRunner2633HD" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="iveco190.xml" type="truck190" name="190-38" brand="IVECO" img="store_iveco190" lifetime="600" category="trucks" wearable="480">
+      <motor id="1" name="IVECO 190-38"/>
+    </vehicle>
+    <vehicle basename="ivecoITRunner190.xml" type="truckITR190" name="190-38 ITRunner" brand="IVECO" img="store_ivecoITRunner190" lifetime="600" category="trucks" wearable="480">
+      <motor id="1" name="IVECO 190-38"/>
+    </vehicle>
+    <vehicle basename="joskinAquaTrans7300.xml" type="waterTrailer" name="$l10n_FS19_Distillery_name10" brand="AgraZ" img="store_joskinAquaTrans7300" lifetime="600" category="agraZTrailer" wearable="480"/>
+    <vehicle basename="k105Cs.xml" type="spreader" name="k105 PF" brand="BREDAL" img="store_k105Cs" lifetime="600" category="fertilizerSpreaders" wearable="480"/>
+    <vehicle basename="k105winter.xml" type="interactiveSpreaderWinter" name="K105 Winter Service" brand="BREDAL" img="store_k105winter" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="k165winter.xml" type="interactiveSpreaderWinter" name="K165 Winter Service" brand="BREDAL" img="store_k165winter" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="kongskildeGXF.xml" type="mower" name="GXF 3205" brand="KONGSKILDE" img="store_kongskildeGXF" lifetime="600" category="mowers" wearable="480"/>
+    <vehicle basename="kongskildeGXT13005.xml" type="mower" name="GXF 13005" brand="KONGSKILDE" img="store_kongskildeGXT13005" lifetime="600" category="mowers" wearable="480"/>
+    <vehicle basename="kroneBiGX580.xml" type="combineDrivable" name="BiG X 580" brand="KRONE" img="store_kroneBiGX580" lifetime="600" category="forageHarvesters" wearable="480">
+      <motor id="1" name="BigX 580"/>
+    </vehicle>
+    <vehicle basename="kroneEasyCollect600.xml" type="cutter" name="EasyCollect 600-2" brand="KRONE" img="store_kroneEasyCollect600" lifetime="600" category="forageHarvesterCutters" wearable="480"/>
+    <vehicle basename="kuhnAxis402winter.xml" type="interactiveSpreaderWinter" name="AXIS 40.2 M-EMC-W Winter Service" brand="KUHN" img="store_kuhnAxis402winter" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="kuhnFBP3135.xml" type="balerWrapper" name="FBP 3135 Clover and Alfalfa" brand="KUHN" img="store_kuhnFBP3135" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="kuhnRA142CS.xml" type="mixerWagon" name="Knight RA 142 PF" brand="KUHN" img="store_kuhnRA142CS" lifetime="600" category="animals" wearable="480"/>
+    <vehicle basename="kuhnSW4014.xml" type="baleWrapper" name="SW 4014 Clover and Alfalfa" brand="KUHN" img="store_kuhnSW4014" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="kuhnSW4014hesston.xml" type="baleWrapper" name="SW 4014 HESSTON BIG BALES" brand="KUHN" img="store_kuhnSW4014" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="lamaDozer.xml" type="CSZpackLeveler" name="$l10n_name_lamaDozerW" brand="CSZ" img="store_lamaDozer" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="leerPallet.xml" type="pallet" name="$l10n_FS19_PalletProduction_palletName" brand="AgraZ" img="store_leerPallet" lifetime="" category="agraZPallet" wearable=""/>
+    <vehicle basename="limePallet.xml" type="pallet" name="$l10n_shopItem_limePallet" brand="LIZARD" img="store_limePallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="liquidTanksPallet.xml" type="pallet" name="$l10n_liquidtanks" brand="LIZARD" img="store_liquidTanksPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="lizardAugerMaster.xml" type="augerWagon" name="Auger Master" brand="LIZARD" img="store_lizardAugerMaster" lifetime="600" category="augerWagons" wearable="480"/>
+    <vehicle basename="lizardSTB03P.xml" type="balerWrapper" name="STB 03P" brand="LIZARD" img="store_lizardSTB03P" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="lizardSTB03Pbelt.xml" type="pickupConveyorBelt" name="STB 1B" brand="LIZARD" img="store_lizardSTB03Pbelt" lifetime="600" category="belts" wearable="480">
+      <motor id="1" name="S-710"/>
+    </vehicle>
+    <vehicle basename="lizardSilageFork.xml" type="dynamicMountAttacherShovel3" name="Silage fork" brand="LIZARD" img="store_lizardSilageFork" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="manubal_v7000.xml" type="implementDynamicMountAttacher" name="Manubal V7000" brand="MX" img="store_manubal_v7000" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="manureFork.xml" type="dynamicMountAttacherShovel3" name="Manure fork" brand="PALADIN" img="store_manureFork" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="manurePallet.xml" type="pallet" name="$l10n_shopItem_manurePallet" brand="LIZARD" img="store_manurePallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="metPallet.xml" type="pallet" name="$l10n_FS19_Distillery_name3" brand="AgraZ" img="store_metPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="miscelatore.xml" type="CSZpackShovelMixerWagon" name="$l10n_name_miscelatoreW" brand="CSZ" img="store_miscelatore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="modulartrailer.xml" type="82strailer" name="Versatile Transport Trailer" brand="82SL" img="store_modulartrailer" lifetime="600" category="lowloaders" wearable="480"/>
+    <vehicle basename="molassesTank.xml" type="pallet" name="$l10n_FS19_Distillery_name8" brand="AgraZ" img="store_molassesTank" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="movimentatoreBigBag.xml" type="CSZpackTrailer" name="$l10n_name_movimentatoreBigBagW" brand="CSZ" img="store_movimentatoreBigBag" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="netRolePallet.xml" type="pallet" name="$l10n_netRolePallet" brand="KRONE" img="store_netRolePallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="newHollandDiscbine313.xml" type="mower" name="Discbine 313" brand="NEWHOLLAND" img="store_newHollandDiscbine313" lifetime="600" category="mowers" wearable="480"/>
+    <vehicle basename="nmc3point.xml" type="nmc_d11_3point" name="3 Point" brand="NMC" img="store_nmc3point" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="nmc640.xml" type="nmc620_640_PC" name="LM 640" brand="BMVOLVO" img="store_nmc640" lifetime="600" category="wheelLoaderVehicles" wearable="480">
+      <motor id="1" name="LM 620/640"/>
+    </vehicle>
+    <vehicle basename="nmcBlade.xml" type="nmc_d11_blade" name="Blade Leveler" brand="NMC" img="store_nmcBlade" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="nmcBladePlow.xml" type="nmc_d11_bladePlow" name="Blade Plow" brand="NMC" img="store_nmcBladePlow" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="nmcD11.xml" type="nmc_d11" name="D-11 Bulldozer" brand="NMC" img="store_nmcD11" lifetime="600" category="miscVehicles" wearable="480">
+      <motor id="1" name="D-11 Bulldozer"/>
+      <motor id="2" name="D-11 Super Power"/>
+    </vehicle>
+    <vehicle basename="nmcRipper.xml" type="nmc_d11_ripper" name="Ripper" brand="NMC" img="store_nmcRipper" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="palaTronchi.xml" type="CSZpackTrailer" name="$l10n_name_palaTronchiW" brand="CSZ" img="store_palaTronchi" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="palletFork.xml" type="implementDynamicMountAttacher3" name="Pallet fork" brand="PALADIN" img="store_palletFork" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="palletHoneyBoxes.xml" type="gcProductionItem" name="Pallet with empty honey jars" brand="GCRODUCTIONS" img="store_palletHoneyBoxes" lifetime="" category="gcProductionHoney" wearable=""/>
+    <vehicle basename="palletforks.xml" type="implementDynamicMountAttacher" name="$l10n_shopItem_wheelLoaderFork" brand="BMVOLVO" img="store_palletforks" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="piastraPortaforcheDoppia.xml" type="CSZpackImplement" name="$l10n_name_piastraPortaforcheDoppiaW" brand="CSZ" img="store_piastraPortaforcheDoppia" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="piastraPortaforcheDoppiaTronchi.xml" type="CSZpackLogGrab" name="$l10n_name_piastraPortaforcheDoppiaTronchiW" brand="CSZ" img="store_piastraPortaforcheDoppiaTronchi" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="piastraPortaforcheLibera.xml" type="CSZpackImplement" name="$l10n_name_piastraPortaforcheLiberaW" brand="CSZ" img="store_piastraPortaforcheLibera" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="piastraPortaforcheSingola.xml" type="CSZpackImplement" name="$l10n_name_piastraPortaforcheSingolaW" brand="CSZ" img="store_piastraPortaforcheSingola" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="piastraPortaforcheSingolaTrattenitore.xml" type="CSZpackImplement" name="$l10n_name_piastraPortaforcheSingolaTrattenitoreW" brand="CSZ" img="store_piastraPortaforcheSingolaTrattenitore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="pickUp1150.xml" type="implement2" name="PickUp 1150" brand="JOHNDEERE" img="store_pickUp1150" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="pickUp1800.xml" type="implement2" name="PickUp 1800" brand="JOHNDEERE" img="store_pickUp1800" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="pickUp900.xml" type="implement2" name="PickUp 900" brand="JOHNDEERE" img="store_pickUp900" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="pigFoodPallet.xml" type="pallet" name="$l10n_shopItem_pigFoodPallet" brand="LIZARD" img="store_pigFoodPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="pigPallet.xml" type="pallet" name="$l10n_pigfood" brand="LIZARD" img="store_pigPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="pinzaFasciati.xml" type="CSZpackBaleGrab" name="$l10n_name_pinzaFasciatiW" brand="CSZ" img="store_pinzaFasciati" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="pinzaMordente.xml" type="CSZpackBaleLoaderPinza" name="$l10n_name_pinzaMordenteW" brand="CSZ" img="store_pinzaMordente" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="pinzaMordenteDentiLunghi.xml" type="CSZpackBaleLoaderPinza" name="$l10n_name_pinzaMordenteDentiLunghiW" brand="CSZ" img="store_pinzaMordenteDentiLunghi" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="poettingerNovaCat301.xml" type="mower" name="NOVACAT 301 ED" brand="POETTINGER" img="store_poettingerNovaCat301" lifetime="600" category="mowers" wearable="480"/>
+    <vehicle basename="poettingerNovaCatX8.xml" type="mower" name="NOVACAT X8 ED" brand="POETTINGER" img="store_poettingerNovaCatX8" lifetime="600" category="mowers" wearable="480"/>
+    <vehicle basename="premos5000.xml" type="kronePremos5000" name="Premos 5000" brand="KRONE" img="store_premos5000" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="prolungaPesante.xml" type="CSZpackImplement" name="$l10n_name_prolungaPesanteW" brand="CSZ" img="store_prolungaPesante" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="prolungaSollevamento.xml" type="CSZpackImplement" name="$l10n_name_prolungaSollevamentoW" brand="CSZ" img="store_prolungaSollevamento" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="przyczepka.xml" type="trailer" name="M20" brand="LIZARD" img="store_przyczepka" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="rambo6KD.xml" type="rambo6KD" name="Rambo 6KD" brand="MEIJERHOLLAND" img="store_rambo6KD" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="raschiatore.xml" type="CSZpackLeveler" name="$l10n_name_raschiatoreW" brand="CSZ" img="store_raschiatore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="rebokeTank.xml" type="manureTrailer" name="Tank 40" brand="LIZARD" img="store_rebokeTank" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="rebokeTank_dolly.xml" type="manureTrailer" name="Tank 40 dolly" brand="LIZARD" img="store_rebokeTank_dolly" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="refillableBulkPallet.xml" type="refillablePallet" name="$l10n_reuseablebulkpallet" brand="LIZARD" img="store_refillableBulkPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="refillableBulkTank.xml" type="refillableTankPallet" name="$l10n_reuseablebulktank" brand="LIZARD" img="store_refillableBulkTank" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="refillableEggPallet.xml" type="pallet" name="$l10n_reuseableeggpallet" brand="LIZARD" img="store_refillableEggPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="refillableStandardPallet.xml" type="refillablePallet" name="$l10n_reuseablestandardpallet" brand="LIZARD" img="store_refillableStandardPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="refillableStandardTank.xml" type="refillableTankPallet" name="$l10n_reuseablestandardtank" brand="LIZARD" img="store_refillableStandardTank" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="refillableWoolPallet.xml" type="pallet" name="$l10n_reuseablewoolpallet" brand="LIZARD" img="store_refillableWoolPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="rollBelt150.xml" type="baler2" name="Roll-Belt 150" brand="NEWHOLLAND" img="store_rollBelt150" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="rt3000.xml" type="treeSaw3" name="RT3000" brand="DFM" img="store_rt3000" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="rumPallet.xml" type="pallet" name="$l10n_FS19_Distillery_name4" brand="AgraZ" img="store_rumPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="scania.xml" type="scania_xt" name="Scania_XT370" brand="SCANIA" img="store_scania" lifetime="600" category="trucks" wearable="">
+      <motor id="1" name="XT430"/>
+    </vehicle>
+    <vehicle basename="scarok2500.xml" type="carFillable" name="Scarok 2500" brand="NMC" img="store_scarok2500" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="Scarok 2500 6.6L V8"/>
+      <motor id="2" name="Scarok 2500 6.7L C"/>
+      <motor id="3" name="Scarok 2500 6.7L V8"/>
+      <motor id="4" name="Built 5.9L 12V"/>
+    </vehicle>
+    <vehicle basename="scarok3500.xml" type="carFillable" name="Scarok 3500" brand="NMC" img="store_scarok3500" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="Scarok 3500 6.6L V8"/>
+      <motor id="2" name="Scarok 3500 6.7L C"/>
+      <motor id="3" name="Scarok 3500 6.7L V8"/>
+      <motor id="4" name="Built 5.9L 12V"/>
+    </vehicle>
+    <vehicle basename="scarokBackbedModule.xml" type="scarokBackbedModuleFill" name="Scarok Backbed Module" brand="NMC" img="store_scarokBackbedModule" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="sectionsPallet.xml" type="pallet" name="$l10n_FS19_littleSawmill_palletName3" brand="AgraZ" img="store_sectionsPallet" lifetime="" category="agraZPallet" wearable=""/>
+    <vehicle basename="seedTender.xml" type="augerWagon_smartAttach" name="Seed Tender 10 T PF" brand="HORSCH" img="store_seedTender" lifetime="600" category="augerWagons" wearable="480"/>
+    <vehicle basename="seedsPallet.xml" type="pallet" name="$l10n_seeds" brand="LIZARD" img="store_seedsPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="semidolly.xml" type="dolly" name=" West Semi Trailer Dolly " brand="WEST" img="store_semidolly" lifetime="600" category="dollys" wearable="480"/>
+    <vehicle basename="sheepPallet.xml" type="pallet" name="$l10n_sheepfood" brand="LIZARD" img="store_sheepPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="shuttle8000.xml" type="manureTrailer_smartAttach" name="Shuttle 8.000 PF" brand="HORSCH" img="store_shuttle8000" lifetime="600" category="augerWagons" wearable="480"/>
+    <vehicle basename="singleBags.xml" type="pallet" name="$l10n_singlebags" brand="LIZARD" img="store_singleBags" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="slurryHose.xml" type="flexibleHose" name="$l10n_shopItem_slurryHose" brand="LIZARD" img="store_slurryHose" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="slurryHose5m.xml" type="flexibleHose" name="$l10n_shopItem_slurryHose" brand="LIZARD" img="store_slurryHose5m" lifetime="600" category="slurryTanks" wearable="480"/>
+    <vehicle basename="sp4000.xml" type="sprayer" name="SP 4000" brand="LIZARD" img="store_sp4000" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="spintoreAlleggerito.xml" type="CSZpackLeveler" name="$l10n_name_spintoreAlleggeritoT" brand="CSZ" img="store_spintoreAlleggerito" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="spintorePesante.xml" type="CSZpackLeveler" name="$l10n_name_spintorePesanteW" brand="CSZ" img="store_spintorePesante" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="spiritsPallet.xml" type="pallet" name="$l10n_FS19_Distillery_name5" brand="AgraZ" img="store_spiritsPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="squareBalePallets.xml" type="pallet" name="$l10n_balepallets" brand="LIZARD" img="store_squareBalePallets" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="standardBucket.xml" type="shovel" name="$l10n_shopItem_standardBucket" brand="BMVOLVO" img="store_standardBucket" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="stollFrontLoaderFZ.xml" type="attachableFrontloader3" name="FZ 30" brand="STOLL" img="store_stollFrontLoaderFZ" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollFrontLoaderFZ60.xml" type="attachableFrontloader3" name="FZ 60" brand="STOLL" img="store_stollFrontLoaderFZ60" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolBaleFork.xml" type="implementDynamicMountAttacher3" name="Bale spike" brand="STOLL" img="store_stollToolBaleFork" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolBaleGrab.xml" type="baleGrab3" name="Bale handler" brand="STOLL" img="store_stollToolBaleGrab" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolLogFork.xml" type="logGrab3" name="Log fork" brand="STOLL" img="store_stollToolLogFork" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolManureFork.xml" type="dynamicMountAttacherShovel3" name="Manure fork" brand="STOLL" img="store_stollToolManureFork" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolManureGrabFork.xml" type="dynamicMountAttacherShovel3" name="Fork with grapple" brand="STOLL" img="store_stollToolManureGrabFork" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolPalletFork.xml" type="implementDynamicMountAttacher3" name="Pallet fork" brand="STOLL" img="store_stollToolPalletFork" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolRoundBaleFork.xml" type="implementDynamicMountAttacher3" name="Roll-type bale fork" brand="STOLL" img="store_stollToolRoundBaleFork" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolShovel.xml" type="shovel3" name="Universal bucket" brand="STOLL" img="store_stollToolShovel" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolShovel2.xml" type="shovel3" name="John Deere bucket" brand="JOHNDEERE" img="store_stollToolShovel2" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stollToolSilageCutter.xml" type="dynamicMountAttacherShovel3" name="Silage cutter" brand="STOLL" img="store_stollToolSilageCutter" lifetime="600" category="frontLoaders" wearable="480"/>
+    <vehicle basename="stumpGrinder.xml" type="stumpCutter3" name="Stump grinder" brand="PALADIN" img="store_stumpGrinder" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="sugarcanePallet.xml" type="pallet" name="$l10n_sugarcane" brand="LIZARD" img="store_sugarcanePallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="tasma.xml" type="pickupConveyorBelt" name="T 202/0-8" brand="LIZARD" img="store_tasma" lifetime="600" category="belts" wearable="480">
+      <motor id="1" name="T202/0-8"/>
+    </vehicle>
+    <vehicle basename="tcmTransporter.xml" type="hookLiftContainerTrailer" name="Transporter" brand="TCM" img="store_tcmTransporter" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tcmTransporter2623.xml" type="hookLiftContainerTrailer" name="Transporter 26.23" brand="TCM" img="store_tcmTransporter2623" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="telehandlerBaleFork.xml" type="implementDynamicMountAttacher3" name="Bale fork" brand="MAGSI" img="store_telehandlerBaleFork" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="telehandlerBaleGrab.xml" type="baleGrab3" name="Wrapped bale handler" brand="MAGSI" img="store_telehandlerBaleGrab" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="telehandlerFork.xml" type="implementDynamicMountAttacher3" name="Pallet fork" brand="MAGSI" img="store_telehandlerFork" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="telehandlerLogFork.xml" type="logGrab3" name="Log fork" brand="MAGSI" img="store_telehandlerLogFork" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="telehandlerManureFork.xml" type="dynamicMountAttacherShovel3" name="Manure fork" brand="MAGSI" img="store_telehandlerManureFork" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="telehandlerShovel.xml" type="shovel3" name="Shovel" brand="MAGSI" img="store_telehandlerShovel" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="tge.xml" type="carFillable" name="TGE" brand="MAN" img="store_tge" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="TGE 3.100"/>
+      <motor id="2" name="TGE 3.140"/>
+      <motor id="3" name="TGE 3.180"/>
+    </vehicle>
+    <vehicle basename="tlx2020.xml" type="tlx2020vehicle" name="TLX 2020 Singlecab" brand="82S" img="store_tlx2020" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="$l10n_configuration_engine1"/>
+      <motor id="2" name="$l10n_configuration_engine2"/>
+    </vehicle>
+    <vehicle basename="tlx2020_67.xml" type="tlx2020vehicle" name="TLX 2020 Singlecab 6.7L" brand="82S" img="store_tlx2020_67" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="$l10n_configuration_engine3"/>
+      <motor id="2" name="$l10n_configuration_engine4"/>
+    </vehicle>
+    <vehicle basename="tlx2020_baleit.xml" type="tlx2020baleit" name="TLX 2020 Bale-IT" brand="82SAT" img="store_tlx2020_baleit" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tlx2020_flatbed.xml" type="tlx2020trailer" name="TLX 2020 Flatbed" brand="82SAT" img="store_tlx2020_flatbed" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tlx2020_lawncare.xml" type="tlx2020trailer" name="TLX 2020 Yard-IT" brand="82SAT" img="store_tlx2020_lawncare" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tlx2020_lawncare2.xml" type="tlx2020trailer" name="TLX 2020 Yard-IT Trailer" brand="82SL" img="store_tlx2020_lawncare2" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="tlx2020_liqit.xml" type="liqittanker" name="TLX 2020 Liq-IT" brand="82SAT" img="store_tlx2020_liqit" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tlx2020_liqit2.xml" type="liqittanker" name="TLX 2020 Liq-IT Trailer" brand="82SL" img="store_tlx2020_liqit2" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="tlx2020_logit.xml" type="tlx2020trailer" name="TLX 2020 Log-IT" brand="82SAT" img="store_tlx2020_logit" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tlx2020_logit2.xml" type="tlx2020trailer" name="TLX 2020 Log-IT Trailer" brand="82SL" img="store_tlx2020_logit2" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="tlx2020_tipit.xml" type="tlx2020trailer" name="TLX 2020 Tip-IT" brand="82SAT" img="store_tlx2020_tipit" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tlx2020_tipit2.xml" type="tlx2020trailer" name="TLX 2020 Tip-IT Trailer" brand="82SL" img="store_tlx2020_tipit2" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="tlx2020_tipit3.xml" type="tlx2020trailer" name="TLX 2020 Tip-IT Open Bed" brand="82SAT" img="store_tlx2020_tipit3" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tlx2020_trailboss.xml" type="tlx2020trailer" name="TLX 2020 Trailboss" brand="82S" img="store_tlx2020_trailboss" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="tlx48ft_livestock_trailer.xml" type="82sLiveStock" name="TLX 48ft Livestock Trailer" brand="82SL" img="store_tlx48ft_livestock_trailer" lifetime="600" category="animalTransport" wearable="480"/>
+    <vehicle basename="tmrPallet.xml" type="pallet" name="$l10n_shopItem_tmrPallet" brand="LIZARD" img="store_tmrPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="trailer25M.xml" type="dynamicMountAttacherTrailer" name="Trailer 25M" brand="RANDON" img="store_trailer25M" lifetime="600" category="lowloaders" wearable="480"/>
+    <vehicle basename="transportPallet.xml" type="gcProductionItemNone" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_transportPallet" brand="GCRODUCTIONS" img="store_transportPallet" lifetime="600" category="gcProduction" wearable=""/>
+    <vehicle basename="traslatore.xml" type="CSZpackImplement" name="$l10n_name_traslatoreW" brand="CSZ" img="store_traslatore" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="ursusT127.xml" type="baleLoader" name="T-127" brand="LIZARD" img="store_ursusT127" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="utilityGrapple.xml" type="logGrab3" name="Log fork" brand="PALADIN" img="store_utilityGrapple" lifetime="600" category="skidSteers" wearable="480"/>
+    <vehicle basename="vGrab.xml" type="strawHarvestBaleGrab" name="vGrab" brand="LIZARD" img="store_vGrab" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="vodkaPallet.xml" type="pallet" name="$l10n_FS19_Distillery_name6" brand="AgraZ" img="store_vodkaPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="weight1100.xml" type="implement2" name="1100" brand="AGCO" img="store_weight1100" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="weight1500.xml" type="implement2" name="1500" brand="AGCO" img="store_weight1500" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="weight2300.xml" type="implement2" name="2300" brand="AGCO" img="store_weight2300" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="weight3300.xml" type="implement2" name="3300" brand="FENDT" img="store_weight3300" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="weight650.xml" type="implement2" name="650" brand="AGCO" img="store_weight650" lifetime="600" category="weights" wearable="480"/>
+    <vehicle basename="wheelLoaderFork.xml" type="implementDynamicMountAttacher3" name="Pallet fork" brand="MAGSI" img="store_wheelLoaderFork" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="wheelLoaderLogFork.xml" type="logGrab3" name="Log fork" brand="MAGSI" img="store_wheelLoaderLogFork" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="wheelLoaderShovel.xml" type="shovel3" name="High-dump bucket" brand="MAGSI" img="store_wheelLoaderShovel" lifetime="600" category="wheelLoaders" wearable="480"/>
+    <vehicle basename="wiskeyPallet.xml" type="pallet" name="$l10n_FS19_Distillery_name7" brand="AgraZ" img="store_wiskeyPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="woodchipsPallet.xml" type="pallet" name="$l10n_FS19_littleSawmill_palletName4" brand="AgraZ" img="store_woodchipsPallet" lifetime="" category="agraZPallet" wearable=""/>
+    <vehicle basename="z586.xml" type="baleWrapper" name="Z-586" brand="LIZARD" img="store_z586" lifetime="600" category="baling" wearable="480"/>
+  </vehicles>
+  <placeables>
+    <placeable basename="10m.xml" name="$l10n_shopItem_fence10m" brand="LIZARD" img="store_10m" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="20m.xml" name="$l10n_shopItem_fence20m" brand="LIZARD" img="store_20m" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="30m.xml" name="$l10n_shopItem_fence30m" brand="LIZARD" img="store_30m" lifetime="1000" dailykeepup="3" category="decoration"/>
+    <placeable basename="AmericanSheepPasture.xml" name="American Sheep Pasture" brand="Lizard" img="store_AmericanSheepPasture" lifetime="1000" dailykeepup="25" category="animalpens"/>
+    <placeable basename="AppleOrchard.xml" name="$l10n_shopItem_appleOrchard" brand="LIZARD" img="store_AppleOrchard" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="AppleTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_appleTree" brand="GCRODUCTIONS" img="store_AppleTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable"/>
+    <placeable basename="BGA_Container_Komplett.xml" name="Container BGA basic system" brand="BGAINC" img="store_BGA_Container_Komplett" lifetime="1000" dailykeepup="65" category="placeableMisc"/>
+    <placeable basename="BGA_Container_zusatz.xml" name="Container BGA extension" brand="BGAINC" img="store_BGA_Container_zusatz" lifetime="1000" dailykeepup="45" category="placeableMisc"/>
+    <placeable basename="CherryTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_cherryTree" brand="GCRODUCTIONS" img="store_CherryTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable"/>
+    <placeable basename="CommunityBuilding.xml" name="Community Building" brand="JVDECO" img="store_CommunityBuilding" lifetime="1000" dailykeepup="0" category="decoration"/>
+    <placeable basename="DistilleryFactory.xml" name="Distillery Factory" brand="GCPLACEABLE" img="store_DistilleryFactory" lifetime="2000" dailykeepup="500" category="globalCompanyPlaceable"/>
+    <placeable basename="FS19_450KWBGA.xml" name="$l10n_name_bga450kW" brand="VDI" img="store_FS19_450KWBGA" lifetime="1000" dailykeepup="225" category="placeableMisc"/>
+    <placeable basename="HoneyHouse.xml" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyHouse" brand="GCRODUCTIONS" img="store_HoneyHouse" lifetime="1000" dailykeepup="10" category="gcProductionHoneyPlaceable"/>
+    <placeable basename="Kleine_BGA.xml" name="&#10;&#9;&#9;&#9;&#10;&#9;&#9;" brand="LIZARD" img="store_Kleine_BGA" lifetime="1000" dailykeepup="50" category="placeableMisc"/>
+    <placeable basename="LizardFuel.xml" name="$l10n_shopItem_Lizard_BioFuels" brand="LIZARD" img="store_LizardFuel" lifetime="1000" dailykeepup="40" category="globalCompanyPlaceable"/>
+    <placeable basename="MultiFillingStation.xml" name="$l10n_name_multifillingstation" brand="EDGE" img="store_MultiFillingStation" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="MultiFillingStationDark.xml" name="$l10n_name_multifillingstation_Black" brand="EDGE" img="store_MultiFillingStationDark" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="MultiFillingStationGold.xml" name="$l10n_name_multifillingstation_Gold" brand="EDGE" img="store_MultiFillingStationGold" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="OrangeOrchard.xml" name="$l10n_shopItem_orangeOrchard" brand="LIZARD" img="store_OrangeOrchard" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="PearTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_pearTree" brand="GCRODUCTIONS" img="store_PearTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable"/>
+    <placeable basename="PlumTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_plumTree" brand="GCRODUCTIONS" img="store_PlumTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable"/>
+    <placeable basename="ProductionHall.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_hall" brand="GCRODUCTIONS" img="store_ProductionHall" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
+    <placeable basename="ProductionStorage.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage" brand="GCRODUCTIONS" img="store_ProductionStorage" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
+    <placeable basename="ProductionStorage2.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage2" brand="GCRODUCTIONS" img="store_ProductionStorage2" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
+    <placeable basename="ProductionStorage3.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage3" brand="GCRODUCTIONS" img="store_ProductionStorage3" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
+    <placeable basename="Sellstation.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_sellstation" brand="GCRODUCTIONS" img="store_Sellstation" lifetime="1000" dailykeepup="250" category="globalCompanyPlaceable"/>
+    <placeable basename="ToolTrolley.xml" name="NRX ToolTrolley" brand="Neroxc" img="store_ToolTrolley" lifetime="1000" dailykeepup="1" category="placeableMisc"/>
+    <placeable basename="adblue_tank.xml" name="$l10n_adblue_tank" brand="MISSYB" img="store_adblue_tank" lifetime="1000" dailykeepup="1" category="placeableMisc"/>
+    <placeable basename="anew1.xml" name="Tourist Pole" brand="LIZARD" img="store_anew1" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew10.xml" name="Wooden Fence" brand="LIZARD" img="store_anew10" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew11.xml" name="Radio Tower" brand="LIZARD" img="store_anew11" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew12.xml" name="Solar Panel" brand="LIZARD" img="store_anew12" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew13.xml" name="Basket Ball Stand" brand="LIZARD" img="store_anew13" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew14.xml" name="Details-Set 5" brand="LIZARD" img="store_anew14" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew15.xml" name="Details-Set 6" brand="LIZARD" img="store_anew15" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew16.xml" name="Details-Set 7" brand="LIZARD" img="store_anew16" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew17.xml" name="Details-Set 8" brand="LIZARD" img="store_anew17" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew18.xml" name="Details-Set 9" brand="LIZARD" img="store_anew18" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew19.xml" name="Details-Set 10" brand="LIZARD" img="store_anew19" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew2.xml" name="Post Box" brand="LIZARD" img="store_anew2" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew20.xml" name="Details-Set 11" brand="LIZARD" img="store_anew20" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew21.xml" name="Water Tank" brand="LIZARD" img="store_anew21" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew22.xml" name="Water Pump Big" brand="LIZARD" img="store_anew22" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew23.xml" name="Water Pump Small" brand="LIZARD" img="store_anew23" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew24.xml" name="Details-Set 12" brand="LIZARD" img="store_anew24" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew25.xml" name="Details-Set 13" brand="LIZARD" img="store_anew25" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew3.xml" name="Car Tires" brand="LIZARD" img="store_anew3" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew4.xml" name="Chairs And Table" brand="LIZARD" img="store_anew4" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew5.xml" name="Stones" brand="LIZARD" img="store_anew5" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew6.xml" name="Wooden Table" brand="LIZARD" img="store_anew6" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew7.xml" name="Metal Sheet Pile" brand="LIZARD" img="store_anew7" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew8.xml" name="Trash Bin Small" brand="LIZARD" img="store_anew8" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="anew9.xml" name="Building Set" brand="LIZARD" img="store_anew9" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="apartments.xml" name="$l10n_shopItem_apartments" brand="AJTECH" img="store_apartments" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="bannerBlue.xml" name="Blue Banner" brand="" img="store_bannerBlue" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="bannerRed.xml" name="Orange Banner" brand="" img="store_bannerRed" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="bannerYellow.xml" name="Yellow Banner" brand="" img="store_bannerYellow" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="barn.xml" name="$l10n_name_barnSellPoint" brand="LIZARD" img="store_barn" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="barrelIronBlue.xml" name="$l10n_shopItem_barrelIronBlue" brand="AJTECH" img="store_barrelIronBlue" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="barrelIronGreenRust.xml" name="$l10n_shopItem_barrelIronGreenRust" brand="AJTECH" img="store_barrelIronGreenRust" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="barrelProduction.xml" name="$l10n_FS19_BarrelProduction_name1" brand="AgraZ" img="store_barrelProduction" lifetime="1000" dailykeepup="10" category="agraZFarmProductions"/>
+    <placeable basename="barrelWoodLarge.xml" name="$l10n_shopItem_barrelWoodLarge" brand="AJTECH" img="store_barrelWoodLarge" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="barrelWoodSmall.xml" name="$l10n_shopItem_barrelWoodSmall" brand="AJTECH" img="store_barrelWoodSmall" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="barrells.xml" name="Barrels" brand="LIZARD" img="store_barrells" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="basicCowPasture.xml" name="$l10n_animalPen_cow" brand="Lizard" img="store_basicCowPasture" lifetime="1000" dailykeepup="1" category="animalpens"/>
+    <placeable basename="basicPigPasture.xml" name="$l10n_animalPen_pig" brand="Lizard" img="store_basicPigPasture" lifetime="1000" dailykeepup="1" category="animalpens"/>
+    <placeable basename="basicSheepPasture.xml" name="$l10n_animalPen_sheep" brand="Lizard" img="store_basicSheepPasture" lifetime="1000" dailykeepup="1" category="animalpens"/>
+    <placeable basename="basketballCourt.xml" name="$l10n_shopItem_basketballCourt" brand="AJTECH" img="store_basketballCourt" lifetime="1000" dailykeepup="24" category="decoration"/>
+    <placeable basename="beachTent.xml" name="$l10n_shopItem_beachTent" brand="AJTECH" img="store_beachTent" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="bga.xml" name="$l10n_shopItem_smallBGA" brand="AJTECH" img="store_bga" lifetime="1000" dailykeepup="35" category="silos"/>
+    <placeable basename="bgaExtension.xml" name="$l10n_shopItem_bgaExtension" brand="AJTECH" img="store_bgaExtension" lifetime="1000" dailykeepup="17" category="silos"/>
+    <placeable basename="bigFactory.xml" name="$l10n_shopItem_bigFactory" brand="AJTECH" img="store_bigFactory" lifetime="1000" dailykeepup="14" category="decoration"/>
+    <placeable basename="bigtire.xml" name="Big tires set" brand="LIZARD" img="store_bigtire" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="bigtrashskip.xml" name="Big trash skip" brand="LIZARD" img="store_bigtrashskip" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="bioDieselProduction.xml" name="$l10n_BIODIESEL_PRODUCTION" brand="JVDECO" img="store_bioDieselProduction" lifetime="1000" dailykeepup="0" category="decoration"/>
+    <placeable basename="boxVan.xml" name="$l10n_shopItem_boxVan" brand="AJTECH" img="store_boxVan" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="bridgeLong.xml" name="$l10n_shopItem_bridgeLong" brand="AJTECH" img="store_bridgeLong" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="bunkerSiloDouble.xml" name="$l10n_shopItem_bunkerSiloDouble01" brand="LIZARD" img="store_bunkerSiloDouble" lifetime="1000" dailykeepup="45" category="silos"/>
+    <placeable basename="bunkerSiloDouble02.xml" name="$l10n_shopItem_bunkerSiloDouble02" brand="LIZARD" img="store_bunkerSiloDouble02" lifetime="1000" dailykeepup="39" category="silos"/>
+    <placeable basename="bunkerSiloRamp01.xml" name="$l10n_shopItem_bunkerSiloRamp01" brand="LIZARD" img="store_bunkerSiloRamp01" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="bunkerSiloRamp02.xml" name="$l10n_shopItem_bunkerSiloRamp02" brand="LIZARD" img="store_bunkerSiloRamp02" lifetime="1000" dailykeepup="4" category="silos"/>
+    <placeable basename="bunkerSiloRamp03.xml" name="$l10n_shopItem_bunkerSiloRamp03" brand="LIZARD" img="store_bunkerSiloRamp03" lifetime="1000" dailykeepup="4" category="silos"/>
+    <placeable basename="bunkerSiloRamp04.xml" name="$l10n_shopItem_bunkerSiloRamp04" brand="LIZARD" img="store_bunkerSiloRamp04" lifetime="1000" dailykeepup="3" category="silos"/>
+    <placeable basename="bunkerSiloSingle.xml" name="$l10n_shopItem_bunkerSiloSingle01" brand="LIZARD" img="store_bunkerSiloSingle" lifetime="1000" dailykeepup="30" category="silos"/>
+    <placeable basename="bunkerSiloSingle02.xml" name="$l10n_shopItem_bunkerSiloSingle02" brand="LIZARD" img="store_bunkerSiloSingle02" lifetime="1000" dailykeepup="27" category="silos"/>
+    <placeable basename="bunkerSiloTriple.xml" name="$l10n_shopItem_bunkerSiloTriple01" brand="LIZARD" img="store_bunkerSiloTriple" lifetime="1000" dailykeepup="60" category="silos"/>
+    <placeable basename="bunkerSiloTriple02.xml" name="$l10n_shopItem_bunkerSiloTriple02" brand="LIZARD" img="store_bunkerSiloTriple02" lifetime="1000" dailykeepup="51" category="silos"/>
+    <placeable basename="buyingStation.xml" name="$l10n_FS19_AgraZLandtrade_name1" brand="AgraZ" img="store_buyingStation" lifetime="1000" dailykeepup="" category="agraZOther"/>
+    <placeable basename="campingTent.xml" name="$l10n_shopItem_campingTent" brand="AJTECH" img="store_campingTent" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="campingTrailer.xml" name="$l10n_shopItem_campingTrailer" brand="AJTECH" img="store_campingTrailer" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="cargoBox1.xml" name="$l10n_shopItem_cargoBox1" brand="AJTECH" img="store_cargoBox1" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="cargoBox2.xml" name="$l10n_shopItem_cargoBox2" brand="AJTECH" img="store_cargoBox2" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="cargoContainerBlue.xml" name="$l10n_shopItem_cargoContainerBlue" brand="AJTECH" img="store_cargoContainerBlue" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="cargoContainerGreen.xml" name="$l10n_shopItem_cargoContainerGreen" brand="AJTECH" img="store_cargoContainerGreen" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="cargoContainerRed.xml" name="$l10n_shopItem_cargoContainerRed" brand="AJTECH" img="store_cargoContainerRed" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="cargoContainerRedOpen.xml" name="$l10n_shopItem_cargoContainerRedOpen" brand="AJTECH" img="store_cargoContainerRedOpen" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="cargoContainerYellow.xml" name="$l10n_shopItem_cargoContainerYellow" brand="AJTECH" img="store_cargoContainerYellow" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="castleDE.xml" name="$l10n_shopItem_castleDE" brand="AJTECH" img="store_castleDE" lifetime="1000" dailykeepup="11" category="decoration"/>
+    <placeable basename="cementTruck.xml" name="$l10n_shopItem_cementTruck" brand="AJTECH" img="store_cementTruck" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="coachHouseLarge.xml" name=" Large Coach House" brand="LIZARD" img="store_coachHouseLarge" lifetime="1000" dailykeepup="" category="sheds"/>
+    <placeable basename="coachHouseSmall.xml" name=" Small Coach House" brand="LIZARD" img="store_coachHouseSmall" lifetime="1000" dailykeepup="" category="sheds"/>
+    <placeable basename="compositeHall3.xml" name="$l10n_compositeHall3" brand="VDI" img="store_compositeHall3" lifetime="1000" dailykeepup="" category="sheds"/>
+    <placeable basename="compositeHall4.xml" name="$l10n_compositeHall4" brand="VDI" img="store_compositeHall4" lifetime="1000" dailykeepup="" category="sheds"/>
+    <placeable basename="compositeHall5.xml" name="$l10n_compositeHall5" brand="VDI" img="store_compositeHall5" lifetime="1000" dailykeepup="" category="sheds"/>
+    <placeable basename="compositeHall6.xml" name="$l10n_compositeHall6" brand="VDI" img="store_compositeHall6" lifetime="1000" dailykeepup="" category="sheds"/>
+    <placeable basename="constructionPrefab1.xml" name="Construction Prefab 1" brand="LIZARD" img="store_constructionPrefab1" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="constructionPrefab2.xml" name="Construction Prefab 2" brand="LIZARD" img="store_constructionPrefab2" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="container.xml" name="Container" brand="LIZARD" img="store_container" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="cornerObstalacle.xml" name="Corner Obstacle" brand="" img="store_cornerObstalacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="cowshed.xml" name="$l10n_name_cowshedSellPoint" brand="LIZARD" img="store_cowshed" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="crossObstacle.xml" name="Cross Obstacle" brand="" img="store_crossObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="dairy.xml" name="$l10n_name_dairySellPoint" brand="LIZARD" img="store_dairy" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="digestate.xml" name="Digestate" brand="LIZARD" img="store_digestate" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="digestatesale.xml" name="Digestate Salepoint" brand="ASM" img="store_digestatesale" lifetime="1000" dailykeepup="3" category="placeableMisc"/>
+    <placeable basename="distillery.xml" name="$l10n_FS19_Distillery_name9" brand="AgraZ" img="store_distillery" lifetime="1000" dailykeepup="10" category="agraZFarmplant"/>
+    <placeable basename="dockyard.xml" name="$l10n_name_dockyardSellPoint" brand="LIZARD" img="store_dockyard" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="dumpTruck.xml" name="$l10n_shopItem_dumpTruck" brand="AJTECH" img="store_dumpTruck" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="easyShed01Big01.xml" name="$l10n_shopItem_easyShed01Big01" brand="EASYSHEDS" img="store_easyShed01Big01" lifetime="1000" dailykeepup="12" category="sheds"/>
+    <placeable basename="easyShed01Big01_red.xml" name="$l10n_shopItem_easyShed01Big01_red" brand="EASYSHEDS" img="store_easyShed01Big01_red" lifetime="1000" dailykeepup="12" category="sheds"/>
+    <placeable basename="easyShed01Big02.xml" name="$l10n_shopItem_easyShed01Big02" brand="EASYSHEDS" img="store_easyShed01Big02" lifetime="1000" dailykeepup="12" category="sheds"/>
+    <placeable basename="easyShed01Big02_red.xml" name="$l10n_shopItem_easyShed01Big02_red" brand="EASYSHEDS" img="store_easyShed01Big02_red" lifetime="1000" dailykeepup="12" category="sheds"/>
+    <placeable basename="easyShed01Big03.xml" name="$l10n_shopItem_easyShed01Big03" brand="EASYSHEDS" img="store_easyShed01Big03" lifetime="1000" dailykeepup="12" category="sheds"/>
+    <placeable basename="easyShed01Big03_red.xml" name="$l10n_shopItem_easyShed01Big03_red" brand="EASYSHEDS" img="store_easyShed01Big03_red" lifetime="1000" dailykeepup="12" category="sheds"/>
+    <placeable basename="easyShed01Small01.xml" name="$l10n_shopItem_easyShed01Small01" brand="EASYSHEDS" img="store_easyShed01Small01" lifetime="1000" dailykeepup="10" category="sheds"/>
+    <placeable basename="easyShed01Small01_red.xml" name="$l10n_shopItem_easyShed01Small01_red" brand="EASYSHEDS" img="store_easyShed01Small01_red" lifetime="1000" dailykeepup="10" category="sheds"/>
+    <placeable basename="easyShed01Small02.xml" name="$l10n_shopItem_easyShed01Small02" brand="EASYSHEDS" img="store_easyShed01Small02" lifetime="1000" dailykeepup="8" category="sheds"/>
+    <placeable basename="easyShed01Small02_red.xml" name="$l10n_shopItem_easyShed01Small02_red" brand="EASYSHEDS" img="store_easyShed01Small02_red" lifetime="1000" dailykeepup="8" category="sheds"/>
+    <placeable basename="easyShed01Small03.xml" name="$l10n_shopItem_easyShed01Small03" brand="EASYSHEDS" img="store_easyShed01Small03" lifetime="1000" dailykeepup="7" category="sheds"/>
+    <placeable basename="easyShed01Small03_red.xml" name="$l10n_shopItem_easyShed01Small03_red" brand="EASYSHEDS" img="store_easyShed01Small03_red" lifetime="1000" dailykeepup="7" category="sheds"/>
+    <placeable basename="easyShed01Small04.xml" name="$l10n_shopItem_easyShed01Small04" brand="EASYSHEDS" img="store_easyShed01Small04" lifetime="1000" dailykeepup="9" category="sheds"/>
+    <placeable basename="easyShed01Small04_red.xml" name="$l10n_shopItem_easyShed01Small04_red" brand="EASYSHEDS" img="store_easyShed01Small04_red" lifetime="1000" dailykeepup="9" category="sheds"/>
+    <placeable basename="easyShed01Small05.xml" name="$l10n_shopItem_easyShed01Small05" brand="EASYSHEDS" img="store_easyShed01Small05" lifetime="1000" dailykeepup="9" category="sheds"/>
+    <placeable basename="easyShed01Small05_red.xml" name="$l10n_shopItem_easyShed01Small05_red" brand="EASYSHEDS" img="store_easyShed01Small05_red" lifetime="1000" dailykeepup="9" category="sheds"/>
+    <placeable basename="easyShed03Small01.xml" name="$l10n_shopItem_easyShed03Small0102" brand="EASYSHEDS" img="store_easyShed03Small01" lifetime="1000" dailykeepup="15" category="sheds"/>
+    <placeable basename="easyShed03Small01_red.xml" name="$l10n_shopItem_easyShed03Small0102_red" brand="EASYSHEDS" img="store_easyShed03Small01_red" lifetime="1000" dailykeepup="15" category="sheds"/>
+    <placeable basename="easyShed03Small02.xml" name="$l10n_shopItem_easyShed03Small0102" brand="EASYSHEDS" img="store_easyShed03Small02" lifetime="1000" dailykeepup="14" category="sheds"/>
+    <placeable basename="easyShed03Small02_red.xml" name="$l10n_shopItem_easyShed03Small0102_red" brand="EASYSHEDS" img="store_easyShed03Small02_red" lifetime="1000" dailykeepup="14" category="sheds"/>
+    <placeable basename="easyShed03Small03.xml" name="$l10n_shopItem_easyShed03Small0304" brand="EASYSHEDS" img="store_easyShed03Small03" lifetime="1000" dailykeepup="13" category="sheds"/>
+    <placeable basename="easyShed03Small03_red.xml" name="$l10n_shopItem_easyShed03Small0304_red" brand="EASYSHEDS" img="store_easyShed03Small03_red" lifetime="1000" dailykeepup="13" category="sheds"/>
+    <placeable basename="easyShed03Small04.xml" name="$l10n_shopItem_easyShed03Small0304" brand="EASYSHEDS" img="store_easyShed03Small04" lifetime="1000" dailykeepup="12" category="sheds"/>
+    <placeable basename="easyShed03Small04_red.xml" name="$l10n_shopItem_easyShed03Small0304_red" brand="EASYSHEDS" img="store_easyShed03Small04_red" lifetime="1000" dailykeepup="12" category="sheds"/>
+    <placeable basename="easyShed03Small05.xml" name="$l10n_shopItem_easyShed03Small05" brand="EASYSHEDS" img="store_easyShed03Small05" lifetime="1000" dailykeepup="11" category="sheds"/>
+    <placeable basename="easyShed03Small05_red.xml" name="$l10n_shopItem_easyShed03Small05_red" brand="EASYSHEDS" img="store_easyShed03Small05_red" lifetime="1000" dailykeepup="11" category="sheds"/>
+    <placeable basename="farmSilo.xml" name="$l10n_shopItem_grainSilo" brand="AJTECH" img="store_farmSilo" lifetime="1000" dailykeepup="50" category="silos"/>
+    <placeable basename="farmSiloExtension.xml" name="$l10n_shopItem_grainSiloExtension" brand="AJTECH" img="store_farmSiloExtension" lifetime="1000" dailykeepup="21" category="silos"/>
+    <placeable basename="farmhouse.xml" name="Farmhouse With Barn" brand="LIZARD" img="store_farmhouse" lifetime="1000" dailykeepup="50" category="farmhouses"/>
+    <placeable basename="farmhouse_fence.xml" name="$l10n_object_farmhouse" brand="LIZARD" img="store_farmhouse_fence" lifetime="1000" dailykeepup="9" category="farmhouses"/>
+    <placeable basename="fenceObstacle.xml" name="Fence Obstacle" brand="" img="store_fenceObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="fencePlanks1.xml" name="$l10n_shopItem_fencePlanks1" brand="AJTECH" img="store_fencePlanks1" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="fencePlanks10.xml" name="$l10n_shopItem_fencePlanks10" brand="AJTECH" img="store_fencePlanks10" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="fencePlanks5.xml" name="$l10n_shopItem_fencePlanks5" brand="AJTECH" img="store_fencePlanks5" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="fertilizerProduction.xml" name="Fertilizer and Liquidfertilizer Production" brand="AgraZ" img="store_fertilizerProduction" lifetime="1000" dailykeepup="100" category="agraZFarmProductions"/>
+    <placeable basename="fertilizerRefillTank.xml" name="$l10n_shopItem_fertilizerRefillTank" brand="LIZARD" img="store_fertilizerRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="fertilizerSiloSmall.xml" name="Fillable Fertilizer Storage" brand="LIZARD" img="store_fertilizerSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="fillable_tankstelle.xml" name="$l10n_fillable_fueltank" brand="MISSYB" img="store_fillable_tankstelle" lifetime="1000" dailykeepup="1" category="placeableMisc"/>
+    <placeable basename="fireTools.xml" name="$l10n_shopItem_fireTools" brand="AJTECH" img="store_fireTools" lifetime="1000" dailykeepup="5" category="decoration"/>
+    <placeable basename="firewoodStackLarge.xml" name="$l10n_shopItem_firewoodStackLarge" brand="AJTECH" img="store_firewoodStackLarge" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="firewoodStackMedium.xml" name="$l10n_shopItem_firewoodStackMedium" brand="AJTECH" img="store_firewoodStackMedium" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="firewoodStackSmall.xml" name="$l10n_shopItem_firewoodStackSmall" brand="AJTECH" img="store_firewoodStackSmall" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="firewoodStackSmallCovered.xml" name="$l10n_shopItem_firewoodStackSmallCovered" brand="AJTECH" img="store_firewoodStackSmallCovered" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="firewoodstack1.xml" name="Firewood stack small" brand="LIZARD" img="store_firewoodstack1" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="firewoodstack2.xml" name="Firewood stack medium" brand="LIZARD" img="store_firewoodstack2" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="firewoodstack3.xml" name="Firewood stack big" brand="LIZARD" img="store_firewoodstack3" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="flatbedTruck.xml" name="$l10n_shopItem_flatbedTruck" brand="AJTECH" img="store_flatbedTruck" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="flatbedTruckLoaded.xml" name="$l10n_shopItem_flatbedTruckLoaded" brand="AJTECH" img="store_flatbedTruckLoaded" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="foldingBenchTable.xml" name="$l10n_shopItem_foldingBenchTable" brand="AJTECH" img="store_foldingBenchTable" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="foodcontainerround.xml" name="Food container round" brand="LIZARD" img="store_foodcontainerround" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="gardenCentre.xml" name="$l10n_shopItem_gardenCentre" brand="AJTECH" img="store_gardenCentre" lifetime="1000" dailykeepup="12" category="decoration"/>
+    <placeable basename="gardenMetalShed.xml" name="$l10n_shopItem_gardenMetalShed" brand="AJTECH" img="store_gardenMetalShed" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="gardenshed.xml" name="Garden shed" brand="LIZARD" img="store_gardenshed" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="gardenslide.xml" name="Garden slide" brand="LIZARD" img="store_gardenslide" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="gates.xml" name="$l10n_shopItem_gate" brand="LIZARD" img="store_gates" lifetime="1000" dailykeepup="5" category="decoration"/>
+    <placeable basename="granary.xml" name="$l10n_name_granarySellPoint" brand="LIZARD" img="store_granary" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="hayloft.xml" name="$l10n_name_hayloftSellPoint" brand="LIZARD" img="store_hayloft" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="hedge1Piece.xml" name="$l10n_shopItem_hedge1Piece" brand="AJTECH" img="store_hedge1Piece" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="hedge3Piece.xml" name="$l10n_shopItem_hedge3Piece" brand="AJTECH" img="store_hedge3Piece" lifetime="1000" dailykeepup="3" category="decoration"/>
+    <placeable basename="herbicideRefillTank.xml" name="$l10n_shopItem_herbicideRefillTank" brand="LIZARD" img="store_herbicideRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="house1.xml" name="$l10n_shopItem_house1" brand="AJTECH" img="store_house1" lifetime="1000" dailykeepup="10" category="decoration"/>
+    <placeable basename="house2.xml" name="$l10n_shopItem_house2" brand="AJTECH" img="store_house2" lifetime="1000" dailykeepup="10" category="decoration"/>
+    <placeable basename="house3.xml" name="$l10n_shopItem_house3" brand="AJTECH" img="store_house3" lifetime="1000" dailykeepup="10" category="decoration"/>
+    <placeable basename="houseObstacle.xml" name="House Obstacle" brand="" img="store_houseObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="huntingHut.xml" name="$l10n_shopItem_huntingHut" brand="AJTECH" img="store_huntingHut" lifetime="1000" dailykeepup="4" category="decoration"/>
+    <placeable basename="husbandryChicken.xml" name="Chicken pen extension" brand="Lizard" img="store_husbandryChicken" lifetime="1000" dailykeepup="10" category="animalpens"/>
+    <placeable basename="husbandryCowTrioliet.xml" name="Triolet Stall" brand="TRIO" img="store_husbandryCowTrioliet" lifetime="1000" dailykeepup="80" category="animalpens"/>
+    <placeable basename="husbandryHorseLarge.xml" name="$l10n_animalPen_horse2" brand="Lizard" img="store_husbandryHorseLarge" lifetime="1000" dailykeepup="95" category="animalpens"/>
+    <placeable basename="husbandrySheepLarge.xml" name="Happy Sheep Farm" brand="SNMODDING" img="store_husbandrySheepLarge" lifetime="1000" dailykeepup="400" category="animalpens"/>
+    <placeable basename="iBigBuilding.xml" name="$l10n_shopItem_iBigBuilding" brand="AJTECH" img="store_iBigBuilding" lifetime="1000" dailykeepup="10" category="decoration"/>
+    <placeable basename="iBridgedBuilding.xml" name="$l10n_shopItem_iBridgedBuilding" brand="AJTECH" img="store_iBridgedBuilding" lifetime="1000" dailykeepup="7" category="decoration"/>
+    <placeable basename="iCentrifuge.xml" name="$l10n_shopItem_iCentrifuge" brand="AJTECH" img="store_iCentrifuge" lifetime="1000" dailykeepup="3" category="decoration"/>
+    <placeable basename="iClarificationTank.xml" name="$l10n_shopItem_iClarificationTank" brand="AJTECH" img="store_iClarificationTank" lifetime="1000" dailykeepup="3" category="decoration"/>
+    <placeable basename="iConnectedBuildingHigh.xml" name="$l10n_shopItem_iConnectedBuildingHigh" brand="AJTECH" img="store_iConnectedBuildingHigh" lifetime="1000" dailykeepup="12" category="decoration"/>
+    <placeable basename="iConnectedBuildingLow.xml" name="$l10n_shopItem_iConnectedBuildingLow" brand="AJTECH" img="store_iConnectedBuildingLow" lifetime="1000" dailykeepup="11" category="decoration"/>
+    <placeable basename="iEvapoTower.xml" name="$l10n_shopItem_iEvapoTower" brand="AJTECH" img="store_iEvapoTower" lifetime="1000" dailykeepup="4" category="decoration"/>
+    <placeable basename="iGantryBuilding.xml" name="$l10n_shopItem_iGantryBuilding" brand="AJTECH" img="store_iGantryBuilding" lifetime="1000" dailykeepup="20" category="decoration"/>
+    <placeable basename="iLargeBuilding.xml" name="$l10n_shopItem_iLargeBuilding" brand="AJTECH" img="store_iLargeBuilding" lifetime="1000" dailykeepup="7" category="decoration"/>
+    <placeable basename="iMediumBuilding.xml" name="$l10n_shopItem_iMediumBuilding" brand="AJTECH" img="store_iMediumBuilding" lifetime="1000" dailykeepup="5" category="decoration"/>
+    <placeable basename="iOffloadingStation.xml" name="$l10n_shopItem_iOffloadingStation" brand="AJTECH" img="store_iOffloadingStation" lifetime="1000" dailykeepup="27" category="placeableMisc"/>
+    <placeable basename="iSmallBuilding.xml" name="$l10n_shopItem_iSmallBuilding" brand="AJTECH" img="store_iSmallBuilding" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="iSmallTank.xml" name="$l10n_shopItem_iSmallTank" brand="AJTECH" img="store_iSmallTank" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="iceCreamCart.xml" name="$l10n_shopItem_iceCreamCart" brand="AJTECH" img="store_iceCreamCart" lifetime="1000" dailykeepup="20" category="placeableMisc"/>
+    <placeable basename="landtrade.xml" name="$l10n_FS19_AgraZLandtrade_name" brand="AgraZ" img="store_landtrade" lifetime="1000" dailykeepup="" category="agraZOther"/>
+    <placeable basename="largeDisplay.xml" name="$l10n_storeName_siloDisplayLarge" brand="FARMING_INNOVATIONS" img="store_largeDisplay" lifetime="1000" dailykeepup="6" category="placeableMisc"/>
+    <placeable basename="lemon.xml" name="$l10n_shopItem_lemon" brand="AJTECH" img="store_lemon" lifetime="1000" dailykeepup="18" category="placeableMisc"/>
+    <placeable basename="limeSiloSmall.xml" name="Fillable Lime Storage" brand="LIZARD" img="store_limeSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="liquidFertilizerRefillTank.xml" name="$l10n_shopItem_liquidFertilizerRefillTank" brand="LIZARD" img="store_liquidFertilizerRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="liquidStorage.xml" name="$l10n_shopItem_liquidStorage" brand="AJTECH" img="store_liquidStorage" lifetime="1000" dailykeepup="39" category="silos"/>
+    <placeable basename="liquidStorageExtension.xml" name="$l10n_shopItem_liquidStorageExtension" brand="AJTECH" img="store_liquidStorageExtension" lifetime="1000" dailykeepup="22" category="silos"/>
+    <placeable basename="littleSawmill_MK.xml" name="$l10n_FS19_littleSawmill_name2" brand="agraZ" img="store_littleSawmill_MK" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions"/>
+    <placeable basename="littleSawmill_OK.xml" name="$l10n_FS19_littleSawmill_name1" brand="agraZ" img="store_littleSawmill_OK" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions"/>
+    <placeable basename="lizardChemTank40ft.xml" name="Liquid Chemical Tank" brand="LIZARD" img="store_lizardChemTank40ft" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="lizardHalle_mit_Tore.xml" name="$l10n_shopItem_hall" brand="LIZARD" img="store_lizardHalle_mit_Tore" lifetime="1000" dailykeepup="20" category="sheds"/>
+    <placeable basename="localInn.xml" name="$l10n_shopItem_localInn" brand="AJTECH" img="store_localInn" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="logCabin.xml" name="$l10n_object_farmhouse" brand="AJTECH" img="store_logCabin" lifetime="1000" dailykeepup="45" category="farmhouses"/>
+    <placeable basename="logCabinD.xml" name="$l10n_shopItem_logCabinD" brand="AJTECH" img="store_logCabinD" lifetime="1000" dailykeepup="30" category="decoration"/>
+    <placeable basename="logObstacle.xml" name="Log Obstacle" brand="" img="store_logObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="logPileLong.xml" name="$l10n_shopItem_logPileLong" brand="AJTECH" img="store_logPileLong" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="logPileShort.xml" name="$l10n_shopItem_logPileShort" brand="AJTECH" img="store_logPileShort" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="lumbermill.xml" name="$l10n_station_sawmill" brand="AJTECH" img="store_lumbermill" lifetime="1000" dailykeepup="55" category="placeableMisc"/>
+    <placeable basename="lumberyard.xml" name="$l10n_name_lumberyardSellPoint" brand="LIZARD" img="store_lumberyard" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="machineShed.xml" name="60x100 Machine Shed" brand="LIZARD" img="store_machineShed" lifetime="100" dailykeepup="30" category="sheds"/>
+    <placeable basename="market.xml" name="$l10n_name_marketSellPoint" brand="LIZARD" img="store_market" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="metaltrash.xml" name="Metal trash" brand="LIZARD" img="store_metaltrash" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="mfHouse1.xml" name="$l10n_shopItem_mfHouse1" brand="AJTECH" img="store_mfHouse1" lifetime="1000" dailykeepup="12" category="decoration"/>
+    <placeable basename="mfHouse2.xml" name="$l10n_shopItem_mfHouse2" brand="AJTECH" img="store_mfHouse2" lifetime="1000" dailykeepup="12" category="decoration"/>
+    <placeable basename="mfHouse3.xml" name="$l10n_shopItem_mfHouse3" brand="AJTECH" img="store_mfHouse3" lifetime="1000" dailykeepup="11" category="decoration"/>
+    <placeable basename="moerao.xml" name="$l10n_shopItem_stake" brand="LIZARD" img="store_moerao" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new1.xml" name="Trunk Set" brand="LIZARD" img="store_new1" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new10.xml" name="Old Wooden Pole" brand="LIZARD" img="store_new10" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new2.xml" name="Stump" brand="LIZARD" img="store_new2" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new3.xml" name="Outhouse" brand="LIZARD" img="store_new3" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new4.xml" name="Lamp" brand="LIZARD" img="store_new4" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new5.xml" name="Parasol" brand="LIZARD" img="store_new5" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new6.xml" name="Plastic Barrier" brand="LIZARD" img="store_new6" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new7.xml" name="Wheelbarrow Decoation" brand="LIZARD" img="store_new7" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new8.xml" name="Grill" brand="LIZARD" img="store_new8" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="new9.xml" name="Dolphin" brand="LIZARD" img="store_new9" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="normalDisplay.xml" name="$l10n_storeName_siloDisplayNormal" brand="FARMING_INNOVATIONS" img="store_normalDisplay" lifetime="1000" dailykeepup="4" category="placeableMisc"/>
+    <placeable basename="office.xml" name="$l10n_shopItem_office" brand="AJTECH" img="store_office" lifetime="1000" dailykeepup="25" category="decoration"/>
+    <placeable basename="oldBaleShelter.xml" name="$l10n_shopItem_oldBaleShelter" brand="AJTECH" img="store_oldBaleShelter" lifetime="1000" dailykeepup="2" category="sheds"/>
+    <placeable basename="oldBus.xml" name="$l10n_shopItem_oldBus" brand="AJTECH" img="store_oldBus" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="oldEuroPallets.xml" name="$l10n_shopItem_oldEuroPallets" brand="AJTECH" img="store_oldEuroPallets" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="oldFireTruck.xml" name="$l10n_shopItem_oldFireTruck" brand="AJTECH" img="store_oldFireTruck" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="oldFuelTruck.xml" name="$l10n_shopItem_oldFuelTruck" brand="AJTECH" img="store_oldFuelTruck" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="oldHarvester.xml" name="$l10n_shopItem_oldHarvester" brand="AJTECH" img="store_oldHarvester" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="oldManureTrailer.xml" name="$l10n_shopItem_oldManureTrailer" brand="AJTECH" img="store_oldManureTrailer" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="oldNightLight.xml" name="$l10n_shopItem_oldNightLight" brand="AJTECH" img="store_oldNightLight" lifetime="1000" dailykeepup="4" category="placeableMisc"/>
+    <placeable basename="oldPickupTruck.xml" name="$l10n_shopItem_oldPickupTruck" brand="AJTECH" img="store_oldPickupTruck" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="oldShelter.xml" name="$l10n_shopItem_oldShelter" brand="AJTECH" img="store_oldShelter" lifetime="1000" dailykeepup="3" category="sheds"/>
+    <placeable basename="oldTractor.xml" name="$l10n_shopItem_oldTractor" brand="AJTECH" img="store_oldTractor" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="outlook.xml" name="$l10n_shopItem_outlook" brand="AJTECH" img="store_outlook" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="oxerObstacle.xml" name="Cross Bar Obstacle" brand="" img="store_oxerObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="palletProduktion.xml" name="$l10n_FS19_PalletProduction_name" brand="agraZ" img="store_palletProduktion" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions"/>
+    <placeable basename="palletSacks1.xml" name="Pallet sack 1" brand="LIZARD" img="store_palletSacks1" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="palletSacks2.xml" name="Pallet sack 2" brand="LIZARD" img="store_palletSacks2" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="palletSacks3.xml" name="Pallet sack 3" brand="LIZARD" img="store_palletSacks3" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="palletSacks4.xml" name="Pallet sack 4" brand="LIZARD" img="store_palletSacks4" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="palletSellPoint.xml" name="$l10n_name_palletSellPoint" brand="HALLSYS" img="store_palletSellPoint" lifetime="1000" dailykeepup="3" category="placeableMisc"/>
+    <placeable basename="pallettruck.xml" name="Pallet truck" brand="LIZARD" img="store_pallettruck" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="palletwithbuckets.xml" name="Pallet with buckets" brand="LIZARD" img="store_palletwithbuckets" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="parkedExcavator.xml" name="$l10n_shopItem_parkedExcavator" brand="AJTECH" img="store_parkedExcavator" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="parkingLines.xml" name="$l10n_shopItem_parkingLines" brand="AJTECH" img="store_parkingLines" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="pelletHall.xml" name="$l10n_name_pelletHall" brand="HALLSYS" img="store_pelletHall" lifetime="1000" dailykeepup="210" category="sheds"/>
+    <placeable basename="pelletHall_crane.xml" name="$l10n_name_pelletHall_crane" brand="HALLSYS" img="store_pelletHall_crane" lifetime="1000" dailykeepup="105" category="sheds"/>
+    <placeable basename="pelletHall_empty.xml" name="$l10n_name_pelletHall_empty" brand="HALLSYS" img="store_pelletHall_empty" lifetime="1000" dailykeepup="35" category="sheds"/>
+    <placeable basename="plasticTableSet.xml" name="$l10n_shopItem_plasticTableSet" brand="AJTECH" img="store_plasticTableSet" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="playPark.xml" name="$l10n_shopItem_playPark" brand="AJTECH" img="store_playPark" lifetime="1000" dailykeepup="8" category="decoration"/>
+    <placeable basename="poleObstacle.xml" name="Pole Obstacle" brand="" img="store_poleObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="potatowasher.xml" name="Potatowasher" brand="GCPLACEABLE" img="store_potatowasher" lifetime="1000" dailykeepup="10" category="globalCompanyPlaceable"/>
+    <placeable basename="radioTower.xml" name="$l10n_shopItem_radioTower" brand="AJTECH" img="store_radioTower" lifetime="1000" dailykeepup="40" category="placeableMisc"/>
+    <placeable basename="rock1.xml" name="$l10n_shopItem_rock1" brand="AJTECH" img="store_rock1" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="rock2.xml" name="$l10n_shopItem_rock2" brand="AJTECH" img="store_rock2" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="rock3.xml" name="$l10n_shopItem_rock3" brand="AJTECH" img="store_rock3" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="rock4.xml" name="$l10n_shopItem_rock4" brand="AJTECH" img="store_rock4" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="rock5.xml" name="$l10n_shopItem_rock5" brand="AJTECH" img="store_rock5" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="rootCropStorage.xml" name="Root Crop Storage" brand="LIZARD" img="store_rootCropStorage" lifetime="1000" dailykeepup="40" category="silos"/>
+    <placeable basename="rowingBoat.xml" name="$l10n_shopItem_rowingBoat" brand="AJTECH" img="store_rowingBoat" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="sawtable.xml" name="Saw table" brand="LIZARD" img="store_sawtable" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="schlosser.xml" name="$l10n_shopItem_schlosser" brand="FARMINGFIVE" img="store_schlosser" lifetime="1000" dailykeepup="30" category="farmhouses"/>
+    <placeable basename="scooterBike.xml" name="$l10n_shopItem_scooterBike" brand="AJTECH" img="store_scooterBike" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="seedRefillTank.xml" name="$l10n_shopItem_seedRefillTank" brand="LIZARD" img="store_seedRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="seedsSiloSmall.xml" name="Fillable Seeds Storage" brand="LIZARD" img="store_seedsSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="sellingStation.xml" name="$l10n_FS19_littleSawmill_name3" brand="agraZ" img="store_sellingStation" lifetime="1000" dailykeepup="" category="agraZOther"/>
+    <placeable basename="sellingStationBales.xml" name="$l10n_shopItem_ssBales" brand="AJTECH" img="store_sellingStationBales" lifetime="1000" dailykeepup="46" category="placeableMisc"/>
+    <placeable basename="sellingStationWool.xml" name="$l10n_station_spinnery" brand="AJTECH" img="store_sellingStationWool" lifetime="1000" dailykeepup="57" category="placeableMisc"/>
+    <placeable basename="semiTrailer.xml" name="$l10n_shopItem_semiTrailer" brand="AJTECH" img="store_semiTrailer" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="shedBlue.xml" name="$l10n_shopItem_shedBlue" brand="AJTECH" img="store_shedBlue" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="shedBrown.xml" name="$l10n_shopItem_shedBrown" brand="AJTECH" img="store_shedBrown" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="shedGreen.xml" name="$l10n_shopItem_shedGreen" brand="AJTECH" img="store_shedGreen" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="shedGrey.xml" name="$l10n_shopItem_shedGrey" brand="AJTECH" img="store_shedGrey" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="shedLargeDE.xml" name="$l10n_shopItem_shedLargeDE" brand="AJTECH" img="store_shedLargeDE" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="shedMediumDE.xml" name="$l10n_shopItem_shedMediumDE" brand="AJTECH" img="store_shedMediumDE" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="shedSmallDE.xml" name="$l10n_shopItem_shedSmallDE" brand="AJTECH" img="store_shedSmallDE" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="shedTan.xml" name="$l10n_shopItem_shedTan" brand="AJTECH" img="store_shedTan" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="siloBin.xml" name="$l10n_shopItem_siloBin" brand="AJTECH" img="store_siloBin" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="silos.xml" name="$l10n_bunkerSiloSmall" brand="LIZARD" img="store_silos" lifetime="1000" dailykeepup="10" category="silos"/>
+    <placeable basename="silosackpile1.xml" name="Silo sack pile" brand="LIZARD" img="store_silosackpile1" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="smallDisplay.xml" name="$l10n_storeName_siloDisplaySmall" brand="FARMING_INNOVATIONS" img="store_smallDisplay" lifetime="1000" dailykeepup="1" category="placeableMisc"/>
+    <placeable basename="smallOffice.xml" name="$l10n_shopItem_smallOffice" brand="AJTECH" img="store_smallOffice" lifetime="1000" dailykeepup="12" category="decoration"/>
+    <placeable basename="smallOffice2.xml" name="$l10n_shopItem_smallOffice2" brand="AJTECH" img="store_smallOffice2" lifetime="1000" dailykeepup="12" category="decoration"/>
+    <placeable basename="snackStand.xml" name="$l10n_shopItem_snackStand" brand="AJTECH" img="store_snackStand" lifetime="1000" dailykeepup="20" category="placeableMisc"/>
+    <placeable basename="somethings.xml" name="Details-Set" brand="LIZARD" img="store_somethings" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="somethings2.xml" name="Details-Set 2" brand="LIZARD" img="store_somethings2" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="somethings3.xml" name="Details-Set 3" brand="LIZARD" img="store_somethings3" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="somethings4.xml" name="Details-Set 4" brand="LIZARD" img="store_somethings4" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="sorter.xml" name="Potatosorter" brand="GCPLACEABLE" img="store_sorter" lifetime="1000" dailykeepup="1" category="globalCompanyPlaceable"/>
+    <placeable basename="ss01.xml" name="$l10n_shopItem_ss01" brand="AJTECH" img="store_ss01" lifetime="1000" dailykeepup="35" category="silos"/>
+    <placeable basename="ss02.xml" name="$l10n_shopItem_ss02" brand="AJTECH" img="store_ss02" lifetime="1000" dailykeepup="35" category="silos"/>
+    <placeable basename="ss03.xml" name="$l10n_shopItem_ss03" brand="AJTECH" img="store_ss03" lifetime="1000" dailykeepup="35" category="silos"/>
+    <placeable basename="ss04.xml" name="$l10n_shopItem_ss04" brand="AJTECH" img="store_ss04" lifetime="1000" dailykeepup="35" category="silos"/>
+    <placeable basename="ss05.xml" name="$l10n_shopItem_ss05" brand="AJTECH" img="store_ss05" lifetime="1000" dailykeepup="35" category="silos"/>
+    <placeable basename="ss06.xml" name="$l10n_shopItem_ss06" brand="AJTECH" img="store_ss06" lifetime="1000" dailykeepup="35" category="silos"/>
+    <placeable basename="ss07.xml" name="$l10n_shopItem_ss07" brand="AJTECH" img="store_ss07" lifetime="1000" dailykeepup="35" category="silos"/>
+    <placeable basename="stables.xml" name="$l10n_name_stablesSellPoint" brand="LIZARD" img="store_stables" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="storage.xml" name="Warehouse with conveyor belt" brand="LIZARD" img="store_storage" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="streetPot01.xml" name="$l10n_shopItem_streetPot01" brand="AJTECH" img="store_streetPot01" lifetime="1000" dailykeepup="3" category="decoration"/>
+    <placeable basename="streetPot02.xml" name="$l10n_shopItem_streetPot02" brand="AJTECH" img="store_streetPot02" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="streetPot03.xml" name="$l10n_shopItem_streetPot03" brand="AJTECH" img="store_streetPot03" lifetime="1000" dailykeepup="2" category="decoration"/>
+    <placeable basename="subsidy.xml" name="$l10n_shopItem_subsidy" brand="GOVERNMENT" img="store_subsidy" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="sweetShop.xml" name="$l10n_shopItem_sweetShop" brand="AJTECH" img="store_sweetShop" lifetime="1000" dailykeepup="11" category="decoration"/>
+    <placeable basename="tJunction.xml" name="$l10n_shopItem_tJunction" brand="AJTECH" img="store_tJunction" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="tipperTruck.xml" name="$l10n_shopItem_tipperTruck" brand="AJTECH" img="store_tipperTruck" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="tomato.xml" name="$l10n_shopItem_tomato" brand="AJTECH" img="store_tomato" lifetime="1000" dailykeepup="18" category="placeableMisc"/>
+    <placeable basename="trash1.xml" name="Trash set 1" brand="LIZARD" img="store_trash1" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="trash2.xml" name="Trash set 2" brand="LIZARD" img="store_trash2" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="trash3.xml" name="Trash set 3" brand="LIZARD" img="store_trash3" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="trashBag.xml" name="$l10n_shopItem_trashBag" brand="AJTECH" img="store_trashBag" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="trashContainer.xml" name="$l10n_shopItem_trashContainer" brand="AJTECH" img="store_trashContainer" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="trioliet.xml" name="$l10n_GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title" brand="TRIO" img="store_trioliet" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
+    <placeable basename="tripleBarObstacle.xml" name="Triple Bar Obstacle" brand="" img="store_tripleBarObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="twoBaresObstacle.xml" name="Two Bars Obstacle" brand="" img="store_twoBaresObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="vehicle01.xml" name="$l10n_shopItem_vehicle01" brand="AJTECH" img="store_vehicle01" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="vehicle02.xml" name="$l10n_shopItem_vehicle02" brand="AJTECH" img="store_vehicle02" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="vehicle03.xml" name="$l10n_shopItem_vehicle03" brand="AJTECH" img="store_vehicle03" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="vehicle04.xml" name="$l10n_shopItem_vehicle04" brand="AJTECH" img="store_vehicle04" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="vehicle05.xml" name="$l10n_shopItem_vehicle05" brand="AJTECH" img="store_vehicle05" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="vehicle06.xml" name="$l10n_shopItem_vehicle06" brand="AJTECH" img="store_vehicle06" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="vigna.xml" name="$l10n_shopItem_vineYard" brand="LIZARD" img="store_vigna" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="vigna2.xml" name="$l10n_shopItem_vineYardRed" brand="LIZARD" img="store_vigna2" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="wallObstacle.xml" name="Wall Obstacle" brand="" img="store_wallObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="warehouse.xml" name="$l10n_shopItem_warehouse" brand="AJTECH" img="store_warehouse" lifetime="1000" dailykeepup="30" category="sheds"/>
+    <placeable basename="wasteCart.xml" name="$l10n_shopItem_wasteCart" brand="AJTECH" img="store_wasteCart" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="waterPump.xml" name="$l10n_seasons_shopItem_waterPump" brand="LIZARD" img="store_waterPump" lifetime="1000" dailykeepup="5" category="animalpens"/>
+    <placeable basename="waterTower.xml" name="$l10n_shopItem_waterTower" brand="AJTECH" img="store_waterTower" lifetime="1000" dailykeepup="4" category="placeableMisc"/>
+    <placeable basename="watermill.xml" name="$l10n_shopItem_watermill" brand="AJTECH" img="store_watermill" lifetime="1000" dailykeepup="15" category="placeableMisc"/>
+    <placeable basename="watermillBroken.xml" name="$l10n_shopItem_watermillBroken" brand="AJTECH" img="store_watermillBroken" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="weightstation.xml" name="Weight Station" brand="JVDECO" img="store_weightstation" lifetime="600" dailykeepup="0" category="decoration"/>
+    <placeable basename="wheelLoader.xml" name="$l10n_shopItem_wheelLoader" brand="AJTECH" img="store_wheelLoader" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="whiteLineX1.xml" name="$l10n_shopItem_whiteLineX1" brand="AJTECH" img="store_whiteLineX1" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="whiteLineX10.xml" name="$l10n_shopItem_whiteLineX10" brand="AJTECH" img="store_whiteLineX10" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="whiteLineX1045.xml" name="$l10n_shopItem_whiteLineX1045" brand="AJTECH" img="store_whiteLineX1045" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="whiteVan.xml" name="$l10n_shopItem_whiteVan" brand="AJTECH" img="store_whiteVan" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="wholesalers.xml" name="$l10n_name_wholesalersSellPoint" brand="LIZARD" img="store_wholesalers" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="windmill.xml" name="$l10n_name_windmillSellPoint" brand="LIZARD" img="store_windmill" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
+    <placeable basename="woodChips.xml" name="$l10n_shopItem_ssWoodChips" brand="AJTECH" img="store_woodChips" lifetime="1000" dailykeepup="3" category="placeableMisc"/>
+    <placeable basename="woodCrusher.xml" name="$l10n_shopItem_woodCrusher" brand="AJTECH" img="store_woodCrusher" lifetime="1000" dailykeepup="55" category="placeableMisc"/>
+    <placeable basename="woodOuthouse.xml" name="$l10n_shopItem_woodOuthouse" brand="AJTECH" img="store_woodOuthouse" lifetime="1000" dailykeepup="8" category="decoration"/>
+    <placeable basename="woodStackDark.xml" name="$l10n_shopItem_woodStackDark" brand="AJTECH" img="store_woodStackDark" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="woodStacks.xml" name="$l10n_shopItem_woodStacks" brand="AJTECH" img="store_woodStacks" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="woodenHouse.xml" name="$l10n_object_farmhouse" brand="AJTECH" img="store_woodenHouse" lifetime="1000" dailykeepup="35" category="farmhouses"/>
+    <placeable basename="woodenHouseD.xml" name="$l10n_shopItem_woodenHouseD" brand="AJTECH" img="store_woodenHouseD" lifetime="1000" dailykeepup="25" category="decoration"/>
+    <placeable basename="woodenTableSet.xml" name="$l10n_shopItem_woodenTableSet" brand="AJTECH" img="store_woodenTableSet" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="woodenplanks.xml" name="Wooden planks" brand="LIZARD" img="store_woodenplanks" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="workshop.xml" name="$l10n_shopItem_workshop" brand="AJTECH" img="store_workshop" lifetime="1000" dailykeepup="27" category="placeableMisc"/>
+  </placeables>
+</mapconfig>
