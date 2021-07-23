@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mapconfig>
-  <vehicles/>
   <vehicles>
     <vehicle basename="1104.xml" type="tractor" name="1104" brand="ARMATRAC" img="store_1104" lifetime="600" category="tractorsS" wearable="480">
       <motor id="1" name="1104"/>
