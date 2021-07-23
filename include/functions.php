@@ -161,6 +161,14 @@ function loadSavegameSpefics($directory, $language, $savegameSpefics = array()) 
 						}
 					}
 					break;
+				case 'placeables' :
+					foreach ( $xmlFile->placeables->placeable as $placeable ) {
+						$name = strval ( $placeable ['basename'] );
+						foreach ( $placeable->attributes () as $attribute => $value ) {
+							$savegameSpefics ['placeables'] [$name] [$attribute] = get_bool ( $value );
+						}
+					}
+					break;
 			}
 		}
 	}

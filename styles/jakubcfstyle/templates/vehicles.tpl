@@ -79,7 +79,7 @@
 			<tbody>
 				{foreach $buildings as $buildingId => $building}
 				<tr>
-					<td>{$building.name}</td>
+					<td><div class="hover-title">{$building.name}</div>{if $building.img != ""}<div class="hover-img"><img src="{#IMAGES#}/vehicles/{$building.img}.png"><span>{$building.name}</span></div>{/if}</td>
 					<td class="text-right pr-3">{$building.age}</td>
 					<td class="text-right pr-3">{$building.price|number_format_locale:0}</td>
 					<td data-order="{$building.resale}" class="text-right pr-3">{$building.resale|number_format_locale:0}</td>

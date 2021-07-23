@@ -95,14 +95,30 @@ class Vehicle {
 			}
 		}
 		foreach ( $xml ['items'] as $item ) {
+			$dataFromStore = $gameData['placeables'];
 			if ($item ['farmId'] != $farmId || strval ( $item ['className'] ) == 'Bale') {
 				continue;
 			}
 			$filename = cleanFileName ( $item ['filename'] );
 			$building = new Vehicle ();
 			$building->name = translate ( $filename );
+			foreach ( $dataFromStore as $basename => $storeData ) {
+				if (basename ( $item ['filename'] ) == $basename) {
+					$name = $storeData ['name'];
+					if (substr ( $name, 0, 5 ) == '$l10n') {
+						$name = translate ( $name );
+					}
+					$building->name = $name;
+					$building->img = strval( $storeData ['img']);
+					$building->brand = strval ( $storeData ['brand'] );
+					$building->lifetime = intval ( $storeData ['lifetime'] );
+					$building->dailykeepup = intval ( $storeData ['dailykeepup'] );
+					$building->category = strval ( $storeData ['category'] );
+					break;
+				}
+			}
 			$building->age = intval ( $item ['age'] );
-			$building->lifetime = 1000;
+			#$building->lifetime = 500;
 			$building->price = intval ( $item ['price'] );
 			$building->resale = self::getBuildingSellPrice ( $building->price, $building->lifetime, $building->age, 0 );
 			self::$buildings [] = $building;
