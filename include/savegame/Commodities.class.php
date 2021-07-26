@@ -56,7 +56,7 @@ class Commodity {
 	private static function analyzeItems() {
 		global $gameData;
 		foreach ( self::$xml ['items'] as $item ) {
-			$location = cleanFileName ( $item ['filename'] );
+		 	$location = cleanFileName ( $item ['filename'] );
 			switch ($item ['className']) {
 				case 'FS19_GlobalCompany.GC_ProductionFactoryPlaceable' :
 					if ($item ['farmId'] == $_SESSION ['farmId']) {
@@ -167,6 +167,22 @@ class Commodity {
 								$fillType = strval ( $node ['fillType'] );
 								$fillLevel = intval ( $node ['fillLevel'] );
 								self::addCommodity ( $fillType, $fillLevel, $location );
+							}
+						}
+					}
+					break;
+				case 'FS19_SteelBaleSheds.ObjectStorage':
+				case 'FS19_BaleStacks.ObjectStorage':
+				case 'FS19_SteelCottonSheds.ObjectStorage':
+					if ($item ['farmId'] == $_SESSION ['farmId']) {
+						foreach ( $item->objectStorage->storageArea as $storage) {
+							$fillType = strval ( $storage ['fillType']);
+							$fillLevel = 0;
+							foreach ( $storage->object as $object){
+								$fillLevel += intval($object ['fillLevel']);
+							}
+							if ( $fillLevel != 0) {	
+								self::addCommodity ( $fillType, $fillLevel, $location);
 							}
 						}
 					}
