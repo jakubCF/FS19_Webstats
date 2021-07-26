@@ -42,10 +42,22 @@
 								</tr>
 							</thead>
 							<tbody>
-								{foreach $commodity.locations as $locationName => $location} {$addInfo=false} {if isset($location.FillablePallet)} {if $location.FillablePallet==1} {$addInfo="1 ##PALLET##"} {else} {$addInfo="{$location.FillablePallet} ##PALETTES##"} {/if} {/if} {if isset($location.Bale)} {if
-								$location.Bale==1} {$addInfo="1 ##BALE##"} {else} {$addInfo="{$location.Bale} ##BALES##"} {/if} {/if}
+								{foreach $commodity.locations as $locationName => $location} {$addInfo=false} 
+								{if isset($location.FillablePallet)} 
+									{if $location.FillablePallet==1} 
+										{$addInfo="1 ##PALLET##"} 
+									{else} {$addInfo="{$location.FillablePallet} ##PALETTES##"} 
+									{/if} 
+								{/if} 
+								{if isset($location.Bale)} 
+									{if	$location.Bale==1} {$addInfo="1 ##BALE##"} 
+									{else} {$addInfo="{$location.Bale} ##BALES##"} 
+									{/if} 
+								{/if}
 								<tr>
-									<td>{if isset($plants.$locationName)}<a href="index.php?page=factories&object={$plants.$locationName.i3dName}">{$locationName}</a>{else}{$locationName}{/if}{if $addInfo} ({$addInfo}){/if}
+									<td>{if isset($plants.$locationName)}<a href="index.php?page=factories&object={$plants.$locationName.i3dName}">{$locationName}</a>
+									{else}{$locationName}{/if}
+									{if $addInfo} ({$addInfo}){/if}
 									</td>
 									<td class="text-right">{number_format_locale($location.fillLevel, 0)}</td>
 								</tr>
