@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+    <pallets>
+		<pallet name="eggPallet" />
+		<pallet name="eggPalletSellable" />
+        <pallet>rhumpalett</pallet>
+        <pallet>seedsPallet</pallet>
+        <pallet>fertilizerPallet</pallet>
+        <pallet>liquidTanksPallet</pallet>
+	</pallets>
+
+
+	<l10n>
+		<!--bales-->
+        <text name="baleGrass121324">
+            <cz>Tráva</cz>
+			<en>Grass</en>
+		</text>
+        <text name="baleStraw121324">
+            <cz>Sláma</cz>
+			<en>Straw</en>
+		</text>
+		<text name="baleStraw240b">
+            <cz>Sláma</cz>
+			<en>Straw</en>
+		</text>
+        <!-- products-->
+        <text name="RHUM">
+			<cz>Rum</cz>
+			<en>Rum</en>
+			<de>Rum</de>
+			<fr>Rum</fr>
+		</text>
+		<text name="OP_Fertilizer">
+			<cz>Pevné hnojivo</cz>
+			<en>Fertilizer</en>
+		</text>
+		<text name="OP_LiquidFertilizer">
+			<cz>Tekuté hnojivo</cz>
+			<en>Liquid Fertilizer</en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+		<text name="">
+			<cz></cz>
+			<en></en>
+		</text>
+
+	</l10n>
+</mapconfig>

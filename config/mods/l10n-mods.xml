@@ -1,1497 +1,1715 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mapconfig>
   <l10n>
-    <text name="$l10n_shopItem_fence10m">
-      <cz>shopItem_fence10m</cz>
-      <en>shopItem_fence10m</en>
+    <text name="shopItem_fence10m">
+      <cz>Plot 10m</cz>
+      <en>fence10m</en>
     </text>
-    <text name="$l10n_shopItem_fence20m">
-      <cz>shopItem_fence20m</cz>
-      <en>shopItem_fence20m</en>
+    <text name="shopItem_fence20m">
+      <cz>Plot 20m</cz>
+      <en>fence20m</en>
     </text>
-    <text name="$l10n_shopItem_fence30m">
-      <cz>shopItem_fence30m</cz>
-      <en>shopItem_fence30m</en>
+    <text name="shopItem_fence30m">
+      <cz>Plot 30m</cz>
+      <en>fence30m</en>
     </text>
-    <text name="$l10n_shopItem_appleOrchard">
-      <cz>shopItem_appleOrchard</cz>
-      <en>shopItem_appleOrchard</en>
+    <text name="shopItem_appleOrchard">
+      <cz>Jablečný sad</cz>
+      <en>appleOrchard</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_appleTree">
-      <cz>GlobalCompanyAddOn_Productions_TreeFruits_shopItem_appleTree</cz>
-      <en>GlobalCompanyAddOn_Productions_TreeFruits_shopItem_appleTree</en>
+    <text name="fertilizerSiloSmall">
+			<cz>Silo s hnojivem</cz>
+			<en>Fertilizer Silo</en>
+		</text>
+    <text name="limeSiloSmall">
+			<cz>Silo s vápnem</cz>
+			<en>Lime silo</en>
+		</text>
+    <text name="seedsSiloSmall">
+			<cz>Silo s osivem</cz>
+			<en>Seeds silo</en>
+		</text>
+    <text name="lizardChemTank40ft">
+			<cz>Tank s tekutým hnojivem</cz>
+			<en>Liquid Chemical Tank</en>
+		</text>
+    <text name="GlobalCompanyAddOn_Productions_TreeFruits_shopItem_appleTree">
+      <cz>Jabloň</cz>
+			<en>Apple tree</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_beeBox">
-      <cz>GlobalCompanyAddOn_Productions_Honey_shopItem_beeBox</cz>
-      <en>GlobalCompanyAddOn_Productions_Honey_shopItem_beeBox</en>
+    <text name="GlobalCompanyAddOn_Productions_Honey_shopItem_beeBox">
+      <cz>Krabice včel</cz>
+      <en>Bee box</en>
     </text>
-    <text name="$l10n_name_RandonBitremFrontal">
-      <cz>name_RandonBitremFrontal</cz>
-      <en>name_RandonBitremFrontal</en>
+    <text name="name_RandonBitremFrontal">
+      <cz>RandonBitremFrontal</cz>
+      <en>RandonBitremFrontal</en>
     </text>
-    <text name="$l10n_name_RandonBitremTraseiro">
-      <cz>name_RandonBitremTraseiro</cz>
-      <en>name_RandonBitremTraseiro</en>
+    <text name="name_RandonBitremTraseiro">
+      <cz>RandonBitremTraseiro</cz>
+      <en>RandonBitremTraseiro</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_bucket">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_bucket</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_bucket</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_bucket">
+      <cz>Kyblík</cz>
+      <en>Bucket</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_bucket">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_bucket</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_bucket</en>
+    <text name="GlobalCompanyAddOn_Productions_TreeFruits_shopItem_cherryTree">
+      <cz>Třešeň</cz>
+			<en>Cherry tree</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_cherryTree">
-      <cz>GlobalCompanyAddOn_Productions_TreeFruits_shopItem_cherryTree</cz>
-      <en>GlobalCompanyAddOn_Productions_TreeFruits_shopItem_cherryTree</en>
+    <text name="name_bga450kW">
+      <cz>bga450kW</cz>
+      <en>bga450kW</en>
     </text>
-    <text name="$l10n_name_bga450kW">
-      <cz>name_bga450kW</cz>
-      <en>name_bga450kW</en>
+    <text name="shopItem_KerfabFork">
+      <cz>KerfabFork</cz>
+      <en>KerfabFork</en>
     </text>
-    <text name="$l10n_shopItem_KerfabFork">
-      <cz>shopItem_KerfabFork</cz>
-      <en>shopItem_KerfabFork</en>
+    <text name="GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBox">
+      <cz>Sklenice na med</cz>
+      <en>Honey box empty</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBox">
-      <cz>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBox</cz>
-      <en>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBox</en>
+    <text name="GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBoxFull">
+      <cz>Sklenice s medem</cz>
+      <en>Honey box full</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBoxFull">
-      <cz>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBoxFull</cz>
-      <en>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyBoxFull</en>
+    <text name="GlobalCompanyAddOn_Productions_Honey_shopItem_honeyComb">
+      <cz>Včelí plástev</cz>
+      <en>Honey comb empty</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyComb">
-      <cz>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyComb</cz>
-      <en>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyComb</en>
+    <text name="GlobalCompanyAddOn_Productions_Honey_shopItem_honeyCombFull">
+      <cz>Včelí plástev plná</cz>
+      <en>Honey comb full</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyCombFull">
-      <cz>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyCombFull</cz>
-      <en>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyCombFull</en>
+    <text name="GlobalCompanyAddOn_Productions_Honey_shopItem_honeyExtractor">
+      <cz>Extraktor medu</cz>
+      <en>Honey extractor</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyExtractor">
-      <cz>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyExtractor</cz>
-      <en>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyExtractor</en>
+    <text name="GlobalCompanyAddOn_Productions_Honey_shopItem_honeyFillStation">
+      <cz>Stáčecí stanice na med</cz>
+      <en>Bottling station</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyFillStation">
-      <cz>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyFillStation</cz>
-      <en>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyFillStation</en>
+    <text name="GlobalCompanyAddOn_Productions_Honey_shopItem_honeyHouse">
+      <cz>Včelí úl</cz>
+			<en>Bee house</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyHouse">
-      <cz>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyHouse</cz>
-      <en>GlobalCompanyAddOn_Productions_Honey_shopItem_honeyHouse</en>
+    <text name="shopItem_Lizard_BioFuels">
+      <cz>Lizard_BioFuels</cz>
+      <en>Lizard_BioFuels</en>
     </text>
-    <text name="$l10n_shopItem_Lizard_BioFuels">
-      <cz>shopItem_Lizard_BioFuels</cz>
-      <en>shopItem_Lizard_BioFuels</en>
+    <text name="shopItem_methanolTank">
+      <cz>methanolTank</cz>
+      <en>methanolTank</en>
     </text>
-    <text name="$l10n_shopItem_methanolTank">
-      <cz>shopItem_methanolTank</cz>
-      <en>shopItem_methanolTank</en>
+    <text name="name_multifillingstation">
+      <cz>Nákupní stanice</cz>
+      <en>Multifillingstation</en>
     </text>
-    <text name="$l10n_name_multifillingstation">
-      <cz>name_multifillingstation</cz>
-      <en>name_multifillingstation</en>
+    <text name="name_multifillingstation_Black">
+      <cz>Nákupní stanice - černá</cz>
+      <en>Multifillingstation black</en>
     </text>
-    <text name="$l10n_name_multifillingstation_Black">
-      <cz>name_multifillingstation_Black</cz>
-      <en>name_multifillingstation_Black</en>
+    <text name="name_multifillingstation_Gold">
+      <cz>Nákupní stanice - zlatá</cz>
+      <en>Multifillingstation gold</en>
     </text>
-    <text name="$l10n_name_multifillingstation_Gold">
-      <cz>name_multifillingstation_Gold</cz>
-      <en>name_multifillingstation_Gold</en>
+    <text name="shopItem_orangeOrchard">
+      <cz>orangeOrchard</cz>
+      <en>orangeOrchard</en>
     </text>
-    <text name="$l10n_shopItem_orangeOrchard">
-      <cz>shopItem_orangeOrchard</cz>
-      <en>shopItem_orangeOrchard</en>
+    <text name="GlobalCompanyAddOn_Productions_TreeFruits_shopItem_pearTree">
+      <cz>Hrušeň</cz>
+			<en>Pear Tree</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_pearTree">
-      <cz>GlobalCompanyAddOn_Productions_TreeFruits_shopItem_pearTree</cz>
-      <en>GlobalCompanyAddOn_Productions_TreeFruits_shopItem_pearTree</en>
+    <text name="GlobalCompanyAddOn_Productions_TreeFruits_shopItem_plumTree">
+      <cz>Slivoň</cz>
+			<en>Plum tree</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_plumTree">
-      <cz>GlobalCompanyAddOn_Productions_TreeFruits_shopItem_plumTree</cz>
-      <en>GlobalCompanyAddOn_Productions_TreeFruits_shopItem_plumTree</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_hall">
+      <cz>Hala</cz>
+      <en>Hall</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_hall">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_hall</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_hall</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_storage">
+      <cz>Sklad</cz>
+      <en>Storage</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_storage</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_storage</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_storage2">
+      <cz>Sklad 2</cz>
+      <en>Storage 2</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage2">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_storage2</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_storage2</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_storage3">
+      <cz>Sklad 3</cz>
+      <en>Storage 3</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage3">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_storage3</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_storage3</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_sellstation">
+      <cz>Prodejní místo</cz>
+      <en>Sell Station</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_sellstation">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_sellstation</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_sellstation</en>
+    <text name="name_adattatoreT">
+      <cz>adattatoreT</cz>
+      <en>adattatoreT</en>
     </text>
-    <text name="$l10n_name_adattatoreT">
-      <cz>name_adattatoreT</cz>
-      <en>name_adattatoreT</en>
+    <text name="name_adattatoreTF">
+      <cz>adattatoreTF</cz>
+      <en>adattatoreTF</en>
     </text>
-    <text name="$l10n_name_adattatoreTF">
-      <cz>name_adattatoreTF</cz>
-      <en>name_adattatoreTF</en>
+    <text name="name_adattatoreFS">
+      <cz>adattatoreFS</cz>
+      <en>adattatoreFS</en>
     </text>
-    <text name="$l10n_name_adattatoreFS">
-      <cz>name_adattatoreFS</cz>
-      <en>name_adattatoreFS</en>
+    <text name="name_adattatoreW">
+      <cz>adattatoreW</cz>
+      <en>adattatoreW</en>
     </text>
-    <text name="$l10n_name_adattatoreW">
-      <cz>name_adattatoreW</cz>
-      <en>name_adattatoreW</en>
+    <text name="name_adattatoreTW">
+      <cz>adattatoreTW</cz>
+      <en>adattatoreTW</en>
     </text>
-    <text name="$l10n_name_adattatoreTW">
-      <cz>name_adattatoreTW</cz>
-      <en>name_adattatoreTW</en>
-    </text>
-    <text name="$l10n_adblue_tank">
+    <text name="adblue_tank">
       <cz>adblue_tank</cz>
       <en>adblue_tank</en>
     </text>
-    <text name="$l10n_shopItem_apartments">
-      <cz>shopItem_apartments</cz>
-      <en>shopItem_apartments</en>
+    <text name="shopItem_apartments">
+      <cz>apartments</cz>
+      <en>apartments</en>
     </text>
-    <text name="$l10n_name_baleShredder">
-      <cz>name_baleShredder</cz>
-      <en>name_baleShredder</en>
+    <text name="name_baleShredder">
+      <cz>baleShredder</cz>
+      <en>baleShredder</en>
     </text>
-    <text name="$l10n_baleTwinePallet">
+    <text name="baleTwinePallet">
       <cz>baleTwinePallet</cz>
       <en>baleTwinePallet</en>
     </text>
-    <text name="$l10n_FS19_PalletProduction_palletName1">
+    <text name="FS19_PalletProduction_palletName1">
       <cz>FS19_PalletProduction_palletName1</cz>
       <en>FS19_PalletProduction_palletName1</en>
     </text>
-    <text name="$l10n_name_barnSellPoint">
-      <cz>name_barnSellPoint</cz>
-      <en>name_barnSellPoint</en>
+    <text name="name_barnSellPoint">
+      <cz>barnSellPoint</cz>
+      <en>barnSellPoint</en>
     </text>
-    <text name="$l10n_shopItem_barrelIronBlue">
-      <cz>shopItem_barrelIronBlue</cz>
-      <en>shopItem_barrelIronBlue</en>
+    <text name="shopItem_barrelIronBlue">
+      <cz>barrelIronBlue</cz>
+      <en>barrelIronBlue</en>
     </text>
-    <text name="$l10n_shopItem_barrelIronGreenRust">
-      <cz>shopItem_barrelIronGreenRust</cz>
-      <en>shopItem_barrelIronGreenRust</en>
+    <text name="shopItem_barrelIronGreenRust">
+      <cz>barrelIronGreenRust</cz>
+      <en>barrelIronGreenRust</en>
     </text>
-    <text name="$l10n_FS19_Distillery_name1">
+    <text name="FS19_Distillery_name1">
       <cz>FS19_Distillery_name1</cz>
       <en>FS19_Distillery_name1</en>
     </text>
-    <text name="$l10n_FS19_BarrelProduction_name1">
+    <text name="FS19_BarrelProduction_name1">
       <cz>FS19_BarrelProduction_name1</cz>
       <en>FS19_BarrelProduction_name1</en>
     </text>
-    <text name="$l10n_shopItem_barrelWoodLarge">
-      <cz>shopItem_barrelWoodLarge</cz>
-      <en>shopItem_barrelWoodLarge</en>
+    <text name="shopItem_barrelWoodLarge">
+      <cz>barrelWoodLarge</cz>
+      <en>barrelWoodLarge</en>
     </text>
-    <text name="$l10n_shopItem_barrelWoodSmall">
-      <cz>shopItem_barrelWoodSmall</cz>
-      <en>shopItem_barrelWoodSmall</en>
+    <text name="shopItem_barrelWoodSmall">
+      <cz>barrelWoodSmall</cz>
+      <en>barrelWoodSmall</en>
     </text>
-    <text name="$l10n_animalPen_cow">
-      <cz>animalPen_cow</cz>
-      <en>animalPen_cow</en>
+    <text name="shopItem_basketballCourt">
+      <cz>basketballCourt</cz>
+      <en>basketballCourt</en>
     </text>
-    <text name="$l10n_animalPen_pig">
-      <cz>animalPen_pig</cz>
-      <en>animalPen_pig</en>
+    <text name="shopItem_beachTent">
+      <cz>beachTent</cz>
+      <en>beachTent</en>
     </text>
-    <text name="$l10n_animalPen_sheep">
-      <cz>animalPen_sheep</cz>
-      <en>animalPen_sheep</en>
+    <text name="name_bennaDesilatriceW">
+      <cz>bennaDesilatriceW</cz>
+      <en>bennaDesilatriceW</en>
     </text>
-    <text name="$l10n_shopItem_basketballCourt">
-      <cz>shopItem_basketballCourt</cz>
-      <en>shopItem_basketballCourt</en>
+    <text name="name_bennaGrigliaOrrizontaleW">
+      <cz>bennaGrigliaOrrizontaleW</cz>
+      <en>bennaGrigliaOrrizontaleW</en>
     </text>
-    <text name="$l10n_shopItem_beachTent">
-      <cz>shopItem_beachTent</cz>
-      <en>shopItem_beachTent</en>
+    <text name="name_bennaGrigliaOrrizontaleTrattenitoreW">
+      <cz>bennaGrigliaOrrizontaleTrattenitoreW</cz>
+      <en>bennaGrigliaOrrizontaleTrattenitoreW</en>
     </text>
-    <text name="$l10n_name_bennaDesilatriceW">
-      <cz>name_bennaDesilatriceW</cz>
-      <en>name_bennaDesilatriceW</en>
+    <text name="name_bennaGrigliaVerticaleW">
+      <cz>bennaGrigliaVerticaleW</cz>
+      <en>bennaGrigliaVerticaleW</en>
     </text>
-    <text name="$l10n_name_bennaGrigliaOrrizontaleW">
-      <cz>name_bennaGrigliaOrrizontaleW</cz>
-      <en>name_bennaGrigliaOrrizontaleW</en>
+    <text name="name_bennaGrigliaVerticaleTrattenitoreW">
+      <cz>bennaGrigliaVerticaleTrattenitoreW</cz>
+      <en>bennaGrigliaVerticaleTrattenitoreW</en>
     </text>
-    <text name="$l10n_name_bennaGrigliaOrrizontaleTrattenitoreW">
-      <cz>name_bennaGrigliaOrrizontaleTrattenitoreW</cz>
-      <en>name_bennaGrigliaOrrizontaleTrattenitoreW</en>
+    <text name="name_bennaMultiusoW">
+      <cz>bennaMultiusoW</cz>
+      <en>bennaMultiusoW</en>
     </text>
-    <text name="$l10n_name_bennaGrigliaVerticaleW">
-      <cz>name_bennaGrigliaVerticaleW</cz>
-      <en>name_bennaGrigliaVerticaleW</en>
+    <text name="name_bennaMultiusoWP">
+      <cz>bennaMultiusoWP</cz>
+      <en>bennaMultiusoWP</en>
     </text>
-    <text name="$l10n_name_bennaGrigliaVerticaleTrattenitoreW">
-      <cz>name_bennaGrigliaVerticaleTrattenitoreW</cz>
-      <en>name_bennaGrigliaVerticaleTrattenitoreW</en>
+    <text name="name_bennaMultiusoTrattenitoreW">
+      <cz>bennaMultiusoTrattenitoreW</cz>
+      <en>bennaMultiusoTrattenitoreW</en>
     </text>
-    <text name="$l10n_name_bennaMultiusoW">
-      <cz>name_bennaMultiusoW</cz>
-      <en>name_bennaMultiusoW</en>
+    <text name="name_bennaRaptorW">
+      <cz>bennaRaptorW</cz>
+      <en>bennaRaptorW</en>
     </text>
-    <text name="$l10n_name_bennaMultiusoWP">
-      <cz>name_bennaMultiusoWP</cz>
-      <en>name_bennaMultiusoWP</en>
+    <text name="name_bennaScaricoCentraleW">
+      <cz>bennaScaricoCentraleW</cz>
+      <en>bennaScaricoCentraleW</en>
     </text>
-    <text name="$l10n_name_bennaMultiusoTrattenitoreW">
-      <cz>name_bennaMultiusoTrattenitoreW</cz>
-      <en>name_bennaMultiusoTrattenitoreW</en>
+    <text name="name_bennaTramoggiaW">
+      <cz>bennaTramoggiaW</cz>
+      <en>bennaTramoggiaW</en>
     </text>
-    <text name="$l10n_name_bennaRaptorW">
-      <cz>name_bennaRaptorW</cz>
-      <en>name_bennaRaptorW</en>
+    <text name="shopItem_smallBGA">
+      <cz>Bioplynka</cz>
+      <en>BGA</en>
     </text>
-    <text name="$l10n_name_bennaScaricoCentraleW">
-      <cz>name_bennaScaricoCentraleW</cz>
-      <en>name_bennaScaricoCentraleW</en>
+    <text name="shopItem_bgaExtension">
+      <cz>bgaExtension</cz>
+      <en>bgaExtension</en>
     </text>
-    <text name="$l10n_name_bennaTramoggiaW">
-      <cz>name_bennaTramoggiaW</cz>
-      <en>name_bennaTramoggiaW</en>
-    </text>
-    <text name="$l10n_shopItem_smallBGA">
-      <cz>shopItem_smallBGA</cz>
-      <en>shopItem_smallBGA</en>
-    </text>
-    <text name="$l10n_shopItem_bgaExtension">
-      <cz>shopItem_bgaExtension</cz>
-      <en>shopItem_bgaExtension</en>
-    </text>
-    <text name="$l10n_seasons_shopItem_bigBagSalt">
+    <text name="seasons_shopItem_bigBagSalt">
       <cz>seasons_shopItem_bigBagSalt</cz>
       <en>seasons_shopItem_bigBagSalt</en>
     </text>
-    <text name="$l10n_shopItem_bigFactory">
-      <cz>shopItem_bigFactory</cz>
-      <en>shopItem_bigFactory</en>
+    <text name="shopItem_bigFactory">
+      <cz>bigFactory</cz>
+      <en>bigFactory</en>
     </text>
-    <text name="$l10n_name_bigForcaW">
-      <cz>name_bigForcaW</cz>
-      <en>name_bigForcaW</en>
+    <text name="name_bigForcaW">
+      <cz>bigForcaW</cz>
+      <en>bigForcaW</en>
     </text>
-    <text name="$l10n_name_bilancinoSollevamento">
-      <cz>name_bilancinoSollevamento</cz>
-      <en>name_bilancinoSollevamento</en>
+    <text name="name_bilancinoSollevamento">
+      <cz>bilancinoSollevamento</cz>
+      <en>bilancinoSollevamento</en>
     </text>
-    <text name="$l10n_BIODIESEL_PRODUCTION">
+    <text name="BIODIESEL_PRODUCTION">
       <cz>BIODIESEL_PRODUCTION</cz>
       <en>BIODIESEL_PRODUCTION</en>
     </text>
-    <text name="$l10n_FS19_littleSawmill_palletName2">
+    <text name="FS19_littleSawmill_palletName2">
       <cz>FS19_littleSawmill_palletName2</cz>
       <en>FS19_littleSawmill_palletName2</en>
     </text>
-    <text name="$l10n_shopItem_boxVan">
-      <cz>shopItem_boxVan</cz>
-      <en>shopItem_boxVan</en>
+    <text name="shopItem_boxVan">
+      <cz>boxVan</cz>
+      <en>boxVan</en>
     </text>
-    <text name="$l10n_name_bracettoSollevamentoW">
-      <cz>name_bracettoSollevamentoW</cz>
-      <en>name_bracettoSollevamentoW</en>
+    <text name="name_bracettoSollevamentoW">
+      <cz>bracettoSollevamentoW</cz>
+      <en>bracettoSollevamentoW</en>
     </text>
-    <text name="$l10n_shopItem_bridgeLong">
-      <cz>shopItem_bridgeLong</cz>
-      <en>shopItem_bridgeLong</en>
+    <text name="shopItem_bridgeLong">
+      <cz>bridgeLong</cz>
+      <en>bridgeLong</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloDouble01">
-      <cz>shopItem_bunkerSiloDouble01</cz>
-      <en>shopItem_bunkerSiloDouble01</en>
+    <text name="shopItem_bunkerSiloDouble01">
+      <cz>bunkerSiloDouble01</cz>
+      <en>bunkerSiloDouble01</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloDouble02">
-      <cz>shopItem_bunkerSiloDouble02</cz>
-      <en>shopItem_bunkerSiloDouble02</en>
+    <text name="shopItem_bunkerSiloDouble02">
+      <cz>bunkerSiloDouble02</cz>
+      <en>bunkerSiloDouble02</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloRamp01">
-      <cz>shopItem_bunkerSiloRamp01</cz>
-      <en>shopItem_bunkerSiloRamp01</en>
+    <text name="shopItem_bunkerSiloRamp01">
+      <cz>bunkerSiloRamp01</cz>
+      <en>bunkerSiloRamp01</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloRamp02">
-      <cz>shopItem_bunkerSiloRamp02</cz>
-      <en>shopItem_bunkerSiloRamp02</en>
+    <text name="shopItem_bunkerSiloRamp02">
+      <cz>bunkerSiloRamp02</cz>
+      <en>bunkerSiloRamp02</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloRamp03">
-      <cz>shopItem_bunkerSiloRamp03</cz>
-      <en>shopItem_bunkerSiloRamp03</en>
+    <text name="shopItem_bunkerSiloRamp03">
+      <cz>bunkerSiloRamp03</cz>
+      <en>bunkerSiloRamp03</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloRamp04">
-      <cz>shopItem_bunkerSiloRamp04</cz>
-      <en>shopItem_bunkerSiloRamp04</en>
+    <text name="shopItem_bunkerSiloRamp04">
+      <cz>bunkerSiloRamp04</cz>
+      <en>bunkerSiloRamp04</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloSingle01">
-      <cz>shopItem_bunkerSiloSingle01</cz>
-      <en>shopItem_bunkerSiloSingle01</en>
+    <text name="shopItem_bunkerSiloSingle01">
+      <cz>bunkerSiloSingle01</cz>
+      <en>bunkerSiloSingle01</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloSingle02">
-      <cz>shopItem_bunkerSiloSingle02</cz>
-      <en>shopItem_bunkerSiloSingle02</en>
+    <text name="shopItem_bunkerSiloSingle02">
+      <cz>bunkerSiloSingle02</cz>
+      <en>bunkerSiloSingle02</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloTriple01">
-      <cz>shopItem_bunkerSiloTriple01</cz>
-      <en>shopItem_bunkerSiloTriple01</en>
+    <text name="shopItem_bunkerSiloTriple01">
+      <cz>bunkerSiloTriple01</cz>
+      <en>bunkerSiloTriple01</en>
     </text>
-    <text name="$l10n_shopItem_bunkerSiloTriple02">
-      <cz>shopItem_bunkerSiloTriple02</cz>
-      <en>shopItem_bunkerSiloTriple02</en>
+    <text name="shopItem_bunkerSiloTriple02">
+      <cz>bunkerSiloTriple02</cz>
+      <en>bunkerSiloTriple02</en>
     </text>
-    <text name="$l10n_FS19_AgraZLandtrade_name1">
+    <text name="FS19_AgraZLandtrade_name1">
       <cz>FS19_AgraZLandtrade_name1</cz>
       <en>FS19_AgraZLandtrade_name1</en>
     </text>
-    <text name="$l10n_shopItem_campingTent">
-      <cz>shopItem_campingTent</cz>
-      <en>shopItem_campingTent</en>
+    <text name="shopItem_campingTent">
+      <cz>campingTent</cz>
+      <en>campingTent</en>
     </text>
-    <text name="$l10n_shopItem_campingTrailer">
-      <cz>shopItem_campingTrailer</cz>
-      <en>shopItem_campingTrailer</en>
+    <text name="shopItem_campingTrailer">
+      <cz>campingTrailer</cz>
+      <en>campingTrailer</en>
     </text>
-    <text name="$l10n_molassesPallet">
+    <text name="molassesPallet">
       <cz>molassesPallet</cz>
       <en>molassesPallet</en>
     </text>
-    <text name="$l10n_shopItem_cargoBox1">
-      <cz>shopItem_cargoBox1</cz>
-      <en>shopItem_cargoBox1</en>
+    <text name="shopItem_cargoBox1">
+      <cz>cargoBox1</cz>
+      <en>cargoBox1</en>
     </text>
-    <text name="$l10n_shopItem_cargoBox2">
-      <cz>shopItem_cargoBox2</cz>
-      <en>shopItem_cargoBox2</en>
+    <text name="shopItem_cargoBox2">
+      <cz>cargoBox2</cz>
+      <en>cargoBox2</en>
     </text>
-    <text name="$l10n_shopItem_cargoContainerBlue">
-      <cz>shopItem_cargoContainerBlue</cz>
-      <en>shopItem_cargoContainerBlue</en>
+    <text name="shopItem_cargoContainerBlue">
+      <cz>cargoContainerBlue</cz>
+      <en>cargoContainerBlue</en>
     </text>
-    <text name="$l10n_shopItem_cargoContainerGreen">
-      <cz>shopItem_cargoContainerGreen</cz>
-      <en>shopItem_cargoContainerGreen</en>
+    <text name="shopItem_cargoContainerGreen">
+      <cz>cargoContainerGreen</cz>
+      <en>cargoContainerGreen</en>
     </text>
-    <text name="$l10n_shopItem_cargoContainerRed">
-      <cz>shopItem_cargoContainerRed</cz>
-      <en>shopItem_cargoContainerRed</en>
+    <text name="shopItem_cargoContainerRed">
+      <cz>cargoContainerRed</cz>
+      <en>cargoContainerRed</en>
     </text>
-    <text name="$l10n_shopItem_cargoContainerRedOpen">
-      <cz>shopItem_cargoContainerRedOpen</cz>
-      <en>shopItem_cargoContainerRedOpen</en>
+    <text name="shopItem_cargoContainerRedOpen">
+      <cz>cargoContainerRedOpen</cz>
+      <en>cargoContainerRedOpen</en>
     </text>
-    <text name="$l10n_shopItem_cargoContainerYellow">
-      <cz>shopItem_cargoContainerYellow</cz>
-      <en>shopItem_cargoContainerYellow</en>
+    <text name="shopItem_cargoContainerYellow">
+      <cz>cargoContainerYellow</cz>
+      <en>cargoContainerYellow</en>
     </text>
-    <text name="$l10n_shopItem_castleDE">
-      <cz>shopItem_castleDE</cz>
-      <en>shopItem_castleDE</en>
+    <text name="shopItem_castleDE">
+      <cz>castleDE</cz>
+      <en>castleDE</en>
     </text>
-    <text name="$l10n_shopItem_cementTruck">
-      <cz>shopItem_cementTruck</cz>
-      <en>shopItem_cementTruck</en>
+    <text name="shopItem_cementTruck">
+      <cz>cementTruck</cz>
+      <en>cementTruck</en>
     </text>
-    <text name="$l10n_name_cestelloW">
-      <cz>name_cestelloW</cz>
-      <en>name_cestelloW</en>
+    <text name="name_cestelloW">
+      <cz>cestelloW</cz>
+      <en>cestelloW</en>
     </text>
-    <text name="$l10n_shopItem_chickenFoodPallet">
-      <cz>shopItem_chickenFoodPallet</cz>
-      <en>shopItem_chickenFoodPallet</en>
+    <text name="shopItem_chickenFoodPallet">
+      <cz>chickenFoodPallet</cz>
+      <en>chickenFoodPallet</en>
     </text>
-    <text name="$l10n_chickenfood">
+    <text name="chickenfood">
       <cz>chickenfood</cz>
       <en>chickenfood</en>
     </text>
-    <text name="$l10n_compositeHall3">
+    <text name="compositeHall3">
       <cz>compositeHall3</cz>
       <en>compositeHall3</en>
     </text>
-    <text name="$l10n_compositeHall4">
+    <text name="compositeHall4">
       <cz>compositeHall4</cz>
       <en>compositeHall4</en>
     </text>
-    <text name="$l10n_compositeHall5">
+    <text name="compositeHall5">
       <cz>compositeHall5</cz>
       <en>compositeHall5</en>
     </text>
-    <text name="$l10n_compositeHall6">
+    <text name="compositeHall6">
       <cz>compositeHall6</cz>
       <en>compositeHall6</en>
     </text>
-    <text name="$l10n_cowfood">
+    <text name="cowfood">
       <cz>cowfood</cz>
       <en>cowfood</en>
     </text>
-    <text name="$l10n_name_cowshedSellPoint">
-      <cz>name_cowshedSellPoint</cz>
-      <en>name_cowshedSellPoint</en>
+    <text name="name_cowshedSellPoint">
+      <cz>cowshedSellPoint</cz>
+      <en>cowshedSellPoint</en>
     </text>
-    <text name="$l10n_typeDesc_crane">
+    <text name="typeDesc_crane">
       <cz>typeDesc_crane</cz>
       <en>typeDesc_crane</en>
     </text>
-    <text name="$l10n_name_dairySellPoint">
-      <cz>name_dairySellPoint</cz>
-      <en>name_dairySellPoint</en>
+    <text name="name_dairySellPoint">
+      <cz>dairySellPoint</cz>
+      <en>dairySellPoint</en>
     </text>
-    <text name="$l10n_FS19_Distillery_name9">
+    <text name="FS19_Distillery_name9">
       <cz>FS19_Distillery_name9</cz>
       <en>FS19_Distillery_name9</en>
     </text>
-    <text name="$l10n_name_dockyardSellPoint">
-      <cz>name_dockyardSellPoint</cz>
-      <en>name_dockyardSellPoint</en>
+    <text name="name_dockyardSellPoint">
+      <cz>dockyardSellPoint</cz>
+      <en>dockyardSellPoint</en>
     </text>
-    <text name="$l10n_shopItem_dumpTruck">
-      <cz>shopItem_dumpTruck</cz>
-      <en>shopItem_dumpTruck</en>
+    <text name="shopItem_dumpTruck">
+      <cz>dumpTruck</cz>
+      <en>dumpTruck</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Big01">
-      <cz>shopItem_easyShed01Big01</cz>
-      <en>shopItem_easyShed01Big01</en>
+    <text name="shopItem_easyShed01Big01">
+      <cz>easyShed01Big01</cz>
+      <en>easyShed01Big01</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Big01_red">
-      <cz>shopItem_easyShed01Big01_red</cz>
-      <en>shopItem_easyShed01Big01_red</en>
+    <text name="shopItem_easyShed01Big01_red">
+      <cz>easyShed01Big01_red</cz>
+      <en>easyShed01Big01_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Big02">
-      <cz>shopItem_easyShed01Big02</cz>
-      <en>shopItem_easyShed01Big02</en>
+    <text name="shopItem_easyShed01Big02">
+      <cz>easyShed01Big02</cz>
+      <en>easyShed01Big02</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Big02_red">
-      <cz>shopItem_easyShed01Big02_red</cz>
-      <en>shopItem_easyShed01Big02_red</en>
+    <text name="shopItem_easyShed01Big02_red">
+      <cz>easyShed01Big02_red</cz>
+      <en>easyShed01Big02_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Big03">
-      <cz>shopItem_easyShed01Big03</cz>
-      <en>shopItem_easyShed01Big03</en>
+    <text name="shopItem_easyShed01Big03">
+      <cz>easyShed01Big03</cz>
+      <en>easyShed01Big03</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Big03_red">
-      <cz>shopItem_easyShed01Big03_red</cz>
-      <en>shopItem_easyShed01Big03_red</en>
+    <text name="shopItem_easyShed01Big03_red">
+      <cz>easyShed01Big03_red</cz>
+      <en>easyShed01Big03_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small01">
-      <cz>shopItem_easyShed01Small01</cz>
-      <en>shopItem_easyShed01Small01</en>
+    <text name="shopItem_easyShed01Small01">
+      <cz>easyShed01Small01</cz>
+      <en>easyShed01Small01</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small01_red">
-      <cz>shopItem_easyShed01Small01_red</cz>
-      <en>shopItem_easyShed01Small01_red</en>
+    <text name="shopItem_easyShed01Small01_red">
+      <cz>easyShed01Small01_red</cz>
+      <en>easyShed01Small01_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small02">
-      <cz>shopItem_easyShed01Small02</cz>
-      <en>shopItem_easyShed01Small02</en>
+    <text name="shopItem_easyShed01Small02">
+      <cz>easyShed01Small02</cz>
+      <en>easyShed01Small02</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small02_red">
-      <cz>shopItem_easyShed01Small02_red</cz>
-      <en>shopItem_easyShed01Small02_red</en>
+    <text name="shopItem_easyShed01Small02_red">
+      <cz>easyShed01Small02_red</cz>
+      <en>easyShed01Small02_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small03">
-      <cz>shopItem_easyShed01Small03</cz>
-      <en>shopItem_easyShed01Small03</en>
+    <text name="shopItem_easyShed01Small03">
+      <cz>easyShed01Small03</cz>
+      <en>easyShed01Small03</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small03_red">
-      <cz>shopItem_easyShed01Small03_red</cz>
-      <en>shopItem_easyShed01Small03_red</en>
+    <text name="shopItem_easyShed01Small03_red">
+      <cz>easyShed01Small03_red</cz>
+      <en>easyShed01Small03_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small04">
-      <cz>shopItem_easyShed01Small04</cz>
-      <en>shopItem_easyShed01Small04</en>
+    <text name="shopItem_easyShed01Small04">
+      <cz>easyShed01Small04</cz>
+      <en>easyShed01Small04</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small04_red">
-      <cz>shopItem_easyShed01Small04_red</cz>
-      <en>shopItem_easyShed01Small04_red</en>
+    <text name="shopItem_easyShed01Small04_red">
+      <cz>easyShed01Small04_red</cz>
+      <en>easyShed01Small04_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small05">
-      <cz>shopItem_easyShed01Small05</cz>
-      <en>shopItem_easyShed01Small05</en>
+    <text name="shopItem_easyShed01Small05">
+      <cz>easyShed01Small05</cz>
+      <en>easyShed01Small05</en>
     </text>
-    <text name="$l10n_shopItem_easyShed01Small05_red">
-      <cz>shopItem_easyShed01Small05_red</cz>
-      <en>shopItem_easyShed01Small05_red</en>
+    <text name="shopItem_easyShed01Small05_red">
+      <cz>easyShed01Small05_red</cz>
+      <en>easyShed01Small05_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small0102">
-      <cz>shopItem_easyShed03Small0102</cz>
-      <en>shopItem_easyShed03Small0102</en>
+    <text name="shopItem_easyShed03Small0102">
+      <cz>easyShed03Small0102</cz>
+      <en>easyShed03Small0102</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small0102_red">
-      <cz>shopItem_easyShed03Small0102_red</cz>
-      <en>shopItem_easyShed03Small0102_red</en>
+    <text name="shopItem_easyShed03Small0102_red">
+      <cz>easyShed03Small0102_red</cz>
+      <en>easyShed03Small0102_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small0102">
-      <cz>shopItem_easyShed03Small0102</cz>
-      <en>shopItem_easyShed03Small0102</en>
+    <text name="shopItem_easyShed03Small0102">
+      <cz>easyShed03Small0102</cz>
+      <en>easyShed03Small0102</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small0102_red">
-      <cz>shopItem_easyShed03Small0102_red</cz>
-      <en>shopItem_easyShed03Small0102_red</en>
+    <text name="shopItem_easyShed03Small0102_red">
+      <cz>easyShed03Small0102_red</cz>
+      <en>easyShed03Small0102_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small0304">
-      <cz>shopItem_easyShed03Small0304</cz>
-      <en>shopItem_easyShed03Small0304</en>
+    <text name="shopItem_easyShed03Small0304">
+      <cz>easyShed03Small0304</cz>
+      <en>easyShed03Small0304</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small0304_red">
-      <cz>shopItem_easyShed03Small0304_red</cz>
-      <en>shopItem_easyShed03Small0304_red</en>
+    <text name="shopItem_easyShed03Small0304_red">
+      <cz>easyShed03Small0304_red</cz>
+      <en>easyShed03Small0304_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small0304">
-      <cz>shopItem_easyShed03Small0304</cz>
-      <en>shopItem_easyShed03Small0304</en>
+    <text name="shopItem_easyShed03Small0304">
+      <cz>easyShed03Small0304</cz>
+      <en>easyShed03Small0304</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small0304_red">
-      <cz>shopItem_easyShed03Small0304_red</cz>
-      <en>shopItem_easyShed03Small0304_red</en>
+    <text name="shopItem_easyShed03Small0304_red">
+      <cz>easyShed03Small0304_red</cz>
+      <en>easyShed03Small0304_red</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small05">
-      <cz>shopItem_easyShed03Small05</cz>
-      <en>shopItem_easyShed03Small05</en>
+    <text name="shopItem_easyShed03Small05">
+      <cz>easyShed03Small05</cz>
+      <en>easyShed03Small05</en>
     </text>
-    <text name="$l10n_shopItem_easyShed03Small05_red">
-      <cz>shopItem_easyShed03Small05_red</cz>
-      <en>shopItem_easyShed03Small05_red</en>
+    <text name="shopItem_easyShed03Small05_red">
+      <cz>easyShed03Small05_red</cz>
+      <en>easyShed03Small05_red</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_emptyPallet">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_emptyPallet</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_emptyPallet</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_emptyPallet">
+      <cz>Prázdná paleta</cz>
+      <en>Empty pallet</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_emptyPallet2">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_emptyPallet2</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_emptyPallet2</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_emptyPallet2">
+      <cz>Prázdná paleta</cz>
+      <en>Empty pallet</en>
     </text>
-    <text name="$l10n_name_extraelevazioneW">
-      <cz>name_extraelevazioneW</cz>
-      <en>name_extraelevazioneW</en>
+    <text name="name_extraelevazioneW">
+      <cz>extraelevazioneW</cz>
+      <en>extraelevazioneW</en>
     </text>
-    <text name="$l10n_shopItem_grainSilo">
-      <cz>shopItem_grainSilo</cz>
-      <en>shopItem_grainSilo</en>
+    <text name="shopItem_grainSilo">
+      <cz>grainSilo</cz>
+      <en>grainSilo</en>
     </text>
-    <text name="$l10n_shopItem_grainSiloExtension">
-      <cz>shopItem_grainSiloExtension</cz>
-      <en>shopItem_grainSiloExtension</en>
+    <text name="shopItem_grainSiloExtension">
+      <cz>grainSiloExtension</cz>
+      <en>grainSiloExtension</en>
     </text>
-    <text name="$l10n_object_farmhouse">
+    <text name="object_farmhouse">
       <cz>object_farmhouse</cz>
       <en>object_farmhouse</en>
     </text>
-    <text name="$l10n_shopItem_fencePlanks1">
-      <cz>shopItem_fencePlanks1</cz>
-      <en>shopItem_fencePlanks1</en>
+    <text name="shopItem_fencePlanks1">
+      <cz>fencePlanks1</cz>
+      <en>fencePlanks1</en>
     </text>
-    <text name="$l10n_shopItem_fencePlanks10">
-      <cz>shopItem_fencePlanks10</cz>
-      <en>shopItem_fencePlanks10</en>
+    <text name="shopItem_fencePlanks10">
+      <cz>fencePlanks10</cz>
+      <en>fencePlanks10</en>
     </text>
-    <text name="$l10n_shopItem_fencePlanks5">
-      <cz>shopItem_fencePlanks5</cz>
-      <en>shopItem_fencePlanks5</en>
+    <text name="shopItem_fencePlanks5">
+      <cz>fencePlanks5</cz>
+      <en>fencePlanks5</en>
     </text>
-    <text name="$l10n_shopItem_fertilizerHose">
-      <cz>shopItem_fertilizerHose</cz>
-      <en>shopItem_fertilizerHose</en>
+    <text name="shopItem_fertilizerHose">
+      <cz>fertilizerHose</cz>
+      <en>fertilizerHose</en>
     </text>
-    <text name="$l10n_shopItem_fertilizerPallet">
-      <cz>shopItem_fertilizerPallet</cz>
-      <en>shopItem_fertilizerPallet</en>
+    <text name="shopItem_fertilizerPallet">
+      <cz>fertilizerPallet</cz>
+      <en>fertilizerPallet</en>
     </text>
-    <text name="$l10n_shopItem_fertilizerRefillTank">
-      <cz>shopItem_fertilizerRefillTank</cz>
-      <en>shopItem_fertilizerRefillTank</en>
+    <text name="shopItem_fertilizerRefillTank">
+      <cz>fertilizerRefillTank</cz>
+      <en>fertilizerRefillTank</en>
     </text>
-    <text name="$l10n_fillable_fueltank">
-      <cz>fillable_fueltank</cz>
-      <en>fillable_fueltank</en>
+    <text name="fillable_fueltank">
+      <cz>Nádrž na naftu</cz>
+      <en>fillabl fueltank</en>
     </text>
-    <text name="$l10n_shopItem_fireTools">
-      <cz>shopItem_fireTools</cz>
-      <en>shopItem_fireTools</en>
+    <text name="shopItem_fireTools">
+      <cz>fireTools</cz>
+      <en>fireTools</en>
     </text>
-    <text name="$l10n_shopItem_firewoodStackLarge">
-      <cz>shopItem_firewoodStackLarge</cz>
-      <en>shopItem_firewoodStackLarge</en>
+    <text name="shopItem_firewoodStackLarge">
+      <cz>firewoodStackLarge</cz>
+      <en>firewoodStackLarge</en>
     </text>
-    <text name="$l10n_shopItem_firewoodStackMedium">
-      <cz>shopItem_firewoodStackMedium</cz>
-      <en>shopItem_firewoodStackMedium</en>
+    <text name="shopItem_firewoodStackMedium">
+      <cz>firewoodStackMedium</cz>
+      <en>firewoodStackMedium</en>
     </text>
-    <text name="$l10n_shopItem_firewoodStackSmall">
-      <cz>shopItem_firewoodStackSmall</cz>
-      <en>shopItem_firewoodStackSmall</en>
+    <text name="shopItem_firewoodStackSmall">
+      <cz>firewoodStackSmall</cz>
+      <en>firewoodStackSmall</en>
     </text>
-    <text name="$l10n_shopItem_firewoodStackSmallCovered">
-      <cz>shopItem_firewoodStackSmallCovered</cz>
-      <en>shopItem_firewoodStackSmallCovered</en>
+    <text name="shopItem_firewoodStackSmallCovered">
+      <cz>firewoodStackSmallCovered</cz>
+      <en>firewoodStackSmallCovered</en>
     </text>
-    <text name="$l10n_shopItem_flatbedTruck">
-      <cz>shopItem_flatbedTruck</cz>
-      <en>shopItem_flatbedTruck</en>
+    <text name="shopItem_flatbedTruck">
+      <cz>flatbedTruck</cz>
+      <en>flatbedTruck</en>
     </text>
-    <text name="$l10n_shopItem_flatbedTruckLoaded">
-      <cz>shopItem_flatbedTruckLoaded</cz>
-      <en>shopItem_flatbedTruckLoaded</en>
+    <text name="shopItem_flatbedTruckLoaded">
+      <cz>flatbedTruckLoaded</cz>
+      <en>flatbedTruckLoaded</en>
     </text>
-    <text name="$l10n_shopItem_foldingBenchTable">
-      <cz>shopItem_foldingBenchTable</cz>
-      <en>shopItem_foldingBenchTable</en>
+    <text name="shopItem_foldingBenchTable">
+      <cz>foldingBenchTable</cz>
+      <en>foldingBenchTable</en>
     </text>
-    <text name="$l10n_name_forcaBalleW">
-      <cz>name_forcaBalleW</cz>
-      <en>name_forcaBalleW</en>
+    <text name="name_forcaBalleW">
+      <cz>forcaBalleW</cz>
+      <en>forcaBalleW</en>
     </text>
-    <text name="$l10n_name_forcaBallePunteReclinabiliW">
-      <cz>name_forcaBallePunteReclinabiliW</cz>
-      <en>name_forcaBallePunteReclinabiliW</en>
+    <text name="name_forcaBallePunteReclinabiliW">
+      <cz>forcaBallePunteReclinabiliW</cz>
+      <en>forcaBallePunteReclinabiliW</en>
     </text>
-    <text name="$l10n_name_forcaBalleTrattenitoreW">
-      <cz>name_forcaBalleTrattenitoreW</cz>
-      <en>name_forcaBalleTrattenitoreW</en>
+    <text name="name_forcaBalleTrattenitoreW">
+      <cz>forcaBalleTrattenitoreW</cz>
+      <en>forcaBalleTrattenitoreW</en>
     </text>
-    <text name="$l10n_name_forcaLetameW">
-      <cz>name_forcaLetameW</cz>
-      <en>name_forcaLetameW</en>
+    <text name="name_forcaLetameW">
+      <cz>forcaLetameW</cz>
+      <en>forcaLetameW</en>
     </text>
-    <text name="$l10n_name_forcaPolivalenteW">
-      <cz>name_forcaPolivalenteW</cz>
-      <en>name_forcaPolivalenteW</en>
+    <text name="name_forcaPolivalenteW">
+      <cz>forcaPolivalenteW</cz>
+      <en>forcaPolivalenteW</en>
     </text>
-    <text name="$l10n_name_forcaBalleW">
-      <cz>name_forcaBalleW</cz>
-      <en>name_forcaBalleW</en>
+    <text name="name_forcaBalleW">
+      <cz>forcaBalleW</cz>
+      <en>forcaBalleW</en>
     </text>
-    <text name="$l10n_name_forcaBallePunteReclinabiliW">
-      <cz>name_forcaBallePunteReclinabiliW</cz>
-      <en>name_forcaBallePunteReclinabiliW</en>
+    <text name="name_forcaBallePunteReclinabiliW">
+      <cz>forcaBallePunteReclinabiliW</cz>
+      <en>forcaBallePunteReclinabiliW</en>
     </text>
-    <text name="$l10n_name_forcaBalleTrattenitoreW">
-      <cz>name_forcaBalleTrattenitoreW</cz>
-      <en>name_forcaBalleTrattenitoreW</en>
+    <text name="name_forcaBalleTrattenitoreW">
+      <cz>forcaBalleTrattenitoreW</cz>
+      <en>forcaBalleTrattenitoreW</en>
     </text>
-    <text name="$l10n_name_gancioSollevamentoW">
-      <cz>name_gancioSollevamentoW</cz>
-      <en>name_gancioSollevamentoW</en>
+    <text name="name_gancioSollevamentoW">
+      <cz>gancioSollevamentoW</cz>
+      <en>gancioSollevamentoW</en>
     </text>
-    <text name="$l10n_shopItem_gardenCentre">
-      <cz>shopItem_gardenCentre</cz>
-      <en>shopItem_gardenCentre</en>
+    <text name="shopItem_gardenCentre">
+      <cz>gardenCentre</cz>
+      <en>gardenCentre</en>
     </text>
-    <text name="$l10n_shopItem_gardenMetalShed">
-      <cz>shopItem_gardenMetalShed</cz>
-      <en>shopItem_gardenMetalShed</en>
+    <text name="shopItem_gardenMetalShed">
+      <cz>gardenMetalShed</cz>
+      <en>gardenMetalShed</en>
     </text>
-    <text name="$l10n_shopItem_gate">
-      <cz>shopItem_gate</cz>
-      <en>shopItem_gate</en>
+    <text name="shopItem_gate">
+      <cz>gate</cz>
+      <en>gate</en>
     </text>
-    <text name="$l10n_name_granarySellPoint">
-      <cz>name_granarySellPoint</cz>
-      <en>name_granarySellPoint</en>
+    <text name="name_granarySellPoint">
+      <cz>granarySellPoint</cz>
+      <en>granarySellPoint</en>
     </text>
-    <text name="$l10n_name_hayloftSellPoint">
-      <cz>name_hayloftSellPoint</cz>
-      <en>name_hayloftSellPoint</en>
+    <text name="name_hayloftSellPoint">
+      <cz>hayloftSellPoint</cz>
+      <en>hayloftSellPoint</en>
     </text>
-    <text name="$l10n_shopItem_hedge1Piece">
-      <cz>shopItem_hedge1Piece</cz>
-      <en>shopItem_hedge1Piece</en>
+    <text name="shopItem_hedge1Piece">
+      <cz>hedge1Piece</cz>
+      <en>hedge1Piece</en>
     </text>
-    <text name="$l10n_shopItem_hedge3Piece">
-      <cz>shopItem_hedge3Piece</cz>
-      <en>shopItem_hedge3Piece</en>
+    <text name="shopItem_hedge3Piece">
+      <cz>hedge3Piece</cz>
+      <en>hedge3Piece</en>
     </text>
-    <text name="$l10n_shopItem_herbicideRefillTank">
-      <cz>shopItem_herbicideRefillTank</cz>
-      <en>shopItem_herbicideRefillTank</en>
+    <text name="shopItem_herbicideRefillTank">
+      <cz>herbicideRefillTank</cz>
+      <en>herbicideRefillTank</en>
     </text>
-    <text name="$l10n_FS19_Distillery_name2">
+    <text name="FS19_Distillery_name2">
       <cz>FS19_Distillery_name2</cz>
       <en>FS19_Distillery_name2</en>
     </text>
-    <text name="$l10n_shopItem_horseFoodPallet">
-      <cz>shopItem_horseFoodPallet</cz>
-      <en>shopItem_horseFoodPallet</en>
+    <text name="shopItem_horseFoodPallet">
+      <cz>horseFoodPallet</cz>
+      <en>horseFoodPallet</en>
     </text>
-    <text name="$l10n_horsefood">
+    <text name="horsefood">
       <cz>horsefood</cz>
       <en>horsefood</en>
     </text>
-    <text name="$l10n_shopItem_house1">
-      <cz>shopItem_house1</cz>
-      <en>shopItem_house1</en>
+    <text name="shopItem_house1">
+      <cz>house1</cz>
+      <en>house1</en>
     </text>
-    <text name="$l10n_shopItem_house2">
-      <cz>shopItem_house2</cz>
-      <en>shopItem_house2</en>
+    <text name="shopItem_house2">
+      <cz>house2</cz>
+      <en>house2</en>
     </text>
-    <text name="$l10n_shopItem_house3">
-      <cz>shopItem_house3</cz>
-      <en>shopItem_house3</en>
+    <text name="shopItem_house3">
+      <cz>house3</cz>
+      <en>house3</en>
     </text>
-    <text name="$l10n_shopItem_huntingHut">
-      <cz>shopItem_huntingHut</cz>
-      <en>shopItem_huntingHut</en>
+    <text name="shopItem_huntingHut">
+      <cz>huntingHut</cz>
+      <en>huntingHut</en>
     </text>
-    <text name="$l10n_animalPen_horse2">
+    <text name="animalPen_horse2">
       <cz>animalPen_horse2</cz>
       <en>animalPen_horse2</en>
     </text>
-    <text name="$l10n_shopItem_iBigBuilding">
-      <cz>shopItem_iBigBuilding</cz>
-      <en>shopItem_iBigBuilding</en>
+    <text name="shopItem_iBigBuilding">
+      <cz>iBigBuilding</cz>
+      <en>iBigBuilding</en>
     </text>
-    <text name="$l10n_shopItem_iBridgedBuilding">
-      <cz>shopItem_iBridgedBuilding</cz>
-      <en>shopItem_iBridgedBuilding</en>
+    <text name="shopItem_iBridgedBuilding">
+      <cz>iBridgedBuilding</cz>
+      <en>iBridgedBuilding</en>
     </text>
-    <text name="$l10n_shopItem_iCentrifuge">
-      <cz>shopItem_iCentrifuge</cz>
-      <en>shopItem_iCentrifuge</en>
+    <text name="shopItem_iCentrifuge">
+      <cz>iCentrifuge</cz>
+      <en>iCentrifuge</en>
     </text>
-    <text name="$l10n_shopItem_iClarificationTank">
-      <cz>shopItem_iClarificationTank</cz>
-      <en>shopItem_iClarificationTank</en>
+    <text name="shopItem_iClarificationTank">
+      <cz>iClarificationTank</cz>
+      <en>iClarificationTank</en>
     </text>
-    <text name="$l10n_shopItem_iConnectedBuildingHigh">
-      <cz>shopItem_iConnectedBuildingHigh</cz>
-      <en>shopItem_iConnectedBuildingHigh</en>
+    <text name="shopItem_iConnectedBuildingHigh">
+      <cz>iConnectedBuildingHigh</cz>
+      <en>iConnectedBuildingHigh</en>
     </text>
-    <text name="$l10n_shopItem_iConnectedBuildingLow">
-      <cz>shopItem_iConnectedBuildingLow</cz>
-      <en>shopItem_iConnectedBuildingLow</en>
+    <text name="shopItem_iConnectedBuildingLow">
+      <cz>iConnectedBuildingLow</cz>
+      <en>iConnectedBuildingLow</en>
     </text>
-    <text name="$l10n_shopItem_iEvapoTower">
-      <cz>shopItem_iEvapoTower</cz>
-      <en>shopItem_iEvapoTower</en>
+    <text name="shopItem_iEvapoTower">
+      <cz>iEvapoTower</cz>
+      <en>iEvapoTower</en>
     </text>
-    <text name="$l10n_shopItem_iGantryBuilding">
-      <cz>shopItem_iGantryBuilding</cz>
-      <en>shopItem_iGantryBuilding</en>
+    <text name="shopItem_iGantryBuilding">
+      <cz>iGantryBuilding</cz>
+      <en>iGantryBuilding</en>
     </text>
-    <text name="$l10n_shopItem_iLargeBuilding">
-      <cz>shopItem_iLargeBuilding</cz>
-      <en>shopItem_iLargeBuilding</en>
+    <text name="shopItem_iLargeBuilding">
+      <cz>iLargeBuilding</cz>
+      <en>iLargeBuilding</en>
     </text>
-    <text name="$l10n_shopItem_iMediumBuilding">
-      <cz>shopItem_iMediumBuilding</cz>
-      <en>shopItem_iMediumBuilding</en>
+    <text name="shopItem_iMediumBuilding">
+      <cz>iMediumBuilding</cz>
+      <en>iMediumBuilding</en>
     </text>
-    <text name="$l10n_shopItem_iOffloadingStation">
-      <cz>shopItem_iOffloadingStation</cz>
-      <en>shopItem_iOffloadingStation</en>
+    <text name="shopItem_iOffloadingStation">
+      <cz>iOffloadingStation</cz>
+      <en>iOffloadingStation</en>
     </text>
-    <text name="$l10n_shopItem_iSmallBuilding">
-      <cz>shopItem_iSmallBuilding</cz>
-      <en>shopItem_iSmallBuilding</en>
+    <text name="shopItem_iSmallBuilding">
+      <cz>iSmallBuilding</cz>
+      <en>iSmallBuilding</en>
     </text>
-    <text name="$l10n_shopItem_iSmallTank">
-      <cz>shopItem_iSmallTank</cz>
-      <en>shopItem_iSmallTank</en>
+    <text name="shopItem_iSmallTank">
+      <cz>iSmallTank</cz>
+      <en>iSmallTank</en>
     </text>
-    <text name="$l10n_shopItem_iceCreamCart">
-      <cz>shopItem_iceCreamCart</cz>
-      <en>shopItem_iceCreamCart</en>
+    <text name="shopItem_iceCreamCart">
+      <cz>iceCreamCart</cz>
+      <en>iceCreamCart</en>
     </text>
-    <text name="$l10n_typeDesc_itRunner">
+    <text name="typeDesc_itRunner">
       <cz>typeDesc_itRunner</cz>
       <en>typeDesc_itRunner</en>
     </text>
-    <text name="$l10n_FS19_Distillery_name10">
+    <text name="FS19_Distillery_name10">
       <cz>FS19_Distillery_name10</cz>
       <en>FS19_Distillery_name10</en>
     </text>
-    <text name="$l10n_name_lamaDozerW">
-      <cz>name_lamaDozerW</cz>
-      <en>name_lamaDozerW</en>
+    <text name="name_lamaDozerW">
+      <cz>lamaDozerW</cz>
+      <en>lamaDozerW</en>
     </text>
-    <text name="$l10n_FS19_AgraZLandtrade_name">
+    <text name="FS19_AgraZLandtrade_name">
       <cz>FS19_AgraZLandtrade_name</cz>
       <en>FS19_AgraZLandtrade_name</en>
     </text>
-    <text name="$l10n_storeName_siloDisplayLarge">
-      <cz>storeName_siloDisplayLarge</cz>
-      <en>storeName_siloDisplayLarge</en>
-    </text>
-    <text name="$l10n_FS19_PalletProduction_palletName">
+    <text name="FS19_PalletProduction_palletName">
       <cz>FS19_PalletProduction_palletName</cz>
       <en>FS19_PalletProduction_palletName</en>
     </text>
-    <text name="$l10n_shopItem_lemon">
-      <cz>shopItem_lemon</cz>
-      <en>shopItem_lemon</en>
+    <text name="shopItem_lemon">
+      <cz>lemon</cz>
+      <en>lemon</en>
     </text>
-    <text name="$l10n_shopItem_limePallet">
-      <cz>shopItem_limePallet</cz>
-      <en>shopItem_limePallet</en>
+    <text name="shopItem_limePallet">
+      <cz>limePallet</cz>
+      <en>limePallet</en>
     </text>
-    <text name="$l10n_shopItem_liquidFertilizerRefillTank">
-      <cz>shopItem_liquidFertilizerRefillTank</cz>
-      <en>shopItem_liquidFertilizerRefillTank</en>
+    <text name="shopItem_liquidFertilizerRefillTank">
+      <cz>liquidFertilizerRefillTank</cz>
+      <en>liquidFertilizerRefillTank</en>
     </text>
-    <text name="$l10n_shopItem_liquidStorage">
-      <cz>shopItem_liquidStorage</cz>
-      <en>shopItem_liquidStorage</en>
+    <text name="shopItem_liquidStorage">
+      <cz>liquidStorage</cz>
+      <en>liquidStorage</en>
     </text>
-    <text name="$l10n_shopItem_liquidStorageExtension">
-      <cz>shopItem_liquidStorageExtension</cz>
-      <en>shopItem_liquidStorageExtension</en>
+    <text name="shopItem_liquidStorageExtension">
+      <cz>liquidStorageExtension</cz>
+      <en>liquidStorageExtension</en>
     </text>
-    <text name="$l10n_liquidtanks">
+    <text name="liquidtanks">
       <cz>liquidtanks</cz>
       <en>liquidtanks</en>
     </text>
-    <text name="$l10n_FS19_littleSawmill_name2">
+    <text name="FS19_littleSawmill_name2">
       <cz>FS19_littleSawmill_name2</cz>
       <en>FS19_littleSawmill_name2</en>
     </text>
-    <text name="$l10n_FS19_littleSawmill_name1">
+    <text name="FS19_littleSawmill_name1">
       <cz>FS19_littleSawmill_name1</cz>
       <en>FS19_littleSawmill_name1</en>
     </text>
-    <text name="$l10n_shopItem_hall">
-      <cz>shopItem_hall</cz>
-      <en>shopItem_hall</en>
+    <text name="shopItem_hall">
+      <cz>hall</cz>
+      <en>hall</en>
     </text>
-    <text name="$l10n_shopItem_localInn">
-      <cz>shopItem_localInn</cz>
-      <en>shopItem_localInn</en>
+    <text name="shopItem_localInn">
+      <cz>localInn</cz>
+      <en>localInn</en>
     </text>
-    <text name="$l10n_object_farmhouse">
+    <text name="object_farmhouse">
       <cz>object_farmhouse</cz>
       <en>object_farmhouse</en>
     </text>
-    <text name="$l10n_shopItem_logCabinD">
-      <cz>shopItem_logCabinD</cz>
-      <en>shopItem_logCabinD</en>
+    <text name="shopItem_logCabinD">
+      <cz>logCabinD</cz>
+      <en>logCabinD</en>
     </text>
-    <text name="$l10n_shopItem_logPileLong">
-      <cz>shopItem_logPileLong</cz>
-      <en>shopItem_logPileLong</en>
+    <text name="shopItem_logPileLong">
+      <cz>logPileLong</cz>
+      <en>logPileLong</en>
     </text>
-    <text name="$l10n_shopItem_logPileShort">
-      <cz>shopItem_logPileShort</cz>
-      <en>shopItem_logPileShort</en>
+    <text name="shopItem_logPileShort">
+      <cz>logPileShort</cz>
+      <en>logPileShort</en>
     </text>
-    <text name="$l10n_station_sawmill">
+    <text name="station_sawmill">
       <cz>station_sawmill</cz>
       <en>station_sawmill</en>
     </text>
-    <text name="$l10n_name_lumberyardSellPoint">
-      <cz>name_lumberyardSellPoint</cz>
-      <en>name_lumberyardSellPoint</en>
+    <text name="name_lumberyardSellPoint">
+      <cz>lumberyardSellPoint</cz>
+      <en>lumberyardSellPoint</en>
     </text>
-    <text name="$l10n_shopItem_manurePallet">
-      <cz>shopItem_manurePallet</cz>
-      <en>shopItem_manurePallet</en>
+    <text name="shopItem_manurePallet">
+      <cz>manurePallet</cz>
+      <en>manurePallet</en>
     </text>
-    <text name="$l10n_name_marketSellPoint">
-      <cz>name_marketSellPoint</cz>
-      <en>name_marketSellPoint</en>
+    <text name="name_marketSellPoint">
+      <cz>marketSellPoint</cz>
+      <en>marketSellPoint</en>
     </text>
-    <text name="$l10n_FS19_Distillery_name3">
+    <text name="FS19_Distillery_name3">
       <cz>FS19_Distillery_name3</cz>
       <en>FS19_Distillery_name3</en>
     </text>
-    <text name="$l10n_shopItem_mfHouse1">
-      <cz>shopItem_mfHouse1</cz>
-      <en>shopItem_mfHouse1</en>
+    <text name="shopItem_mfHouse1">
+      <cz>mfHouse1</cz>
+      <en>mfHouse1</en>
     </text>
-    <text name="$l10n_shopItem_mfHouse2">
-      <cz>shopItem_mfHouse2</cz>
-      <en>shopItem_mfHouse2</en>
+    <text name="shopItem_mfHouse2">
+      <cz>mfHouse2</cz>
+      <en>mfHouse2</en>
     </text>
-    <text name="$l10n_shopItem_mfHouse3">
-      <cz>shopItem_mfHouse3</cz>
-      <en>shopItem_mfHouse3</en>
+    <text name="shopItem_mfHouse3">
+      <cz>mfHouse3</cz>
+      <en>mfHouse3</en>
     </text>
-    <text name="$l10n_name_miscelatoreW">
-      <cz>name_miscelatoreW</cz>
-      <en>name_miscelatoreW</en>
+    <text name="name_miscelatoreW">
+      <cz>miscelatoreW</cz>
+      <en>miscelatoreW</en>
     </text>
-    <text name="$l10n_shopItem_stake">
-      <cz>shopItem_stake</cz>
-      <en>shopItem_stake</en>
+    <text name="shopItem_stake">
+      <cz>stake</cz>
+      <en>stake</en>
     </text>
-    <text name="$l10n_FS19_Distillery_name8">
+    <text name="FS19_Distillery_name8">
       <cz>FS19_Distillery_name8</cz>
       <en>FS19_Distillery_name8</en>
     </text>
-    <text name="$l10n_name_movimentatoreBigBagW">
-      <cz>name_movimentatoreBigBagW</cz>
-      <en>name_movimentatoreBigBagW</en>
+    <text name="name_movimentatoreBigBagW">
+      <cz>movimentatoreBigBagW</cz>
+      <en>movimentatoreBigBagW</en>
     </text>
-    <text name="$l10n_netRolePallet">
+    <text name="netRolePallet">
       <cz>netRolePallet</cz>
       <en>netRolePallet</en>
     </text>
-    <text name="$l10n_storeName_siloDisplayNormal">
-      <cz>storeName_siloDisplayNormal</cz>
-      <en>storeName_siloDisplayNormal</en>
+    <text name="shopItem_office">
+      <cz>office</cz>
+      <en>office</en>
     </text>
-    <text name="$l10n_shopItem_office">
-      <cz>shopItem_office</cz>
-      <en>shopItem_office</en>
+    <text name="shopItem_oldBaleShelter">
+      <cz>oldBaleShelter</cz>
+      <en>oldBaleShelter</en>
     </text>
-    <text name="$l10n_shopItem_oldBaleShelter">
-      <cz>shopItem_oldBaleShelter</cz>
-      <en>shopItem_oldBaleShelter</en>
+    <text name="shopItem_oldBus">
+      <cz>oldBus</cz>
+      <en>oldBus</en>
     </text>
-    <text name="$l10n_shopItem_oldBus">
-      <cz>shopItem_oldBus</cz>
-      <en>shopItem_oldBus</en>
+    <text name="shopItem_oldEuroPallets">
+      <cz>oldEuroPallets</cz>
+      <en>oldEuroPallets</en>
     </text>
-    <text name="$l10n_shopItem_oldEuroPallets">
-      <cz>shopItem_oldEuroPallets</cz>
-      <en>shopItem_oldEuroPallets</en>
+    <text name="shopItem_oldFireTruck">
+      <cz>oldFireTruck</cz>
+      <en>oldFireTruck</en>
     </text>
-    <text name="$l10n_shopItem_oldFireTruck">
-      <cz>shopItem_oldFireTruck</cz>
-      <en>shopItem_oldFireTruck</en>
+    <text name="shopItem_oldFuelTruck">
+      <cz>oldFuelTruck</cz>
+      <en>oldFuelTruck</en>
     </text>
-    <text name="$l10n_shopItem_oldFuelTruck">
-      <cz>shopItem_oldFuelTruck</cz>
-      <en>shopItem_oldFuelTruck</en>
+    <text name="shopItem_oldHarvester">
+      <cz>oldHarvester</cz>
+      <en>oldHarvester</en>
     </text>
-    <text name="$l10n_shopItem_oldHarvester">
-      <cz>shopItem_oldHarvester</cz>
-      <en>shopItem_oldHarvester</en>
+    <text name="shopItem_oldManureTrailer">
+      <cz>oldManureTrailer</cz>
+      <en>oldManureTrailer</en>
     </text>
-    <text name="$l10n_shopItem_oldManureTrailer">
-      <cz>shopItem_oldManureTrailer</cz>
-      <en>shopItem_oldManureTrailer</en>
+    <text name="shopItem_oldNightLight">
+      <cz>oldNightLight</cz>
+      <en>oldNightLight</en>
     </text>
-    <text name="$l10n_shopItem_oldNightLight">
-      <cz>shopItem_oldNightLight</cz>
-      <en>shopItem_oldNightLight</en>
+    <text name="shopItem_oldPickupTruck">
+      <cz>oldPickupTruck</cz>
+      <en>oldPickupTruck</en>
     </text>
-    <text name="$l10n_shopItem_oldPickupTruck">
-      <cz>shopItem_oldPickupTruck</cz>
-      <en>shopItem_oldPickupTruck</en>
+    <text name="shopItem_oldShelter">
+      <cz>oldShelter</cz>
+      <en>oldShelter</en>
     </text>
-    <text name="$l10n_shopItem_oldShelter">
-      <cz>shopItem_oldShelter</cz>
-      <en>shopItem_oldShelter</en>
+    <text name="shopItem_oldTractor">
+      <cz>oldTractor</cz>
+      <en>oldTractor</en>
     </text>
-    <text name="$l10n_shopItem_oldTractor">
-      <cz>shopItem_oldTractor</cz>
-      <en>shopItem_oldTractor</en>
+    <text name="shopItem_outlook">
+      <cz>outlook</cz>
+      <en>outlook</en>
     </text>
-    <text name="$l10n_shopItem_outlook">
-      <cz>shopItem_outlook</cz>
-      <en>shopItem_outlook</en>
+    <text name="name_palaTronchiW">
+      <cz>palaTronchiW</cz>
+      <en>palaTronchiW</en>
     </text>
-    <text name="$l10n_name_palaTronchiW">
-      <cz>name_palaTronchiW</cz>
-      <en>name_palaTronchiW</en>
-    </text>
-    <text name="$l10n_FS19_PalletProduction_name">
+    <text name="FS19_PalletProduction_name">
       <cz>FS19_PalletProduction_name</cz>
       <en>FS19_PalletProduction_name</en>
     </text>
-    <text name="$l10n_name_palletSellPoint">
-      <cz>name_palletSellPoint</cz>
-      <en>name_palletSellPoint</en>
+    <text name="name_palletSellPoint">
+      <cz>palletSellPoint</cz>
+      <en>palletSellPoint</en>
     </text>
-    <text name="$l10n_shopItem_wheelLoaderFork">
-      <cz>shopItem_wheelLoaderFork</cz>
-      <en>shopItem_wheelLoaderFork</en>
+    <text name="shopItem_wheelLoaderFork">
+      <cz>wheelLoaderFork</cz>
+      <en>wheelLoaderFork</en>
     </text>
-    <text name="$l10n_shopItem_parkedExcavator">
-      <cz>shopItem_parkedExcavator</cz>
-      <en>shopItem_parkedExcavator</en>
+    <text name="shopItem_parkedExcavator">
+      <cz>parkedExcavator</cz>
+      <en>parkedExcavator</en>
     </text>
-    <text name="$l10n_shopItem_parkingLines">
-      <cz>shopItem_parkingLines</cz>
-      <en>shopItem_parkingLines</en>
+    <text name="shopItem_parkingLines">
+      <cz>parkingLines</cz>
+      <en>parkingLines</en>
     </text>
-    <text name="$l10n_name_pelletHall">
-      <cz>name_pelletHall</cz>
-      <en>name_pelletHall</en>
+    <text name="name_pelletHall">
+      <cz>pelletHall</cz>
+      <en>pelletHall</en>
     </text>
-    <text name="$l10n_name_pelletHall_crane">
-      <cz>name_pelletHall_crane</cz>
-      <en>name_pelletHall_crane</en>
+    <text name="name_pelletHall_crane">
+      <cz>pelletHall_crane</cz>
+      <en>pelletHall_crane</en>
     </text>
-    <text name="$l10n_name_pelletHall_empty">
-      <cz>name_pelletHall_empty</cz>
-      <en>name_pelletHall_empty</en>
+    <text name="name_pelletHall_empty">
+      <cz>pelletHall_empty</cz>
+      <en>pelletHall_empty</en>
     </text>
-    <text name="$l10n_name_piastraPortaforcheDoppiaW">
-      <cz>name_piastraPortaforcheDoppiaW</cz>
-      <en>name_piastraPortaforcheDoppiaW</en>
+    <text name="name_piastraPortaforcheDoppiaW">
+      <cz>piastraPortaforcheDoppiaW</cz>
+      <en>piastraPortaforcheDoppiaW</en>
     </text>
-    <text name="$l10n_name_piastraPortaforcheDoppiaTronchiW">
-      <cz>name_piastraPortaforcheDoppiaTronchiW</cz>
-      <en>name_piastraPortaforcheDoppiaTronchiW</en>
+    <text name="name_piastraPortaforcheDoppiaTronchiW">
+      <cz>piastraPortaforcheDoppiaTronchiW</cz>
+      <en>piastraPortaforcheDoppiaTronchiW</en>
     </text>
-    <text name="$l10n_name_piastraPortaforcheLiberaW">
-      <cz>name_piastraPortaforcheLiberaW</cz>
-      <en>name_piastraPortaforcheLiberaW</en>
+    <text name="name_piastraPortaforcheLiberaW">
+      <cz>piastraPortaforcheLiberaW</cz>
+      <en>piastraPortaforcheLiberaW</en>
     </text>
-    <text name="$l10n_name_piastraPortaforcheSingolaW">
-      <cz>name_piastraPortaforcheSingolaW</cz>
-      <en>name_piastraPortaforcheSingolaW</en>
+    <text name="name_piastraPortaforcheSingolaW">
+      <cz>piastraPortaforcheSingolaW</cz>
+      <en>piastraPortaforcheSingolaW</en>
     </text>
-    <text name="$l10n_name_piastraPortaforcheSingolaTrattenitoreW">
-      <cz>name_piastraPortaforcheSingolaTrattenitoreW</cz>
-      <en>name_piastraPortaforcheSingolaTrattenitoreW</en>
+    <text name="name_piastraPortaforcheSingolaTrattenitoreW">
+      <cz>piastraPortaforcheSingolaTrattenitoreW</cz>
+      <en>piastraPortaforcheSingolaTrattenitoreW</en>
     </text>
-    <text name="$l10n_shopItem_pigFoodPallet">
-      <cz>shopItem_pigFoodPallet</cz>
-      <en>shopItem_pigFoodPallet</en>
+    <text name="shopItem_pigFoodPallet">
+      <cz>pigFoodPallet</cz>
+      <en>pigFoodPallet</en>
     </text>
-    <text name="$l10n_pigfood">
+    <text name="pigfood">
       <cz>pigfood</cz>
       <en>pigfood</en>
     </text>
-    <text name="$l10n_name_pinzaFasciatiW">
-      <cz>name_pinzaFasciatiW</cz>
-      <en>name_pinzaFasciatiW</en>
+    <text name="name_pinzaFasciatiW">
+      <cz>pinzaFasciatiW</cz>
+      <en>pinzaFasciatiW</en>
     </text>
-    <text name="$l10n_name_pinzaMordenteW">
-      <cz>name_pinzaMordenteW</cz>
-      <en>name_pinzaMordenteW</en>
+    <text name="name_pinzaMordenteW">
+      <cz>pinzaMordenteW</cz>
+      <en>pinzaMordenteW</en>
     </text>
-    <text name="$l10n_name_pinzaMordenteDentiLunghiW">
-      <cz>name_pinzaMordenteDentiLunghiW</cz>
-      <en>name_pinzaMordenteDentiLunghiW</en>
+    <text name="name_pinzaMordenteDentiLunghiW">
+      <cz>pinzaMordenteDentiLunghiW</cz>
+      <en>pinzaMordenteDentiLunghiW</en>
     </text>
-    <text name="$l10n_shopItem_plasticTableSet">
-      <cz>shopItem_plasticTableSet</cz>
-      <en>shopItem_plasticTableSet</en>
+    <text name="shopItem_plasticTableSet">
+      <cz>plasticTableSet</cz>
+      <en>plasticTableSet</en>
     </text>
-    <text name="$l10n_shopItem_playPark">
-      <cz>shopItem_playPark</cz>
-      <en>shopItem_playPark</en>
+    <text name="shopItem_playPark">
+      <cz>playPark</cz>
+      <en>playPark</en>
     </text>
-    <text name="$l10n_name_prolungaPesanteW">
-      <cz>name_prolungaPesanteW</cz>
-      <en>name_prolungaPesanteW</en>
+    <text name="name_prolungaPesanteW">
+      <cz>prolungaPesanteW</cz>
+      <en>prolungaPesanteW</en>
     </text>
-    <text name="$l10n_name_prolungaSollevamentoW">
-      <cz>name_prolungaSollevamentoW</cz>
-      <en>name_prolungaSollevamentoW</en>
+    <text name="name_prolungaSollevamentoW">
+      <cz>prolungaSollevamentoW</cz>
+      <en>prolungaSollevamentoW</en>
     </text>
-    <text name="$l10n_shopItem_radioTower">
-      <cz>shopItem_radioTower</cz>
-      <en>shopItem_radioTower</en>
+    <text name="shopItem_radioTower">
+      <cz>radioTower</cz>
+      <en>radioTower</en>
     </text>
-    <text name="$l10n_name_raschiatoreW">
-      <cz>name_raschiatoreW</cz>
-      <en>name_raschiatoreW</en>
+    <text name="name_raschiatoreW">
+      <cz>raschiatoreW</cz>
+      <en>raschiatoreW</en>
     </text>
-    <text name="$l10n_reuseablebulkpallet">
+    <text name="reuseablebulkpallet">
       <cz>reuseablebulkpallet</cz>
       <en>reuseablebulkpallet</en>
     </text>
-    <text name="$l10n_reuseablebulktank">
+    <text name="reuseablebulktank">
       <cz>reuseablebulktank</cz>
       <en>reuseablebulktank</en>
     </text>
-    <text name="$l10n_reuseableeggpallet">
+    <text name="reuseableeggpallet">
       <cz>reuseableeggpallet</cz>
       <en>reuseableeggpallet</en>
     </text>
-    <text name="$l10n_reuseablestandardpallet">
+    <text name="reuseablestandardpallet">
       <cz>reuseablestandardpallet</cz>
       <en>reuseablestandardpallet</en>
     </text>
-    <text name="$l10n_reuseablestandardtank">
+    <text name="reuseablestandardtank">
       <cz>reuseablestandardtank</cz>
       <en>reuseablestandardtank</en>
     </text>
-    <text name="$l10n_reuseablewoolpallet">
+    <text name="reuseablewoolpallet">
       <cz>reuseablewoolpallet</cz>
       <en>reuseablewoolpallet</en>
     </text>
-    <text name="$l10n_shopItem_rock1">
-      <cz>shopItem_rock1</cz>
-      <en>shopItem_rock1</en>
+    <text name="shopItem_rock1">
+      <cz>rock1</cz>
+      <en>rock1</en>
     </text>
-    <text name="$l10n_shopItem_rock2">
-      <cz>shopItem_rock2</cz>
-      <en>shopItem_rock2</en>
+    <text name="shopItem_rock2">
+      <cz>rock2</cz>
+      <en>rock2</en>
     </text>
-    <text name="$l10n_shopItem_rock3">
-      <cz>shopItem_rock3</cz>
-      <en>shopItem_rock3</en>
+    <text name="shopItem_rock3">
+      <cz>rock3</cz>
+      <en>rock3</en>
     </text>
-    <text name="$l10n_shopItem_rock4">
-      <cz>shopItem_rock4</cz>
-      <en>shopItem_rock4</en>
+    <text name="shopItem_rock4">
+      <cz>rock4</cz>
+      <en>rock4</en>
     </text>
-    <text name="$l10n_shopItem_rock5">
-      <cz>shopItem_rock5</cz>
-      <en>shopItem_rock5</en>
+    <text name="shopItem_rock5">
+      <cz>rock5</cz>
+      <en>rock5</en>
     </text>
-    <text name="$l10n_shopItem_rowingBoat">
-      <cz>shopItem_rowingBoat</cz>
-      <en>shopItem_rowingBoat</en>
+    <text name="shopItem_rowingBoat">
+      <cz>rowingBoat</cz>
+      <en>rowingBoat</en>
     </text>
-    <text name="$l10n_FS19_Distillery_name4">
+    <text name="FS19_Distillery_name4">
       <cz>FS19_Distillery_name4</cz>
       <en>FS19_Distillery_name4</en>
     </text>
-    <text name="$l10n_shopItem_schlosser">
-      <cz>shopItem_schlosser</cz>
-      <en>shopItem_schlosser</en>
+    <text name="shopItem_schlosser">
+      <cz>schlosser</cz>
+      <en>schlosser</en>
     </text>
-    <text name="$l10n_shopItem_scooterBike">
-      <cz>shopItem_scooterBike</cz>
-      <en>shopItem_scooterBike</en>
+    <text name="shopItem_scooterBike">
+      <cz>scooterBike</cz>
+      <en>scooterBike</en>
     </text>
-    <text name="$l10n_FS19_littleSawmill_palletName3">
+    <text name="FS19_littleSawmill_palletName3">
       <cz>FS19_littleSawmill_palletName3</cz>
       <en>FS19_littleSawmill_palletName3</en>
     </text>
-    <text name="$l10n_shopItem_seedRefillTank">
-      <cz>shopItem_seedRefillTank</cz>
-      <en>shopItem_seedRefillTank</en>
+    <text name="shopItem_seedRefillTank">
+      <cz>seedRefillTank</cz>
+      <en>seedRefillTank</en>
     </text>
-    <text name="$l10n_seeds">
+    <text name="seeds">
       <cz>seeds</cz>
       <en>seeds</en>
     </text>
-    <text name="$l10n_FS19_littleSawmill_name3">
+    <text name="FS19_littleSawmill_name3">
       <cz>FS19_littleSawmill_name3</cz>
       <en>FS19_littleSawmill_name3</en>
     </text>
-    <text name="$l10n_shopItem_ssBales">
-      <cz>shopItem_ssBales</cz>
-      <en>shopItem_ssBales</en>
+    <text name="shopItem_ssBales">
+      <cz>ssBales</cz>
+      <en>ssBales</en>
     </text>
-    <text name="$l10n_station_spinnery">
+    <text name="station_spinnery">
       <cz>station_spinnery</cz>
       <en>station_spinnery</en>
     </text>
-    <text name="$l10n_shopItem_semiTrailer">
-      <cz>shopItem_semiTrailer</cz>
-      <en>shopItem_semiTrailer</en>
+    <text name="shopItem_semiTrailer">
+      <cz>semiTrailer</cz>
+      <en>semiTrailer</en>
     </text>
-    <text name="$l10n_shopItem_shedBlue">
-      <cz>shopItem_shedBlue</cz>
-      <en>shopItem_shedBlue</en>
+    <text name="shopItem_shedBlue">
+      <cz>shedBlue</cz>
+      <en>shedBlue</en>
     </text>
-    <text name="$l10n_shopItem_shedBrown">
-      <cz>shopItem_shedBrown</cz>
-      <en>shopItem_shedBrown</en>
+    <text name="shopItem_shedBrown">
+      <cz>shedBrown</cz>
+      <en>shedBrown</en>
     </text>
-    <text name="$l10n_shopItem_shedGreen">
-      <cz>shopItem_shedGreen</cz>
-      <en>shopItem_shedGreen</en>
+    <text name="shopItem_shedGreen">
+      <cz>shedGreen</cz>
+      <en>shedGreen</en>
     </text>
-    <text name="$l10n_shopItem_shedGrey">
-      <cz>shopItem_shedGrey</cz>
-      <en>shopItem_shedGrey</en>
+    <text name="shopItem_shedGrey">
+      <cz>shedGrey</cz>
+      <en>shedGrey</en>
     </text>
-    <text name="$l10n_shopItem_shedLargeDE">
-      <cz>shopItem_shedLargeDE</cz>
-      <en>shopItem_shedLargeDE</en>
+    <text name="shopItem_shedLargeDE">
+      <cz>shedLargeDE</cz>
+      <en>shedLargeDE</en>
     </text>
-    <text name="$l10n_shopItem_shedMediumDE">
-      <cz>shopItem_shedMediumDE</cz>
-      <en>shopItem_shedMediumDE</en>
+    <text name="shopItem_shedMediumDE">
+      <cz>shedMediumDE</cz>
+      <en>shedMediumDE</en>
     </text>
-    <text name="$l10n_shopItem_shedSmallDE">
-      <cz>shopItem_shedSmallDE</cz>
-      <en>shopItem_shedSmallDE</en>
+    <text name="shopItem_shedSmallDE">
+      <cz>shedSmallDE</cz>
+      <en>shedSmallDE</en>
     </text>
-    <text name="$l10n_shopItem_shedTan">
-      <cz>shopItem_shedTan</cz>
-      <en>shopItem_shedTan</en>
+    <text name="shopItem_shedTan">
+      <cz>shedTan</cz>
+      <en>shedTan</en>
     </text>
-    <text name="$l10n_sheepfood">
+    <text name="sheepfood">
       <cz>sheepfood</cz>
       <en>sheepfood</en>
     </text>
-    <text name="$l10n_shopItem_siloBin">
-      <cz>shopItem_siloBin</cz>
-      <en>shopItem_siloBin</en>
+    <text name="shopItem_siloBin">
+      <cz>siloBin</cz>
+      <en>siloBin</en>
     </text>
-    <text name="$l10n_bunkerSiloSmall">
+    <text name="bunkerSiloSmall">
       <cz>bunkerSiloSmall</cz>
       <en>bunkerSiloSmall</en>
     </text>
-    <text name="$l10n_singlebags">
+    <text name="singlebags">
       <cz>singlebags</cz>
       <en>singlebags</en>
     </text>
-    <text name="$l10n_shopItem_slurryHose">
-      <cz>shopItem_slurryHose</cz>
-      <en>shopItem_slurryHose</en>
+    <text name="shopItem_slurryHose">
+      <cz>slurryHose</cz>
+      <en>slurryHose</en>
     </text>
-    <text name="$l10n_shopItem_slurryHose">
-      <cz>shopItem_slurryHose</cz>
-      <en>shopItem_slurryHose</en>
+    <text name="shopItem_slurryHose">
+      <cz>slurryHose</cz>
+      <en>slurryHose</en>
     </text>
-    <text name="$l10n_storeName_siloDisplaySmall">
-      <cz>storeName_siloDisplaySmall</cz>
-      <en>storeName_siloDisplaySmall</en>
+    <text name="shopItem_smallOffice">
+      <cz>smallOffice</cz>
+      <en>smallOffice</en>
     </text>
-    <text name="$l10n_shopItem_smallOffice">
-      <cz>shopItem_smallOffice</cz>
-      <en>shopItem_smallOffice</en>
+    <text name="shopItem_smallOffice2">
+      <cz>smallOffice2</cz>
+      <en>smallOffice2</en>
     </text>
-    <text name="$l10n_shopItem_smallOffice2">
-      <cz>shopItem_smallOffice2</cz>
-      <en>shopItem_smallOffice2</en>
+    <text name="shopItem_snackStand">
+      <cz>snackStand</cz>
+      <en>snackStand</en>
     </text>
-    <text name="$l10n_shopItem_snackStand">
-      <cz>shopItem_snackStand</cz>
-      <en>shopItem_snackStand</en>
+    <text name="name_spintoreAlleggeritoT">
+      <cz>spintoreAlleggeritoT</cz>
+      <en>spintoreAlleggeritoT</en>
     </text>
-    <text name="$l10n_name_spintoreAlleggeritoT">
-      <cz>name_spintoreAlleggeritoT</cz>
-      <en>name_spintoreAlleggeritoT</en>
+    <text name="name_spintorePesanteW">
+      <cz>spintorePesanteW</cz>
+      <en>spintorePesanteW</en>
     </text>
-    <text name="$l10n_name_spintorePesanteW">
-      <cz>name_spintorePesanteW</cz>
-      <en>name_spintorePesanteW</en>
-    </text>
-    <text name="$l10n_FS19_Distillery_name5">
+    <text name="FS19_Distillery_name5">
       <cz>FS19_Distillery_name5</cz>
       <en>FS19_Distillery_name5</en>
     </text>
-    <text name="$l10n_balepallets">
+    <text name="balepallets">
       <cz>balepallets</cz>
       <en>balepallets</en>
     </text>
-    <text name="$l10n_shopItem_ss01">
-      <cz>shopItem_ss01</cz>
-      <en>shopItem_ss01</en>
+    <text name="shopItem_ss01">
+      <cz>ss01</cz>
+      <en>ss01</en>
     </text>
-    <text name="$l10n_shopItem_ss02">
-      <cz>shopItem_ss02</cz>
-      <en>shopItem_ss02</en>
+    <text name="shopItem_ss02">
+      <cz>ss02</cz>
+      <en>ss02</en>
     </text>
-    <text name="$l10n_shopItem_ss03">
-      <cz>shopItem_ss03</cz>
-      <en>shopItem_ss03</en>
+    <text name="shopItem_ss03">
+      <cz>ss03</cz>
+      <en>ss03</en>
     </text>
-    <text name="$l10n_shopItem_ss04">
-      <cz>shopItem_ss04</cz>
-      <en>shopItem_ss04</en>
+    <text name="shopItem_ss04">
+      <cz>ss04</cz>
+      <en>ss04</en>
     </text>
-    <text name="$l10n_shopItem_ss05">
-      <cz>shopItem_ss05</cz>
-      <en>shopItem_ss05</en>
+    <text name="shopItem_ss05">
+      <cz>ss05</cz>
+      <en>ss05</en>
     </text>
-    <text name="$l10n_shopItem_ss06">
-      <cz>shopItem_ss06</cz>
-      <en>shopItem_ss06</en>
+    <text name="shopItem_ss06">
+      <cz>ss06</cz>
+      <en>ss06</en>
     </text>
-    <text name="$l10n_shopItem_ss07">
-      <cz>shopItem_ss07</cz>
-      <en>shopItem_ss07</en>
+    <text name="shopItem_ss07">
+      <cz>ss07</cz>
+      <en>ss07</en>
     </text>
-    <text name="$l10n_name_stablesSellPoint">
-      <cz>name_stablesSellPoint</cz>
-      <en>name_stablesSellPoint</en>
+    <text name="name_stablesSellPoint">
+      <cz>stablesSellPoint</cz>
+      <en>stablesSellPoint</en>
     </text>
-    <text name="$l10n_shopItem_standardBucket">
-      <cz>shopItem_standardBucket</cz>
-      <en>shopItem_standardBucket</en>
+    <text name="shopItem_standardBucket">
+      <cz>standardBucket</cz>
+      <en>standardBucket</en>
     </text>
-    <text name="$l10n_shopItem_streetPot01">
-      <cz>shopItem_streetPot01</cz>
-      <en>shopItem_streetPot01</en>
+    <text name="shopItem_streetPot01">
+      <cz>streetPot01</cz>
+      <en>streetPot01</en>
     </text>
-    <text name="$l10n_shopItem_streetPot02">
-      <cz>shopItem_streetPot02</cz>
-      <en>shopItem_streetPot02</en>
+    <text name="shopItem_streetPot02">
+      <cz>streetPot02</cz>
+      <en>streetPot02</en>
     </text>
-    <text name="$l10n_shopItem_streetPot03">
-      <cz>shopItem_streetPot03</cz>
-      <en>shopItem_streetPot03</en>
+    <text name="shopItem_streetPot03">
+      <cz>streetPot03</cz>
+      <en>streetPot03</en>
     </text>
-    <text name="$l10n_shopItem_subsidy">
-      <cz>shopItem_subsidy</cz>
-      <en>shopItem_subsidy</en>
+    <text name="shopItem_subsidy">
+      <cz>subsidy</cz>
+      <en>subsidy</en>
     </text>
-    <text name="$l10n_sugarcane">
+    <text name="sugarcane">
       <cz>sugarcane</cz>
       <en>sugarcane</en>
     </text>
-    <text name="$l10n_shopItem_sweetShop">
-      <cz>shopItem_sweetShop</cz>
-      <en>shopItem_sweetShop</en>
+    <text name="shopItem_sweetShop">
+      <cz>sweetShop</cz>
+      <en>sweetShop</en>
     </text>
-    <text name="$l10n_shopItem_tJunction">
-      <cz>shopItem_tJunction</cz>
-      <en>shopItem_tJunction</en>
+    <text name="shopItem_tJunction">
+      <cz>tJunction</cz>
+      <en>tJunction</en>
     </text>
-    <text name="$l10n_shopItem_tipperTruck">
-      <cz>shopItem_tipperTruck</cz>
-      <en>shopItem_tipperTruck</en>
+    <text name="shopItem_tipperTruck">
+      <cz>tipperTruck</cz>
+      <en>tipperTruck</en>
     </text>
-    <text name="$l10n_shopItem_tmrPallet">
-      <cz>shopItem_tmrPallet</cz>
-      <en>shopItem_tmrPallet</en>
+    <text name="shopItem_tmrPallet">
+      <cz>tmrPallet</cz>
+      <en>tmrPallet</en>
     </text>
-    <text name="$l10n_shopItem_tomato">
-      <cz>shopItem_tomato</cz>
-      <en>shopItem_tomato</en>
+    <text name="shopItem_tomato">
+      <cz>tomato</cz>
+      <en>tomato</en>
     </text>
-    <text name="$l10n_GlobalCompanyAddOn_Productions_shopItem_transportPallet">
-      <cz>GlobalCompanyAddOn_Productions_shopItem_transportPallet</cz>
-      <en>GlobalCompanyAddOn_Productions_shopItem_transportPallet</en>
+    <text name="GlobalCompanyAddOn_Productions_shopItem_transportPallet">
+      <cz>Paleta</cz>
+      <en>Transport Pallet</en>
     </text>
-    <text name="$l10n_shopItem_trashBag">
-      <cz>shopItem_trashBag</cz>
-      <en>shopItem_trashBag</en>
+    <text name="shopItem_trashBag">
+      <cz>trashBag</cz>
+      <en>trashBag</en>
     </text>
-    <text name="$l10n_shopItem_trashContainer">
-      <cz>shopItem_trashContainer</cz>
-      <en>shopItem_trashContainer</en>
+    <text name="shopItem_trashContainer">
+      <cz>trashContainer</cz>
+      <en>trashContainer</en>
     </text>
-    <text name="$l10n_name_traslatoreW">
-      <cz>name_traslatoreW</cz>
-      <en>name_traslatoreW</en>
+    <text name="name_traslatoreW">
+      <cz>traslatoreW</cz>
+      <en>traslatoreW</en>
     </text>
-    <text name="$l10n_GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title">
+    <text name="GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title">
       <cz>GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title</cz>
       <en>GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title</en>
     </text>
-    <text name="$l10n_shopItem_vehicle01">
-      <cz>shopItem_vehicle01</cz>
-      <en>shopItem_vehicle01</en>
+    <text name="shopItem_vehicle01">
+      <cz>vehicle01</cz>
+      <en>vehicle01</en>
     </text>
-    <text name="$l10n_shopItem_vehicle02">
-      <cz>shopItem_vehicle02</cz>
-      <en>shopItem_vehicle02</en>
+    <text name="shopItem_vehicle02">
+      <cz>vehicle02</cz>
+      <en>vehicle02</en>
     </text>
-    <text name="$l10n_shopItem_vehicle03">
-      <cz>shopItem_vehicle03</cz>
-      <en>shopItem_vehicle03</en>
+    <text name="shopItem_vehicle03">
+      <cz>vehicle03</cz>
+      <en>vehicle03</en>
     </text>
-    <text name="$l10n_shopItem_vehicle04">
-      <cz>shopItem_vehicle04</cz>
-      <en>shopItem_vehicle04</en>
+    <text name="shopItem_vehicle04">
+      <cz>vehicle04</cz>
+      <en>vehicle04</en>
     </text>
-    <text name="$l10n_shopItem_vehicle05">
-      <cz>shopItem_vehicle05</cz>
-      <en>shopItem_vehicle05</en>
+    <text name="shopItem_vehicle05">
+      <cz>vehicle05</cz>
+      <en>vehicle05</en>
     </text>
-    <text name="$l10n_shopItem_vehicle06">
-      <cz>shopItem_vehicle06</cz>
-      <en>shopItem_vehicle06</en>
+    <text name="shopItem_vehicle06">
+      <cz>vehicle06</cz>
+      <en>vehicle06</en>
     </text>
-    <text name="$l10n_shopItem_vineYard">
-      <cz>shopItem_vineYard</cz>
-      <en>shopItem_vineYard</en>
+    <text name="shopItem_vineYard">
+      <cz>vineYard</cz>
+      <en>vineYard</en>
     </text>
-    <text name="$l10n_shopItem_vineYardRed">
-      <cz>shopItem_vineYardRed</cz>
-      <en>shopItem_vineYardRed</en>
+    <text name="shopItem_vineYardRed">
+      <cz>vineYardRed</cz>
+      <en>vineYardRed</en>
     </text>
-    <text name="$l10n_FS19_Distillery_name6">
+    <text name="FS19_Distillery_name6">
       <cz>FS19_Distillery_name6</cz>
       <en>FS19_Distillery_name6</en>
     </text>
-    <text name="$l10n_shopItem_warehouse">
-      <cz>shopItem_warehouse</cz>
-      <en>shopItem_warehouse</en>
+    <text name="shopItem_warehouse">
+      <cz>warehouse</cz>
+      <en>warehouse</en>
     </text>
-    <text name="$l10n_shopItem_wasteCart">
-      <cz>shopItem_wasteCart</cz>
-      <en>shopItem_wasteCart</en>
+    <text name="shopItem_wasteCart">
+      <cz>wasteCart</cz>
+      <en>wasteCart</en>
     </text>
-    <text name="$l10n_seasons_shopItem_waterPump">
+    <text name="seasons_shopItem_waterPump">
       <cz>seasons_shopItem_waterPump</cz>
       <en>seasons_shopItem_waterPump</en>
     </text>
-    <text name="$l10n_shopItem_waterTower">
-      <cz>shopItem_waterTower</cz>
-      <en>shopItem_waterTower</en>
+    <text name="shopItem_watermill">
+      <cz>watermill</cz>
+      <en>watermill</en>
     </text>
-    <text name="$l10n_shopItem_watermill">
-      <cz>shopItem_watermill</cz>
-      <en>shopItem_watermill</en>
+    <text name="shopItem_watermillBroken">
+      <cz>watermillBroken</cz>
+      <en>watermillBroken</en>
     </text>
-    <text name="$l10n_shopItem_watermillBroken">
-      <cz>shopItem_watermillBroken</cz>
-      <en>shopItem_watermillBroken</en>
+    <text name="shopItem_wheelLoader">
+      <cz>wheelLoader</cz>
+      <en>wheelLoader</en>
     </text>
-    <text name="$l10n_shopItem_wheelLoader">
-      <cz>shopItem_wheelLoader</cz>
-      <en>shopItem_wheelLoader</en>
+    <text name="shopItem_whiteLineX1">
+      <cz>whiteLineX1</cz>
+      <en>whiteLineX1</en>
     </text>
-    <text name="$l10n_shopItem_whiteLineX1">
-      <cz>shopItem_whiteLineX1</cz>
-      <en>shopItem_whiteLineX1</en>
+    <text name="shopItem_whiteLineX10">
+      <cz>whiteLineX10</cz>
+      <en>whiteLineX10</en>
     </text>
-    <text name="$l10n_shopItem_whiteLineX10">
-      <cz>shopItem_whiteLineX10</cz>
-      <en>shopItem_whiteLineX10</en>
+    <text name="shopItem_whiteLineX1045">
+      <cz>whiteLineX1045</cz>
+      <en>whiteLineX1045</en>
     </text>
-    <text name="$l10n_shopItem_whiteLineX1045">
-      <cz>shopItem_whiteLineX1045</cz>
-      <en>shopItem_whiteLineX1045</en>
+    <text name="shopItem_whiteVan">
+      <cz>whiteVan</cz>
+      <en>whiteVan</en>
     </text>
-    <text name="$l10n_shopItem_whiteVan">
-      <cz>shopItem_whiteVan</cz>
-      <en>shopItem_whiteVan</en>
+    <text name="name_wholesalersSellPoint">
+      <cz>wholesalersSellPoint</cz>
+      <en>wholesalersSellPoint</en>
     </text>
-    <text name="$l10n_name_wholesalersSellPoint">
-      <cz>name_wholesalersSellPoint</cz>
-      <en>name_wholesalersSellPoint</en>
+    <text name="name_windmillSellPoint">
+      <cz>windmillSellPoint</cz>
+      <en>windmillSellPoint</en>
     </text>
-    <text name="$l10n_name_windmillSellPoint">
-      <cz>name_windmillSellPoint</cz>
-      <en>name_windmillSellPoint</en>
-    </text>
-    <text name="$l10n_FS19_Distillery_name7">
+    <text name="FS19_Distillery_name7">
       <cz>FS19_Distillery_name7</cz>
       <en>FS19_Distillery_name7</en>
     </text>
-    <text name="$l10n_shopItem_ssWoodChips">
-      <cz>shopItem_ssWoodChips</cz>
-      <en>shopItem_ssWoodChips</en>
+    <text name="shopItem_ssWoodChips">
+      <cz>ssWoodChips</cz>
+      <en>ssWoodChips</en>
     </text>
-    <text name="$l10n_shopItem_woodCrusher">
-      <cz>shopItem_woodCrusher</cz>
-      <en>shopItem_woodCrusher</en>
+    <text name="shopItem_woodCrusher">
+      <cz>woodCrusher</cz>
+      <en>woodCrusher</en>
     </text>
-    <text name="$l10n_shopItem_woodOuthouse">
-      <cz>shopItem_woodOuthouse</cz>
-      <en>shopItem_woodOuthouse</en>
+    <text name="shopItem_woodOuthouse">
+      <cz>woodOuthouse</cz>
+      <en>woodOuthouse</en>
     </text>
-    <text name="$l10n_shopItem_woodStackDark">
-      <cz>shopItem_woodStackDark</cz>
-      <en>shopItem_woodStackDark</en>
+    <text name="shopItem_woodStackDark">
+      <cz>woodStackDark</cz>
+      <en>woodStackDark</en>
     </text>
-    <text name="$l10n_shopItem_woodStacks">
-      <cz>shopItem_woodStacks</cz>
-      <en>shopItem_woodStacks</en>
+    <text name="shopItem_woodStacks">
+      <cz>woodStacks</cz>
+      <en>woodStacks</en>
     </text>
-    <text name="$l10n_FS19_littleSawmill_palletName4">
+    <text name="FS19_littleSawmill_palletName4">
       <cz>FS19_littleSawmill_palletName4</cz>
       <en>FS19_littleSawmill_palletName4</en>
     </text>
-    <text name="$l10n_object_farmhouse">
+    <text name="object_farmhouse">
       <cz>object_farmhouse</cz>
       <en>object_farmhouse</en>
     </text>
-    <text name="$l10n_shopItem_woodenHouseD">
-      <cz>shopItem_woodenHouseD</cz>
-      <en>shopItem_woodenHouseD</en>
+    <text name="shopItem_woodenHouseD">
+      <cz>woodenHouseD</cz>
+      <en>woodenHouseD</en>
     </text>
-    <text name="$l10n_shopItem_woodenTableSet">
-      <cz>shopItem_woodenTableSet</cz>
-      <en>shopItem_woodenTableSet</en>
+    <text name="shopItem_woodenTableSet">
+      <cz>woodenTableSet</cz>
+      <en>woodenTableSet</en>
     </text>
-    <text name="$l10n_shopItem_workshop">
-      <cz>shopItem_workshop</cz>
-      <en>shopItem_workshop</en>
+    <text name="shopItem_squareStrawStack">
+        <en>Square Straw Bale Stack</en>
+        <de>Ballenstapel Stroh</de>
+        <es>Montón Pacas Cuadradas de Paja</es>
     </text>
+    <text name="function_squareStrawStack">
+        <en>Storage for 168 square Straw bales.</en>
+        <de>Lagerung für 168 Stroh Quader Ballen</de>
+        <es>Almacén para 168 pacas cuadradas de paja.</es>
+    </text>
+    <text name="shopItem_squareHayStack">
+        <en>Square Hay Bale Stack</en>
+        <de>Ballenstapel Heu</de>
+        <es>Montón Pacas Cuadradas de Heno</es>
+    </text>
+    <text name="function_squareHayStack">
+        <en>Storage for 168 square Hay bales.</en>
+        <de>Lagerung für 168 Heu Quader Ballen</de>
+        <es>Almacén para 168 pacas cuadradas de heno.</es>
+    </text>
+    <text name="shopItem_squareGrassStack">
+        <en>Square Grass Bale Stack</en>
+        <de>Ballenstapel Gras</de>
+        <es>Montón Pacas Cuadradas de Hierba</es>
+    </text>
+    <text name="function_squareGrassStack">
+        <en>Storage for 168 square Grass bales.</en>
+        <de>Lagerung für 168 Gras Quader Ballen</de>
+        <es>Almacén para 168 pacas cuadradas de hierba.</es>
+    </text>
+    <text name="shopItem_squareSilageStack">
+        <en>Square Silage Bale Stack</en>
+        <de>Ballenstapel Silage</de>
+        <es>Montón Pacas Cuadradas de Ensilaje</es>
+    </text>
+    <text name="function_squareSilageStack">
+        <en>Storage for 168 square Silage bales.</en>
+        <de>Lagerung für 168 Silage Quader Ballen</de>
+        <es>Almacén para 168 pacas cuadradas de ensilaje.</es>
+    </text>
+    <text name="shopItem_roundStrawStack">
+        <en>Round Straw Bale Stack</en>
+        <de>Rund Ballenstapel Stroh</de>
+        <es>Montón Pacas Redondas de Paja</es>
+    </text>
+    <text name="function_roundStrawStack">
+        <en>Storage for 110 round Straw bales.</en>
+        <de>Lagerung für 110 runde Stroh Ballen</de>
+        <es>Almacén para 110 pacas redondas de paja.</es>
+    </text>
+    <text name="shopItem_roundHayStack">
+        <en>Round Hay Bale Stack</en>
+        <de>Rund Ballenstapel Heu</de>
+        <es>Montón Pacas Redondas de Heno</es>
+    </text>
+    <text name="function_roundHayStack">
+        <en>Storage for 110 round Hay bales.</en>
+        <de>Lagerung für 110 runde Heu Ballen </de>
+        <es>Almacén para 110 pacas redondas de heno.</es>
+    </text>
+    <text name="shopItem_roundGrassStack">
+        <en>Round Grass Bale Stack</en>
+        <de>Rund Ballenstapel Grass</de>
+        <es>Montón Pacas Redondas de Hierba</es>
+    </text>
+    <text name="function_roundGrassStack">
+        <en>Storage for 110 round Grass bales.</en>
+        <de>Lagerung für 110 runde Grass Ballen</de>
+        <es>Almacén para 110 pacas redondas de hierba.</es>
+    </text>
+    <text name="shopItem_roundSilageStack">
+        <en>Round Silage Bale Stack</en>
+        <de>Rund Ballenstapel Silage</de>
+        <es>Montón Pacas Redondas de Ensilaje</es>
+    </text>
+    <text name="function_roundSilageStack">
+        <en>Storage for 110 round Silage bales.</en>
+        <de>Lagerung für 110 runde Silage Ballen</de>
+        <es>Almacén para 110 pacas redondas de ensilaje.</es>
+    </text>
+    <text name="ui_nextObjectLevel">
+        <en>Next Object</en>
+        <de>Nächstes Objekt</de>
+        <fr>Objet suivant</fr>
+        <es>Siguiente objeto</es>
+        <it>Oggetto successivo</it>
+    </text>
+    <text name="action_addCover">
+        <en>Assemble Cover</en>
+        <de>Abdeckung montieren</de>
+        <fr>Assembler la couverture</fr>
+    </text>
+    <text name="action_removeCover">
+        <en>Remove Cover</en>
+        <de>Abdeckung entfernen</de>
+        <fr>Retirer le couvercle</fr>
+    </text>
+    <text name="shopItem_squareStrawShed">
+        <en>Square Bale Shed - Straw</en>
+        <de>Ballenschuppen Stroh</de>
+        <es>Cobertizo pacas cuadradas - Paja</es>
+    </text>
+    <text name="function_squareStrawShed">
+        <en>Storage for 420 square Straw bales.</en>
+        <de>Lagerung für 420 Stroh Quader Ballen</de>
+        <es>Almacén para 420 pacas cuadradas de paja.</es>
+    </text>
+    <text name="shopItem_squareHayShed">
+        <en>Square Bale Shed - Hay</en>
+        <de>Ballenschuppen Heu</de>
+        <es>Cobertizo pacas cuadradas - Heno</es>
+    </text>
+    <text name="function_squareHayShed">
+        <en>Storage for 420 square Hay bales.</en>
+        <de>Lagerung für 420 Heu Quader Ballen</de>
+        <es>Almacén para 420 pacas cuadradas de heno.</es>
+    </text>
+    <text name="shopItem_squareGrassShed">
+        <en>Square Bale Shed - Grass</en>
+        <de>Ballenschuppen Gras</de>
+        <es>Cobertizo pacas cuadradas - Hierba</es>
+    </text>
+    <text name="function_squareGrassShed">
+        <en>Storage for 420 square Grass bales.</en>
+        <de>Lagerung für 420 Gras Quader Ballen</de>
+        <es>Almacén para 420 pacas cuadradas de hierba.</es>
+    </text>
+    <text name="shopItem_squareSilageShed">
+        <en>Square Bale Shed - Silage</en>
+        <de>Ballenschuppen Silage</de>
+        <es>Cobertizo de pacas cuadradas - Ensilaje</es>
+    </text>
+    <text name="function_squareSilageShed">
+        <en>Storage for 420 square Silage bales.</en>
+        <de>Lagerung für 420 Silage Quader Ballen</de>
+        <es>Almacén para 420 pacas cuadradas de ensilaje.</es>
+    </text>
+    <text name="shopItem_roundStrawShed">
+        <en>Round Bale Shed - Straw</en>
+        <de>Rund Ballenschuppen Stroh</de>
+        <es>Cobertizo pacas redondas - Paja</es>
+    </text>
+    <text name="function_roundStrawShed">
+        <en>Storage for 410 round Straw bales.</en>
+        <de>Lagerung für 410 runde Stroh Ballen</de>
+        <es>Almacén para 410 pacas redondas de paja.</es>
+    </text>
+    <text name="shopItem_roundHayShed">
+        <en>Round Bale Shed - Hay</en>
+        <de>Rund Ballenschuppen Heu</de>
+        <es>Cobertizo pacas redondas - Heno</es>
+    </text>
+    <text name="function_roundHayShed">
+        <en>Storage for 410 round Hay bales.</en>
+        <de>Lagerung für 410 runde Heu Ballen </de>
+        <es>Almacén para 410 pacas redondas de heno.</es>
+    </text>
+    <text name="shopItem_roundGrassShed">
+        <en>Round Bale Shed - Grass</en>
+        <de>Rund Ballenschuppen Gras</de>
+        <es>Cobertizo pacas redondas - Hierba</es>
+    </text>
+    <text name="function_roundGrassShed">
+        <en>Storage for 410 round Grass bales.</en>
+        <de>Lagerung für 410 runde Grass Ballen</de>
+        <es>Almacén para 410 pacas redondas de hierba.</es>
+    </text>
+    <text name="shopItem_roundSilageShed">
+        <en>Round Bale Shed - Silage</en>
+        <de>Rund Ballenschuppen Silage</de>
+        <es>Cobertizo pacas redondas - Ensilaje</es>
+    </text>
+    <text name="function_roundSilageShed">
+        <en>Storage for 410 round Silage bales.</en>
+        <de>Lagerung für 410 runde Silage Ballen</de>
+        <es>Almacén para 410 pacas redondas de ensilaje.</es>
+    </text>
+    <text name="ui_nextObjectLevel">
+        <en>Next Object</en>
+        <de>Nächstes Objekt</de>
+        <fr>Objet suivant</fr>
+        <es>Siguiente objeto</es>
+        <it>Oggetto successivo</it>
+    </text>
+    <text name="shopItem_cottonModulesShed">
+        <en>Cotton Module Shed</en>
+        <de>Baumwolle Modul Schuppen</de>
+        <es>Cobertizo pacas cuadradas - Algodón</es>
+    </text>
+    <text name="function_cottonModulesShed">
+        <en>Storage for 60 Cotton modules.</en>
+        <de>Lagerung für 60 Baumwolle Quader Ballen</de>
+        <es>Almacén para 60 pacas cuadradas de algodón.</es>
+    </text>
+
+    <text name="shopItem_cottonBalesShed">
+        <en>Cotton Bale Shed</en>
+        <de>Rund Baumwolle Schuppen</de>
+        <es>Cobertizo pacas redondas - Algodón</es>
+    </text>
+    <text name="function_cottonBalesShed">
+        <en>Storage for 72 round Cotton bales.</en>
+        <de>Lagerung für 72 runde Baumwolle Ballen</de>
+        <es>Almacén para 72 pacas redondas de algodón.</es>
+    </text>
+
+    <text name="ui_nextObjectLevel">
+        <en>Next Object</en>
+        <de>Nächstes Objekt</de>
+        <fr>Objet suivant</fr>
+        <es>Siguiente objeto</es>
+        <it>Oggetto successivo</it>
+    </text>
+    <text name="storeName_siloDisplaySmall">
+        <en>Silo Display - Small</en>
+        <de>Silodisplay - Klein</de>
+    </text>
+
+    <text name="storeName_siloDisplayNormal">
+        <en>Silo Display - Standard</en>
+        <de>Silodisplay - Standard</de>
+    </text>
+
+    <text name="storeName_siloDisplayLarge">
+        <en>Silo Display - Large</en>
+        <de>Silodisplay - Groß</de>
+    </text>
+    <text name="shopItem_bunkerSiloSingle01"> <en>Single Bunker Silo 1</en> <de>Einzelfahrsilo 1</de> </text>
+    <text name="shopItem_bunkerSiloDouble01"> <en>Double Bunker Silo 1</en> <de>Doppelfahrsilo 1</de> </text>
+    <text name="shopItem_bunkerSiloTriple01"> <en>Triple Bunker Silo 1</en> <de>Dreifachfahrsilo 1</de> </text>
+    <text name="shopItem_bunkerSiloSingle02"> <en>Single Bunker Silo 2</en> <de>Einzelfahrsilo 2</de> </text>
+    <text name="shopItem_bunkerSiloDouble02"> <en>Double Bunker Silo 2</en> <de>Doppelfahrsilo 2</de> </text>
+    <text name="shopItem_bunkerSiloTriple02"> <en>Triple Bunker Silo 2</en> <de>Dreifachfahrsilo 2</de> </text>
+    <text name="shopItem_bunkerSiloRamp01"> <en>Silo Ramp End</en> <de>Silo Rampe Endstück</de> </text>
+    <text name="shopItem_bunkerSiloRamp02"> <en>Silo Ramp Left</en> <de>Silo Rampe Links</de> </text>
+    <text name="shopItem_bunkerSiloRamp03"> <en>Silo Ramp Block End</en> <de>Silo Rampe Block Endstück</de> </text>
+    <text name="shopItem_bunkerSiloRamp04"> <en>Silo Ramp Block Left</en> <de>Silo Rampe Block Links</de> </text>
+
   </l10n>
 </mapconfig>

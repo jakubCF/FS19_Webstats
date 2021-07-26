@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mapconfig>
   <placeables>
-    <placeable basename="bga.xml" name="$l10n_storageSilo" brand="LIZARD" img="store_empty" lifetime="1000" dailykeepup="" category="placeableMisc"/>
+    <placeable basename="bga.xml" name="$l10n_bga" brand="LIZARD" img="store_bga" lifetime="1000" dailykeepup="" category="placeableMisc"/>
     <placeable basename="bunkerSiloLarge.xml" name="$l10n_bunkerSiloLarge" brand="LIZARD" img="store_bunkerSiloLarge" lifetime="1000" dailykeepup="80" category="silos"/>
     <placeable basename="bunkerSiloLargeDouble.xml" name="$l10n_bunkerSiloLargeDouble" brand="LIZARD" img="store_bunkerSiloLargeDouble" lifetime="1000" dailykeepup="160" category="silos"/>
     <placeable basename="bunkerSiloMedium.xml" name="$l10n_bunkerSiloMedium" brand="LIZARD" img="store_bunkerSiloMedium" lifetime="1000" dailykeepup="40" category="silos"/>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+  <l10n>
+    <text name="$l10n_shopItem_frontloaderBaleGrab">
+      <cz>Naběrák balíků</cz>
+			<en>Bale grab</en>
+			<de>Ballenzange</de>
+    </text>
+    <text name="$l10n_shopItem_skidSteerBaleFork">
+      <cz>Vidlice na balíky</cz>
+			<en>Bale fork</en>
+			<de>Ballengabel</de>
+    </text>
+    <text name="$l10n_shopItem_sugarcaneTrailer">
+      <cz>Vlečka pro cukrovou třtinu</cz>
+      <en>sugarcaneTrailer</en>
+    </text>
+    <text name="$l10n_shopItem_sugarcaneSemitrailer">
+      <cz>Návěs pro cukrovou třtinu</cz>
+      <en>sugarcaneSemitrailer</en>
+    </text>
+    <text name="$l10n_shopItem_skidSteerHighDumpBucket">
+      <cz>Lžíce velká</cz>
+			<en>Bucket high dump</en>
+			<de>Hochkippschaufel</de>
+    </text>
+    <text name="$l10n_shopItem_wheelLoaderSilageFork">
+      <cz>Lžíce na siláž</cz>
+			<en>Silage fork</en>
+			<de>Silagegabel</de>
+    </text>
+    <text name="$l10n_shopItem_skidSteerManureFork">
+      <cz>Lžíce na hnůj</cz>
+			<en>Manure Fork</en>
+			<de>Mistgabel</de>
+    </text>
+    <text name="$l10n_shopItem_frontloaderPalletFork">
+      <cz>Vidlice na palety</cz>
+			<en>Pallet fork</en>
+			<de>Palettengabel</de>
+    </text>
+    <text name="$l10n_shopItem_frontloaderBaleFork">
+      <cz>Vidlice na balíky</cz>
+			<en>Bale fork</en>
+			<de>Ballengabel</de>
+    </text>
+    <text name="$l10n_shopItem_frontloaderLogFork">
+      <en>Log fork</en>
+			<cz>Vidlice na klády</cz>
+			<de>Poltergabel</de>
+    </text>
+    <text name="$l10n_shopItem_frontloaderManureFork">
+      <cz>Lžíce na hnůj</cz>
+			<en>Manure Fork</en>
+			<de>Mistgabel</de>
+    </text>
+    <text name="$l10n_shopItem_frontloaderManureGrabFork">
+      <cz>Lžíce na hnůj</cz>
+      <en>Manure Fork</en>
+    </text>
+    <text name="$l10n_shopItem_frontloaderRoundBaleFork">
+      <cz>Vidlice na kulaté balíky</cz>
+			<en>Round bale fork</en>
+			<de>Ballengabel</de>
+    </text>
+    <text name="$l10n_shopItem_frontloaderShovel">
+      <en>Lžíce</en>
+			<en>Bucket</en>
+			<de>Universalschaufel</de>
+    </text>
+    <text name="$l10n_shopItem_frontloaderSilageCutter">
+      <cz>Lžíce na siláž</cz>
+			<en>Silage Cutter</en>
+    </text>
+    <text name="$l10n_shopItem_skidSteerStumpCutter">
+      <cz>Fréza na pařezy</cz>
+      <en>Stump Cutter</en>
+    </text>
+    <text name="$l10n_shopItem_telehandlerBaleFork">
+      <cz>Vidlice na balíky</cz>
+			<en>Bale fork</en>
+			<de>Ballengabel</de>
+    </text>
+    <text name="$l10n_shopItem_telehandlerBaleGrab">
+      <cz>Naběrák balíků</cz>
+			<en>Bale grab</en>
+			<de>Ballenzange</de>
+    </text>
+    <text name="$l10n_shopItem_telehandlerFork">
+      <cz>Vidlice na palety</cz>
+			<en>Pallet fork</en>
+			<de>Palettengabel</de>
+    </text>
+    <text name="$l10n_shopItem_telehandlerLogFork">
+      <en>Log fork</en>
+			<cz>Vidlice na klády</cz>
+			<de>Poltergabel</de>
+    </text>
+    <text name="$l10n_shopItem_telehandlerManureFork">
+      <cz>Lžíce na hnůj</cz>
+			<en>Manure Fork</en>
+			<de>Mistgabel</de>
+    </text>
+    <text name="$l10n_shopItem_telehandlerShovel">
+      <en>Lžíce</en>
+			<en>Bucket</en>
+			<de>Universalschaufel</de>
+    </text>
+    <text name="$l10n_shopItem_skidSteerLogFork">
+      <en>Log fork</en>
+			<cz>Vidlice na klády</cz>
+			<de>Poltergabel</de>
+    </text>
+    <text name="$l10n_shopItem_wheelLoaderFork">
+      <cz>Vidlice na palety</cz>
+			<en>Pallet fork</en>
+			<de>Palettengabel</de>
+    </text>
+    <text name="$l10n_shopItem_wheelLoaderLogFork">
+      <en>Log fork</en>
+			<cz>Vidlice na klády</cz>
+			<de>Poltergabel</de>
+    </text>
+    <text name="$l10n_shopItem_wheelLoaderHighDumpBucket">
+      <cz>Lžíce velká</cz>
+			<en>Bucket high dump</en>
+			<de>Hochkippschaufel</de>
+    </text>
+    <text name="$l10n_bunkerSiloLarge">
+      <cz>Velká silážní jáma</cz>
+			<en>Big bunker silo</en>
+			<de>Großes Fahrsilo</de>
+    </text>
+    <text name="$l10n_bunkerSiloLargeDouble">
+      <cz>Velká dvojitá silážní jáma</cz>
+			<en>Big bunker silo (double)</en>
+			<de>Großes Doppelfahrsilo</de>
+    </text>
+    <text name="$l10n_bunkerSiloMedium">
+      <cz>Střední silážní jáma</cz>
+			<en>Medium bunker silo</en>
+			<de>Mittleres Fahrsilo</de>
+    </text>
+    <text name="$l10n_bunkerSiloMediumDouble">
+      <cz>Střední dvojitá silážní jáma</cz>
+			<en>Medium bunker silo (double)</en>
+			<de>Mittleres Doppelfahrsilo</de>
+    </text>
+    <text name="$l10n_bunkerSiloSmall">
+      <cz>Malá silážní jáma</cz>
+			<en>Small bunker silo</en>
+			<de>Kleines Fahrsilo</de>
+    </text>
+    <text name="$l10n_bunkerSiloSmallDouble">
+      <cz>Malá dvojitá silážní jáma</cz>
+			<en>Small bunker silo (double)</en>
+			<de>Kleines Doppelfahrsilo</de>
+    </text>
+    <text name="$l10n_shopItem_railroadCrane">
+      <cz>Railroad Crane</cz>
+      <en>Railroad Crane</en>
+    </text>
+    <text name="$l10n_shopItem_doghouse">
+      <cz>Psí bouda</cz>
+			<en>Dog house</en>
+			<de>Hundehütte</de>
+    </text>
+    <text name="$l10n_shopItem_farmBarn">
+      <cz>Budova</cz>
+      <en>Building</en>
+    </text>
+    <text name="$l10n_shopItem_farmGarage">
+      <cz>Garáž</cz>
+      <en>Farm Garage</en>
+    </text>
+    <text name="$l10n_object_farmhouse">
+      <cz>Statek</cz>
+      <en>farmhouse</en>
+    </text>
+    <text name="$l10n_shopItem_farmSiloLarge">
+      <cz>Velké silo</cz>
+			<en>Big farm silo</en>
+			<de>Großes Silo</de>
+    </text>
+    <text name="$l10n_shopItem_farmSiloSmall">
+      <cz>Malé silo</cz>
+			<en>Small farm silo</en>
+			<de>Getreidesilo</de>
+    </text>
+    <text name="$l10n_shopItem_farmStorageBarn">
+      <cz>Stodola</cz>
+      <en>Barn</en>
+    </text>
+    <text name="$l10n_shopItem_gasStation">
+      <cz>Benzínka</cz>
+      <en>Gas Station</en>
+    </text>
+    <text name="$l10n_shopItem_hayLoft">
+      <cz>Seník</cz>
+			<en>hayLoft</en>
+			<de>Heulager</de>
+    </text>
+    <text name="$l10n_animalPen_chicken">
+      <cz>Slepičárna</cz>
+			<en>husbandryChicken</en>
+			<de>Hühnerstall</de>
+    </text>
+    <text name="$l10n_animalPen_chicken2">
+      <cz>Velká slepičárna</cz>
+			<en>husbandryChickenLarge</en>
+			<de>Großer Hühnerstall</de>
+    </text>
+    <text name="$l10n_animalPen_cow">
+      <cz>Kravín</cz>
+			<en>Cow husbandry</en>
+			<de>Kuhweide</de>
+    </text>
+    <text name="$l10n_animalPen_cow2">
+      <cz>Velký kravín</cz>
+			<en>Big cow husbandry</en>
+			<de>Große Kuhweide</de>
+    </text>
+    <text name="$l10n_animalPen_horse">
+      <cz>Stáje</cz>
+			<en>Horse husbandry</en>
+			<de>Pferdestall</de>
+    </text>
+    <text name="$l10n_animalPen_horse2">
+      <cz>Velké stáje</cz>
+			<en>Large horse husbandry</en>
+			<de>Großer Pferdestall</de>
+    </text>
+    <text name="$l10n_animalPen_pig">
+      <cz>Prasečák</cz>
+			<en>Pig husbandry</en>
+			<de>Schweinestall</de>
+    </text>
+    <text name="$l10n_animalPen_pig2">
+      <cz>Velký prasečák</cz>
+			<en>Big pig husbandry</en>
+			<de>Großer Schweinestall</de>
+    </text>
+    <text name="$l10n_animalPen_sheep">
+      <cz>Ovčírna</cz>
+			<en>Sheep husbandry</en>
+			<de>Schafweide</de>
+    </text>
+    <text name="$l10n_animalPen_sheep2">
+      <cz>Velká ovčírna</cz>
+			<en>Big sheep husbandry</en>
+			<de>Große Schafweide</de>
+    </text>
+    <text name="$l10n_shopItem_limeStation">
+      <cz>Stanice s vápnem</cz>
+      <en>Lime Station</en>
+    </text>
+    <text name="$l10n_storageSilo">
+      <cz>Silo</cz>
+      <en>storageSilo</en>
+    </text>
+    <text name="$l10n_shopItem_sandcastle">
+      <cz>Hrad z písku</cz>
+      <en>sandcastle</en>
+      <de>Sandburg</de>
+    </text>
+    <text name="$l10n_shopItem_sellStation">
+      <cz>Prodejní stanice</cz>
+      <en>sell Station</en>
+    </text>
+    <text name="$l10n_shopItem_sellingStationBales">
+      <cz>Prodejní stanice seník</cz>
+      <en>sellingStationBales</en>
+    </text>
+    <text name="$l10n_station_spinnery">
+      <cz>Přádelna</cz>
+      <en>Spinnery</en>
+    </text>
+    <text name="$l10n_shopItem_siloExtensionLarge">
+      <cz>Rozšíření sila</cz>
+			<en>Silo extension</en>
+			<de>Große Siloerweiterung</de>
+    </text>
+    <text name="$l10n_shopItem_waterTower">
+      <cz>Vodní nádrž</cz>
+      <en>Water Tower</en>
+    </text>
+    <text name="$l10n_shopItem_workshop">
+      <cz>Dílna</cz>
+			<en>Workshop</en>
+			<de>Werkstatt</de>
+    </text>
+  </l10n>
+</mapconfig>

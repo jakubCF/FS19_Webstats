@@ -171,6 +171,10 @@
 			<en>Farm old barn</en>
 			<de>Hof Scheune (alt)</de>
 		</text>
+		<text>
+			<cz>Bioplynka</cz>
+			<en>BGA</en>
+		</text>
 		<!-- Hallen ****************************************************** -->
 		<text name="easyShed01">
 			<cz>Easy Shed 1</cz>
