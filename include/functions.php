@@ -264,12 +264,26 @@ function getMaps() {
 function translate($text) {
 	global $gameData;
 	$text = strval ( $text );
+	
 	if (isset ( $gameData ['l10n'] [$text] )) {
 		return $gameData ['l10n'] [$text];
-	} else {
-		return '{' . $text . '}';
-		return $text;
+	} 
+	elseif ((substr($text,0,6) == '$l10n_') && (isset ( $gameData ['l10n'] [substr($text,6)] ))) {
+		//error_log(substr($text,5));
+		return $gameData ['l10n'] [substr($text,6)];
 	}
+	$xmlfile = "";
+	$dataFromStore = $gameData['placeables'];
+	foreach ( $dataFromStore as $basename => $storeData ) {
+		if ($text == cleanFileName($basename)) {
+			$text = $storeData ['name'];
+			if (substr ( $text, 0, 5 ) == '$l10n') {
+				$text = translate ( $text );
+			}
+			return $text;
+		}
+	}
+	return '{' . $text . '}';
 }
 
 // mehrere Strings (Array) in einem Text suchen
