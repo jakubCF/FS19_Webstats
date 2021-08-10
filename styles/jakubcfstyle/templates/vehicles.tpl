@@ -18,10 +18,10 @@
 			</thead>
 			<tbody>
 				{foreach $vehicles as $vehicleId => $vehicle}
-				<tr>
+				<tr class="{if $vehicle.propertyState==2 && ($vehicle.leasingCost/$vehicle.price) > 0.6}bg-danger{/if}">
 					<!-- <td>{$vehicle.brand}</td> -->
 					<td><div class="hover-title">{$vehicle.brand} {$vehicle.name}</div>{if $vehicle.img != ""}<div class="hover-img"><img src="{#IMAGES#}/vehicles/{$vehicle.img}.png"><span>{$vehicle.name}</span></div>{/if}</td>
-					<td>##{$vehicle.category}##</td>
+					<td>{translate($vehicle.category)}</td>
 					<td class="text-right pr-3">{$vehicle.age}</td>
 					<td class="text-right pr-3">{$vehicle.wear|number_format:0}&#8239;%</td>
 					<td data-order="{$vehicle.operatingTime|number_format:0:" ,":"."}" class="text-right pr-3">{$vehicle.operatingTimeString}</td>
