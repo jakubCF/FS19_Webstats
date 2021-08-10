@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+  <objects>
+    <object name="sellingStationBales" locationType="TipTrigger" isSellingPoint="true"/> <!-- good-->
+    <object name="sellingStationMill02" locationType="TipTrigger" isSellingPoint="true"/> <!-- good art du pain-->	
+    <object name="sellingStationPort01" locationType="TipTrigger" isSellingPoint="true"/> <!-- good coop-->	
+    <object name="sellingStationPort02" locationType="TipTrigger" isSellingPoint="true"/> <!-- good Muhlne-->	
+    <object name="sellingStationPort03" locationType="TipTrigger" isSellingPoint="true"/> <!-- good Mother Earth-->
+    <object name="sellingStationPort04" locationType="TipTrigger" isSellingPoint="true" /> <!-- good Dairy-->	
+    <object name="sellingStationPort05" locationType="TipTrigger" isSellingPoint="true"/> <!-- good Agro-->		
+    <object name="sellingStationWoodChips" locationType="TipTrigger" isSellingPoint="true"/><!-- good-->
+	  <object name="sellingStationWool" locationType="TipTrigger" isSellingPoint="true"/><!-- good-->
+
+    <object name="SugarSellPoint" locationType="TipTrigger" isSellingPoint="true"/><!-- good-->
+    <object name="FeedPelletsSellPoint" locationType="TipTrigger" isSellingPoint="true"/><!-- good-->
+    <object name="GenericSellPoint" locationType="TipTrigger" isSellingPoint="true"/><!-- good-->
+
+    <!-- FS19_PlaceableSellPoints-->
+    <object name="wholesalers" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="digestate" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="barn" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="cowshed" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="dairy" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="dockyard" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="granary" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="hayloft" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="lumberyard" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="market" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="stables" locationType="TipTrigger" isSellingPoint="true"/>
+    <object name="windmill" locationType="TipTrigger" isSellingPoint="true"/>
+
+  </objects>
+  <l10n>
+    <text name="sellingStationPort01">
+      <cz>L'Art du pain</cz>
+      <en>L'Art du pain</en>
+      <de>L'Art du pain</de>
+    </text>
+    <text name="sellingStationMill02">
+      <cz>Cooperative Agricole</cz>
+      <en>Cooperative Agricole</en>
+      <de>Cooperative Agricole</de>
+    </text>
+    <text name="sellingStationPort03">
+      <cz>Mother Earth</cz>
+      <en>Mother Earth</en>
+      <de>Mother Earth</de>
+    </text>
+    <text name="sellingStationWool">
+      <cz>Přádelna</cz>
+      <en>Wool station</en>
+      <de>Spinnerei</de>
+    </text>
+    <text name="sellingStationPort02">
+      <cz>Krebacker Muhlne</cz>
+      <en>Krebacker Muhlne</en>
+      <de>Krebacker Muhlne</de>
+    </text>
+    <text name="sellingStationPort04">
+      <cz>Dairy</cz>
+      <en>Dairy</en>
+      <de>Dairy</de>
+    </text>
+    <text name="sellingStationPort05">
+      <cz>Agro Life</cz>
+      <en>Agro Life</en>
+      <de>Agro Life</de>
+    </text>
+    <text name="sellingStationBales">
+      <cz>Commerce de Bestiaux</cz>
+      <en>Commerce de Bestiaux</en>
+      <de>Commerce de Bestiaux</de>
+    </text>
+
+    <text name="GenericSellPoint">
+      <cz>SugarBeet Marketplace</cz>
+      <en>SugarBeet Marketplace</en>
+      <de>SugarBeet Marketplace</de>
+    </text>
+    <text name="FeedPelletsSellPoint">
+      <cz>Supafeed Sellpoint</cz>
+      <en>Supafeed Sellpoint</en>
+      <de>Supafeed Sellpoint</de>
+    </text>
+    <text name="SugarSellPoint">
+      <cz>Sugar Sellpoint</cz>
+      <en>Sugar Sellpoint</en>
+      <de>Sugar Sellpoint</de>
+    </text>
+    <text name="sellingStationWoodChips">
+      <cz>Pila</cz>
+      <en>WoodChips station</en>
+      <de>Sägewerg</de>
+    </text>
+    <text name="wholesalers">
+      <cz>Wholesalers</cz>
+      <en>Wholesalers</en>
+    </text>
+    <text name="digestate">
+      <cz>Digestate</cz>
+      <en>Digestate</en>
+    </text>
+    <text name="cowshed">
+      <cz>Kravín</cz>
+      <en>Cowshed</en>
+    </text>
+    <text name="dockyard">
+      <cz>Přístav</cz>
+      <en>Dockyard</en>
+    </text>
+  </l10n>
+</mapconfig>
