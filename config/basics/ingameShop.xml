@@ -45,247 +45,308 @@
 		<!-- Vehicles categories -->
 		<text name="tractorsS">
 			<en></en>
+			<cz>Malé traktory</cz>
 			<de>Kompakttraktoren</de>
 		</text>
 		<text name="tractorsM">
 			<en></en>
+			<cz>Střední traktory</cz>
 			<de>Mittelgroße Traktoren</de>
 		</text>
 		<text name="tractorsL">
 			<en></en>
+			<cz>Velké traktory</cz>
 			<de>Großtraktoren</de>
 		</text>
 		<text name="trucks">
 			<en></en>
+			<cz>Tahače</cz>
 			<de>LKW</de>
 		</text>
 		<text name="harvesters">
 			<en></en>
+			<cz>Kombajny</cz>
 			<de>Mähdrescher</de>
 		</text>
 		<text name="forageHarvesters">
 			<en></en>
+			<cz>Sklízecí řezačky</cz>
 			<de>Feldhäcksler</de>
 		</text>
 		<text name="potatoVehicles">
 			<en></en>
+			<cz>Bramborová tech.</cz>
 			<de>Kartoffeltechnik</de>
 		</text>
 		<text name="beetVehicles">
 			<en></en>
+			<cz>Řepná tech.</cz>
 			<de>Rübentechnik</de>
 		</text>
 		<text name="sugarcaneVehicles">
 			<en></en>
+			<cz>Třtinová tech.</cz>
 			<de>Zuckerrohrtechnik</de>
 		</text>
 		<text name="cottonVehicles">
 			<en></en>
+			<cz>Bavlnová tech.</cz>
 			<de>Baumwolltechnik</de>
 		</text>
 		<text name="woodHarvesting">
 			<en></en>
+			<cz>Lesnické stroje</cz>
 			<de>Forstmaschinen</de>
 		</text>
 		<text name="animalsVehicles">
 			<en></en>
+			<cz>Zvířata</cz>
 			<de>Tierhaltung</de>
 		</text>
 		<text name="sprayerVehicles">
 			<en></en>
+			<cz>Ochrana plodin</cz>
 			<de>Pflanzenschutz</de>
 		</text>
 		<text name="mowerVehicles">
 			<en></en>
+			<cz>Sekačky</cz>
 			<de>Mähtechnik</de>
 		</text>
 		<text name="frontLoaderVehicles">
 			<en></en>
+			<cz>Čelní nakladače</cz>
 			<de>Frontlader</de>
 		</text>
 		<text name="wheelLoaderVehicles">
 			<en></en>
+			<cz>Kolové nakladače</cz>
 			<de>Radlader</de>
 		</text>
 		<text name="teleLoaderVehicles">
 			<en></en>
+			<cz>Teleskopické manipulátory</cz>
 			<de>Teleskoplader</de>
 		</text>
 		<text name="skidSteerVehicles">
 			<en></en>
+			<cz>Smykové nakladače</cz>
 			<de>Kompaktlader</de>
 		</text>
 		<text name="cars">
 			<en></en>
+			<cz>Auta</cz>
 			<de>Autos</de>
 		</text>
 		<text name="miscVehicles">
 			<en></en>
+			<cz>Ostaní</cz>
 			<de>Diverses</de>
 		</text>
 		<!-- Tools categories -->
 		<text name="trailers">
 			<en></en>
+			<cz>Vlečky</cz>
 			<de>Anhänger</de>
 		</text>
 		<text name="augerWagons">
 			<en></en>
+			<cz>Vlečky s dopravníkem</cz>
 			<de>Überladewagen</de>
 		</text>
 		<text name="cutters">
 			<en></en>
+			<cz>Řezačky</cz>
 			<de>Schneidwerke</de>
 		</text>
 		<text name="cornHeaders">
 			<en></en>
+			<cz>Kukuřičné adaptéry</cz>
 			<de>Maispflücker</de>
 		</text>
 		<text name="forageHarvesterCutters">
 			<en></en>
+			<cz>Řezačky pro sklízecí řezačky</cz>
 			<de>Feldhäcksler Schneidwerke</de>
 		</text>
 		<text name="potatoHarvesting">
 			<en></en>
+			<cz>Bramborová tech.</cz>
 			<de>Kartoffeltechnik</de>
 		</text>
 		<text name="beetHarvesting">
 			<en></en>
+			<cz>Řepná tech.</cz>
 			<de>Rübentechnik</de>
 		</text>
 		<text name="sugarCaneHarvesting">
 			<en></en>
+			<cz>Třtinová tech.</cz>
 			<de>Zuckerrohrtechnik</de>
 		</text>
 		<text name="cottonHarvesting">
 			<en></en>
+			<cz>Bavlnová tech.</cz>
 			<de>Baumwolltechnik</de>
 		</text>
 		<text name="plows">
 			<en></en>
+			<cz>Pluhy</cz>
 			<de>Pflüge</de>
 		</text>
 		<text name="cultivators">
 			<en></en>
+			<cz>Kultivátory</cz>
 			<de>Grubber</de>
 		</text>
 		<text name="discHarrows">
 			<en></en>
+			<cz>Kotoučové vlečky</cz>
 			<de>Scheibeneggen</de>
 		</text>
 		<text name="powerHarrows">
 			<en></en>
+			<cz>Rotační brány</cz>
 			<de>Kreiseleggen</de>
 		</text>
 		<text name="subsoilers">
 			<en></en>
+			<cz>Podrýváky</cz>
 			<de>Tiefenlockerer</de>
 		</text>
 		<text name="seeders">
 			<en></en>
+			<cz>Secí stroje</cz>
 			<de>Sätechnik</de>
 		</text>
 		<text name="planters">
 			<en></en>
+			<cz>Sázečky</cz>
 			<de>Einzelkorn Sätechnik</de>
 		</text>
 		<text name="sprayers">
 			<en></en>
+			<cz>Ochrana plodin</cz>
 			<de>Pflanzenschutz</de>
 		</text>
 		<text name="fertilizerSpreaders">
 			<en></en>
+			<cz>Hnojící tech.</cz>
 			<de>Düngetechnik</de>
 		</text>
 		<text name="manureSpreaders">
 			<en></en>
+			<cz>Rozhazovače mrvy</cz>
 			<de>Miststreuer</de>
 		</text>
 		<text name="slurryTanks">
 			<en></en>
+			<cz>Cisterny na močůvku</cz>
 			<de>Güllefässer</de>
 		</text>
 		<text name="weeders">
 			<en></en>
+			<cz>Plečky</cz>
 			<de>Striegel</de>
 		</text>
 		<text name="mowers">
 			<en></en>
+			<cz>Sekačky</cz>
 			<de>Mähtechnik</de>
 		</text>
 		<text name="tedders">
 			<en></en>
+			<cz>obracečky</cz>
 			<de>Wender</de>
 		</text>
 		<text name="windrowers">
 			<en></en>
+			<cz>Řádkovače</cz>
 			<de>Schwader</de>
 		</text>
 		<text name="loaderWagons">
 			<en></en>
+			<cz>Nakládání</cz>
 			<de>Ladewagen</de>
 		</text>
 		<text name="baling">
 			<en></en>
+			<cz>Balíkování</cz>
 			<de>Ballentechnik</de>
 		</text>
 		<text name="chainsaws">
 			<en></en>
+			<cz>Motorové pily</cz>
 			<de>Kettensägen</de>
 		</text>
 		<text name="wood">
 			<en></en>
+			<cz>Lesní hosp.</cz>
 			<de>Forstmaschinen</de>
 		</text>
 		<text name="animals">
 			<en></en>
+			<cz>Zvířata</cz>
 			<de>Tierhaltung</de>
 		</text>
 		<text name="animalTransport">
 			<en></en>
+			<cz>Přeprava zvířat</cz>
 			<de>Tiertransport</de>
 		</text>
 		<text name="leveler">
 			<en></en>
+			<cz>Rovnačky</cz>
 			<de>Schiebeschilder</de>
 		</text>
 		<text name="frontLoaders">
 			<en></en>
+			<cz>Čelní nakladače</cz>
 			<de>Frontlader</de>
 		</text>
 		<text name="wheelLoaders">
 			<en></en>
+			<cz>Kolové nakladače</cz>
 			<de>Radlader</de>
 		</text>
 		<text name="teleLoaders">
 			<en></en>
+			<cz>Teleskopické manipulátory</cz>
 			<de>Teleskoplader</de>
 		</text>
 		<text name="skidSteers">
 			<en></en>
+			<cz>Smykové nakladače</cz>
 			<de>Kompaktlader</de>
 		</text>
 		<text name="dollys">
 			<en></en>
+			<cz>Dolly</cz>
 			<de>Dollys</de>
 		</text>
 		<text name="lowloaders">
 			<en></en>
+			<cz>Podvalníky</cz>
 			<de>Tieflader</de>
 		</text>
 		<text name="cutterTrailers">
 			<en></en>
+			<cz>Vlečky na řezačky</cz>
 			<de>Transportanhänger Schneidwerke</de>
 		</text>
 		<text name="weights">
 			<en></en>
+			<cz>Závaží</cz>
 			<de>Gewichte</de>
 		</text>
 		<text name="belts">
 			<en></en>
+			<cz>Pásový systém</cz>
 			<de>Förderbandsystem</de>
 		</text>
 		<text name="misc">
 			<en></en>
+			<cz>Ostatní</cz>
 			<de>Diverses</de>
 		</text>
 	</l10n>
