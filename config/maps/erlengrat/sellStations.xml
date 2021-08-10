@@ -72,6 +72,10 @@
       <cz>Digestate</cz>
       <en>Digestate</en>
     </text>
+    <text name="hayloft">
+      <cz>Hayloft</cz>
+      <en>Hayloft</en>
+    </text>
     <text name="sellingStationWool">
       <cz>Přádelna</cz>
       <en>Wool station</en>
