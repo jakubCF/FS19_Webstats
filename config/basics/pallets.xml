@@ -66,5 +66,9 @@
       <de>Schweinefutter</de>
       <fr>Aliment pour les cochons</fr>
     </text>
+    <text name="pallets">
+      <cz>Palety</cz>
+      <en>Pallets</en>
+    </text>
   </l10n>
 </mapconfig>
