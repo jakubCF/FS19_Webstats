@@ -103,7 +103,7 @@
 			</thead>
 			<tbody>
 				{foreach $prices as $fillType => $fillTypeData} {math equation="round(100 / max * current)" max=$fillTypeData.maxPrice-$fillTypeData.minPrice+0.0001 current=$fillTypeData.bestPrice-$fillTypeData.minPrice+0.0001 assign="percent"}
-				<tr class="{if $percent>=80 && $commodities.$fillType.overall > 0}bg-warning{/if}">
+				<tr class="{if $percent>=80 && !empty($commodities.$fillType.overall)}bg-warning{/if}">
 					<td>{$fillType}</td>
 					<td>{$fillTypeData.bestLocation}</td>
 					<td class="text-right col-1 pr-3">{number_format_locale($fillTypeData.minPrice,0)}</td>
