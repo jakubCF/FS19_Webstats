@@ -206,6 +206,7 @@
     <vehicle basename="hs8w.xml" type="hs105hoses" name="HS 10.5 W Profi" brand="LIZARD" img="store_hs8w" lifetime="600" category="animals" wearable="480"/>
     <vehicle basename="hs8we.xml" type="hs105" name="HS 10.5 W" brand="LIZARD" img="store_hs8we" lifetime="600" category="animals" wearable="480"/>
     <vehicle basename="hydraulic_10ton.xml" type="82sTrailer" name="82's Hydraulic Tipper (10 Ton)" brand="82SMCHN" img="store_hydraulic_10ton" lifetime="600" category="trailers" wearable="480"/>
+    <vehicle basename="isariaScout.xml" type="soilSampler" name="SCOUT" brand="ISARIA" img="vstore_isariaScout" lifetime="600" category="misc" wearable="480"/>
     <vehicle basename="it47AugerWagon.xml" type="hookLiftContainerTrailerAugerWagon" name="IT 47" brand="METALTECH" img="store_it47AugerWagon" lifetime="600" category="augerWagons" wearable="480"/>
     <vehicle basename="itRunner2623HD.xml" type="hookLiftTrailer" name="$l10n_typeDesc_itRunner" brand="ITRUNNER" img="store_itRunner2623HD" lifetime="600" category="trailers" wearable="480"/>
     <vehicle basename="itRunner2633HD.xml" type="hookLiftTrailer" name="ITR 26.33 HD" brand="ITRUNNER" img="store_itRunner2633HD" lifetime="600" category="trailers" wearable="480"/>
@@ -215,6 +216,7 @@
     <vehicle basename="ivecoITRunner190.xml" type="truckITR190" name="190-38 ITRunner" brand="IVECO" img="store_ivecoITRunner190" lifetime="600" category="trucks" wearable="480">
       <motor id="1" name="IVECO 190-38"/>
     </vehicle>
+    <vehicle basename="joskinAquaTrans7300.xml" type="waterTrailer" name="$l10n_FS19_Distillery_name10" brand="AgraZ" img="store_joskinAquaTrans7300" lifetime="600" category="agraZTrailer" wearable="480"/>
     <vehicle basename="k105Cs.xml" type="spreader" name="k105 PF" brand="BREDAL" img="store_k105Cs" lifetime="600" category="fertilizerSpreaders" wearable="480"/>
     <vehicle basename="k105winter.xml" type="interactiveSpreaderWinter" name="K105 Winter Service" brand="BREDAL" img="store_k105winter" lifetime="600" category="misc" wearable="480"/>
     <vehicle basename="k165winter.xml" type="interactiveSpreaderWinter" name="K165 Winter Service" brand="BREDAL" img="store_k165winter" lifetime="600" category="misc" wearable="480"/>
@@ -225,7 +227,13 @@
     </vehicle>
     <vehicle basename="kroneEasyCollect600.xml" type="cutter" name="EasyCollect 600-2" brand="KRONE" img="store_kroneEasyCollect600" lifetime="600" category="forageHarvesterCutters" wearable="480"/>
     <vehicle basename="kuhnAxis402winter.xml" type="interactiveSpreaderWinter" name="AXIS 40.2 M-EMC-W Winter Service" brand="KUHN" img="store_kuhnAxis402winter" lifetime="600" category="misc" wearable="480"/>
+    <vehicle basename="kuhnDeltis1302.xml" type="sprayerMod" name="DELTIS 1302 MTA3" brand="KUHN" img="store_kuhnDeltis1302" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="kuhnDeltis1302p.xml" type="manureBarrel" name="DELTIS 1302 MTA3 Profi" brand="KUHN" img="store_kuhnDeltis1302" lifetime="600" category="sprayers" wearable="480"/>
     <vehicle basename="kuhnFBP3135.xml" type="balerWrapper" name="FBP 3135 Clover and Alfalfa" brand="KUHN" img="store_kuhnFBP3135" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="kuhnMetris4102.xml" type="sprayerMod" name="METRIS 4102" brand="KUHN" img="store_kuhnMetris4102" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="kuhnMetris4102p.xml" type="manureBarrel" name="METRIS 4102 Profi" brand="KUHN" img="store_kuhnMetris4102" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="kuhnPF1500.xml" type="addtank" name="PF 1500" brand="KUHN" img="store_kuhnPF1500" lifetime="600" category="sprayers" wearable="480"/>
+    <vehicle basename="kuhnPF1500p.xml" type="addtankHose" name="PF 1500 Profi" brand="KUHN" img="store_kuhnPF1500" lifetime="600" category="sprayers" wearable="480"/>
     <vehicle basename="kuhnRA142CS.xml" type="mixerWagon" name="Knight RA 142 PF" brand="KUHN" img="store_kuhnRA142CS" lifetime="600" category="animals" wearable="480"/>
     <vehicle basename="kuhnSW4014.xml" type="baleWrapper" name="SW 4014 Clover and Alfalfa" brand="KUHN" img="store_kuhnSW4014" lifetime="600" category="baling" wearable="480"/>
     <vehicle basename="kuhnSW4014hesston.xml" type="baleWrapper" name="SW 4014 HESSTON BIG BALES" brand="KUHN" img="store_kuhnSW4014" lifetime="600" category="baling" wearable="480"/>
@@ -396,17 +404,10 @@
     <vehicle basename="wheelLoaderShovel.xml" type="shovel3" name="High-dump bucket" brand="MAGSI" img="store_wheelLoaderShovel" lifetime="600" category="wheelLoaders" wearable="480"/>
     <vehicle basename="wiskeyPallet.xml" type="pallet" name="$l10n_FS19_Distillery_name7" brand="AgraZ" img="store_wiskeyPallet" lifetime="" category="pallets" wearable=""/>
     <vehicle basename="woodchipsPallet.xml" type="pallet" name="$l10n_FS19_littleSawmill_palletName4" brand="AgraZ" img="store_woodchipsPallet" lifetime="" category="agraZPallet" wearable=""/>
-    <vehicle basename="z586.xml" type="baleWrapper" name="Z-586" brand="LIZARD" img="store_z586" lifetime="600" category="baling" wearable="480"/>
-    <vehicle basename="isariaScout.xml" type="soilSampler" name="SCOUT" brand="ISARIA" img="store_isariaScout" lifetime="600" category="misc" wearable="480"/>
-    <vehicle basename="kuhnDeltis1302.xml" type="sprayerMod" name="DELTIS 1302 MTA3" brand="KUHN" img="store_kuhnDeltis1302" lifetime="600" category="sprayers" wearable="480"/>
-    <vehicle basename="kuhnDeltis1302p.xml" type="manureBarrel" name="DELTIS 1302 MTA3 Profi" brand="KUHN" img="store_kuhnDeltis1302" lifetime="600" category="sprayers" wearable="480"/>
-    <vehicle basename="kuhnMetris4102.xml" type="sprayerMod" name="METRIS 4102" brand="KUHN" img="store_kuhnMetris4102" lifetime="600" category="sprayers" wearable="480"/>
-    <vehicle basename="kuhnMetris4102p.xml" type="manureBarrel" name="METRIS 4102 Profi" brand="KUHN" img="store_kuhnMetris4102" lifetime="600" category="sprayers" wearable="480"/>
-    <vehicle basename="kuhnPF1500.xml" type="addtank" name="PF 1500" brand="KUHN" img="store_kuhnPF1500" lifetime="600" category="sprayers" wearable="480"/>
-    <vehicle basename="kuhnPF1500p.xml" type="addtankHose" name="PF 1500 Profi" brand="KUHN" img="store_kuhnPF1500" lifetime="600" category="sprayers" wearable="480"/>
     <vehicle basename="xuv865M.xml" type="extendedCarFillable" name="XUV865M" brand="JOHNDEERE" img="store_xuv865M" lifetime="600" category="cars" wearable="480">
       <motor id="1" name="XUV865M"/>
     </vehicle>
+    <vehicle basename="z586.xml" type="baleWrapper" name="Z-586" brand="LIZARD" img="store_z586" lifetime="600" category="baling" wearable="480"/>
   </vehicles>
   <placeables>
     <placeable basename="10m.xml" name="$l10n_shopItem_fence10m" brand="LIZARD" img="store_10m" lifetime="1000" dailykeepup="1" category="decoration"/>
@@ -414,27 +415,174 @@
     <placeable basename="30m.xml" name="$l10n_shopItem_fence30m" brand="LIZARD" img="store_30m" lifetime="1000" dailykeepup="3" category="decoration"/>
     <placeable basename="AmericanSheepPasture.xml" name="American Sheep Pasture" brand="Lizard" img="store_AmericanSheepPasture" lifetime="1000" dailykeepup="25" category="animalpens"/>
     <placeable basename="AppleOrchard.xml" name="$l10n_shopItem_appleOrchard" brand="LIZARD" img="store_AppleOrchard" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="AppleTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_appleTree" brand="GCRODUCTIONS" img="store_AppleTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable"/>
+    <placeable basename="AppleTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_appleTree" brand="GCRODUCTIONS" img="store_AppleTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable">
+      <InputProduct capacity="2000" name="IP_MANURE">
+        <fillType fillType="MANURE"/>
+      </InputProduct>
+      <InputProduct capacity="2000" name="IP_WATER">
+        <fillType fillType="WATER"/>
+      </InputProduct>
+      <OutputProduct capacity="1000" name="OP_APPLE">
+        <fillType fillType="APPLE"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="8" title="GlobalCompanyAddOn_Productions_TreeFruits_tree_line">
+        <Input name="IP_MANURE" percent="100"/>
+        <Input name="IP_WATER" percent="100"/>
+        <Output name="OP_APPLE" percent="100"/>
+      </productLine>
+    </placeable>
     <placeable basename="BGA_Container_Komplett.xml" name="Container BGA basic system" brand="BGAINC" img="store_BGA_Container_Komplett" lifetime="1000" dailykeepup="65" category="placeableMisc"/>
     <placeable basename="BGA_Container_zusatz.xml" name="Container BGA extension" brand="BGAINC" img="store_BGA_Container_zusatz" lifetime="1000" dailykeepup="45" category="placeableMisc"/>
-    <placeable basename="CherryTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_cherryTree" brand="GCRODUCTIONS" img="store_CherryTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable"/>
+    <placeable basename="CherryTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_cherryTree" brand="GCRODUCTIONS" img="store_CherryTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable">
+      <InputProduct capacity="2000" name="IP_MANURE">
+        <fillType fillType="MANURE"/>
+      </InputProduct>
+      <InputProduct capacity="2000" name="IP_WATER">
+        <fillType fillType="WATER"/>
+      </InputProduct>
+      <OutputProduct capacity="1000" name="OP_CHERRY">
+        <fillType fillType="CHERRY"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="8" title="GlobalCompanyAddOn_Productions_TreeFruits_tree_line">
+        <Input name="IP_MANURE" percent="100"/>
+        <Input name="IP_WATER" percent="100"/>
+        <Output name="OP_CHERRY" percent="100"/>
+      </productLine>
+    </placeable>
     <placeable basename="CommunityBuilding.xml" name="Community Building" brand="JVDECO" img="store_CommunityBuilding" lifetime="1000" dailykeepup="0" category="decoration"/>
-    <placeable basename="DistilleryFactory.xml" name="Distillery Factory" brand="GCPLACEABLE" img="store_DistilleryFactory" lifetime="2000" dailykeepup="500" category="globalCompanyPlaceable"/>
+    <placeable basename="DistilleryFactory.xml" name="Distillery Factory" brand="GCPLACEABLE" img="store_DistilleryFactory" lifetime="2000" dailykeepup="500" category="globalCompanyPlaceable">
+      <InputProduct capacity="500000" name="IP_SUGARCANE">
+        <fillType fillType="sugarcane"/>
+      </InputProduct>
+      <InputProduct capacity="250000" name="IP_WATER">
+        <fillType fillType="water"/>
+      </InputProduct>
+      <InputProduct capacity="64" name="IP_EMPTY">
+        <fillType fillType="EMPTYPALLET"/>
+      </InputProduct>
+      <OutputProduct capacity="10000" name="OP_RHUM">
+        <fillType fillType="rhum"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="50" title="GCAddOn_Prod_Distillery_Rum_productLine_Distillery1">
+        <Input name="IP_SUGARCANE" percent="40000"/>
+        <Input name="IP_WATER" percent="12000"/>
+        <Input name="IP_EMPTY" percent="1"/>
+        <Output name="OP_RHUM" percent="1000"/>
+      </productLine>
+    </placeable>
     <placeable basename="FS19_450KWBGA.xml" name="$l10n_name_bga450kW" brand="VDI" img="store_FS19_450KWBGA" lifetime="1000" dailykeepup="225" category="placeableMisc"/>
-    <placeable basename="HoneyHouse.xml" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyHouse" brand="GCRODUCTIONS" img="store_HoneyHouse" lifetime="1000" dailykeepup="10" category="gcProductionHoneyPlaceable"/>
+    <placeable basename="HoneyHouse.xml" name="$l10n_GlobalCompanyAddOn_Productions_Honey_shopItem_honeyHouse" brand="GCRODUCTIONS" img="store_HoneyHouse" lifetime="1000" dailykeepup="10" category="gcProductionHoneyPlaceable">
+      <InputProduct capacity="14" name="IP_HONEYCOMB">
+        <fillType fillType="HONEYCOMB"/>
+      </InputProduct>
+      <InputProduct capacity="400" name="IP_BEE">
+        <fillType fillType="BEES"/>
+      </InputProduct>
+      <OutputProduct capacity="14" name="OP_HONEYCOMBFULL">
+        <fillType fillType="HONEYCOMBFULL"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="1" title="GlobalCompanyAddOn_Productions_Honey_honeyExtractor_line1">
+        <Input name="IP_HONEYCOMB" percent="20"/>
+        <Input name="IP_BEE" percent="5"/>
+        <Output name="OP_HONEYCOMBFULL" percent="20"/>
+      </productLine>
+    </placeable>
     <placeable basename="Kleine_BGA.xml" name="&#10;&#9;&#9;&#9;&#10;&#9;&#9;" brand="LIZARD" img="store_Kleine_BGA" lifetime="1000" dailykeepup="50" category="placeableMisc"/>
-    <placeable basename="LizardFuel.xml" name="$l10n_shopItem_Lizard_BioFuels" brand="LIZARD" img="store_LizardFuel" lifetime="1000" dailykeepup="40" category="globalCompanyPlaceable"/>
+    <placeable basename="LizardFuel.xml" name="$l10n_shopItem_Lizard_BioFuels" brand="LIZARD" img="store_LizardFuel" lifetime="1000" dailykeepup="40" category="globalCompanyPlaceable">
+      <InputProduct capacity="40000" name="IP_RAP">
+        <fillType fillType="CANOLA"/>
+      </InputProduct>
+      <InputProduct capacity="12000" name="IP_MET">
+        <fillType fillType="methanol"/>
+      </InputProduct>
+      <OutputProduct capacity="45000" name="OP_FUEL">
+        <fillType fillType="diesel"/>
+      </OutputProduct>
+      <OutputProduct capacity="5000" name="OP_SILAGE">
+        <fillType fillType="silage"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="1500" title="GlobalCompanyPlaceable_Lizard_Fuel_productLine">
+        <Input name="IP_RAP" percent="100"/>
+        <Input name="IP_MET" percent="20"/>
+        <Output name="OP_FUEL" percent="60"/>
+        <Output name="OP_SILAGE" percent="40"/>
+      </productLine>
+    </placeable>
     <placeable basename="MultiFillingStation.xml" name="$l10n_name_multifillingstation" brand="EDGE" img="store_MultiFillingStation" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
     <placeable basename="MultiFillingStationDark.xml" name="$l10n_name_multifillingstation_Black" brand="EDGE" img="store_MultiFillingStationDark" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
     <placeable basename="MultiFillingStationGold.xml" name="$l10n_name_multifillingstation_Gold" brand="EDGE" img="store_MultiFillingStationGold" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
     <placeable basename="OrangeOrchard.xml" name="$l10n_shopItem_orangeOrchard" brand="LIZARD" img="store_OrangeOrchard" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="PearTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_pearTree" brand="GCRODUCTIONS" img="store_PearTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable"/>
-    <placeable basename="PlumTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_plumTree" brand="GCRODUCTIONS" img="store_PlumTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable"/>
+    <placeable basename="PearTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_pearTree" brand="GCRODUCTIONS" img="store_PearTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable">
+      <InputProduct capacity="2000" name="IP_MANURE">
+        <fillType fillType="MANURE"/>
+      </InputProduct>
+      <InputProduct capacity="2000" name="IP_WATER">
+        <fillType fillType="WATER"/>
+      </InputProduct>
+      <OutputProduct capacity="1000" name="OP_PEAR">
+        <fillType fillType="PEAR"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="8" title="GlobalCompanyAddOn_Productions_TreeFruits_tree_line">
+        <Input name="IP_MANURE" percent="100"/>
+        <Input name="IP_WATER" percent="100"/>
+        <Output name="OP_PEAR" percent="100"/>
+      </productLine>
+    </placeable>
+    <placeable basename="PlumTree.xml" name="$l10n_GlobalCompanyAddOn_Productions_TreeFruits_shopItem_plumTree" brand="GCRODUCTIONS" img="store_PlumTree" lifetime="1000" dailykeepup="5" category="gcProductionTreeFruitsPlaceable">
+      <InputProduct capacity="2000" name="IP_MANURE">
+        <fillType fillType="MANURE"/>
+      </InputProduct>
+      <InputProduct capacity="2000" name="IP_WATER">
+        <fillType fillType="WATER"/>
+      </InputProduct>
+      <OutputProduct capacity="1000" name="OP_PLUM">
+        <fillType fillType="PLUM"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="8" title="GlobalCompanyAddOn_Productions_TreeFruits_tree_line">
+        <Input name="IP_MANURE" percent="100"/>
+        <Input name="IP_WATER" percent="100"/>
+        <Output name="OP_PLUM" percent="100"/>
+      </productLine>
+    </placeable>
     <placeable basename="ProductionHall.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_hall" brand="GCRODUCTIONS" img="store_ProductionHall" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
     <placeable basename="ProductionStorage.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage" brand="GCRODUCTIONS" img="store_ProductionStorage" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
     <placeable basename="ProductionStorage2.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage2" brand="GCRODUCTIONS" img="store_ProductionStorage2" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
     <placeable basename="ProductionStorage3.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_storage3" brand="GCRODUCTIONS" img="store_ProductionStorage3" lifetime="1000" dailykeepup="100" category="globalCompanyPlaceable"/>
-    <placeable basename="Sellstation.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_sellstation" brand="GCRODUCTIONS" img="store_Sellstation" lifetime="1000" dailykeepup="250" category="globalCompanyPlaceable"/>
+    <placeable basename="Sellstation.xml" name="$l10n_GlobalCompanyAddOn_Productions_shopItem_sellstation" brand="GCRODUCTIONS" img="store_Sellstation" lifetime="1000" dailykeepup="250" category="globalCompanyPlaceable">
+      <InputProduct capacity="80" name="SELL_HONEYBOXFULL">
+        <fillType fillType="HONEYBOXFULL"/>
+      </InputProduct>
+      <InputProduct capacity="1000" name="SELL_APPLE">
+        <fillType fillType="APPLE"/>
+      </InputProduct>
+      <InputProduct capacity="1000" name="SELL_CHERRY">
+        <fillType fillType="CHERRY"/>
+      </InputProduct>
+      <InputProduct capacity="1000" name="SELL_PEAR">
+        <fillType fillType="PEAR"/>
+      </InputProduct>
+      <InputProduct capacity="1000" name="SELL_PLUM">
+        <fillType fillType="PLUM"/>
+      </InputProduct>
+      <OutputProduct capacity="2000" name="OP_AIR">
+        <fillType fillType="AIR"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="1" title="GlobalCompanyAddOn_Productions_sellstation_line1">
+        <Input name="SELL_HONEYBOXFULL" percent="100"/>
+      </productLine>
+      <productLine id="2" outputPerHour="100" title="GlobalCompanyAddOn_Productions_sellstation_line2">
+        <Input name="SELL_APPLE" percent="100"/>
+      </productLine>
+      <productLine id="3" outputPerHour="100" title="GlobalCompanyAddOn_Productions_sellstation_line3">
+        <Input name="SELL_CHERRY" percent="100"/>
+      </productLine>
+      <productLine id="4" outputPerHour="100" title="GlobalCompanyAddOn_Productions_sellstation_line4">
+        <Input name="SELL_PEAR" percent="100"/>
+      </productLine>
+      <productLine id="5" outputPerHour="100" title="GlobalCompanyAddOn_Productions_sellstation_line5">
+        <Input name="SELL_PLUM" percent="100"/>
+      </productLine>
+    </placeable>
     <placeable basename="ToolTrolley.xml" name="NRX ToolTrolley" brand="Neroxc" img="store_ToolTrolley" lifetime="1000" dailykeepup="1" category="placeableMisc"/>
     <placeable basename="adblue_tank.xml" name="$l10n_adblue_tank" brand="MISSYB" img="store_adblue_tank" lifetime="1000" dailykeepup="1" category="placeableMisc"/>
     <placeable basename="anew1.xml" name="Tourist Pole" brand="LIZARD" img="store_anew1" lifetime="1000" dailykeepup="1" category="decoration"/>
@@ -469,7 +617,37 @@
     <placeable basename="barn.xml" name="$l10n_name_barnSellPoint" brand="LIZARD" img="store_barn" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
     <placeable basename="barrelIronBlue.xml" name="$l10n_shopItem_barrelIronBlue" brand="AJTECH" img="store_barrelIronBlue" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="barrelIronGreenRust.xml" name="$l10n_shopItem_barrelIronGreenRust" brand="AJTECH" img="store_barrelIronGreenRust" lifetime="1000" dailykeepup="" category="decoration"/>
-    <placeable basename="barrelProduction.xml" name="$l10n_FS19_BarrelProduction_name1" brand="AgraZ" img="store_barrelProduction" lifetime="1000" dailykeepup="10" category="agraZFarmProductions"/>
+    <placeable basename="barrelProduction.xml" name="$l10n_FS19_BarrelProduction_name1" brand="AgraZ" img="store_barrelProduction" lifetime="1000" dailykeepup="10" category="agraZFarmProductions">
+      <InputProduct capacity="140000" name="IP_EmptyPallets">
+        <fillType fillType="emptyPallet"/>
+      </InputProduct>
+      <InputProduct capacity="140000" name="IP_Boards">
+        <fillType fillType="boardspallet"/>
+      </InputProduct>
+      <InputProduct capacity="140000" name="IP_Bars">
+        <fillType fillType="woodbeams"/>
+      </InputProduct>
+      <OutputProduct capacity="450000" name="OP_Barrel">
+        <fillType fillType="woodbarrel"/>
+      </OutputProduct>
+      <OutputProduct capacity="450000" name="OP_Board">
+        <fillType fillType="boardspallet"/>
+      </OutputProduct>
+      <OutputProduct capacity="50000" name="OP_Chips">
+        <fillType fillType="woodchips"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="25000" title="FS19_BarrelProduction_productLine1">
+        <Input name="IP_Boards" percent="100"/>
+        <Input name="IP_EmptyPallets" percent="10"/>
+        <Output name="OP_Barrel" percent="75"/>
+        <Output name="OP_Chips" percent="5"/>
+      </productLine>
+      <productLine id="2" outputPerHour="10000" title="FS19_BarrelProduction_productLine2">
+        <Input name="IP_Bars" percent="100"/>
+        <Output name="OP_Board" percent="95"/>
+        <Output name="OP_Chips" percent="5"/>
+      </productLine>
+    </placeable>
     <placeable basename="barrelWoodLarge.xml" name="$l10n_shopItem_barrelWoodLarge" brand="AJTECH" img="store_barrelWoodLarge" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="barrelWoodSmall.xml" name="$l10n_shopItem_barrelWoodSmall" brand="AJTECH" img="store_barrelWoodSmall" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="barrells.xml" name="Barrels" brand="LIZARD" img="store_barrells" lifetime="1000" dailykeepup="1" category="decoration"/>
@@ -478,6 +656,7 @@
     <placeable basename="basicSheepPasture.xml" name="$l10n_animalPen_sheep" brand="Lizard" img="store_basicSheepPasture" lifetime="1000" dailykeepup="1" category="animalpens"/>
     <placeable basename="basketballCourt.xml" name="$l10n_shopItem_basketballCourt" brand="AJTECH" img="store_basketballCourt" lifetime="1000" dailykeepup="24" category="decoration"/>
     <placeable basename="beachTent.xml" name="$l10n_shopItem_beachTent" brand="AJTECH" img="store_beachTent" lifetime="1000" dailykeepup="" category="decoration"/>
+    <placeable basename="bga.xml" name="$l10n_shopItem_smallBGA" brand="AJTECH" img="store_bga" lifetime="1000" dailykeepup="35" category="silos"/>
     <placeable basename="bgaExtension.xml" name="$l10n_shopItem_bgaExtension" brand="AJTECH" img="store_bgaExtension" lifetime="1000" dailykeepup="17" category="silos"/>
     <placeable basename="bigFactory.xml" name="$l10n_shopItem_bigFactory" brand="AJTECH" img="store_bigFactory" lifetime="1000" dailykeepup="14" category="decoration"/>
     <placeable basename="bigtire.xml" name="Big tires set" brand="LIZARD" img="store_bigtire" lifetime="1000" dailykeepup="1" category="decoration"/>
@@ -517,12 +696,109 @@
     <placeable basename="constructionPrefab2.xml" name="Construction Prefab 2" brand="LIZARD" img="store_constructionPrefab2" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="container.xml" name="Container" brand="LIZARD" img="store_container" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="cornerObstalacle.xml" name="Corner Obstacle" brand="" img="store_cornerObstalacle" lifetime="1000" dailykeepup="1" category="decoration"/>
+    <placeable basename="cottonBales.xml" name="$l10n_shopItem_cottonBalesShed" brand="FARMING_INNOVATIONS" img="store_cottonBales" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="cottonModules.xml" name="$l10n_shopItem_cottonModulesShed" brand="FARMING_INNOVATIONS" img="store_cottonModules" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
     <placeable basename="cowshed.xml" name="$l10n_name_cowshedSellPoint" brand="LIZARD" img="store_cowshed" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
     <placeable basename="crossObstacle.xml" name="Cross Obstacle" brand="" img="store_crossObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="dairy.xml" name="$l10n_name_dairySellPoint" brand="LIZARD" img="store_dairy" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
     <placeable basename="digestate.xml" name="Digestate" brand="LIZARD" img="store_digestate" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
     <placeable basename="digestatesale.xml" name="Digestate Salepoint" brand="ASM" img="store_digestatesale" lifetime="1000" dailykeepup="3" category="placeableMisc"/>
-    <placeable basename="distillery.xml" name="$l10n_FS19_Distillery_name9" brand="AgraZ" img="store_distillery" lifetime="1000" dailykeepup="10" category="agraZFarmplant"/>
+    <placeable basename="distillery.xml" name="$l10n_FS19_Distillery_name9" brand="AgraZ" img="store_distillery" lifetime="1000" dailykeepup="10" category="agraZFarmplant">
+      <InputProduct capacity="150000" name="IP_Barrel">
+        <fillType fillType="woodbarrel"/>
+      </InputProduct>
+      <InputProduct capacity="150000" name="IP_Honey">
+        <fillType fillType="honey"/>
+      </InputProduct>
+      <InputProduct capacity="500000" name="IP_Potato">
+        <fillType fillType="potato"/>
+      </InputProduct>
+      <InputProduct capacity="500000" name="IP_Sugarcane">
+        <fillType fillType="sugarcane"/>
+      </InputProduct>
+      <InputProduct capacity="1000000" name="IP_Woodchips">
+        <fillType fillType="woodchips"/>
+        <fillType fillType="pellets"/>
+        <fillType fillType="strawpellets"/>
+        <fillType fillType="haypellets"/>
+      </InputProduct>
+      <InputProduct capacity="500000" name="IP_Barley">
+        <fillType fillType="barley"/>
+      </InputProduct>
+      <InputProduct capacity="500000" name="IP_Wheat">
+        <fillType fillType="wheat"/>
+      </InputProduct>
+      <InputProduct capacity="10000000" name="IP_Water">
+        <fillType fillType="water"/>
+      </InputProduct>
+      <OutputProduct capacity="750000" name="OP_Pigfood">
+        <fillType fillType="pigfood"/>
+      </OutputProduct>
+      <OutputProduct capacity="750000" name="OP_Compost">
+        <fillType fillType="compost"/>
+      </OutputProduct>
+      <OutputProduct capacity="30000" name="OP_Molasses">
+        <fillType fillType="molasses"/>
+      </OutputProduct>
+      <OutputProduct capacity="105000" name="OP_Met">
+        <fillType fillType="met"/>
+      </OutputProduct>
+      <OutputProduct capacity="105000" name="OP_Wiskey">
+        <fillType fillType="whiskey"/>
+      </OutputProduct>
+      <OutputProduct capacity="105000" name="OP_Vodka">
+        <fillType fillType="vodka"/>
+      </OutputProduct>
+      <OutputProduct capacity="105000" name="OP_Spirits">
+        <fillType fillType="spirits"/>
+      </OutputProduct>
+      <OutputProduct capacity="105000" name="OP_Rum">
+        <fillType fillType="rum"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="1000" title="FS19_Distillery_productLine1">
+        <Input name="IP_Honey" percent="25"/>
+        <Input name="IP_Water" percent="75"/>
+        <Input name="IP_Woodchips" percent="25"/>
+        <Input name="IP_Barrel" percent="100"/>
+        <Output name="OP_Met" percent="100"/>
+      </productLine>
+      <productLine id="2" outputPerHour="1000" title="FS19_Distillery_productLine2">
+        <Input name="IP_Barley" percent="50"/>
+        <Input name="IP_Water" percent="50"/>
+        <Input name="IP_Woodchips" percent="25"/>
+        <Input name="IP_Barrel" percent="100"/>
+        <Output name="OP_Wiskey" percent="50"/>
+        <Output name="OP_Pigfood" percent="30"/>
+        <Output name="OP_Compost" percent="20"/>
+      </productLine>
+      <productLine id="3" outputPerHour="1000" title="FS19_Distillery_productLine3">
+        <Input name="IP_Potato" percent="50"/>
+        <Input name="IP_Water" percent="50"/>
+        <Input name="IP_Woodchips" percent="25"/>
+        <Input name="IP_Barrel" percent="100"/>
+        <Output name="OP_Vodka" percent="50"/>
+        <Output name="OP_Pigfood" percent="20"/>
+        <Output name="OP_Compost" percent="23"/>
+      </productLine>
+      <productLine id="4" outputPerHour="1000" title="FS19_Distillery_productLine4">
+        <Input name="IP_Wheat" percent="50"/>
+        <Input name="IP_Water" percent="50"/>
+        <Input name="IP_Woodchips" percent="25"/>
+        <Input name="IP_Barrel" percent="100"/>
+        <Output name="OP_Spirits" percent="50"/>
+        <Output name="OP_Pigfood" percent="20"/>
+        <Output name="OP_Compost" percent="30"/>
+      </productLine>
+      <productLine id="5" outputPerHour="1000" title="FS19_Distillery_productLine5">
+        <Input name="IP_Sugarcane" percent="75"/>
+        <Input name="IP_Water" percent="50"/>
+        <Input name="IP_Woodchips" percent="25"/>
+        <Input name="IP_Barrel" percent="100"/>
+        <Output name="OP_Rum" percent="50"/>
+        <Output name="OP_Molasses" percent="5"/>
+        <Output name="OP_Compost" percent="70"/>
+      </productLine>
+    </placeable>
     <placeable basename="dockyard.xml" name="$l10n_name_dockyardSellPoint" brand="LIZARD" img="store_dockyard" lifetime="1000" dailykeepup="" category="placeableSellPoints"/>
     <placeable basename="dumpTruck.xml" name="$l10n_shopItem_dumpTruck" brand="AJTECH" img="store_dumpTruck" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="easyShed01Big01.xml" name="$l10n_shopItem_easyShed01Big01" brand="EASYSHEDS" img="store_easyShed01Big01" lifetime="1000" dailykeepup="12" category="sheds"/>
@@ -559,9 +835,51 @@
     <placeable basename="fencePlanks1.xml" name="$l10n_shopItem_fencePlanks1" brand="AJTECH" img="store_fencePlanks1" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="fencePlanks10.xml" name="$l10n_shopItem_fencePlanks10" brand="AJTECH" img="store_fencePlanks10" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="fencePlanks5.xml" name="$l10n_shopItem_fencePlanks5" brand="AJTECH" img="store_fencePlanks5" lifetime="1000" dailykeepup="1" category="decoration"/>
-    <placeable basename="fertilizerProduction.xml" name="Fertilizer and Liquidfertilizer Production" brand="AgraZ" img="store_fertilizerProduction" lifetime="1000" dailykeepup="100" category="agraZFarmProductions"/>
+    <placeable basename="fertilizerProduction.xml" name="Fertilizer and Liquidfertilizer Production" brand="AgraZ" img="store_fertilizerProduction" lifetime="1000" dailykeepup="100" category="agraZFarmProductions">
+      <InputProduct capacity="100000" name="IP_Diesel">
+        <fillType fillType="diesel"/>
+      </InputProduct>
+      <InputProduct capacity="100000" name="IP_Water">
+        <fillType fillType="Water"/>
+      </InputProduct>
+      <InputProduct capacity="100000" name="IP_Digistate">
+        <fillType fillType="digestate"/>
+      </InputProduct>
+      <InputProduct capacity="100000" name="IP_Slury">
+        <fillType fillType="liquidmanure"/>
+      </InputProduct>
+      <InputProduct capacity="100000" name="IP_Manure">
+        <fillType fillType="manure"/>
+      </InputProduct>
+      <InputProduct capacity="100000" name="IP_Fertilizer">
+        <fillType fillType="fertilizer"/>
+      </InputProduct>
+      <OutputProduct capacity="72000" name="OP_Fertilizer">
+        <fillType fillType="fertilizer"/>
+      </OutputProduct>
+      <OutputProduct capacity="70000" name="OP_LiquidFertilizer">
+        <fillType fillType="liquidfertilizer"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="2000" title="FS19_FertilizerProduction_productLine1">
+        <Input name="IP_Diesel" percent="1"/>
+        <Input name="IP_Digistate" percent="100"/>
+        <Output name="OP_Fertilizer" percent="25"/>
+      </productLine>
+      <productLine id="2" outputPerHour="2000" title="FS19_FertilizerProduction_productLine2">
+        <Input name="IP_Diesel" percent="1"/>
+        <Input name="IP_Slury" percent="50"/>
+        <Input name="IP_Manure" percent="50"/>
+        <Output name="OP_Fertilizer" percent="75"/>
+      </productLine>
+      <productLine id="3" outputPerHour="2000" title="FS19_FertilizerProduction_productLine3">
+        <Input name="IP_Diesel" percent="1"/>
+        <Input name="IP_Water" percent="75"/>
+        <Input name="IP_Fertilizer" percent="25"/>
+        <Output name="OP_LiquidFertilizer" percent="100"/>
+      </productLine>
+    </placeable>
     <placeable basename="fertilizerRefillTank.xml" name="$l10n_shopItem_fertilizerRefillTank" brand="LIZARD" img="store_fertilizerRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="fertilizerSiloSmall.xml" name="$l10n_fertilizerSiloSmall" brand="LIZARD" img="store_fertilizerSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="fertilizerSiloSmall.xml" name="Fillable Fertilizer Storage" brand="LIZARD" img="store_fertilizerSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
     <placeable basename="fillable_tankstelle.xml" name="$l10n_fillable_fueltank" brand="MISSYB" img="store_fillable_tankstelle" lifetime="1000" dailykeepup="1" category="placeableMisc"/>
     <placeable basename="fireTools.xml" name="$l10n_shopItem_fireTools" brand="AJTECH" img="store_fireTools" lifetime="1000" dailykeepup="5" category="decoration"/>
     <placeable basename="firewoodStackLarge.xml" name="$l10n_shopItem_firewoodStackLarge" brand="AJTECH" img="store_firewoodStackLarge" lifetime="1000" dailykeepup="" category="decoration"/>
@@ -611,13 +929,67 @@
     <placeable basename="landtrade.xml" name="$l10n_FS19_AgraZLandtrade_name" brand="AgraZ" img="store_landtrade" lifetime="1000" dailykeepup="" category="agraZOther"/>
     <placeable basename="largeDisplay.xml" name="$l10n_storeName_siloDisplayLarge" brand="FARMING_INNOVATIONS" img="store_largeDisplay" lifetime="1000" dailykeepup="6" category="placeableMisc"/>
     <placeable basename="lemon.xml" name="$l10n_shopItem_lemon" brand="AJTECH" img="store_lemon" lifetime="1000" dailykeepup="18" category="placeableMisc"/>
-    <placeable basename="limeSiloSmall.xml" name="$l10n_limeSiloSmall" brand="LIZARD" img="store_limeSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="limeSiloSmall.xml" name="Fillable Lime Storage" brand="LIZARD" img="store_limeSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
     <placeable basename="liquidFertilizerRefillTank.xml" name="$l10n_shopItem_liquidFertilizerRefillTank" brand="LIZARD" img="store_liquidFertilizerRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
     <placeable basename="liquidStorage.xml" name="$l10n_shopItem_liquidStorage" brand="AJTECH" img="store_liquidStorage" lifetime="1000" dailykeepup="39" category="silos"/>
     <placeable basename="liquidStorageExtension.xml" name="$l10n_shopItem_liquidStorageExtension" brand="AJTECH" img="store_liquidStorageExtension" lifetime="1000" dailykeepup="22" category="silos"/>
-    <placeable basename="littleSawmill_MK.xml" name="$l10n_FS19_littleSawmill_name2" brand="agraZ" img="store_littleSawmill_MK" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions"/>
-    <placeable basename="littleSawmill_OK.xml" name="$l10n_FS19_littleSawmill_name1" brand="agraZ" img="store_littleSawmill_OK" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions"/>
-    <placeable basename="lizardChemTank40ft.xml" name="$l10n_lizardChemTank40ft" brand="LIZARD" img="store_lizardChemTank40ft" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="littleSawmill_MK.xml" name="$l10n_FS19_littleSawmill_name2" brand="agraZ" img="store_littleSawmill_MK" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions">
+      <InputProduct capacity="10000000" name="IP_WOOD">
+        <fillType fillType="woodChips"/>
+      </InputProduct>
+      <OutputProduct capacity="120000" name="OP_WOODCHIPS">
+        <fillType fillType="woodchips"/>
+      </OutputProduct>
+      <OutputProduct capacity="120000" name="OP_WOODBOARD">
+        <fillType fillType="boardspallet"/>
+      </OutputProduct>
+      <OutputProduct capacity="120000" name="OP_WOODBAR">
+        <fillType fillType="woodbeams"/>
+      </OutputProduct>
+      <OutputProduct capacity="120000" name="OP_WOODSECTIONS">
+        <fillType fillType="woodsections"/>
+      </OutputProduct>
+      <OutputProduct capacity="120000" name="OP_BARKMULCH">
+        <fillType fillType="barkmulch"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="50000" title="FS19_littleSawmill_productLine">
+        <Input name="IP_WOOD" percent="100"/>
+        <Output name="OP_WOODCHIPS" percent="5"/>
+        <Output name="OP_WOODSECTIONS" percent="5"/>
+        <Output name="OP_BARKMULCH" percent="5"/>
+        <Output name="OP_WOODBOARD" percent="60"/>
+        <Output name="OP_WOODBAR" percent="25"/>
+      </productLine>
+    </placeable>
+    <placeable basename="littleSawmill_OK.xml" name="$l10n_FS19_littleSawmill_name1" brand="agraZ" img="store_littleSawmill_OK" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions">
+      <InputProduct capacity="10000000" name="IP_WOOD">
+        <fillType fillType="woodChips"/>
+      </InputProduct>
+      <OutputProduct capacity="120000" name="OP_WOODCHIPS">
+        <fillType fillType="woodchips"/>
+      </OutputProduct>
+      <OutputProduct capacity="120000" name="OP_WOODBOARD">
+        <fillType fillType="boardspallet"/>
+      </OutputProduct>
+      <OutputProduct capacity="120000" name="OP_WOODBAR">
+        <fillType fillType="woodbeams"/>
+      </OutputProduct>
+      <OutputProduct capacity="120000" name="OP_WOODSECTIONS">
+        <fillType fillType="woodsections"/>
+      </OutputProduct>
+      <OutputProduct capacity="120000" name="OP_BARKMULCH">
+        <fillType fillType="barkmulch"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="50000" title="FS19_littleSawmill_productLine">
+        <Input name="IP_WOOD" percent="100"/>
+        <Output name="OP_WOODCHIPS" percent="5"/>
+        <Output name="OP_WOODSECTIONS" percent="5"/>
+        <Output name="OP_BARKMULCH" percent="5"/>
+        <Output name="OP_WOODBOARD" percent="60"/>
+        <Output name="OP_WOODBAR" percent="25"/>
+      </productLine>
+    </placeable>
+    <placeable basename="lizardChemTank40ft.xml" name="Liquid Chemical Tank" brand="LIZARD" img="store_lizardChemTank40ft" lifetime="1000" dailykeepup="5" category="silos"/>
     <placeable basename="lizardHalle_mit_Tore.xml" name="$l10n_shopItem_hall" brand="LIZARD" img="store_lizardHalle_mit_Tore" lifetime="1000" dailykeepup="20" category="sheds"/>
     <placeable basename="localInn.xml" name="$l10n_shopItem_localInn" brand="AJTECH" img="store_localInn" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="logCabin.xml" name="$l10n_object_farmhouse" brand="AJTECH" img="store_logCabin" lifetime="1000" dailykeepup="45" category="farmhouses"/>
@@ -659,7 +1031,38 @@
     <placeable basename="oldTractor.xml" name="$l10n_shopItem_oldTractor" brand="AJTECH" img="store_oldTractor" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="outlook.xml" name="$l10n_shopItem_outlook" brand="AJTECH" img="store_outlook" lifetime="1000" dailykeepup="2" category="decoration"/>
     <placeable basename="oxerObstacle.xml" name="Cross Bar Obstacle" brand="" img="store_oxerObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
-    <placeable basename="palletProduktion.xml" name="$l10n_FS19_PalletProduction_name" brand="agraZ" img="store_palletProduktion" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions"/>
+    <placeable basename="palletProduktion.xml" name="$l10n_FS19_PalletProduction_name" brand="agraZ" img="store_palletProduktion" lifetime="1000" dailykeepup="100" category="agraZCommodityProductions">
+      <InputProduct capacity="280000" name="IP_BOARD">
+        <fillType fillType="boardspallet"/>
+      </InputProduct>
+      <InputProduct capacity="120000" name="IP_BARS">
+        <fillType fillType="woodbeams"/>
+      </InputProduct>
+      <OutputProduct capacity="500000" name="OP_PALLETS">
+        <fillType fillType="emptyPallet"/>
+      </OutputProduct>
+      <OutputProduct capacity="50000" name="OP_SECTIONS">
+        <fillType fillType="woodsections"/>
+      </OutputProduct>
+      <OutputProduct capacity="50000" name="OP_WOODCHIPS">
+        <fillType fillType="woodchips"/>
+      </OutputProduct>
+      <OutputProduct capacity="250000" name="OP_BOARDS">
+        <fillType fillType="boardspallet"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="10000" title="FS19_PalletProduction_productLine1">
+        <Input name="IP_BOARD" percent="80"/>
+        <Input name="IP_BARS" percent="20"/>
+        <Output name="OP_PALLETS" percent="90"/>
+        <Output name="OP_SECTIONS" percent="5"/>
+        <Output name="OP_WOODCHIPS" percent="5"/>
+      </productLine>
+      <productLine id="2" outputPerHour="10000" title="FS19_PalletProduction_productLine2">
+        <Input name="IP_BARS" percent="100"/>
+        <Output name="OP_BOARDS" percent="95"/>
+        <Output name="OP_WOODCHIPS" percent="5"/>
+      </productLine>
+    </placeable>
     <placeable basename="palletSacks1.xml" name="Pallet sack 1" brand="LIZARD" img="store_palletSacks1" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="palletSacks2.xml" name="Pallet sack 2" brand="LIZARD" img="store_palletSacks2" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="palletSacks3.xml" name="Pallet sack 3" brand="LIZARD" img="store_palletSacks3" lifetime="1000" dailykeepup="1" category="decoration"/>
@@ -675,7 +1078,22 @@
     <placeable basename="plasticTableSet.xml" name="$l10n_shopItem_plasticTableSet" brand="AJTECH" img="store_plasticTableSet" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="playPark.xml" name="$l10n_shopItem_playPark" brand="AJTECH" img="store_playPark" lifetime="1000" dailykeepup="8" category="decoration"/>
     <placeable basename="poleObstacle.xml" name="Pole Obstacle" brand="" img="store_poleObstacle" lifetime="1000" dailykeepup="1" category="decoration"/>
-    <placeable basename="potatowasher.xml" name="Potatowasher" brand="GCPLACEABLE" img="store_potatowasher" lifetime="1000" dailykeepup="10" category="globalCompanyPlaceable"/>
+    <placeable basename="potatowasher.xml" name="Potatowasher" brand="GCPLACEABLE" img="store_potatowasher" lifetime="1000" dailykeepup="10" category="globalCompanyPlaceable">
+      <InputProduct capacity="15000" name="IP_POTATO1">
+        <fillType fillType="potato"/>
+      </InputProduct>
+      <InputProduct capacity="10000" name="IP_WATER">
+        <fillType fillType="water"/>
+      </InputProduct>
+      <OutputProduct capacity="15000" name="OP_POTATOWASH">
+        <fillType fillType="potatoWashed"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="30000" title="GlobalCompanyPlaceable_PW_productLine_PW">
+        <Input name="IP_POTATO1" percent="100"/>
+        <Input name="IP_WATER" percent="5"/>
+        <Output name="OP_POTATOWASH" percent="100"/>
+      </productLine>
+    </placeable>
     <placeable basename="radioTower.xml" name="$l10n_shopItem_radioTower" brand="AJTECH" img="store_radioTower" lifetime="1000" dailykeepup="40" category="placeableMisc"/>
     <placeable basename="rock1.xml" name="$l10n_shopItem_rock1" brand="AJTECH" img="store_rock1" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="rock2.xml" name="$l10n_shopItem_rock2" brand="AJTECH" img="store_rock2" lifetime="1000" dailykeepup="" category="decoration"/>
@@ -683,12 +1101,20 @@
     <placeable basename="rock4.xml" name="$l10n_shopItem_rock4" brand="AJTECH" img="store_rock4" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="rock5.xml" name="$l10n_shopItem_rock5" brand="AJTECH" img="store_rock5" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="rootCropStorage.xml" name="Root Crop Storage" brand="LIZARD" img="store_rootCropStorage" lifetime="1000" dailykeepup="40" category="silos"/>
+    <placeable basename="roundGrass.xml" name="$l10n_shopItem_roundGrassShed" brand="FARMING_INNOVATIONS" img="store_roundGrass" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="roundGrassStack.xml" name="$l10n_shopItem_roundGrassStack" brand="FARMING_INNOVATIONS" img="store_roundGrassStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="roundHay.xml" name="$l10n_shopItem_roundHayShed" brand="FARMING_INNOVATIONS" img="store_roundHay" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="roundHayStack.xml" name="$l10n_shopItem_roundHayStack" brand="FARMING_INNOVATIONS" img="store_roundHayStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="roundSilage.xml" name="$l10n_shopItem_roundSilageShed" brand="FARMING_INNOVATIONS" img="store_roundSilage" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="roundSilageStack.xml" name="$l10n_shopItem_roundSilageStack" brand="FARMING_INNOVATIONS" img="store_roundSilageStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="roundStraw.xml" name="$l10n_shopItem_roundStrawShed" brand="FARMING_INNOVATIONS" img="store_roundStraw" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="roundStrawStack.xml" name="$l10n_shopItem_roundStrawStack" brand="FARMING_INNOVATIONS" img="store_roundStrawStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
     <placeable basename="rowingBoat.xml" name="$l10n_shopItem_rowingBoat" brand="AJTECH" img="store_rowingBoat" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="sawtable.xml" name="Saw table" brand="LIZARD" img="store_sawtable" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="schlosser.xml" name="$l10n_shopItem_schlosser" brand="FARMINGFIVE" img="store_schlosser" lifetime="1000" dailykeepup="30" category="farmhouses"/>
     <placeable basename="scooterBike.xml" name="$l10n_shopItem_scooterBike" brand="AJTECH" img="store_scooterBike" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="seedRefillTank.xml" name="$l10n_shopItem_seedRefillTank" brand="LIZARD" img="store_seedRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="seedsSiloSmall.xml" name="$l10n_seedsSiloSmall" brand="LIZARD" img="store_seedsSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
+    <placeable basename="seedsSiloSmall.xml" name="Fillable Seeds Storage" brand="LIZARD" img="store_seedsSiloSmall" lifetime="1000" dailykeepup="5" category="silos"/>
     <placeable basename="sellingStation.xml" name="$l10n_FS19_littleSawmill_name3" brand="agraZ" img="store_sellingStation" lifetime="1000" dailykeepup="" category="agraZOther"/>
     <placeable basename="sellingStationBales.xml" name="$l10n_shopItem_ssBales" brand="AJTECH" img="store_sellingStationBales" lifetime="1000" dailykeepup="46" category="placeableMisc"/>
     <placeable basename="sellingStationWool.xml" name="$l10n_station_spinnery" brand="AJTECH" img="store_sellingStationWool" lifetime="1000" dailykeepup="57" category="placeableMisc"/>
@@ -712,7 +1138,30 @@
     <placeable basename="somethings2.xml" name="Details-Set 2" brand="LIZARD" img="store_somethings2" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="somethings3.xml" name="Details-Set 3" brand="LIZARD" img="store_somethings3" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="somethings4.xml" name="Details-Set 4" brand="LIZARD" img="store_somethings4" lifetime="1000" dailykeepup="1" category="decoration"/>
-    <placeable basename="sorter.xml" name="Potatosorter" brand="GCPLACEABLE" img="store_sorter" lifetime="1000" dailykeepup="1" category="globalCompanyPlaceable"/>
+    <placeable basename="sorter.xml" name="Potatosorter" brand="GCPLACEABLE" img="store_sorter" lifetime="1000" dailykeepup="1" category="globalCompanyPlaceable">
+      <InputProduct capacity="4000" name="IP_WP">
+        <fillType fillType="potatoWashed"/>
+      </InputProduct>
+      <OutputProduct capacity="4000" name="OP_POTATOSORTED">
+        <fillType fillType="potatoSorted"/>
+      </OutputProduct>
+      <OutputProduct capacity="2000" name="OP_PIGF">
+        <fillType fillType="pigFood"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="10000" title="GlobalCompanyPlaceable_Sorter_productLine_Sorter">
+        <Input name="IP_WP" percent="100"/>
+        <Output name="OP_POTATOSORTED" percent="92"/>
+        <Output name="OP_PIGF" percent="8"/>
+      </productLine>
+    </placeable>
+    <placeable basename="squareGrass.xml" name="$l10n_shopItem_squareGrassShed" brand="FARMING_INNOVATIONS" img="store_squareGrass" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="squareGrassStack.xml" name="$l10n_shopItem_squareGrassStack" brand="FARMING_INNOVATIONS" img="store_squareGrassStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="squareHay.xml" name="$l10n_shopItem_squareHayShed" brand="FARMING_INNOVATIONS" img="store_squareHay" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="squareHayStack.xml" name="$l10n_shopItem_squareHayStack" brand="FARMING_INNOVATIONS" img="store_squareHayStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="squareSilage.xml" name="$l10n_shopItem_squareSilageShed" brand="FARMING_INNOVATIONS" img="store_squareSilage" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="squareSilageStack.xml" name="$l10n_shopItem_squareSilageStack" brand="FARMING_INNOVATIONS" img="store_squareSilageStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="squareStraw.xml" name="$l10n_shopItem_squareStrawShed" brand="FARMING_INNOVATIONS" img="store_squareStraw" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="squareStrawStack.xml" name="$l10n_shopItem_squareStrawStack" brand="FARMING_INNOVATIONS" img="store_squareStrawStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
     <placeable basename="ss01.xml" name="$l10n_shopItem_ss01" brand="AJTECH" img="store_ss01" lifetime="1000" dailykeepup="35" category="silos"/>
     <placeable basename="ss02.xml" name="$l10n_shopItem_ss02" brand="AJTECH" img="store_ss02" lifetime="1000" dailykeepup="35" category="silos"/>
     <placeable basename="ss03.xml" name="$l10n_shopItem_ss03" brand="AJTECH" img="store_ss03" lifetime="1000" dailykeepup="35" category="silos"/>
@@ -771,23 +1220,5 @@
     <placeable basename="woodenTableSet.xml" name="$l10n_shopItem_woodenTableSet" brand="AJTECH" img="store_woodenTableSet" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="woodenplanks.xml" name="Wooden planks" brand="LIZARD" img="store_woodenplanks" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="workshop.xml" name="$l10n_shopItem_workshop" brand="AJTECH" img="store_workshop" lifetime="1000" dailykeepup="27" category="placeableMisc"/>
-    <placeable basename="cottonBales.xml" name="$l10n_shopItem_cottonBalesShed" brand="FARMING_INNOVATIONS" img="store_cottonBales" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="cottonModules.xml" name="$l10n_shopItem_cottonModulesShed" brand="FARMING_INNOVATIONS" img="store_cottonModules" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="roundGrass.xml" name="$l10n_shopItem_roundGrassShed" brand="FARMING_INNOVATIONS" img="store_roundGrass" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="roundGrassStack.xml" name="$l10n_shopItem_roundGrassStack" brand="FARMING_INNOVATIONS" img="store_roundGrassStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="roundHay.xml" name="$l10n_shopItem_roundHayShed" brand="FARMING_INNOVATIONS" img="store_roundHay" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="roundHayStack.xml" name="$l10n_shopItem_roundHayStack" brand="FARMING_INNOVATIONS" img="store_roundHayStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="roundSilage.xml" name="$l10n_shopItem_roundSilageShed" brand="FARMING_INNOVATIONS" img="store_roundSilage" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="roundSilageStack.xml" name="$l10n_shopItem_roundSilageStack" brand="FARMING_INNOVATIONS" img="store_roundSilageStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="roundStraw.xml" name="$l10n_shopItem_roundStrawShed" brand="FARMING_INNOVATIONS" img="store_roundStraw" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="roundStrawStack.xml" name="$l10n_shopItem_roundStrawStack" brand="FARMING_INNOVATIONS" img="store_roundStrawStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="squareGrass.xml" name="$l10n_shopItem_squareGrassShed" brand="FARMING_INNOVATIONS" img="store_squareGrass" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="squareGrassStack.xml" name="$l10n_shopItem_squareGrassStack" brand="FARMING_INNOVATIONS" img="store_squareGrassStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="squareHay.xml" name="$l10n_shopItem_squareHayShed" brand="FARMING_INNOVATIONS" img="store_squareHay" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="squareHayStack.xml" name="$l10n_shopItem_squareHayStack" brand="FARMING_INNOVATIONS" img="store_squareHayStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="squareSilage.xml" name="$l10n_shopItem_squareSilageShed" brand="FARMING_INNOVATIONS" img="store_squareSilage" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="squareSilageStack.xml" name="$l10n_shopItem_squareSilageStack" brand="FARMING_INNOVATIONS" img="store_squareSilageStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
-    <placeable basename="squareStraw.xml" name="$l10n_shopItem_squareStrawShed" brand="FARMING_INNOVATIONS" img="store_squareStraw" lifetime="1000" dailykeepup="10" category="placeableMisc"/>
-    <placeable basename="squareStrawStack.xml" name="$l10n_shopItem_squareStrawStack" brand="FARMING_INNOVATIONS" img="store_squareStrawStack" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
   </placeables>
 </mapconfig>

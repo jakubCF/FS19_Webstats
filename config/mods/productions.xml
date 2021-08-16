@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapconfig>
+  <l10n>
+    <text name="gcProduction">
+        <en>GC Production</en>
+        <cz>Produkce GC</cz>
+    </text>
+    <text name="gcProductionHoney">
+        <en>Production honey</en>
+        <cz>Produkce medu</cz>
+
+    </text>
+    <text name="POTATOWASHED">
+        <en>Washed potatoes</en>
+        <cz>Čisté brambory</cz>
+    </text>
+    <text name="POTATOSORTED">
+        <en>Premium potatoes</en>
+        <cz>Prémiové brambory</cz>
+    </text>
+    <text name="FORAGE_MIXING">
+        <en>Forage mix</en>
+        <cz>Krmná směs</cz>
+    </text>    
+    <text name="IP_WP">
+        <en>Washed potatoes</en>
+        <cz>Čisté brambory</cz>
+    </text>
+    <text name="IP_MANURE">
+        <en>Manure</en>
+        <cz>Mrva</cz>
+    </text>
+    <text name="IP_WATER">
+        <en>Water</en>
+        <cz>Voda</cz>
+    </text>
+    <text name="IP_DIESEL">
+        <en>Diesel</en>
+        <cz>Nafta</cz>
+    </text>
+    <text name="IP_DIGISTATE">
+        <en>Digestate</en>
+        <cz>Digestát</cz>
+    </text>
+    <text name="IP_SLURY">
+        <en>Slurry</en>
+        <cz>Močůvka</cz>
+    </text>
+    <text name="IP_FERTILIZER">
+        <en>Solid Fertilizer</en>
+        <cz>Pevné hnojivo</cz>
+    </text>
+    <text name="IP_POTATO1">
+        <en>Potatoes</en>
+        <cz>Brambory</cz>
+    </text>
+    <text name="IP_HONEYCOMB">
+        <en>Honeycomb</en>
+        <cz>Plástev medu</cz>
+    </text>
+    <text name="IP_BEE">
+        <en>Bees</en>
+        <cz>Včely</cz>
+    </text>
+    <text name="OP_AIR">
+        <en>Air</en>
+        <cz>Vzduch</cz>
+    </text>
+    <text name="OP_FERTILIZER">
+        <en>Solid Fertilizer</en>
+        <cz>Pevné hnojivo</cz>
+    </text>
+    <text name="OP_LIQUIDFERTILIZER">
+        <en>Liquid Fertilizer</en>
+        <cz>Tekuté hnojivo</cz>
+    </text>
+    <text name="OP_POTATOSORTED">
+        <en>Premium potatoes</en>
+        <cz>Prémiové brambory</cz>
+    </text>
+    <text name="OP_PIGF">
+        <en>Pig food</en>
+        <cz>Prasečí krmivo</cz>
+    </text>
+    <text name="OP_POTATOWASH">
+        <en>Washed potatoes</en>
+        <cz>Čisté brambory</cz>
+    </text>
+    <text name="OP_APPLE">
+        <en>Apples</en>
+        <cz>Jablka</cz>
+    </text>
+    <text name="OP_CHERRY">
+        <en>Cherries</en>
+        <cz>Třešně</cz>
+    </text>
+    <text name="OP_PEAR">
+        <en>Pears</en>
+        <cz>Hrušky</cz>
+    </text>
+    <text name="OP_PLUM">
+        <cz>Švestky</cz>
+        <en>Plums</en>
+    </text>
+    <text name="OP_HONEYCOMBFULL">
+        <en>Honeycomb full</en>
+        <cz>Plástev medu plná</cz>
+    </text>
+     <text name="SELL_APPLE">
+        <en>Apples</en>
+        <cz>Jablka</cz>
+    </text>
+    <text name="SELL_CHERRY">
+        <en>Cherries</en>
+        <cz>Třešně</cz>
+    </text>
+    <text name="SELL_PEAR">
+        <en>Pears</en>
+        <cz>Hrušky</cz>
+    </text>
+    <text name="SELL_PLUM">
+        <cz>Švestky</cz>
+        <en>Plums</en>
+    </text>
+  </l10n>
+</mapconfig>

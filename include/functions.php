@@ -167,6 +167,30 @@ function loadSavegameSpefics($directory, $language, $savegameSpefics = array()) 
 						foreach ( $placeable->attributes () as $attribute => $value ) {
 							$savegameSpefics ['placeables'] [$name] [$attribute] = get_bool ( $value );
 						}
+						if (isset ($placeable->InputProduct)){
+							$id = 1;
+							foreach ( $placeable->InputProduct as $inputProd ){
+								foreach ($inputProd->attributes() as $attribute => $value){
+									$savegameSpefics ['placeables'] [$name] ['inputProducts'] [strval($id)] [$attribute] = get_bool ($value);
+								}
+								foreach ($inputProd->fillType->attributes() as $attribute => $value){
+									$savegameSpefics ['placeables'] [$name] ['inputProducts'] [strval($id)] [$attribute] = get_bool ($value);
+								}
+								$id ++;
+							}
+						}
+						if (isset ($placeable->OutputProduct)){
+							$id = 1;
+							foreach ( $placeable->OutputProduct as $outputProd ){
+								foreach ($outputProd->attributes() as $attribute => $value){
+									$savegameSpefics ['placeables'] [$name] ['outputProducts'] [strval($id)] [$attribute] = get_bool ($value);
+								}
+								foreach ($outputProd->fillType->attributes() as $attribute => $value){
+									$savegameSpefics ['placeables'] [$name] ['outputProducts'] [strval($id)] [$attribute] = get_bool ($value);
+								}
+								$id ++;
+							}
+						}
 					}
 					break;
 			}

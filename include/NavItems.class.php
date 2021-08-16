@@ -108,6 +108,12 @@ class Nav {
 						'active' => false,
 						'text' => '##ANIMALS##' 
 				),
+				'production' => array (
+					'showInNav' => $showInNav, // $showInNav,
+					'hasSubmenu' => false,
+					'active' => false,
+					'text' => '##PRODUCTION##' 
+				),
 				'missions' => array (
 						'showInNav' => true,
 						'hasSubmenu' => false,
@@ -125,12 +131,6 @@ class Nav {
 						'hasSubmenu' => false,
 						'active' => false,
 						'text' => '##FARMS##' 
-				),
-				'production' => array (
-						'showInNav' => false, // $showInNav,
-						'hasSubmenu' => false,
-						'active' => false,
-						'text' => '##PRODUCTION##' 
 				),
 				'commodity' => array (
 						'showInNav' => false, // $showInNav,

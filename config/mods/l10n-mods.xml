@@ -1711,58 +1711,6 @@
     <text name="shopItem_bunkerSiloRamp03"> <en>Silo Ramp Block End</en> <de>Silo Rampe Block Endstück</de> </text>
     <text name="shopItem_bunkerSiloRamp04"> <en>Silo Ramp Block Left</en> <de>Silo Rampe Block Links</de> </text>
     
-    <text name="gcProduction">
-        <en>GC Production</en>
-        <cz>Produkce GC</cz>
-    </text>
-    <text name="gcProductionHoney">
-        <en>Production honey</en>
-        <cz>Produkce medu</cz>
 
-    </text>
-    <text name="POTATOWASHED">
-        <en>Washed potatoes</en>
-        <cz>Čisté brambory</cz>
-    </text>
-    <text name="POTATOSORTED">
-        <en>Premium potatoes</en>
-        <cz>Prémiové brambory</cz>
-    </text>
-    <text name="FORAGE_MIXING">
-        <en>Forage mix</en>
-        <cz>Krmná směs</cz>
-    </text>    
-    <text name="OP_POTATOSORTED">
-        <en>Premium potatoes</en>
-        <cz>Prémiové brambory</cz>
-    </text>
-    <text name="OP_PIGF">
-        <en>Pig food</en>
-        <cz>Prasečí krmivo</cz>
-    </text>
-    <text name="OP_POTATOWASHED">
-        <en>Washed potatoes</en>
-        <cz>Čisté brambory</cz>
-    </text>
-    <text name="OP_APPLE">
-        <en>Apples</en>
-        <cz>Jablka</cz>
-    </text>
-    <text name="OP_CHERRY">
-        <en>Cherries</en>
-        <cz>Třešně</cz>
-    </text>
-    <text name="OP_PEAR">
-        <en>Pears</en>
-        <cz>Hrušky</cz>
-    </text>
-    <text name="OP_PLUM">
-        <en>Švestky</en>
-        <cz>Plums</cz>
-    </text>
-    <text name="OP_HONEYCOMBFULL">
-        <en>Honeycomb full</en>
-        <cz>Plástev medu plná</cz>
-    </text>
   </l10n>
 </mapconfig>

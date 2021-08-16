@@ -59,6 +59,10 @@ li.nostyle {
 	display: inherit;
 	padding-top: 25px;
 }
+
+.list-group-item:hover{
+	cursor: pointer;
+}
 /*
 .custom-select {
 	color: #fff;

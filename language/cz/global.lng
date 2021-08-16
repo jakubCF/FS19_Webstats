@@ -231,6 +231,8 @@ PRODUCTION_OVERVIEW=Přehled produkce:
 RAW_MATERIALS=Suroviny
 PRODUCTS=Výrobky
 MORE_DETAILS=další podrobnosti
+PRODUC_RATE=Rychlost produkce
+FULL_IN=Plné za: 
 
 //storage.tpl
 CAUTION=Varování
