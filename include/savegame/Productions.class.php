@@ -57,9 +57,9 @@ class Production {
 					$production->lifetime = intval ( $storeData ['lifetime'] );
 					$production->dailykeepup = intval ( $storeData ['dailykeepup'] );
 					$production->category = strval ( $storeData ['category'] );
-
+					
 					foreach ($storeData['inputProducts'] as $id => $inputProduct){
-						error_log($id);
+						//error_log($id);
 						$production->input[$id]["name"] = translate(strtoupper($inputProduct["name"]));
 						$production->input[$id]["capacity"] = $inputProduct["capacity"];
 						$production->input[$id]["fillType"] = translate($inputProduct["fillType"]);
@@ -73,7 +73,7 @@ class Production {
 						}
 					}
 					if(isset($storeData["outputProducts"])){
-						error_log("outputs");
+						//error_log("outputs");
 						foreach($storeData["outputProducts"] as $id => $outputProduct){
 							$production->output[$id]["name"] = translate(strtoupper($outputProduct["name"]));
 							$production->output[$id]["capacity"] = $outputProduct["capacity"];

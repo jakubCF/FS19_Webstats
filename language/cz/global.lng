@@ -233,6 +233,7 @@ PRODUCTS=Výrobky
 MORE_DETAILS=další podrobnosti
 PRODUC_RATE=Rychlost produkce
 FULL_IN=Plné za: 
+FULL=Plné
 
 //storage.tpl
 CAUTION=Varování

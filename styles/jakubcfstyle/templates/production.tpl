@@ -5,9 +5,15 @@
 		<div id="accordion">
 			<div class="list-group">
 				{foreach $productions as $productionI3dName => $production}
-				
+				{$status = "badge-secondary"}
 				<button type="button" class="list-group-item d-flex justify-content-between align-items-center list-group-item-dark" onclick="location.href='index.php?page={$page}&production={$productionI3dName}'">
-					<strong>{$production.name}</strong><span class="badge badge-secondary badge-pill">info</span>
+					<strong>{$production.name}</strong>
+					{foreach $production.output as $id => $data}
+						{if ($data.factor > 98)}{$status = "badge-danger"}
+						{elseif ($data.factor > 80)} {$status = "badge-warning"}
+						{/if}
+					{/foreach}
+						<span class="badge {$status} badge-pill">{if $status == "badge-danger"}##FULL##{elseif $status == "badge-warning"}80 %{else}info{/if}</span>
 				</button>
 				
 				{/foreach}
