@@ -30,7 +30,7 @@ if (function_exists ( 'date_default_timezone_set' )) {
 	date_default_timezone_set ( 'Europe/Berlin' );
 }
 
-$defaultStyle = 'fs19webstats';
+$defaultStyle = 'jakubcfstyle';
 
 require ('./include/smarty/Smarty.class.php');
 require ('./include/language.php');
@@ -67,6 +67,8 @@ switch ($options['general']['currency']){
 		break;
 	}
 
+
+
 // Existing pages and nav items
 $showInNav = ($_SESSION ['farmId'] > 0) ? true : false;
 $nav = new Nav ( $showInNav );
@@ -85,6 +87,8 @@ $smarty->assign ( 'serverOnline', $savegame->serverOnline );
 $smarty->assign ( 'creatorLanguageFile', $creatorLanguageFile );
 $smarty->setTemplateDir ( "./styles/$style/templates" );
 $smarty->assign ( 'style', $style );
-$tpl_source = $smarty->fetch ( 'index.tpl', $style, $style );
+$smarty->registerFilter("output","translatePage");
 
-echo preg_replace_callback ( '/##(.+?)##/', 'prefilter_i18n', $tpl_source );
+$smarty->display ( 'index.tpl', $style, $style );
+
+// echo preg_replace_callback ( '/##(.+?)##/', 'prefilter_i18n', $tpl_source );

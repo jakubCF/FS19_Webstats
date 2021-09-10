@@ -22,6 +22,14 @@ if (! defined ( 'IN_FS19WS' )) {
 	exit ();
 }
 
+// translate text in ##
+function translatePage($tpl_output, Smarty_Internal_Template $template)
+{
+	$tpl_output =
+		preg_replace_callback ( '/##(.+?)##/', 'prefilter_i18n', $tpl_output );
+	return $tpl_output;
+}
+
 // GET & POST Parameter holen
 function GetParam($ParamName, $Method = "P", $DefaultValue = "") {
 	if ($Method == "P") {
