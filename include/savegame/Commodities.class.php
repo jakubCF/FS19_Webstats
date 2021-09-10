@@ -187,6 +187,17 @@ class Commodity {
 						}
 					}
 					break;
+
+				case 'FS19_FI_FermentingSilo.FillTypeConverter':
+					if ($item ['farmId'] == $_SESSION ['farmId']) {
+						foreach ( $item->fillTypeConverter->outputs->children() as $storage) {
+							$fillType = strval ( $storage ['lastFillType']);
+							$fillLevel = intval($storage ['fillLevel']);
+							
+							self::addCommodity ( $fillType, $fillLevel, $location);
+						}
+					}
+					break;
 					
 			}
 		}
