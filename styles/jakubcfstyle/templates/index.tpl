@@ -75,7 +75,5 @@
 	{/if}
 	</script>
 	
-	<!--{debug}-->
-
 </body>
 </html>
