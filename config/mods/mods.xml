@@ -216,7 +216,6 @@
     <vehicle basename="ivecoITRunner190.xml" type="truckITR190" name="190-38 ITRunner" brand="IVECO" img="store_ivecoITRunner190" lifetime="600" category="trucks" wearable="480">
       <motor id="1" name="IVECO 190-38"/>
     </vehicle>
-    <vehicle basename="joskinAquaTrans7300.xml" type="waterTrailer" name="$l10n_FS19_Distillery_name10" brand="AgraZ" img="store_joskinAquaTrans7300" lifetime="600" category="agraZTrailer" wearable="480"/>
     <vehicle basename="k105Cs.xml" type="spreader" name="k105 PF" brand="BREDAL" img="store_k105Cs" lifetime="600" category="fertilizerSpreaders" wearable="480"/>
     <vehicle basename="k105winter.xml" type="interactiveSpreaderWinter" name="K105 Winter Service" brand="BREDAL" img="store_k105winter" lifetime="600" category="misc" wearable="480"/>
     <vehicle basename="k165winter.xml" type="interactiveSpreaderWinter" name="K165 Winter Service" brand="BREDAL" img="store_k165winter" lifetime="600" category="misc" wearable="480"/>
@@ -408,6 +407,17 @@
       <motor id="1" name="XUV865M"/>
     </vehicle>
     <vehicle basename="z586.xml" type="baleWrapper" name="Z-586" brand="LIZARD" img="store_z586" lifetime="600" category="baling" wearable="480"/>
+    <vehicle basename="feedPelletPallet.xml" type="pallet" name="$l10n_shopItem_feedPelletsPallet" brand="SUGABEETCOMPANY" img="store_feedPelletPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="molassesTank.xml" type="pallet" name="$l10n_shopItem_molassesTank" brand="SUGABEETCOMPANY" img="store_molassesTank" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="molassesTank_buy.xml" type="pallet" name="$l10n_shopItem_molassesTank" brand="SUGABEETCOMPANY" img="store_molassesTank_buy" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="sugarPallet.xml" type="pallet" name="$l10n_shopItem_sugarPallet" brand="SUGABEETCOMPANY" img="store_sugarPallet" lifetime="" category="pallets" wearable=""/>
+    <vehicle basename="LizardMeteor.xml" type="Meteor" name="Meteor" brand="LIZARD" img="store_LizardMeteor" lifetime="600" category="trucks" wearable="480">
+      <motor id="1" name="Meteor 28460"/>
+      <motor id="2" name="Meteor 29520"/>
+      <motor id="3" name="Meteor 29620"/>
+    </vehicle>
+    <vehicle basename="kogel-platform.xml" type="KogelCargoAutoLoader" name="Kogel 51ft Platform LEmod" brand="KOGEL" img="store_kogel-platform" lifetime="600" category="baling" wearable="480"/>
+  
   </vehicles>
   <placeables>
     <placeable basename="10m.xml" name="$l10n_shopItem_fence10m" brand="LIZARD" img="store_10m" lifetime="1000" dailykeepup="1" category="decoration"/>
@@ -1220,5 +1230,60 @@
     <placeable basename="woodenTableSet.xml" name="$l10n_shopItem_woodenTableSet" brand="AJTECH" img="store_woodenTableSet" lifetime="1000" dailykeepup="" category="decoration"/>
     <placeable basename="woodenplanks.xml" name="Wooden planks" brand="LIZARD" img="store_woodenplanks" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="workshop.xml" name="$l10n_shopItem_workshop" brand="AJTECH" img="store_workshop" lifetime="1000" dailykeepup="27" category="placeableMisc"/>
+    <placeable basename="FeedPelletsSellPoint.xml" name="$l10n_shopItem_feedPelletsSellPoint" brand="SUGABEETCOMPANY" img="store_FeedPelletsSellPoint" lifetime="1000" dailykeepup="" category="SELLSTATIONS"/>
+    <placeable basename="GenericSellPoint.xml" name="$l10n_shopItem_genericSellPoint" brand="SUGABEETCOMPANY" img="store_GenericSellPoint" lifetime="1000" dailykeepup="" category="SELLSTATIONS"/>
+    <placeable basename="PelletPress.xml" name="$l10n_shopItem_pelletPress" brand="SUGABEETCOMPANY" img="store_PelletPress" lifetime="2000" dailykeepup="20" category="globalCompanyPlaceable">
+      <InputProduct capacity="45600" name="IP_BEETPULP">
+        <fillType fillType="beetPulp"/>
+      </InputProduct>
+      <InputProduct capacity="2400" name="IP_MOLASSES">
+        <fillType fillType="molasses"/>
+      </InputProduct>
+      <OutputProduct capacity="13800" name="OP_FEEDPELLETS">
+        <fillType fillType="feedPellets"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="1000" title="BeetHarvest_Addon_FeedPellets_productLine_Pellets">
+        <Input name="IP_BEETPULP" percent="95"/>
+        <Input name="IP_MOLASSES" percent="5"/>
+        <Output name="OP_FEEDPELLETS" percent="35"/>
+      </productLine>
+    </placeable>
+    <placeable basename="SugarFactorySmall.xml" name="$l10n_shopItem_sugarFactory" brand="SUGABEETCOMPANY" img="store_SugarFactorySmall" lifetime="2000" dailykeepup="100" category="globalCompanyPlaceable">
+      <InputProduct capacity="72000" name="IP_SUGARBEET">
+        <fillType fillType="sugarbeet"/>
+      </InputProduct>
+      <InputProduct capacity="4000" name="IP_LIME">
+        <fillType fillType="lime"/>
+      </InputProduct>
+      <OutputProduct capacity="19200" name="OP_SUGAR">
+        <fillType fillType="sugar"/>
+      </OutputProduct>
+      <OutputProduct capacity="38400" name="OP_PULP">
+        <fillType fillType="beetPulp"/>
+      </OutputProduct>
+      <OutputProduct capacity="4000" name="OP_MOLASSES">
+        <fillType fillType="molasses"/>
+      </OutputProduct>
+      <productLine id="1" outputPerHour="2000" title="BeetHarvest_Addon_SugarFactory_Sugar_productLine_Sugar">
+        <Input name="IP_SUGARBEET" percent="100"/>
+        <Input name="IP_LIME" percent="1"/>
+        <Output name="OP_SUGAR" percent="20"/>
+        <Output name="OP_PULP" percent="20"/>
+        <Output name="OP_MOLASSES" percent="1"/>
+      </productLine>
+    </placeable>
+    <placeable basename="SugarSellPoint.xml" name="$l10n_shopItem_sugarSellPoint" brand="SUGABEETCOMPANY" img="store_SugarSellPoint" lifetime="1000" dailykeepup="" category="SELLSTATIONS"/>
+    <placeable basename="fermentingSilo.xml" name="$l10n_stationName_T800Silo" brand="FARMING_INNOVATIONS" img="store_fermentingSilo" lifetime="1000" dailykeepup="45" category="silos"/>
+    <placeable basename="forageMixer.xml" name="$l10n_stationName_forageMixer500s" brand="FARMING_INNOVATIONS" img="store_forageMixer" lifetime="1000" dailykeepup="15" category="placeableMisc"/>
+    <placeable basename="husbandryCowTrioliet.xml" name="Triolet Stall" brand="TRIO" img="store_husbandryCowTrioliet" lifetime="1000" dailykeepup="80" category="animalpens"/>
+    <placeable basename="husbandryPigLarge.xml" name="Big Pig Stable" brand="Lizard" img="store_husbandryPigLargeStable" lifetime="1000" dailykeepup="450" category="animalpens"/>
+    <placeable basename="ledPostDisplay.xml" name="$l10n_storeName_ledPostDisplay" brand="FARMING_INNOVATIONS" img="store_ledPostDisplay" lifetime="1000" dailykeepup="2" category="placeableMisc"/>
+    <placeable basename="metalBoardDisplay.xml" name="$l10n_storeName_metalBoardDisplay" brand="FARMING_INNOVATIONS" img="store_metalBoardDisplay" lifetime="1000" dailykeepup="3" category="placeableMisc"/>
+    <placeable basename="pigFoodMixer.xml" name="$l10n_stationName_pigFoodMixer500s" brand="FARMING_INNOVATIONS" img="store_pigFoodMixer" lifetime="1000" dailykeepup="15" category="placeableMisc"/>
+    <placeable basename="fertilizerRefillTank.xml" name="$l10n_shopItem_fertilizerRefillTank" brand="LIZARD" img="store_fertilizerRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="herbicideRefillTank.xml" name="$l10n_shopItem_herbicideRefillTank" brand="LIZARD" img="store_herbicideRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="liquidFertilizerRefillTank.xml" name="$l10n_shopItem_liquidFertilizerRefillTank" brand="LIZARD" img="store_liquidFertilizerRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+    <placeable basename="seedRefillTank.xml" name="$l10n_shopItem_seedRefillTank" brand="LIZARD" img="store_seedRefillTank" lifetime="1000" dailykeepup="0" category="placeableMisc"/>
+
   </placeables>
 </mapconfig>

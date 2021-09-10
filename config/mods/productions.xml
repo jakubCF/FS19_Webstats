@@ -122,5 +122,65 @@
         <cz>Švestky</cz>
         <en>Plums</en>
     </text>
+    <text name="FEEDPELLETS">
+        <en>Feed Pelets</en>
+        <cz>Krmné pelety</cz>
+    </text>
+    <text name="MOLASSES">
+        <en>Molasses</en>
+        <cz>Melasa</cz>
+    </text>
+    <text name="OP_FEEDPELLETS">
+        <en>Feed Pelets</en>
+        <cz>Krmné pelety</cz>
+    </text>
+    <text name="OP_MOLASSES">
+        <en>Molasses</en>
+        <cz>Melasa</cz>
+    </text>
+    <text name="IP_MOLASSES">
+        <en>Molasses</en>
+        <cz>Melasa</cz>
+    </text>
+    <text name="PULP">
+        <en>Pulp</en>
+        <cz>Pulp</cz>
+    </text>
+    <text name="OP_PULP">
+        <en>Pulp</en>
+        <cz>Pulp</cz>
+    </text>
+    <text name="OP_SUGAR">
+        <en>Sugar</en>
+        <cz>Cukr</cz>
+    </text>
+    <text name="SUGAR">
+        <en>Sugar</en>
+        <cz>Cukr</cz>
+    </text>
+    <text name="OP_RHUM">
+        <en>Rum</en>
+        <cz>Rum</cz>
+    </text>
+    <text name="IP_SUGARCANE">
+        <en>SugarCane</en>
+        <cz>Cukrová Třtina</cz>
+    </text>
+    <text name="IP_EMPTY">
+        <en>Empty pallet</en>
+        <cz>Prázdná paleta</cz>
+    </text>
+    <text name="IP_SUGARBEET">
+        <en>Sugarbeet</en>
+        <cz>Cukrová řepa</cz>
+    </text>
+    <text name="IP_LIME">
+        <en>Lime</en>
+        <cz>Vápno</cz>
+    </text>
+    <text name="IP_BEETPULP">
+        <en>Beet Pulp</en>
+        <cz>Beet Pulp</cz>
+    </text>
   </l10n>
 </mapconfig>

@@ -605,10 +605,6 @@
       <cz>fertilizerPallet</cz>
       <en>fertilizerPallet</en>
     </text>
-    <text name="shopItem_fertilizerRefillTank">
-      <cz>fertilizerRefillTank</cz>
-      <en>fertilizerRefillTank</en>
-    </text>
     <text name="fillable_fueltank">
       <cz>Nádrž na naftu</cz>
       <en>fillabl fueltank</en>
@@ -709,10 +705,6 @@
       <cz>hedge3Piece</cz>
       <en>hedge3Piece</en>
     </text>
-    <text name="shopItem_herbicideRefillTank">
-      <cz>herbicideRefillTank</cz>
-      <en>herbicideRefillTank</en>
-    </text>
     <text name="FS19_Distillery_name2">
       <cz>FS19_Distillery_name2</cz>
       <en>FS19_Distillery_name2</en>
@@ -805,10 +797,6 @@
       <cz>typeDesc_itRunner</cz>
       <en>typeDesc_itRunner</en>
     </text>
-    <text name="FS19_Distillery_name10">
-      <cz>FS19_Distillery_name10</cz>
-      <en>FS19_Distillery_name10</en>
-    </text>
     <text name="name_lamaDozerW">
       <cz>lamaDozerW</cz>
       <en>lamaDozerW</en>
@@ -828,10 +816,6 @@
     <text name="shopItem_limePallet">
       <cz>limePallet</cz>
       <en>limePallet</en>
-    </text>
-    <text name="shopItem_liquidFertilizerRefillTank">
-      <cz>liquidFertilizerRefillTank</cz>
-      <en>liquidFertilizerRefillTank</en>
     </text>
     <text name="shopItem_liquidStorage">
       <cz>liquidStorage</cz>
@@ -1145,10 +1129,6 @@
       <cz>FS19_littleSawmill_palletName3</cz>
       <en>FS19_littleSawmill_palletName3</en>
     </text>
-    <text name="shopItem_seedRefillTank">
-      <cz>seedRefillTank</cz>
-      <en>seedRefillTank</en>
-    </text>
     <text name="seeds">
       <cz>seeds</cz>
       <en>seeds</en>
@@ -1344,10 +1324,6 @@
     <text name="name_traslatoreW">
       <cz>traslatoreW</cz>
       <en>traslatoreW</en>
-    </text>
-    <text name="GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title">
-      <cz>GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title</cz>
-      <en>GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title</en>
     </text>
     <text name="shopItem_vehicle01">
       <cz>vehicle01</cz>
@@ -1711,6 +1687,78 @@
     <text name="shopItem_bunkerSiloRamp03"> <en>Silo Ramp Block End</en> <de>Silo Rampe Block Endstück</de> </text>
     <text name="shopItem_bunkerSiloRamp04"> <en>Silo Ramp Block Left</en> <de>Silo Rampe Block Links</de> </text>
     
+    <text name="$l10n_shopItem_feedPelletsSellPoint">
+      <cz>Prodejní místo krmných pelet</cz>
+      <en>feedPellets Sell Point</en>
+    </text>
+    <text name="$l10n_shopItem_genericSellPoint">
+      <cz>Prodejní místo cukr</cz>
+      <en>generic SellPoint sugar and pellets</en>
+    </text>
+    <text name="$l10n_shopItem_pelletPress">
+      <cz>Výrobna krmných pelet</cz>
+      <en>pellet Press</en>
+    </text>
+    <text name="$l10n_shopItem_sugarFactory">
+      <cz>Cukrovar</cz>
+      <en>sugar Factory</en>
+    </text>
+    <text name="$l10n_shopItem_sugarSellPoint">
+      <cz>Prodejmí místo cukru</cz>
+      <en>sugar Sell Point</en>
+    </text>
+    <text name="$l10n_shopItem_feedPelletsPallet">
+      <cz>Paleta krmných pelet</cz>
+      <en>feed Pellets Pallet</en>
+    </text>
+    <text name="$l10n_stationName_T800Silo">
+      <cz>T800 Silo</cz>
+      <en>T800 Silo</en>
+    </text>
+    <text name="$l10n_stationName_forageMixer500s">
+      <cz>Mixér krmé směsi</cz>
+      <en>forage Mixer 500s</en>
+    </text>
+    <text name="$l10n_storeName_ledPostDisplay">
+      <cz>Displey bunker silo</cz>
+      <en>Display Bunker Silo</en>
+    </text>
+    <text name="$l10n_storeName_metalBoardDisplay">
+      <cz>Displey bunker silo</cz>
+      <en>Displey bunker silo</en>
+    </text>
+    <text name="$l10n_shopItem_molassesTank">
+      <cz>Nádrž s melasou</cz>
+      <en>molasses Tank</en>
+    </text>
+    <text name="$l10n_stationName_pigFoodMixer500s">
+      <cz>Mixer prasečího krmiva</cz>
+      <en>pig Food Mixer 500s</en>
+    </text>
+    <text name="$l10n_shopItem_sugarPallet">
+      <cz>Paleta s cukrem</cz>
+      <en>sugar Pallet</en>
+    </text>
+    <text name="$l10n_GlobalCompanyPlaceable_AnimalFeeding_Trioliet_title">
+      <cz>AnimalFeeding Trioliet</cz>
+      <en>AnimalFeeding Trioliet</en>
+    </text>
+    <text name="$l10n_shopItem_fertilizerRefillTank">
+      <cz>Pevné hnojivo nákup</cz>
+      <en>fertilizer Refill Tank</en>
+    </text>
+    <text name="$l10n_shopItem_herbicideRefillTank">
+      <cz>Herbicid nákup</cz>
+      <en>herbicide Refill Tank</en>
+    </text>
+    <text name="$l10n_shopItem_liquidFertilizerRefillTank">
+      <cz>Tekuré hnojivo nákup</cz>
+      <en>liquidFertilizer Refill Tank</en>
+    </text>
+    <text name="$l10n_shopItem_seedRefillTank">
+      <cz>Osivo nákup</cz>
+      <en>seed Refill Tank</en>
+    </text>
 
   </l10n>
 </mapconfig>
