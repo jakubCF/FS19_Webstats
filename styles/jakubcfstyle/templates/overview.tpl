@@ -66,7 +66,7 @@
 							<td class="text-right col-1 pr-3">{$animal.ridingTimer} %</td>
 							<td class="text-right col-1 pr-3">{number_format_locale($animal.value,0)} {$currency}</td>
 						</tr>
-						{$counthorses =+ $counthorses}
+						{$counthorses = $counthorses + 1 }
 						{/if}
 					{/foreach}
 				{/foreach}
