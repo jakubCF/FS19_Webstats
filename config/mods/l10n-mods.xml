@@ -1759,6 +1759,10 @@
       <cz>Osivo nákup</cz>
       <en>seed Refill Tank</en>
     </text>
+    <text name="$l10n_nameBucket">
+      <cz>LW Bucket</cz>
+      <en>LW Bucket</en>
+    </text>
 
   </l10n>
 </mapconfig>

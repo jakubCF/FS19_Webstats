@@ -417,9 +417,37 @@
       <motor id="3" name="Meteor 29620"/>
     </vehicle>
     <vehicle basename="kogel-platform.xml" type="KogelCargoAutoLoader" name="Kogel 51ft Platform LEmod" brand="KOGEL" img="store_kogel-platform" lifetime="600" category="baling" wearable="480"/>
-  
+    <vehicle basename="ArtMechanic_PT.xml" type="implement" name="PT-25" brand="ARTMECHANIC" img="store_ArtMechanic_PT" lifetime="600" category="weights" wearable="680"/>
+    <vehicle basename="JD_DB90.xml" type="db90" name="DB90 36-Row 30&quot;" brand="JOHNDEERE" img="store_JD_DB90" lifetime="600" category="planters" wearable="480"/>
+    <vehicle basename="JohnDeere9R_2021.xml" type="tractor9R" name="9R Series 2021" brand="JOHNDEERE" img="store_JohnDeere9R_2021" lifetime="600" category="tractorsL" wearable="480">
+      <motor id="1" name="440"/>
+      <motor id="2" name="490"/>
+      <motor id="3" name="540"/>
+      <motor id="4" name="590"/>
+      <motor id="5" name="640"/>
+    </vehicle>
+    <vehicle basename="LW_Bucket.xml" type="shovel" name="$l10n_nameBucket" brand="BIOBELTZ" img="store_LW_Bucket" lifetime="600" category="teleLoaders" wearable="480"/>
+    <vehicle basename="rumblerLongVan.xml" type="carFillableAddon" name="Rumbler Long Van" brand="LIZARD" img="store_rumblerLongVan" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="Rumbler Van"/>
+    </vehicle>
+    <vehicle basename="rumblerVan.xml" type="carFillableAddon" name="Rumbler Van" brand="LIZARD" img="store_rumblerVan" lifetime="600" category="cars" wearable="480">
+      <motor id="1" name="Rumbler Van"/>
+    </vehicle>
+
   </vehicles>
+
   <placeables>
+    <placeable basename="BGA100kW.xml" name="BGA 100KW" brand="BGAINC" img="store_BGA100kW" lifetime="1000" dailykeepup="30" category="placeableMisc"/>
+    <placeable basename="BGA200kW.xml" name="BGA 200KW" brand="BGAINC" img="store_BGA200kW" lifetime="1000" dailykeepup="60" category="placeableMisc"/>
+    <placeable basename="BGA300kW.xml" name="BGA 300KW" brand="BGAINC" img="store_BGA300kW" lifetime="1000" dailykeepup="90" category="placeableMisc"/>
+    <placeable basename="BGA_Fermenter_Beton.xml" name="Fermenter Plant Made Of Concrete" brand="BGAINC" img="store_BGA_Fermenter_Beton" lifetime="3000" dailykeepup="30" category="placeableMisc"/>
+    <placeable basename="BGA_Fermenter_Eck.xml" name="Fermenter Metal Angular" brand="BGAINC" img="store_BGA_Fermenter_Eck" lifetime="3000" dailykeepup="20" category="placeableMisc"/>
+    <placeable basename="GS_14m_B.xml" name="Concrete Gas Storage 14m" brand="BGAINC" img="store_GS_14m_B" lifetime="3000" dailykeepup="5" category="placeableMisc"/>
+    <placeable basename="GS_14m_M.xml" name="Gas Storage Of Metal 14m" brand="BGAINC" img="store_GS_14m_M" lifetime="3000" dailykeepup="5" category="placeableMisc"/>
+    <placeable basename="GS_22m_B.xml" name="Concrete Gas Storage 22m" brand="BGAINC" img="store_GS_22m_B" lifetime="3000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="GS_22m_M.xml" name="Gas Storage Of Metal 14m" brand="BGAINC" img="store_GS_22m_M" lifetime="3000" dailykeepup="10" category="placeableMisc"/>
+    <placeable basename="Generator.xml" name="Additional Generator Extension" brand="BGAINC" img="store_Generator" lifetime="3000" dailykeepup="5" category="placeableMisc"/>
+  
     <placeable basename="10m.xml" name="$l10n_shopItem_fence10m" brand="LIZARD" img="store_10m" lifetime="1000" dailykeepup="1" category="decoration"/>
     <placeable basename="20m.xml" name="$l10n_shopItem_fence20m" brand="LIZARD" img="store_20m" lifetime="1000" dailykeepup="2" category="decoration"/>
     <placeable basename="30m.xml" name="$l10n_shopItem_fence30m" brand="LIZARD" img="store_30m" lifetime="1000" dailykeepup="3" category="decoration"/>
