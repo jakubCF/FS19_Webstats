@@ -62,7 +62,7 @@ class Production {
 						//error_log($id);
 						$production->input[$id]["name"] = translate(strtoupper($inputProduct["name"]));
 						$production->input[$id]["capacity"] = $inputProduct["capacity"];
-						$production->input[$id]["fillType"] = translate($inputProduct["fillType"]);
+						$production->input[$id]["fillType"] = $inputProduct["fillType"];
 						if (isset($item->productionFactory->inputProducts->inputProduct)){
 							foreach ($item->productionFactory->inputProducts->inputProduct as $currentlevel){
 								if ($currentlevel["name"] == $inputProduct["name"]){
@@ -77,7 +77,7 @@ class Production {
 						foreach($storeData["outputProducts"] as $id => $outputProduct){
 							$production->output[$id]["name"] = translate(strtoupper($outputProduct["name"]));
 							$production->output[$id]["capacity"] = $outputProduct["capacity"];
-							$production->output[$id]["fillType"] = translate($outputProduct["fillType"]);
+							$production->output[$id]["fillType"] = $outputProduct["fillType"];
 							if (isset($item->productionFactory->outputProducts->outputProduct)){
 								foreach ($item->productionFactory->outputProducts->outputProduct as $currentlevel){
 									if ($currentlevel["name"] == $outputProduct["name"]){
@@ -86,6 +86,54 @@ class Production {
 									}
 								}
 							}
+						}
+					}
+					foreach ($storeData['productLine'] as $id => $productline){
+						//error_log($id);
+						$production->productline[$id]["id"] = $productline["id"];
+						$production->productline[$id]["outputPerHour"] = $productline["outputPerHour"];
+						
+						if (isset($item->productionFactory->productLines->productLine)){
+							foreach ($item->productionFactory->productLines->productLine as $itemProdLine){
+								if (intval($itemProdLine["lineId"]) == intval($productline["id"])){
+									$production->productline[$id]["state"] = get_bool($itemProdLine["state"]);
+
+									foreach ($productline['Input'] as $prodinid => $prodLineInput){
+
+										$production->productline[$id]["input"][$prodinid]["name"] = translate(get_bool($prodLineInput["name"]));
+										$production->productline[$id]["input"][$prodinid]["percent"] = get_bool($prodLineInput["percent"]);
+
+									}
+
+									foreach ($productline['Output'] as $prodinid => $prodLineOutput){
+
+										$production->productline[$id]["output"][$prodinid]["name"] = translate(get_bool($prodLineOutput["name"]));
+										$production->productline[$id]["output"][$prodinid]["percent"] = get_bool($prodLineOutput["percent"]);
+
+										if (isset($item->productionFactory->outputProducts->outputProduct)){
+											foreach ($item->productionFactory->outputProducts->outputProduct as $currentlevel){
+												if ( strtolower($currentlevel["name"]) == strtolower($prodLineOutput["name"])){
+													$production->productline[$id]["output"][$prodinid]["fillLevel"] = get_bool($currentlevel["fillLevel"]);
+													break;
+												}
+											}
+										}
+										if(isset($storeData["outputProducts"])){
+											//error_log("outputs");
+											foreach($storeData["outputProducts"] as $outputProduct){
+												
+												if(strtolower($production->productline[$id]["output"][$prodinid]["name"]) == strtolower(translate($outputProduct["name"]))){
+													$production->productline[$id]["output"][$prodinid]["capacity"] = $outputProduct["capacity"];
+													break;
+												}
+											}
+										}
+										$production->productline[$id]["output"][$prodinid]["factor"] = ($production->productline[$id]["output"][$prodinid]["fillLevel"]/$production->productline[$id]["output"][$prodinid]["capacity"])*100;
+
+									}
+								}
+							}
+
 						}
 					}
 					break;

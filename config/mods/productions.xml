@@ -142,9 +142,9 @@
         <en>Molasses</en>
         <cz>Melasa</cz>
     </text>
-    <text name="PULP">
-        <en>Pulp</en>
-        <cz>Pulp</cz>
+    <text name="beetPulp">
+        <en>Beet Pulp</en>
+        <cz>Beet Pulp</cz>
     </text>
     <text name="OP_PULP">
         <en>Pulp</en>

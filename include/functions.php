@@ -199,6 +199,32 @@ function loadSavegameSpefics($directory, $language, $savegameSpefics = array()) 
 								$id ++;
 							}
 						}
+						if (isset ($placeable->productLine)){
+							$id = 1;
+							foreach ( $placeable->productLine as $productLine ){
+								foreach ($productLine->attributes() as $attribute => $value){
+									$savegameSpefics ['placeables'] [$name] ['productLine'] [strval($id)] [$attribute] = get_bool ($value);
+								}
+								$inid = 1;
+									foreach ($productLine->Input as $proLineIn){
+										foreach ($proLineIn->attributes() as $attribute => $value){
+											$savegameSpefics ['placeables'] [$name] ['productLine'] [strval($id)] ['Input'] [strval($inid)] [$attribute] = get_bool ($value);
+										}
+										$inid ++;
+									}
+								if (isset ($productLine->Output)){
+									$outid = 1;
+									foreach ($productLine->Output as $proLineOut){
+										foreach ($proLineOut->attributes() as $attribute => $value){
+											$savegameSpefics ['placeables'] [$name] ['productLine'] [strval($id)] ['Output'] [strval($outid)] [$attribute] = get_bool ($value);
+										}
+										$outid ++;
+									}
+
+								}
+								$id ++;
+							}
+						}
 					}
 					break;
 			}

@@ -199,6 +199,8 @@ PROPERTY_CSP=Nové / prodané budovy
 VEHICLES_U=Provozní náklady vozidel
 PROPERTY_MI=Údržba majetku
 BALANCE=Zůstatek
+ALLHORSESTRAINED=U všech koní splněn denní trénink
+NAME=Jméno
 
 //commodity.tpl
 DETAILVIEW=podrobný náhled
@@ -225,6 +227,7 @@ REQUIRE_DAY=Poptávka/den
 PRODUCED_GOODS=Vyráběné zboží
 PRODUCT_HOUR=Produkce/hodinu
 PRODUCT_DAY=Produkce/den
+PROD_LINE=Linka
 
 //production.tpl
 PRODUCTION_OVERVIEW=Přehled produkce:
@@ -234,6 +237,11 @@ MORE_DETAILS=další podrobnosti
 PRODUC_RATE=Rychlost produkce
 FULL_IN=Plné za: 
 FULL=Plné
+PROD_NAME=Název
+OUTPUT_NAME=Výstup
+OUTPUT_CAP=Kapacita
+OUTPUT_LEVEL=Úroveň
+PROGRESS=Progres
 
 //storage.tpl
 CAUTION=Varování

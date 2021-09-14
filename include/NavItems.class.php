@@ -32,7 +32,7 @@ class Nav {
 	public function updateItems($showInNav) {
 		$this->items = array (
 				'overview' => array (
-						'showInNav' => false, // true,
+						'showInNav' => $showInNav,
 						'hasSubmenu' => false,
 						'active' => false,
 						'text' => '##OVERVIEW##' 
