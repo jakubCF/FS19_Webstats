@@ -62,6 +62,10 @@ class Commodity {
 					if ($item ['farmId'] == $_SESSION ['farmId']) {
 						if (isset ( $item->productionFactory->outputProducts )) {
 							foreach ( $item->productionFactory->outputProducts->outputProduct as $product ) {
+								if (isset ($product->palletCreator)){
+									//do not count quantity in production factory if it creates pallets
+									continue;
+								}
 								$trigger = strval ( $product ['name'] );
 								// if(isset($gameData['objects'][$location]))
 								$fillType = strval ( $product ['name'] );
