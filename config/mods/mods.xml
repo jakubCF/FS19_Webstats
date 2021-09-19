@@ -1267,7 +1267,7 @@
       <InputProduct capacity="2400" name="IP_MOLASSES">
         <fillType fillType="molasses"/>
       </InputProduct>
-      <OutputProduct capacity="13800" name="OP_FEEDPELLETS">
+      <OutputProduct capacity="8400" name="OP_FEEDPELLETS">
         <fillType fillType="feedPellets"/>
       </OutputProduct>
       <productLine id="1" outputPerHour="1000" title="BeetHarvest_Addon_FeedPellets_productLine_Pellets">
@@ -1283,7 +1283,7 @@
       <InputProduct capacity="4000" name="IP_LIME">
         <fillType fillType="lime"/>
       </InputProduct>
-      <OutputProduct capacity="19200" name="OP_SUGAR">
+      <OutputProduct capacity="8400" name="OP_SUGAR">
         <fillType fillType="sugar"/>
       </OutputProduct>
       <OutputProduct capacity="38400" name="OP_PULP">
